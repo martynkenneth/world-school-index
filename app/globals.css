@@ -131,10 +131,13 @@ nav a:hover { color: var(--forest-2); }
 .directory-heading-row { display: flex; justify-content: space-between; align-items: end; margin-bottom: 28px; }
 .directory-heading-row h2 { margin-top: 10px; }
 .directory-heading-row > p { color: var(--muted); }
-.filters { display: grid; grid-template-columns: 1.5fr .75fr .9fr; gap: 12px; padding: 16px; background: var(--forest); margin-bottom: 28px; }
+.filters { display: grid; grid-template-columns: 1.35fr .7fr .9fr 1fr; gap: 12px; padding: 16px; background: var(--forest); margin-bottom: 12px; }
 .filters label { display: flex; flex-direction: column; gap: 7px; color: #b8d0c4; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .filters input, .filters select { min-height: 46px; padding: 0 13px; background: white; color: var(--ink); border: 0; border-radius: 2px; font-size: 14px; text-transform: none; letter-spacing: normal; outline: none; }
 .filters input:focus, .filters select:focus { box-shadow: 0 0 0 3px var(--gold); }
+.directory-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 28px; }
+.directory-toolbar button { border: 0; background: transparent; color: var(--muted); padding: 8px 0; cursor: pointer; font-size: 12px; font-weight: 700; }
+.directory-toolbar button:hover { color: var(--forest-2); }
 .empty-state { text-align: center; padding: 70px 20px; background: var(--warm); }
 .empty-state p { color: var(--muted); }
 .back-row { margin-top: 44px; }

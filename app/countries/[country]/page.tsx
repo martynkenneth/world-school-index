@@ -31,7 +31,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             accreditations across Vietnam’s main international-school hubs.
           </p>
           <div className="country-stats">
-            <div><strong>{countrySchools.length}</strong><span>initial records</span></div>
+            <div><strong>{countrySchools.length}</strong><span>source-checked records</span></div>
             <div><strong>{cities.length}</strong><span>cities covered</span></div>
             <div><strong>100%</strong><span>official-source links</span></div>
           </div>
@@ -48,8 +48,8 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
         <div className="coverage-note">
           <strong>Coverage note</strong>
           <p>
-            This is the verified seed collection, not yet a claim of completeness. New
-            schools and cities will be added in review batches with their source and check date.
+            This expanding collection prioritises schools with a current official website and
+            published curriculum information. It is not yet a claim of national completeness.
           </p>
         </div>
         <DirectoryExplorer schools={countrySchools} />

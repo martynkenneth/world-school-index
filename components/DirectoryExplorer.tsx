@@ -8,11 +8,16 @@ export function DirectoryExplorer({ schools }: { schools: School[] }) {
   const [query, setQuery] = useState("");
   const [city, setCity] = useState("All cities");
   const [curriculum, setCurriculum] = useState("All curricula");
+  const [schoolType, setSchoolType] = useState("All school types");
 
   const cities = ["All cities", ...Array.from(new Set(schools.map((s) => s.city))).sort()];
   const curricula = [
     "All curricula",
     ...Array.from(new Set(schools.flatMap((s) => s.curricula))).sort(),
+  ];
+  const schoolTypes = [
+    "All school types",
+    ...Array.from(new Set(schools.map((s) => s.schoolType))).sort(),
   ];
 
   const filtered = useMemo(() => {
@@ -28,9 +33,18 @@ export function DirectoryExplorer({ schools }: { schools: School[] }) {
       const matchesCity = city === "All cities" || school.city === city;
       const matchesCurriculum =
         curriculum === "All curricula" || school.curricula.includes(curriculum);
-      return matchesQuery && matchesCity && matchesCurriculum;
+      const matchesSchoolType =
+        schoolType === "All school types" || school.schoolType === schoolType;
+      return matchesQuery && matchesCity && matchesCurriculum && matchesSchoolType;
     });
-  }, [schools, query, city, curriculum]);
+  }, [schools, query, city, curriculum, schoolType]);
+
+  function resetFilters() {
+    setQuery("");
+    setCity("All cities");
+    setCurriculum("All curricula");
+    setSchoolType("All school types");
+  }
 
   return (
     <section className="directory-explorer" aria-labelledby="directory-heading">
@@ -63,6 +77,18 @@ export function DirectoryExplorer({ schools }: { schools: School[] }) {
             {curricula.map((item) => <option key={item}>{item}</option>)}
           </select>
         </label>
+        <label>
+          <span>School type</span>
+          <select value={schoolType} onChange={(event) => setSchoolType(event.target.value)}>
+            {schoolTypes.map((item) => <option key={item}>{item}</option>)}
+          </select>
+        </label>
+      </div>
+      <div className="directory-toolbar">
+        <a className="text-link" href="/data/vietnam-schools.json" download>
+          Download Vietnam data (JSON) ↓
+        </a>
+        <button type="button" onClick={resetFilters}>Reset filters</button>
       </div>
       {filtered.length ? (
         <div className="school-grid">
