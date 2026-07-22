@@ -1,0 +1,331 @@
+export type School = {
+  name: string;
+  shortName: string;
+  slug: string;
+  country: string;
+  countrySlug: string;
+  countryCode: string;
+  city: string;
+  citySlug: string;
+  region: string;
+  curricula: string[];
+  ageRange: string;
+  language: string;
+  schoolType: string;
+  ownership: string;
+  accreditation: string[];
+  website: string;
+  sourceUrl: string;
+  verifiedOn: string;
+  founded?: number;
+  summary: string;
+  featured?: boolean;
+};
+
+export const schools: School[] = [
+  {
+    name: "United Nations International School of Hanoi",
+    shortName: "UNIS Hanoi",
+    slug: "united-nations-international-school-hanoi",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Hanoi",
+    citySlug: "hanoi",
+    region: "Northern Vietnam",
+    curricula: ["IB PYP", "IB MYP", "IB Diploma"],
+    ageRange: "3–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Not-for-profit",
+    accreditation: ["IB World School", "CIS", "WASC"],
+    website: "https://www.unishanoi.org/",
+    sourceUrl: "https://www.unishanoi.org/about",
+    verifiedOn: "2026-07-22",
+    founded: 1988,
+    summary:
+      "A full-continuum IB school with a United Nations heritage, serving Early Years through Grade 12 in Hanoi.",
+    featured: true,
+  },
+  {
+    name: "British International School Hanoi",
+    shortName: "BIS Hanoi",
+    slug: "british-international-school-hanoi",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Hanoi",
+    citySlug: "hanoi",
+    region: "Northern Vietnam",
+    curricula: ["English National Curriculum", "IGCSE", "IB Diploma"],
+    ageRange: "2–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Independent school group",
+    accreditation: ["CIS", "IB World School"],
+    website: "https://www.nordangliaeducation.com/bis-hanoi",
+    sourceUrl: "https://www.nordangliaeducation.com/bis-hanoi/faqs",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A British-curriculum school in Long Bien progressing from Early Years through IGCSE and the IB Diploma.",
+    featured: true,
+  },
+  {
+    name: "British Vietnamese International School Hanoi",
+    shortName: "BVIS Hanoi",
+    slug: "british-vietnamese-international-school-hanoi",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Hanoi",
+    citySlug: "hanoi",
+    region: "Northern Vietnam",
+    curricula: ["British", "Cambridge IGCSE", "A Levels"],
+    ageRange: "2–18",
+    language: "English and Vietnamese",
+    schoolType: "Bilingual international school",
+    ownership: "Independent school group",
+    accreditation: ["Cambridge International"],
+    website: "https://www.nordangliaeducation.com/bvis-hanoi",
+    sourceUrl: "https://www.nordangliaeducation.com/bvis-hanoi",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A bilingual British-style school combining English and Vietnamese learning from Early Years to sixth form.",
+  },
+  {
+    name: "Concordia International School Hanoi",
+    shortName: "Concordia Hanoi",
+    slug: "concordia-international-school-hanoi",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Hanoi",
+    citySlug: "hanoi",
+    region: "Northern Vietnam",
+    curricula: ["American", "Advanced Placement"],
+    ageRange: "Pre-K–Grade 12",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Not-for-profit",
+    accreditation: ["WASC", "NLSA"],
+    website: "https://www.concordiahanoi.org/",
+    sourceUrl: "https://www.concordiahanoi.org/explore/who-we-are",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A non-profit American international school offering college-preparatory and Advanced Placement pathways.",
+  },
+  {
+    name: "Hanoi International School",
+    shortName: "HIS",
+    slug: "hanoi-international-school",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Hanoi",
+    citySlug: "hanoi",
+    region: "Northern Vietnam",
+    curricula: ["IB PYP", "IB MYP", "IB Diploma"],
+    ageRange: "4–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Independent",
+    accreditation: ["IB World School"],
+    website: "https://www.hisvietnam.com/",
+    sourceUrl: "https://www.hisvietnam.com/",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A compact, fully accredited IB World School serving students from age four through Grade 12 in central Hanoi.",
+  },
+  {
+    name: "International School Ho Chi Minh City",
+    shortName: "ISHCMC",
+    slug: "international-school-ho-chi-minh-city",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Ho Chi Minh City",
+    citySlug: "ho-chi-minh-city",
+    region: "Southern Vietnam",
+    curricula: ["IB PYP", "IB MYP", "IB Diploma"],
+    ageRange: "2–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Independent school group",
+    accreditation: ["IB World School"],
+    website: "https://www.ishcmc.com/",
+    sourceUrl: "https://www.ishcmc.com/",
+    verifiedOn: "2026-07-22",
+    founded: 1993,
+    summary:
+      "Ho Chi Minh City’s first international school, offering a full IB pathway across two campuses.",
+    featured: true,
+  },
+  {
+    name: "Saigon South International School",
+    shortName: "SSIS",
+    slug: "saigon-south-international-school",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Ho Chi Minh City",
+    citySlug: "ho-chi-minh-city",
+    region: "Southern Vietnam",
+    curricula: ["American", "Advanced Placement", "IB Diploma"],
+    ageRange: "3–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Not-for-profit",
+    accreditation: ["WASC", "IB World School"],
+    website: "https://www.ssis.edu.vn/",
+    sourceUrl: "https://www.ssis.edu.vn/our-school",
+    verifiedOn: "2026-07-22",
+    founded: 1997,
+    summary:
+      "A not-for-profit American-curriculum school in District 7 with AP and IB Diploma options in high school.",
+    featured: true,
+  },
+  {
+    name: "British International School Ho Chi Minh City",
+    shortName: "BIS HCMC",
+    slug: "british-international-school-ho-chi-minh-city",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Ho Chi Minh City",
+    citySlug: "ho-chi-minh-city",
+    region: "Southern Vietnam",
+    curricula: ["English National Curriculum", "IGCSE", "IB Diploma"],
+    ageRange: "2–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Independent school group",
+    accreditation: ["IB World School"],
+    website: "https://www.nordangliaeducation.com/bis-hcmc",
+    sourceUrl: "https://www.nordangliaeducation.com/bis-hcmc/academic-excellence/ks3",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A multi-campus British school following the English curriculum through IGCSE and the IB Diploma.",
+    featured: true,
+  },
+  {
+    name: "European International School Ho Chi Minh City",
+    shortName: "EIS HCMC",
+    slug: "european-international-school-ho-chi-minh-city",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Ho Chi Minh City",
+    citySlug: "ho-chi-minh-city",
+    region: "Southern Vietnam",
+    curricula: ["IB PYP", "IB MYP", "IB Diploma"],
+    ageRange: "2–18",
+    language: "English",
+    schoolType: "International day school",
+    ownership: "Independent school group",
+    accreditation: ["IB World School"],
+    website: "https://www.eishcmc.com/",
+    sourceUrl: "https://www.eishcmc.com/",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A boutique full-continuum IB school in Thao Dien with a village-style campus and international community.",
+  },
+  {
+    name: "Australian International School Vietnam",
+    shortName: "AIS Vietnam",
+    slug: "australian-international-school-vietnam",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Ho Chi Minh City",
+    citySlug: "ho-chi-minh-city",
+    region: "Southern Vietnam",
+    curricula: ["IB PYP", "Cambridge", "IGCSE", "IB Diploma"],
+    ageRange: "18 months–18",
+    language: "English",
+    schoolType: "International day and boarding school",
+    ownership: "Independent school group",
+    accreditation: ["IB World School", "Cambridge International"],
+    website: "https://www.aisvietnam.com/",
+    sourceUrl: "https://www.aisvietnam.com/",
+    verifiedOn: "2026-07-22",
+    summary:
+      "An international school combining IB programmes with Cambridge secondary pathways across multiple campuses.",
+  },
+  {
+    name: "Singapore International School @ Da Nang",
+    shortName: "SIS Da Nang",
+    slug: "singapore-international-school-da-nang",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Da Nang",
+    citySlug: "da-nang",
+    region: "Central Vietnam",
+    curricula: ["Singapore", "Cambridge", "A Levels"],
+    ageRange: "Kindergarten–Year 12",
+    language: "English and Vietnamese",
+    schoolType: "International and integrated school",
+    ownership: "Independent school group",
+    accreditation: ["Cambridge International"],
+    website: "https://danang.sis.edu.vn/",
+    sourceUrl: "https://danang.sis.edu.vn/",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A Da Nang campus offering international and integrated programmes with Singapore and Cambridge pathways.",
+  },
+  {
+    name: "St. Nicholas School",
+    shortName: "SNS Da Nang",
+    slug: "st-nicholas-school-da-nang",
+    country: "Vietnam",
+    countrySlug: "vietnam",
+    countryCode: "VN",
+    city: "Da Nang",
+    citySlug: "da-nang",
+    region: "Central Vietnam",
+    curricula: ["American Common Core", "Vietnamese National Curriculum"],
+    ageRange: "K–12",
+    language: "English and Vietnamese",
+    schoolType: "Bilingual international school",
+    ownership: "Independent",
+    accreditation: [],
+    website: "https://sns.edu.vn/",
+    sourceUrl: "https://sns.edu.vn/en/about-us/sns-philosophy",
+    verifiedOn: "2026-07-22",
+    summary:
+      "A K–12 school in Da Nang combining an American-oriented programme with Vietnam’s national curriculum.",
+  },
+];
+
+export const countries = [
+  {
+    name: "Vietnam",
+    slug: "vietnam",
+    code: "VN",
+    status: "Building coverage",
+    schoolCount: schools.filter((school) => school.countryCode === "VN").length,
+    cityCount: new Set(
+      schools.filter((school) => school.countryCode === "VN").map((school) => school.city),
+    ).size,
+  },
+];
+
+export function getSchool(slug: string) {
+  return schools.find((school) => school.slug === slug);
+}
+
+export function getSchoolsByCountry(countrySlug: string) {
+  return schools.filter((school) => school.countrySlug === countrySlug);
+}
+
+export function getSchoolsByCity(citySlug: string) {
+  return schools.filter((school) => school.citySlug === citySlug);
+}
+
+export function formatVerifiedDate(value: string) {
+  return new Intl.DateTimeFormat("en", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(new Date(`${value}T00:00:00Z`));
+}
