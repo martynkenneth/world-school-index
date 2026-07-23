@@ -54,6 +54,7 @@ test("ships normalized entities in the public data export", async () => {
   assert.equal(parsed.entities.campuses.length, 22);
   assert.equal(parsed.entities.sources.length, 22);
   assert.equal(parsed.entities.verifications.length, 22);
+  assert.ok(parsed.records.every((record) => !("summary" in record)));
   assert.match(layout, /World School Index/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   assert.doesNotMatch(layout, /codex-preview|_sites-preview|themeColor|\bViewport\b/);
@@ -105,4 +106,5 @@ test("renders the Thailand country directory and a Thailand school record", asyn
   assert.match(schoolHtml, /International School Bangkok/);
   assert.match(schoolHtml, /Nonthaburi[\s\S]*Thailand/);
   assert.match(schoolHtml, /addressCountry":"TH/);
+  assert.match(schoolHtml, /name="robots" content="noindex,\s*follow"/);
 });

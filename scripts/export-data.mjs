@@ -8,6 +8,10 @@ import { globalSourceRegistry } from "../data/source-registry.ts";
 const outputDirectory = path.resolve("public", "data");
 await fs.mkdir(outputDirectory, { recursive: true });
 
+function publishableRecord(record) {
+  return Object.fromEntries(Object.entries(record).filter(([key]) => key !== "summary"));
+}
+
 for (const country of countries) {
   const records = schools.filter((school) => school.countryCode === country.code);
   const coverage = countryCoverage.find((item) => item.code === country.code);
@@ -20,7 +24,7 @@ for (const country of countries) {
       recordCount: records.length,
       coverage,
       entities: normalizeSchoolRecords(records),
-      records,
+      records: records.map(publishableRecord),
     }, null, 2)}\n`,
     "utf8",
   );
@@ -34,7 +38,7 @@ await fs.writeFile(
     generatedOn: new Date().toISOString().slice(0, 10),
     recordCount: schools.length,
     entities: normalizeSchoolRecords(schools),
-    records: schools,
+    records: schools.map(publishableRecord),
   }, null, 2)}\n`,
   "utf8",
 );

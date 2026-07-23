@@ -3703,7 +3703,6 @@
       "sourceUrl": "https://www.unishanoi.org/about",
       "verifiedOn": "2026-07-22",
       "founded": 1988,
-      "summary": "A full-continuum IB school with a United Nations heritage, serving Early Years through Grade 12 in Hanoi.",
       "featured": true
     },
     {
@@ -3732,7 +3731,6 @@
       "website": "https://www.nordangliaeducation.com/bis-hanoi",
       "sourceUrl": "https://www.nordangliaeducation.com/bis-hanoi/faqs",
       "verifiedOn": "2026-07-22",
-      "summary": "A British-curriculum school in Long Bien progressing from Early Years through IGCSE and the IB Diploma.",
       "featured": true
     },
     {
@@ -3759,8 +3757,7 @@
       ],
       "website": "https://www.nordangliaeducation.com/bvis-hanoi",
       "sourceUrl": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "verifiedOn": "2026-07-22",
-      "summary": "A bilingual British-style school combining English and Vietnamese learning from Early Years to sixth form."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Concordia International School Hanoi",
@@ -3786,8 +3783,7 @@
       ],
       "website": "https://www.concordiahanoi.org/",
       "sourceUrl": "https://www.concordiahanoi.org/explore/who-we-are",
-      "verifiedOn": "2026-07-22",
-      "summary": "A non-profit American international school offering college-preparatory and Advanced Placement pathways."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Hanoi International School",
@@ -3813,8 +3809,7 @@
       ],
       "website": "https://www.hisvietnam.com/",
       "sourceUrl": "https://www.hisvietnam.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A compact, fully accredited IB World School serving students from age four through Grade 12 in central Hanoi."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "International School Ho Chi Minh City",
@@ -3842,7 +3837,6 @@
       "sourceUrl": "https://www.ishcmc.com/",
       "verifiedOn": "2026-07-22",
       "founded": 1993,
-      "summary": "Ho Chi Minh City’s first international school, offering a full IB pathway across two campuses.",
       "featured": true
     },
     {
@@ -3872,7 +3866,6 @@
       "sourceUrl": "https://www.ssis.edu.vn/our-school",
       "verifiedOn": "2026-07-22",
       "founded": 1997,
-      "summary": "A not-for-profit American-curriculum school in District 7 with AP and IB Diploma options in high school.",
       "featured": true
     },
     {
@@ -3900,7 +3893,6 @@
       "website": "https://www.nordangliaeducation.com/bis-hcmc",
       "sourceUrl": "https://www.nordangliaeducation.com/bis-hcmc/academic-excellence/ks3",
       "verifiedOn": "2026-07-22",
-      "summary": "A multi-campus British school following the English curriculum through IGCSE and the IB Diploma.",
       "featured": true
     },
     {
@@ -3927,8 +3919,7 @@
       ],
       "website": "https://www.eishcmc.com/",
       "sourceUrl": "https://www.eishcmc.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A boutique full-continuum IB school in Thao Dien with a village-style campus and international community."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Australian International School Vietnam",
@@ -3956,8 +3947,7 @@
       ],
       "website": "https://www.aisvietnam.com/",
       "sourceUrl": "https://www.aisvietnam.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An international school combining IB programmes with Cambridge secondary pathways across multiple campuses."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Singapore International School @ Da Nang",
@@ -3983,8 +3973,7 @@
       ],
       "website": "https://danang.sis.edu.vn/",
       "sourceUrl": "https://danang.sis.edu.vn/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A Da Nang campus offering international and integrated programmes with Singapore and Cambridge pathways."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "St. Nicholas School",
@@ -4007,8 +3996,7 @@
       "accreditation": [],
       "website": "https://sns.edu.vn/",
       "sourceUrl": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "verifiedOn": "2026-07-22",
-      "summary": "A K–12 school in Da Nang combining an American-oriented programme with Vietnam’s national curriculum."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "St. Paul American School Hanoi",
@@ -4031,8 +4019,7 @@
       "accreditation": [],
       "website": "https://stpaulhanoi.com/",
       "sourceUrl": "https://stpaulhanoi.com/learn/middle-school-and-high-school/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An American-curriculum school serving Grades 1–12, with a university-preparatory high school programme in Hanoi."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Lycée Français Alexandre Yersin",
@@ -4058,8 +4045,7 @@
       "website": "https://lfay.com.vn/",
       "sourceUrl": "https://lfay.com.vn/",
       "verifiedOn": "2026-07-22",
-      "founded": 1982,
-      "summary": "A French international school in Hanoi following France’s national curriculum from maternelle through the baccalauréat."
+      "founded": 1982
     },
     {
       "name": "Renaissance International School Saigon",
@@ -4088,8 +4074,7 @@
       ],
       "website": "https://renaissance.edu.vn/",
       "sourceUrl": "https://renaissance.edu.vn/curriculum/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A District 7 international school combining IB programmes with Cambridge IGCSE across the full age range."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Canadian International School Vietnam",
@@ -4114,8 +4099,7 @@
       ],
       "website": "https://www.cis.edu.vn/en/",
       "sourceUrl": "https://www.cis.edu.vn/en/admissions/faqs",
-      "verifiedOn": "2026-07-22",
-      "summary": "A Canadian international school in Ho Chi Minh City delivering Ontario’s curriculum with an IB Diploma pathway."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "The ABC International School",
@@ -4142,8 +4126,7 @@
       "website": "https://www.theabcis.com/",
       "sourceUrl": "https://www.theabcis.com/about-us/",
       "verifiedOn": "2026-07-22",
-      "founded": 1995,
-      "summary": "A British-curriculum international school serving students from nursery through IGCSE and A Levels."
+      "founded": 1995
     },
     {
       "name": "International School Ho Chi Minh City – American Academy",
@@ -4166,8 +4149,7 @@
       "accreditation": [],
       "website": "https://www.aavn.edu.vn/",
       "sourceUrl": "https://www.aavn.edu.vn/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An American middle and high school offering personalised pathways and Advanced Placement courses for ages 11–18."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "The American School",
@@ -4193,8 +4175,7 @@
       ],
       "website": "https://www.tas.edu.vn/",
       "sourceUrl": "https://www.tas.edu.vn/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An American international school with an IB Primary Years pathway and Advanced Placement options for older students."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Lycée Français International Marguerite Duras",
@@ -4219,8 +4200,7 @@
       ],
       "website": "https://lfiduras.com/",
       "sourceUrl": "https://lfiduras.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A French international school in Ho Chi Minh City delivering France’s national curriculum through the baccalauréat."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "APU American International School – Da Nang",
@@ -4243,8 +4223,7 @@
       "website": "https://www.apu.edu.vn/",
       "sourceUrl": "https://www.apu.edu.vn/welcome",
       "verifiedOn": "2026-07-22",
-      "founded": 2015,
-      "summary": "The Da Nang campus of APU’s K–12 American education pathway, with day and boarding options in Central Vietnam."
+      "founded": 2015
     },
     {
       "name": "APU American International School – Ho Chi Minh City",
@@ -4267,8 +4246,7 @@
       "website": "https://www.apu.edu.vn/",
       "sourceUrl": "https://www.apu.edu.vn/welcome",
       "verifiedOn": "2026-07-22",
-      "founded": 2004,
-      "summary": "A K–12 American international school in Ho Chi Minh City with a pathway focused on transition to U.S. higher education."
+      "founded": 2004
     },
     {
       "name": "International School Bangkok",
@@ -4298,7 +4276,6 @@
       "sourceUrl": "https://www.isb.ac.th/",
       "verifiedOn": "2026-07-23",
       "founded": 1951,
-      "summary": "An independent, not-for-profit school in Nonthaburi with a US-based curriculum and AP and IB pathways in high school.",
       "featured": true
     },
     {
@@ -4329,7 +4306,6 @@
       "sourceUrl": "https://www.nist.ac.th/",
       "verifiedOn": "2026-07-23",
       "founded": 1992,
-      "summary": "A not-for-profit full-continuum IB school in central Bangkok with an internationally diverse student community.",
       "featured": true
     },
     {
@@ -4359,7 +4335,6 @@
       "sourceUrl": "https://www.patana.ac.th/",
       "verifiedOn": "2026-07-23",
       "founded": 1957,
-      "summary": "A not-for-profit British international school progressing from early years through IGCSE and the IB Diploma.",
       "featured": true
     },
     {
@@ -4387,8 +4362,7 @@
       "website": "https://www.shrewsbury.ac.th/",
       "sourceUrl": "https://www.shrewsbury.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2003,
-      "summary": "A British international school operating City and Riverside campuses, with IGCSE and A Level pathways."
+      "founded": 2003
     },
     {
       "name": "Harrow International School Bangkok",
@@ -4416,8 +4390,7 @@
       "website": "https://www.harrowschool.ac.th/",
       "sourceUrl": "https://www.harrowschool.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1998,
-      "summary": "A British day and boarding school in north Bangkok offering an English curriculum through IGCSE and A Levels."
+      "founded": 1998
     },
     {
       "name": "KIS International School Bangkok",
@@ -4446,8 +4419,7 @@
       "website": "https://kis.ac.th/",
       "sourceUrl": "https://kis.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1998,
-      "summary": "A family-owned IB continuum school in Huai Khwang offering PYP, MYP, Diploma and Career-related programmes."
+      "founded": 1998
     },
     {
       "name": "Ruamrudee International School",
@@ -4475,8 +4447,7 @@
       "website": "https://www.rism.ac.th/",
       "sourceUrl": "https://www.rism.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1957,
-      "summary": "An American-curriculum school in Min Buri with Advanced Placement and IB Diploma options in high school."
+      "founded": 1957
     },
     {
       "name": "St Andrews International School Bangkok",
@@ -4504,8 +4475,7 @@
       ],
       "website": "https://www.nordangliaeducation.com/sta-bangkok",
       "sourceUrl": "https://www.nordangliaeducation.com/sta-bangkok",
-      "verifiedOn": "2026-07-23",
-      "summary": "A British international school with early years through IGCSE and several senior pathways including IBDP and IBCP."
+      "verifiedOn": "2026-07-23"
     },
     {
       "name": "Bangkok International Preparatory & Secondary School",
@@ -4533,8 +4503,7 @@
       "website": "https://www.bangkokprep.ac.th/",
       "sourceUrl": "https://www.bangkokprep.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2003,
-      "summary": "A not-for-profit British school in Bangkok offering the English curriculum, IGCSEs and A Levels."
+      "founded": 2003
     },
     {
       "name": "Regent's International School Bangkok",
@@ -4561,8 +4530,7 @@
       "website": "https://regents.ac.th/",
       "sourceUrl": "https://regents.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1999,
-      "summary": "A British international school in Bangkok following the English curriculum through IGCSE and the IB Diploma."
+      "founded": 1999
     },
     {
       "name": "Lycée Français International de Bangkok",
@@ -4587,8 +4555,7 @@
       ],
       "website": "https://lfib.ac.th/",
       "sourceUrl": "https://lfib.ac.th/",
-      "verifiedOn": "2026-07-23",
-      "summary": "An AEFE-recognised school delivering France's national curriculum from maternelle through the baccalauréat."
+      "verifiedOn": "2026-07-23"
     },
     {
       "name": "Concordian International School",
@@ -4615,8 +4582,7 @@
       "website": "https://www.concordian.ac.th/",
       "sourceUrl": "https://www.concordian.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2001,
-      "summary": "A trilingual English-Chinese-Thai school in Samut Prakan offering the IB continuum from early years to Grade 12."
+      "founded": 2001
     },
     {
       "name": "Thai-Chinese International School",
@@ -4642,8 +4608,7 @@
       "website": "https://www.tcis.ac.th/",
       "sourceUrl": "https://tcis.ac.th/about-tcis",
       "verifiedOn": "2026-07-23",
-      "founded": 1995,
-      "summary": "A WASC-accredited American-curriculum school with daily Chinese and Thai language learning from age two to Grade 12."
+      "founded": 1995
     },
     {
       "name": "BASIS International School Bangkok",
@@ -4670,8 +4635,7 @@
       "website": "https://basis.ac.th/",
       "sourceUrl": "https://basis.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2019,
-      "summary": "A Rama 2 campus delivering the BASIS Curriculum from nursery through Grade 12 with advanced high-school coursework."
+      "founded": 2019
     },
     {
       "name": "King's College International School Bangkok",
@@ -4696,8 +4660,7 @@
       "website": "https://www.kingsbangkok.ac.th/",
       "sourceUrl": "https://www.kingsbangkok.ac.th/en",
       "verifiedOn": "2026-07-23",
-      "founded": 2020,
-      "summary": "A British international school partnered with King's College School, Wimbledon, serving early years through sixth form."
+      "founded": 2020
     },
     {
       "name": "Wellington College International School Bangkok",
@@ -4724,8 +4687,7 @@
       "website": "https://www.wellingtoncollege.ac.th/",
       "sourceUrl": "https://www.wellingtoncollege.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2018,
-      "summary": "A British international school in eastern Bangkok serving early years through senior school and sixth form."
+      "founded": 2018
     },
     {
       "name": "Brighton College Bangkok",
@@ -4753,8 +4715,7 @@
       "website": "https://brightoncollege.ac.th/",
       "sourceUrl": "https://brightoncollege.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2016,
-      "summary": "A British school in Bangkok offering an English curriculum pathway from early years to IGCSE and A Levels."
+      "founded": 2016
     },
     {
       "name": "Singapore International School of Bangkok – Pracha Uthit",
@@ -4780,8 +4741,7 @@
       ],
       "website": "https://sisb.ac.th/",
       "sourceUrl": "https://sisb.ac.th/",
-      "verifiedOn": "2026-07-23",
-      "summary": "The flagship SISB campus, combining Singapore-oriented learning with Cambridge secondary qualifications and three languages."
+      "verifiedOn": "2026-07-23"
     },
     {
       "name": "Prem International School",
@@ -4810,8 +4770,7 @@
       "website": "https://ptis.ac.th/",
       "sourceUrl": "https://ptis.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2001,
-      "summary": "A four-programme IB day and boarding school on a large campus in Mae Rim, Chiang Mai."
+      "founded": 2001
     },
     {
       "name": "Chiang Mai International School",
@@ -4837,8 +4796,7 @@
       "website": "https://www.cmis.ac.th/",
       "sourceUrl": "https://www.cmis.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1954,
-      "summary": "An American-curriculum school serving preschool through Grade 12 in a diverse Christian learning community."
+      "founded": 1954
     },
     {
       "name": "Lanna International School Thailand",
@@ -4865,8 +4823,7 @@
       "website": "https://www.lannaist.ac.th/",
       "sourceUrl": "https://www.lannaist.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1993,
-      "summary": "A British international school in Chiang Mai with English curriculum foundations and Cambridge qualifications."
+      "founded": 1993
     },
     {
       "name": "Panyaden International School",
@@ -4894,8 +4851,7 @@
       "website": "https://www.panyaden.ac.th/",
       "sourceUrl": "https://www.panyaden.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2011,
-      "summary": "A bilingual school near Chiang Mai combining British and Cambridge pathways with the IB Diploma and a values-led approach."
+      "founded": 2011
     },
     {
       "name": "British International School, Phuket",
@@ -4923,8 +4879,7 @@
       "website": "https://www.bisphuket.ac.th/",
       "sourceUrl": "https://www.bisphuket.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 1996,
-      "summary": "A British day and boarding school in Phuket offering Cambridge IGCSE and the IB Diploma."
+      "founded": 1996
     },
     {
       "name": "UWC Thailand International School",
@@ -4951,8 +4906,7 @@
       ],
       "website": "https://www.uwcthailand.ac.th/",
       "sourceUrl": "https://www.uwcthailand.ac.th/",
-      "verifiedOn": "2026-07-23",
-      "summary": "A not-for-profit UWC school in Phuket offering a full IB continuum to day and boarding students."
+      "verifiedOn": "2026-07-23"
     },
     {
       "name": "HeadStart International School Phuket",
@@ -4979,8 +4933,7 @@
       "website": "https://headstartphuket.com/",
       "sourceUrl": "https://headstartphuket.com/",
       "verifiedOn": "2026-07-23",
-      "founded": 2005,
-      "summary": "A two-campus Phuket school offering the English National Curriculum from age two through sixth form."
+      "founded": 2005
     },
     {
       "name": "Rugby School Thailand",
@@ -5008,8 +4961,7 @@
       "website": "https://www.rugbyschool.ac.th/",
       "sourceUrl": "https://www.rugbyschool.ac.th/",
       "verifiedOn": "2026-07-23",
-      "founded": 2017,
-      "summary": "A British day and boarding school on an extensive Chonburi campus, offering IGCSE and A Level pathways."
+      "founded": 2017
     },
     {
       "name": "Regents International School Pattaya",
@@ -5037,8 +4989,7 @@
       "website": "https://www.nordangliaeducation.com/risp-pattaya",
       "sourceUrl": "https://www.nordangliaeducation.com/risp-pattaya",
       "verifiedOn": "2026-07-23",
-      "founded": 1994,
-      "summary": "A British day and boarding school near Pattaya with Cambridge IGCSE and both IB Diploma and A Level senior options."
+      "founded": 1994
     },
     {
       "name": "St Andrews International School Green Valley",
@@ -5066,8 +5017,7 @@
       "website": "https://www.standrewsgreenvalley.com/",
       "sourceUrl": "https://www.standrewsgreenvalley.com/",
       "verifiedOn": "2026-07-23",
-      "founded": 1996,
-      "summary": "A British international school on the Eastern Seaboard, progressing from early years through IGCSE and the IB Diploma."
+      "founded": 1996
     }
   ]
 }

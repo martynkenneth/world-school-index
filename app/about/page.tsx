@@ -12,31 +12,30 @@ export default function AboutPage() {
         <div className="shell narrow">
           <span className="eyebrow light">Methodology</span>
           <h1>How the directory is built</h1>
-          <p>One country at a time, with a visible source trail for every record.</p>
+          <p>One field at a time, with literal evidence from fetched primary sources.</p>
         </div>
       </section>
       <section className="section shell narrow prose-page">
-        <h2>What counts as an international school?</h2>
+        <h2>Evidence before coverage</h2>
         <p>
-          The directory begins with schools that publicly offer a recognised international
-          curriculum, serve internationally mobile families, or operate as an international
-          or bilingual school under local rules. Labels remain descriptive so users can
-          distinguish international, bilingual, integrated, day, and boarding models.
+          A value is stored only when it appears on a fetched primary-source page. Each
+          populated field records its source URL, retrieval date, and a short verbatim
+          evidence snippet. Unsupported values remain unpublished.
         </p>
-        <h2>Minimum record standard</h2>
+        <h2>Publication gate</h2>
         <ol>
-          <li>An identifiable operating school and official website.</li>
-          <li>A confirmed city and country.</li>
-          <li>Published curriculum or programme information.</li>
-          <li>A source URL and the date it was checked.</li>
+          <li>Records must pass the strict school-data schema.</li>
+          <li>Every populated field must carry field-level provenance.</li>
+          <li>Conflicting sources are retained for human review, not silently resolved.</li>
+          <li>At least eight core fields are required before search indexing.</li>
         </ol>
-        <h2>What comes next</h2>
+        <h2>Migration status</h2>
         <p>
-          The Vietnam and Thailand collections are verified starting sets, not yet complete
-          national censuses. Future review batches will add schools, correct records, and
-          introduce fields such as fees and admissions only where dependable sources are available.
+          Earlier Vietnam and Thailand entries remain visible as legacy records while they
+          are migrated. They are excluded from search indexing until they pass the new
+          field-level evidence and completeness checks.
         </p>
-        <div className="method-cta"><Link className="button primary" href="/countries/thailand">Explore Thailand</Link></div>
+        <div className="method-cta"><Link className="button primary" href="/about/crawler">Crawler policy</Link></div>
       </section>
     </main>
   );

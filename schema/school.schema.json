@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://worldschoolindex.org/schema/school.schema.json",
+  "title": "World School Index school record",
+  "description": "Strict source-backed record. Cross-field provenance and index-gate invariants are enforced by scripts/validate.ts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "former_names",
+    "status",
+    "location",
+    "founded",
+    "school_type",
+    "curricula",
+    "age_range",
+    "year_groups",
+    "accreditations",
+    "fees",
+    "enrolment",
+    "staffing",
+    "languages",
+    "outcomes",
+    "admissions",
+    "facilities",
+    "contact",
+    "provenance",
+    "completeness_score",
+    "indexable",
+    "last_verified"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "former_names": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "closed", "unverified"]
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["country", "city", "district", "address", "lat", "lng"],
+      "properties": {
+        "country": { "$ref": "#/$defs/nullableString" },
+        "city": { "$ref": "#/$defs/nullableString" },
+        "district": { "$ref": "#/$defs/nullableString" },
+        "address": { "$ref": "#/$defs/nullableString" },
+        "lat": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+        "lng": { "type": ["number", "null"], "minimum": -180, "maximum": 180 }
+      }
+    },
+    "founded": {
+      "type": ["integer", "null"],
+      "minimum": 1000,
+      "maximum": 2200
+    },
+    "school_type": {
+      "type": ["string", "null"],
+      "enum": ["private", "non-profit", "for-profit", "bilingual", null]
+    },
+    "curricula": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "age_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": ["number", "null"], "minimum": 0, "maximum": 30 },
+        "max": { "type": ["number", "null"], "minimum": 0, "maximum": 30 }
+      }
+    },
+    "year_groups": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "accreditations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["body", "status", "granted", "expires"],
+        "properties": {
+          "body": { "$ref": "#/$defs/nonEmptyString" },
+          "status": { "$ref": "#/$defs/nullableString" },
+          "granted": { "$ref": "#/$defs/nullableDate" },
+          "expires": { "$ref": "#/$defs/nullableDate" }
+        }
+      }
+    },
+    "fees": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "published",
+        "currency",
+        "academic_year",
+        "fee_basis",
+        "by_year_group",
+        "additional",
+        "sibling_discount",
+        "early_payment_discount"
+      ],
+      "properties": {
+        "published": { "type": "boolean" },
+        "currency": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{3}$"
+        },
+        "academic_year": { "$ref": "#/$defs/nullableString" },
+        "fee_basis": {
+          "type": ["string", "null"],
+          "enum": ["year", "term", "month", null]
+        },
+        "by_year_group": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "tuition"],
+            "properties": {
+              "label": { "$ref": "#/$defs/nonEmptyString" },
+              "tuition": { "$ref": "#/$defs/nullablePublishedNumber" }
+            }
+          }
+        },
+        "additional": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["application", "enrolment", "capital_levy", "bus", "lunch", "uniform"],
+          "properties": {
+            "application": { "$ref": "#/$defs/nullablePublishedNumber" },
+            "enrolment": { "$ref": "#/$defs/nullablePublishedNumber" },
+            "capital_levy": { "$ref": "#/$defs/nullablePublishedNumber" },
+            "bus": { "$ref": "#/$defs/nullablePublishedNumber" },
+            "lunch": { "$ref": "#/$defs/nullablePublishedNumber" },
+            "uniform": { "$ref": "#/$defs/nullablePublishedNumber" }
+          }
+        },
+        "sibling_discount": { "$ref": "#/$defs/nullableString" },
+        "early_payment_discount": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "enrolment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "nationalities_count", "largest_nationality", "largest_nationality_pct"],
+      "properties": {
+        "total": { "$ref": "#/$defs/nullablePublishedNumber" },
+        "nationalities_count": { "$ref": "#/$defs/nullablePublishedNumber" },
+        "largest_nationality": { "$ref": "#/$defs/nullableString" },
+        "largest_nationality_pct": { "$ref": "#/$defs/nullablePublishedNumber" }
+      }
+    },
+    "staffing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["teacher_student_ratio", "avg_class_size", "expat_teacher_pct"],
+      "properties": {
+        "teacher_student_ratio": { "$ref": "#/$defs/nullablePublishedNumber" },
+        "avg_class_size": { "$ref": "#/$defs/nullablePublishedNumber" },
+        "expat_teacher_pct": { "$ref": "#/$defs/nullablePublishedNumber" }
+      }
+    },
+    "languages": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["instruction", "offered", "eal_provision"],
+      "properties": {
+        "instruction": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
+        },
+        "offered": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
+        },
+        "eal_provision": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["offered", "model", "additional_cost"],
+          "properties": {
+            "offered": { "type": ["boolean", "null"] },
+            "model": { "$ref": "#/$defs/nullableString" },
+            "additional_cost": { "$ref": "#/$defs/nullablePublishedNumber" }
+          }
+        }
+      }
+    },
+    "outcomes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ib_average", "ib_year", "igcse_a_star_a_pct", "university_destinations"],
+      "properties": {
+        "ib_average": { "$ref": "#/$defs/nullablePublishedNumber" },
+        "ib_year": { "type": ["integer", "null"], "minimum": 1900, "maximum": 2200 },
+        "igcse_a_star_a_pct": { "$ref": "#/$defs/nullablePublishedNumber" },
+        "university_destinations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "admissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["open_days", "application_deadline", "assessment_required", "waitlist"],
+      "properties": {
+        "open_days": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" },
+          "uniqueItems": true
+        },
+        "application_deadline": { "$ref": "#/$defs/nullableString" },
+        "assessment_required": { "type": ["boolean", "null"] },
+        "waitlist": { "type": ["boolean", "null"] }
+      }
+    },
+    "facilities": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "uniqueItems": true
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["website", "admissions_url", "phone", "email"],
+      "properties": {
+        "website": { "$ref": "#/$defs/nullableUrl" },
+        "admissions_url": { "$ref": "#/$defs/nullableUrl" },
+        "phone": { "$ref": "#/$defs/nullableString" },
+        "email": {
+          "type": ["string", "null"],
+          "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Za-z_][A-Za-z0-9_]*(?:\\.[A-Za-z_][A-Za-z0-9_]*|\\[[0-9]+\\])*$"
+      },
+      "additionalProperties": { "$ref": "#/$defs/provenanceEntry" }
+    },
+    "completeness_score": { "type": "integer", "minimum": 0, "maximum": 12 },
+    "indexable": { "type": "boolean" },
+    "last_verified": { "$ref": "#/$defs/nullableDate" }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nullableString": {
+      "anyOf": [
+        { "$ref": "#/$defs/nonEmptyString" },
+        { "type": "null" }
+      ]
+    },
+    "nullablePublishedNumber": {
+      "description": "A number preserved exactly as printed, including currency symbols, separators, units, and percent signs.",
+      "anyOf": [
+        { "$ref": "#/$defs/nonEmptyString" },
+        { "type": "null" }
+      ]
+    },
+    "nullableDate": {
+      "anyOf": [
+        { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        { "type": "null" }
+      ]
+    },
+    "nullableUrl": {
+      "anyOf": [
+        { "type": "string", "pattern": "^https?://[^\\s]+$" },
+        { "type": "null" }
+      ]
+    },
+    "conflictCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source_url", "retrieved_date", "evidence"],
+      "properties": {
+        "value": {},
+        "source_url": { "type": "string", "pattern": "^https?://[^\\s]+$" },
+        "retrieved_date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "evidence": { "type": "string", "minLength": 1, "maxLength": 500 }
+      }
+    },
+    "provenanceEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_url", "retrieved_date", "evidence", "method", "conflict", "candidates"],
+      "properties": {
+        "source_url": { "type": "string", "pattern": "^https?://[^\\s]+$" },
+        "retrieved_date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "evidence": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "method": { "type": "string", "enum": ["published", "manual", "conflict"] },
+        "conflict": { "type": "boolean" },
+        "candidates": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/conflictCandidate" }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "method": { "const": "conflict" } }, "required": ["method"] },
+          "then": {
+            "properties": {
+              "conflict": { "type": "boolean", "const": true },
+              "candidates": { "type": "array", "minItems": 2 }
+            }
+          },
+          "else": {
+            "properties": {
+              "conflict": { "type": "boolean", "const": false },
+              "candidates": { "type": "array", "maxItems": 0 }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

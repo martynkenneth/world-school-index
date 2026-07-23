@@ -1,8 +1,8 @@
-# vinext-starter
+# World School Index
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+A source-backed international-school directory running on
+[vinext](https://github.com/cloudflare/vinext). Read `CODEX.md` before changing
+the data model, extraction process, rendering, or publishing behavior.
 
 ## Prerequisites
 
@@ -88,7 +88,10 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 ## Useful Commands
 
 - `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
+- `npm run data:fetch -- --country <country> --slug <school> <official-url>`: fetch permitted source HTML with the project crawler
+- `npm run data:extract -- --manifest <manifest.json>`: build a record only from literal cached-page evidence
+- `npm run data:validate`: enforce the schema, provenance rules, conflict handling, and index gate
+- `npm run build`: validate school data and verify the vinext build output
 - `npm run build:netlify`: create the Nitro-powered Netlify build
 - `npm test`: build the site and verify the homepage, country route, and data export
 - `npm run db:generate`: generate Drizzle migrations after schema changes

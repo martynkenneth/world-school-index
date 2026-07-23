@@ -36,8 +36,13 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
+*.tsbuildinfo
 /dist/
 /.wrangler/
 /.netlify/
 /outputs/
 /work/
+
+# reproducible crawler cache (generated locally; not republished)
+/data/raw/**/*.html
+/data/raw/**/*.fetch.json

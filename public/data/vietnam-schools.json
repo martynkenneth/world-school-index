@@ -1583,7 +1583,6 @@
       "sourceUrl": "https://www.unishanoi.org/about",
       "verifiedOn": "2026-07-22",
       "founded": 1988,
-      "summary": "A full-continuum IB school with a United Nations heritage, serving Early Years through Grade 12 in Hanoi.",
       "featured": true
     },
     {
@@ -1612,7 +1611,6 @@
       "website": "https://www.nordangliaeducation.com/bis-hanoi",
       "sourceUrl": "https://www.nordangliaeducation.com/bis-hanoi/faqs",
       "verifiedOn": "2026-07-22",
-      "summary": "A British-curriculum school in Long Bien progressing from Early Years through IGCSE and the IB Diploma.",
       "featured": true
     },
     {
@@ -1639,8 +1637,7 @@
       ],
       "website": "https://www.nordangliaeducation.com/bvis-hanoi",
       "sourceUrl": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "verifiedOn": "2026-07-22",
-      "summary": "A bilingual British-style school combining English and Vietnamese learning from Early Years to sixth form."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Concordia International School Hanoi",
@@ -1666,8 +1663,7 @@
       ],
       "website": "https://www.concordiahanoi.org/",
       "sourceUrl": "https://www.concordiahanoi.org/explore/who-we-are",
-      "verifiedOn": "2026-07-22",
-      "summary": "A non-profit American international school offering college-preparatory and Advanced Placement pathways."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Hanoi International School",
@@ -1693,8 +1689,7 @@
       ],
       "website": "https://www.hisvietnam.com/",
       "sourceUrl": "https://www.hisvietnam.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A compact, fully accredited IB World School serving students from age four through Grade 12 in central Hanoi."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "International School Ho Chi Minh City",
@@ -1722,7 +1717,6 @@
       "sourceUrl": "https://www.ishcmc.com/",
       "verifiedOn": "2026-07-22",
       "founded": 1993,
-      "summary": "Ho Chi Minh City’s first international school, offering a full IB pathway across two campuses.",
       "featured": true
     },
     {
@@ -1752,7 +1746,6 @@
       "sourceUrl": "https://www.ssis.edu.vn/our-school",
       "verifiedOn": "2026-07-22",
       "founded": 1997,
-      "summary": "A not-for-profit American-curriculum school in District 7 with AP and IB Diploma options in high school.",
       "featured": true
     },
     {
@@ -1780,7 +1773,6 @@
       "website": "https://www.nordangliaeducation.com/bis-hcmc",
       "sourceUrl": "https://www.nordangliaeducation.com/bis-hcmc/academic-excellence/ks3",
       "verifiedOn": "2026-07-22",
-      "summary": "A multi-campus British school following the English curriculum through IGCSE and the IB Diploma.",
       "featured": true
     },
     {
@@ -1807,8 +1799,7 @@
       ],
       "website": "https://www.eishcmc.com/",
       "sourceUrl": "https://www.eishcmc.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A boutique full-continuum IB school in Thao Dien with a village-style campus and international community."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Australian International School Vietnam",
@@ -1836,8 +1827,7 @@
       ],
       "website": "https://www.aisvietnam.com/",
       "sourceUrl": "https://www.aisvietnam.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An international school combining IB programmes with Cambridge secondary pathways across multiple campuses."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Singapore International School @ Da Nang",
@@ -1863,8 +1853,7 @@
       ],
       "website": "https://danang.sis.edu.vn/",
       "sourceUrl": "https://danang.sis.edu.vn/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A Da Nang campus offering international and integrated programmes with Singapore and Cambridge pathways."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "St. Nicholas School",
@@ -1887,8 +1876,7 @@
       "accreditation": [],
       "website": "https://sns.edu.vn/",
       "sourceUrl": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "verifiedOn": "2026-07-22",
-      "summary": "A K–12 school in Da Nang combining an American-oriented programme with Vietnam’s national curriculum."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "St. Paul American School Hanoi",
@@ -1911,8 +1899,7 @@
       "accreditation": [],
       "website": "https://stpaulhanoi.com/",
       "sourceUrl": "https://stpaulhanoi.com/learn/middle-school-and-high-school/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An American-curriculum school serving Grades 1–12, with a university-preparatory high school programme in Hanoi."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Lycée Français Alexandre Yersin",
@@ -1938,8 +1925,7 @@
       "website": "https://lfay.com.vn/",
       "sourceUrl": "https://lfay.com.vn/",
       "verifiedOn": "2026-07-22",
-      "founded": 1982,
-      "summary": "A French international school in Hanoi following France’s national curriculum from maternelle through the baccalauréat."
+      "founded": 1982
     },
     {
       "name": "Renaissance International School Saigon",
@@ -1968,8 +1954,7 @@
       ],
       "website": "https://renaissance.edu.vn/",
       "sourceUrl": "https://renaissance.edu.vn/curriculum/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A District 7 international school combining IB programmes with Cambridge IGCSE across the full age range."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Canadian International School Vietnam",
@@ -1994,8 +1979,7 @@
       ],
       "website": "https://www.cis.edu.vn/en/",
       "sourceUrl": "https://www.cis.edu.vn/en/admissions/faqs",
-      "verifiedOn": "2026-07-22",
-      "summary": "A Canadian international school in Ho Chi Minh City delivering Ontario’s curriculum with an IB Diploma pathway."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "The ABC International School",
@@ -2022,8 +2006,7 @@
       "website": "https://www.theabcis.com/",
       "sourceUrl": "https://www.theabcis.com/about-us/",
       "verifiedOn": "2026-07-22",
-      "founded": 1995,
-      "summary": "A British-curriculum international school serving students from nursery through IGCSE and A Levels."
+      "founded": 1995
     },
     {
       "name": "International School Ho Chi Minh City – American Academy",
@@ -2046,8 +2029,7 @@
       "accreditation": [],
       "website": "https://www.aavn.edu.vn/",
       "sourceUrl": "https://www.aavn.edu.vn/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An American middle and high school offering personalised pathways and Advanced Placement courses for ages 11–18."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "The American School",
@@ -2073,8 +2055,7 @@
       ],
       "website": "https://www.tas.edu.vn/",
       "sourceUrl": "https://www.tas.edu.vn/",
-      "verifiedOn": "2026-07-22",
-      "summary": "An American international school with an IB Primary Years pathway and Advanced Placement options for older students."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "Lycée Français International Marguerite Duras",
@@ -2099,8 +2080,7 @@
       ],
       "website": "https://lfiduras.com/",
       "sourceUrl": "https://lfiduras.com/",
-      "verifiedOn": "2026-07-22",
-      "summary": "A French international school in Ho Chi Minh City delivering France’s national curriculum through the baccalauréat."
+      "verifiedOn": "2026-07-22"
     },
     {
       "name": "APU American International School – Da Nang",
@@ -2123,8 +2103,7 @@
       "website": "https://www.apu.edu.vn/",
       "sourceUrl": "https://www.apu.edu.vn/welcome",
       "verifiedOn": "2026-07-22",
-      "founded": 2015,
-      "summary": "The Da Nang campus of APU’s K–12 American education pathway, with day and boarding options in Central Vietnam."
+      "founded": 2015
     },
     {
       "name": "APU American International School – Ho Chi Minh City",
@@ -2147,8 +2126,7 @@
       "website": "https://www.apu.edu.vn/",
       "sourceUrl": "https://www.apu.edu.vn/welcome",
       "verifiedOn": "2026-07-22",
-      "founded": 2004,
-      "summary": "A K–12 American international school in Ho Chi Minh City with a pathway focused on transition to U.S. higher education."
+      "founded": 2004
     }
   ]
 }

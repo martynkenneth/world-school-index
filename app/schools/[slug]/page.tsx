@@ -7,7 +7,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const school = getSchool(slug);
   if (!school) return {};
-  return { title: `${school.name} | World School Index`, description: school.summary };
+  return {
+    title: `${school.name} | World School Index`,
+    description: `${school.name} school record for ${school.city}, ${school.country}.`,
+    robots: school.indexable === true ? { index: true, follow: true } : { index: false, follow: true },
+  };
 }
 
 export default async function SchoolPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -17,7 +21,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
   const nearby = getSchoolsByCity(school.citySlug).filter((item) => item.slug !== school.slug).slice(0, 3);
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "School",
+    "@type": "EducationalOrganization",
     name: school.name,
     url: school.website,
     address: { "@type": "PostalAddress", addressLocality: school.city, addressCountry: school.countryCode },
@@ -31,11 +35,11 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
           <div className="breadcrumbs"><Link href="/">World</Link><span>/</span><Link href={`/countries/${school.countrySlug}`}>{school.country}</Link><span>/</span><Link href={`/cities/${school.citySlug}`}>{school.city}</Link></div>
           <div className="school-title-grid">
             <div>
-              <span className="eyebrow light">Verified school record</span>
+              <span className="eyebrow light">Legacy school record</span>
               <h1>{school.name}</h1>
-              <p>{school.summary}</p>
+              <p>{school.city}, {school.country}. Field-level source verification is pending.</p>
             </div>
-            <div className="record-seal"><span>{school.countryCode}</span><strong>Source checked</strong><small>{formatVerifiedDate(school.verifiedOn)}</small></div>
+            <div className="record-seal"><span>{school.countryCode}</span><strong>Verification pending</strong><small>Legacy check {formatVerifiedDate(school.verifiedOn)}</small></div>
           </div>
         </div>
       </section>
@@ -72,10 +76,10 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
           )}
         </div>
         <aside className="source-panel">
-          <span className="eyebrow">Source record</span>
+          <span className="eyebrow">Legacy source</span>
           <h2>Check the original</h2>
-          <p>This profile was compiled from the school’s own published information.</p>
-          <dl><div><dt>Last checked</dt><dd>{formatVerifiedDate(school.verifiedOn)}</dd></div><div><dt>Source type</dt><dd>Official school website</dd></div></dl>
+          <p>This record has not yet passed the new field-level evidence standard.</p>
+          <dl><div><dt>Legacy check</dt><dd>{formatVerifiedDate(school.verifiedOn)}</dd></div><div><dt>Source type</dt><dd>Official school website</dd></div></dl>
           <a className="button primary full" href={school.sourceUrl} target="_blank" rel="noreferrer">Open source ↗</a>
           <a className="button outline full" href={school.website} target="_blank" rel="noreferrer">Visit school website ↗</a>
           <small>Admissions, fees, capacity, and programmes can change. Confirm directly before making decisions.</small>

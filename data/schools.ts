@@ -22,6 +22,7 @@ export type School = {
   founded?: number;
   summary: string;
   featured?: boolean;
+  indexable?: boolean;
 };
 
 const vietnamSchools: School[] = [

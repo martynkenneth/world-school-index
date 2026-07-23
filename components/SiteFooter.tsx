@@ -10,13 +10,14 @@ export function SiteFooter() {
         </div>
         <div>
           <p>
-            School details change. Every record carries a source and verification date;
-            families should always confirm admissions information with the school.
+            School details change. New-format records carry field-level source evidence;
+            legacy records remain excluded from indexing until migrated.
           </p>
           <div className="footer-links">
             <Link href="/countries/vietnam">Explore Vietnam</Link>
             <Link href="/countries/thailand">Explore Thailand</Link>
             <Link href="/about">How records are verified</Link>
+            <Link href="/about/crawler">Crawler policy</Link>
           </div>
         </div>
       </div>
