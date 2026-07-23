@@ -141,7 +141,7 @@ nav a:hover { color: var(--forest-2); }
 .country-stats div { display: flex; flex-direction: column; }
 .country-stats strong { font: 500 34px Georgia, serif; }
 .country-stats span { color: #b8d0c4; font-size: 12px; margin-top: 3px; }
-.city-strip { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: -33px; position: relative; z-index: 2; background: var(--white); border: 1px solid var(--line); }
+.city-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin-top: -33px; position: relative; z-index: 2; background: var(--white); border: 1px solid var(--line); }
 .city-strip a { padding: 22px 26px; display: flex; align-items: center; justify-content: space-between; border-right: 1px solid var(--line); }
 .city-strip a:last-child { border-right: 0; }
 .city-strip a:hover { background: #f1f4ee; }

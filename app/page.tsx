@@ -3,7 +3,19 @@ import { SchoolCard } from "@/components/SchoolCard";
 import { countryCoverage, coverageSummary } from "@/data/coverage";
 import { countries, schools } from "@/data/schools";
 
-const featured = schools.filter((school) => school.featured).slice(0, 3);
+const featuredSlugs = [
+  "united-nations-international-school-hanoi",
+  "international-school-ho-chi-minh-city",
+  "international-school-bangkok",
+  "nist-international-school-bangkok",
+  "bangkok-patana-school",
+  "prem-international-school-chiang-mai",
+];
+const featured = featuredSlugs
+  .map((slug) => schools.find((school) => school.slug === slug))
+  .filter((school): school is (typeof schools)[number] => Boolean(school));
+const totalCities = new Set(schools.map((school) => `${school.countryCode}:${school.city}`)).size;
+const countryStats = new Map(countries.map((country) => [country.code, country]));
 
 export default function Home() {
   return (
@@ -15,10 +27,11 @@ export default function Home() {
             <h1>Find the right international school, anywhere.</h1>
             <p className="hero-copy">
               A source-led directory of international schools, built carefully country by
-              country. Vietnam is the first live collection.
+              country. Vietnam and Thailand are now live.
             </p>
             <div className="hero-actions">
-              <Link className="button primary" href="/countries/vietnam">Explore Vietnam</Link>
+              <Link className="button primary" href="/countries/thailand">Explore Thailand</Link>
+              <Link className="button ghost" href="/countries/vietnam">Explore Vietnam</Link>
               <Link className="button ghost" href="/about">How we verify</Link>
             </div>
           </div>
@@ -26,9 +39,9 @@ export default function Home() {
             <div className="coverage-orbit" aria-hidden="true"><span>VN</span></div>
             <span className="eyebrow">Coverage now</span>
             <strong>{schools.length}</strong>
-            <p>source-checked school records across {countries[0].cityCount} Vietnamese cities</p>
+            <p>source-checked school records across {totalCities} cities in {countries.length} countries</p>
             <div className="coverage-progress"><span /></div>
-            <small>Vietnam · Initial collection expanding</small>
+            <small>Vietnam + Thailand · Collections expanding</small>
           </div>
         </div>
       </section>
@@ -37,7 +50,7 @@ export default function Home() {
         <div className="section-heading split-heading">
           <div>
             <span className="eyebrow">Global coverage roadmap</span>
-            <h2>Vietnam first. Southeast Asia next.</h2>
+            <h2>Vietnam and Thailand live. Southeast Asia next.</h2>
           </div>
           <p>
             Every country moves through the same research, verification, and publication
@@ -52,6 +65,7 @@ export default function Home() {
           </div>
           <div className="roadmap-grid">
             {countryCoverage.map((country) => {
+              const stats = countryStats.get(country.code);
               const content = (
                 <>
                   <div className="roadmap-code">{country.code}</div>
@@ -59,8 +73,8 @@ export default function Home() {
                     <span className={`roadmap-status ${country.stage}`}>{country.stageLabel}</span>
                     <h3>{country.name}</h3>
                     <p>{country.nextStep}</p>
-                    {country.code === "VN" && (
-                      <small>{countries[0].schoolCount} records · {countries[0].cityCount} cities</small>
+                    {stats && (
+                      <small>{stats.schoolCount} records · {stats.cityCount} cities</small>
                     )}
                   </div>
                 </>
@@ -82,9 +96,9 @@ export default function Home() {
           <div className="section-heading split-heading">
             <div>
               <span className="eyebrow">Featured records</span>
-              <h2>A first look at Vietnam</h2>
+              <h2>A first look across Southeast Asia</h2>
             </div>
-            <Link className="text-link" href="/countries/vietnam">See all Vietnam schools →</Link>
+            <Link className="text-link" href="/countries/thailand">See all Thailand schools →</Link>
           </div>
           <div className="school-grid">
             {featured.map((school) => <SchoolCard key={school.slug} school={school} />)}

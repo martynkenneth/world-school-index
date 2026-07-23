@@ -1,0 +1,5073 @@
+{
+  "schemaVersion": "2.0",
+  "generatedOn": "2026-07-23",
+  "recordCount": 50,
+  "entities": {
+    "schools": [
+      {
+        "id": "school:vn:united-nations-international-school-hanoi",
+        "canonicalName": "United Nations International School of Hanoi",
+        "shortName": "UNIS Hanoi",
+        "slug": "united-nations-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1988
+      },
+      {
+        "id": "school:vn:british-international-school-hanoi",
+        "canonicalName": "British International School Hanoi",
+        "shortName": "BIS Hanoi",
+        "slug": "british-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:british-vietnamese-international-school-hanoi",
+        "canonicalName": "British Vietnamese International School Hanoi",
+        "shortName": "BVIS Hanoi",
+        "slug": "british-vietnamese-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:concordia-international-school-hanoi",
+        "canonicalName": "Concordia International School Hanoi",
+        "shortName": "Concordia Hanoi",
+        "slug": "concordia-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not-for-profit"
+      },
+      {
+        "id": "school:vn:hanoi-international-school",
+        "canonicalName": "Hanoi International School",
+        "shortName": "HIS",
+        "slug": "hanoi-international-school",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:international-school-ho-chi-minh-city",
+        "canonicalName": "International School Ho Chi Minh City",
+        "shortName": "ISHCMC",
+        "slug": "international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 1993
+      },
+      {
+        "id": "school:vn:saigon-south-international-school",
+        "canonicalName": "Saigon South International School",
+        "shortName": "SSIS",
+        "slug": "saigon-south-international-school",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1997
+      },
+      {
+        "id": "school:vn:british-international-school-ho-chi-minh-city",
+        "canonicalName": "British International School Ho Chi Minh City",
+        "shortName": "BIS HCMC",
+        "slug": "british-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:european-international-school-ho-chi-minh-city",
+        "canonicalName": "European International School Ho Chi Minh City",
+        "shortName": "EIS HCMC",
+        "slug": "european-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:australian-international-school-vietnam",
+        "canonicalName": "Australian International School Vietnam",
+        "shortName": "AIS Vietnam",
+        "slug": "australian-international-school-vietnam",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:singapore-international-school-da-nang",
+        "canonicalName": "Singapore International School @ Da Nang",
+        "shortName": "SIS Da Nang",
+        "slug": "singapore-international-school-da-nang",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:st-nicholas-school-da-nang",
+        "canonicalName": "St. Nicholas School",
+        "shortName": "SNS Da Nang",
+        "slug": "st-nicholas-school-da-nang",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:st-paul-american-school-hanoi",
+        "canonicalName": "St. Paul American School Hanoi",
+        "shortName": "St. Paul Hanoi",
+        "slug": "st-paul-american-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "canonicalName": "Lycée Français Alexandre Yersin",
+        "shortName": "LFAY",
+        "slug": "lycee-francais-alexandre-yersin-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "AEFE network school",
+        "founded": 1982
+      },
+      {
+        "id": "school:vn:renaissance-international-school-saigon",
+        "canonicalName": "Renaissance International School Saigon",
+        "shortName": "Renaissance Saigon",
+        "slug": "renaissance-international-school-saigon",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:canadian-international-school-vietnam",
+        "canonicalName": "Canadian International School Vietnam",
+        "shortName": "CIS Vietnam",
+        "slug": "canadian-international-school-vietnam",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:abc-international-school-ho-chi-minh-city",
+        "canonicalName": "The ABC International School",
+        "shortName": "ABCIS",
+        "slug": "abc-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1995
+      },
+      {
+        "id": "school:vn:ishcmc-american-academy",
+        "canonicalName": "International School Ho Chi Minh City – American Academy",
+        "shortName": "ISHCMC-AA",
+        "slug": "ishcmc-american-academy",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:the-american-school-ho-chi-minh-city",
+        "canonicalName": "The American School",
+        "shortName": "TAS",
+        "slug": "the-american-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:lycee-francais-international-marguerite-duras",
+        "canonicalName": "Lycée Français International Marguerite Duras",
+        "shortName": "LFI Duras",
+        "slug": "lycee-francais-international-marguerite-duras",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "AEFE network school"
+      },
+      {
+        "id": "school:vn:apu-american-international-school-da-nang",
+        "canonicalName": "APU American International School – Da Nang",
+        "shortName": "APU Da Nang",
+        "slug": "apu-american-international-school-da-nang",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2015
+      },
+      {
+        "id": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "canonicalName": "APU American International School – Ho Chi Minh City",
+        "shortName": "APU HCMC",
+        "slug": "apu-american-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2004
+      },
+      {
+        "id": "school:th:international-school-bangkok",
+        "canonicalName": "International School Bangkok",
+        "shortName": "ISB",
+        "slug": "international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1951
+      },
+      {
+        "id": "school:th:nist-international-school-bangkok",
+        "canonicalName": "NIST International School",
+        "shortName": "NIST",
+        "slug": "nist-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1992
+      },
+      {
+        "id": "school:th:bangkok-patana-school",
+        "canonicalName": "Bangkok Patana School",
+        "shortName": "Bangkok Patana",
+        "slug": "bangkok-patana-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1957
+      },
+      {
+        "id": "school:th:shrewsbury-international-school-bangkok",
+        "canonicalName": "Shrewsbury International School Bangkok",
+        "shortName": "Shrewsbury Bangkok",
+        "slug": "shrewsbury-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2003
+      },
+      {
+        "id": "school:th:harrow-international-school-bangkok",
+        "canonicalName": "Harrow International School Bangkok",
+        "shortName": "Harrow Bangkok",
+        "slug": "harrow-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 1998
+      },
+      {
+        "id": "school:th:kis-international-school-bangkok",
+        "canonicalName": "KIS International School Bangkok",
+        "shortName": "KIS Bangkok",
+        "slug": "kis-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Family-owned",
+        "founded": 1998
+      },
+      {
+        "id": "school:th:ruamrudee-international-school",
+        "canonicalName": "Ruamrudee International School",
+        "shortName": "RIS",
+        "slug": "ruamrudee-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1957
+      },
+      {
+        "id": "school:th:st-andrews-international-school-bangkok",
+        "canonicalName": "St Andrews International School Bangkok",
+        "shortName": "St Andrews Bangkok",
+        "slug": "st-andrews-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:th:bangkok-international-preparatory-secondary-school",
+        "canonicalName": "Bangkok International Preparatory & Secondary School",
+        "shortName": "Bangkok Prep",
+        "slug": "bangkok-international-preparatory-secondary-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 2003
+      },
+      {
+        "id": "school:th:regents-international-school-bangkok",
+        "canonicalName": "Regent's International School Bangkok",
+        "shortName": "Regent's Bangkok",
+        "slug": "regents-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1999
+      },
+      {
+        "id": "school:th:lycee-francais-international-de-bangkok",
+        "canonicalName": "Lycée Français International de Bangkok",
+        "shortName": "LFIB",
+        "slug": "lycee-francais-international-de-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "AEFE network school"
+      },
+      {
+        "id": "school:th:concordian-international-school",
+        "canonicalName": "Concordian International School",
+        "shortName": "Concordian",
+        "slug": "concordian-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 2001
+      },
+      {
+        "id": "school:th:thai-chinese-international-school",
+        "canonicalName": "Thai-Chinese International School",
+        "shortName": "TCIS",
+        "slug": "thai-chinese-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1995
+      },
+      {
+        "id": "school:th:basis-international-school-bangkok",
+        "canonicalName": "BASIS International School Bangkok",
+        "shortName": "BASIS Bangkok",
+        "slug": "basis-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2019
+      },
+      {
+        "id": "school:th:kings-college-international-school-bangkok",
+        "canonicalName": "King's College International School Bangkok",
+        "shortName": "King's Bangkok",
+        "slug": "kings-college-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2020
+      },
+      {
+        "id": "school:th:wellington-college-international-school-bangkok",
+        "canonicalName": "Wellington College International School Bangkok",
+        "shortName": "Wellington Bangkok",
+        "slug": "wellington-college-international-school-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2018
+      },
+      {
+        "id": "school:th:brighton-college-bangkok",
+        "canonicalName": "Brighton College Bangkok",
+        "shortName": "Brighton Bangkok",
+        "slug": "brighton-college-bangkok",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2016
+      },
+      {
+        "id": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "canonicalName": "Singapore International School of Bangkok – Pracha Uthit",
+        "shortName": "SISB Pracha Uthit",
+        "slug": "singapore-international-school-bangkok-pracha-uthit",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:th:prem-international-school-chiang-mai",
+        "canonicalName": "Prem International School",
+        "shortName": "Prem",
+        "slug": "prem-international-school-chiang-mai",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 2001
+      },
+      {
+        "id": "school:th:chiang-mai-international-school",
+        "canonicalName": "Chiang Mai International School",
+        "shortName": "CMIS",
+        "slug": "chiang-mai-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1954
+      },
+      {
+        "id": "school:th:lanna-international-school-thailand",
+        "canonicalName": "Lanna International School Thailand",
+        "shortName": "LANNA",
+        "slug": "lanna-international-school-thailand",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1993
+      },
+      {
+        "id": "school:th:panyaden-international-school",
+        "canonicalName": "Panyaden International School",
+        "shortName": "Panyaden",
+        "slug": "panyaden-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 2011
+      },
+      {
+        "id": "school:th:british-international-school-phuket",
+        "canonicalName": "British International School, Phuket",
+        "shortName": "BISP",
+        "slug": "british-international-school-phuket",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1996
+      },
+      {
+        "id": "school:th:uwc-thailand-international-school",
+        "canonicalName": "UWC Thailand International School",
+        "shortName": "UWC Thailand",
+        "slug": "uwc-thailand-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not-for-profit"
+      },
+      {
+        "id": "school:th:headstart-international-school-phuket",
+        "canonicalName": "HeadStart International School Phuket",
+        "shortName": "HeadStart Phuket",
+        "slug": "headstart-international-school-phuket",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 2005
+      },
+      {
+        "id": "school:th:rugby-school-thailand",
+        "canonicalName": "Rugby School Thailand",
+        "shortName": "Rugby School Thailand",
+        "slug": "rugby-school-thailand",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2017
+      },
+      {
+        "id": "school:th:regents-international-school-pattaya",
+        "canonicalName": "Regents International School Pattaya",
+        "shortName": "Regents Pattaya",
+        "slug": "regents-international-school-pattaya",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 1994
+      },
+      {
+        "id": "school:th:st-andrews-international-school-green-valley",
+        "canonicalName": "St Andrews International School Green Valley",
+        "shortName": "St Andrews Green Valley",
+        "slug": "st-andrews-international-school-green-valley",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 1996
+      }
+    ],
+    "campuses": [
+      {
+        "id": "campus:vn:united-nations-international-school-hanoi:main",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "name": "UNIS Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:british-international-school-hanoi:main",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "name": "BIS Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "name": "BVIS Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:concordia-international-school-hanoi:main",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "name": "Concordia Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:hanoi-international-school:main",
+        "schoolId": "school:vn:hanoi-international-school",
+        "name": "HIS main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "name": "ISHCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:saigon-south-international-school:main",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "name": "SSIS main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "name": "BIS HCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "name": "EIS HCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:australian-international-school-vietnam:main",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "name": "AIS Vietnam main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:vn:singapore-international-school-da-nang:main",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "name": "SIS Da Nang main campus",
+        "countryCode": "VN",
+        "city": "Da Nang",
+        "citySlug": "da-nang",
+        "region": "Central Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:st-nicholas-school-da-nang:main",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "name": "SNS Da Nang main campus",
+        "countryCode": "VN",
+        "city": "Da Nang",
+        "citySlug": "da-nang",
+        "region": "Central Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:st-paul-american-school-hanoi:main",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "name": "St. Paul Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:lycee-francais-alexandre-yersin-hanoi:main",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "name": "LFAY main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:renaissance-international-school-saigon:main",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "name": "Renaissance Saigon main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:canadian-international-school-vietnam:main",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "name": "CIS Vietnam main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "name": "ABCIS main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:ishcmc-american-academy:main",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "name": "ISHCMC-AA main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "name": "TAS main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:lycee-francais-international-marguerite-duras:main",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "name": "LFI Duras main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:apu-american-international-school-da-nang:main",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "name": "APU Da Nang main campus",
+        "countryCode": "VN",
+        "city": "Da Nang",
+        "citySlug": "da-nang",
+        "region": "Central Vietnam",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:vn:apu-american-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "name": "APU HCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:international-school-bangkok:main",
+        "schoolId": "school:th:international-school-bangkok",
+        "name": "ISB main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:nist-international-school-bangkok:main",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "name": "NIST main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:bangkok-patana-school:main",
+        "schoolId": "school:th:bangkok-patana-school",
+        "name": "Bangkok Patana main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:shrewsbury-international-school-bangkok:main",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "name": "Shrewsbury Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:harrow-international-school-bangkok:main",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "name": "Harrow Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:kis-international-school-bangkok:main",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "name": "KIS Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:ruamrudee-international-school:main",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "name": "RIS main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:st-andrews-international-school-bangkok:main",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "name": "St Andrews Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:bangkok-international-preparatory-secondary-school:main",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "name": "Bangkok Prep main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:regents-international-school-bangkok:main",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "name": "Regent's Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:lycee-francais-international-de-bangkok:main",
+        "schoolId": "school:th:lycee-francais-international-de-bangkok",
+        "name": "LFIB main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:concordian-international-school:main",
+        "schoolId": "school:th:concordian-international-school",
+        "name": "Concordian main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:thai-chinese-international-school:main",
+        "schoolId": "school:th:thai-chinese-international-school",
+        "name": "TCIS main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:basis-international-school-bangkok:main",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "name": "BASIS Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:kings-college-international-school-bangkok:main",
+        "schoolId": "school:th:kings-college-international-school-bangkok",
+        "name": "King's Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:wellington-college-international-school-bangkok:main",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "name": "Wellington Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:brighton-college-bangkok:main",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "name": "Brighton Bangkok main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:singapore-international-school-bangkok-pracha-uthit:main",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "name": "SISB Pracha Uthit main campus",
+        "countryCode": "TH",
+        "city": "Bangkok",
+        "citySlug": "bangkok",
+        "region": "Central Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:prem-international-school-chiang-mai:main",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "name": "Prem main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:chiang-mai-international-school:main",
+        "schoolId": "school:th:chiang-mai-international-school",
+        "name": "CMIS main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:lanna-international-school-thailand:main",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "name": "LANNA main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:panyaden-international-school:main",
+        "schoolId": "school:th:panyaden-international-school",
+        "name": "Panyaden main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:british-international-school-phuket:main",
+        "schoolId": "school:th:british-international-school-phuket",
+        "name": "BISP main campus",
+        "countryCode": "TH",
+        "city": "Phuket",
+        "citySlug": "phuket",
+        "region": "Southern Thailand",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:uwc-thailand-international-school:main",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "name": "UWC Thailand main campus",
+        "countryCode": "TH",
+        "city": "Phuket",
+        "citySlug": "phuket",
+        "region": "Southern Thailand",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:headstart-international-school-phuket:main",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "name": "HeadStart Phuket main campus",
+        "countryCode": "TH",
+        "city": "Phuket",
+        "citySlug": "phuket",
+        "region": "Southern Thailand",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:th:rugby-school-thailand:main",
+        "schoolId": "school:th:rugby-school-thailand",
+        "name": "Rugby School Thailand main campus",
+        "countryCode": "TH",
+        "city": "Chonburi",
+        "citySlug": "chonburi",
+        "region": "Eastern Thailand",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:regents-international-school-pattaya:main",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "name": "Regents Pattaya main campus",
+        "countryCode": "TH",
+        "city": "Pattaya",
+        "citySlug": "pattaya",
+        "region": "Eastern Thailand",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:st-andrews-international-school-green-valley:main",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "name": "St Andrews Green Valley main campus",
+        "countryCode": "TH",
+        "city": "Rayong",
+        "citySlug": "rayong",
+        "region": "Eastern Thailand",
+        "campusType": "day"
+      }
+    ],
+    "programmes": [
+      {
+        "id": "programme:vn:united-nations-international-school-hanoi:1",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "campusId": "campus:vn:united-nations-international-school-hanoi:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:united-nations-international-school-hanoi:2",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "campusId": "campus:vn:united-nations-international-school-hanoi:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:united-nations-international-school-hanoi:3",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "campusId": "campus:vn:united-nations-international-school-hanoi:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-hanoi:1",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "campusId": "campus:vn:british-international-school-hanoi:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:vn:british-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-hanoi:2",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "campusId": "campus:vn:british-international-school-hanoi:main",
+        "programme": "IGCSE",
+        "sourceId": "source:vn:british-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-hanoi:3",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "campusId": "campus:vn:british-international-school-hanoi:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:british-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-vietnamese-international-school-hanoi:1",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "campusId": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "programme": "British",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-vietnamese-international-school-hanoi:2",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "campusId": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-vietnamese-international-school-hanoi:3",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "campusId": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "programme": "A Levels",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:concordia-international-school-hanoi:1",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "campusId": "campus:vn:concordia-international-school-hanoi:main",
+        "programme": "American",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:concordia-international-school-hanoi:2",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "campusId": "campus:vn:concordia-international-school-hanoi:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:hanoi-international-school:1",
+        "schoolId": "school:vn:hanoi-international-school",
+        "campusId": "campus:vn:hanoi-international-school:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:hanoi-international-school:2",
+        "schoolId": "school:vn:hanoi-international-school",
+        "campusId": "campus:vn:hanoi-international-school:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:hanoi-international-school:3",
+        "schoolId": "school:vn:hanoi-international-school",
+        "campusId": "campus:vn:hanoi-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:international-school-ho-chi-minh-city:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:international-school-ho-chi-minh-city:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:international-school-ho-chi-minh-city:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:saigon-south-international-school:1",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "campusId": "campus:vn:saigon-south-international-school:main",
+        "programme": "American",
+        "sourceId": "source:vn:saigon-south-international-school:official"
+      },
+      {
+        "id": "programme:vn:saigon-south-international-school:2",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "campusId": "campus:vn:saigon-south-international-school:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:saigon-south-international-school:official"
+      },
+      {
+        "id": "programme:vn:saigon-south-international-school:3",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "campusId": "campus:vn:saigon-south-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:saigon-south-international-school:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "programme": "IGCSE",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:european-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:european-international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:european-international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:1",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:2",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:3",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "IGCSE",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:4",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-da-nang:1",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "campusId": "campus:vn:singapore-international-school-da-nang:main",
+        "programme": "Singapore",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-da-nang:2",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "campusId": "campus:vn:singapore-international-school-da-nang:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-da-nang:3",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "campusId": "campus:vn:singapore-international-school-da-nang:main",
+        "programme": "A Levels",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:st-nicholas-school-da-nang:1",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "campusId": "campus:vn:st-nicholas-school-da-nang:main",
+        "programme": "American Common Core",
+        "sourceId": "source:vn:st-nicholas-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:st-nicholas-school-da-nang:2",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "campusId": "campus:vn:st-nicholas-school-da-nang:main",
+        "programme": "Vietnamese National Curriculum",
+        "sourceId": "source:vn:st-nicholas-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:st-paul-american-school-hanoi:1",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "campusId": "campus:vn:st-paul-american-school-hanoi:main",
+        "programme": "American",
+        "sourceId": "source:vn:st-paul-american-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:st-paul-american-school-hanoi:2",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "campusId": "campus:vn:st-paul-american-school-hanoi:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:st-paul-american-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-alexandre-yersin-hanoi:1",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "campusId": "campus:vn:lycee-francais-alexandre-yersin-hanoi:main",
+        "programme": "French National Curriculum",
+        "sourceId": "source:vn:lycee-francais-alexandre-yersin-hanoi:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-alexandre-yersin-hanoi:2",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "campusId": "campus:vn:lycee-francais-alexandre-yersin-hanoi:main",
+        "programme": "French Baccalauréat",
+        "sourceId": "source:vn:lycee-francais-alexandre-yersin-hanoi:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:1",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:2",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:3",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:4",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:canadian-international-school-vietnam:1",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "campusId": "campus:vn:canadian-international-school-vietnam:main",
+        "programme": "Ontario Curriculum",
+        "sourceId": "source:vn:canadian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:canadian-international-school-vietnam:2",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "campusId": "campus:vn:canadian-international-school-vietnam:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:canadian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:abc-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:abc-international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:abc-international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "programme": "A Levels",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:ishcmc-american-academy:1",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "campusId": "campus:vn:ishcmc-american-academy:main",
+        "programme": "American",
+        "sourceId": "source:vn:ishcmc-american-academy:official"
+      },
+      {
+        "id": "programme:vn:ishcmc-american-academy:2",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "campusId": "campus:vn:ishcmc-american-academy:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:ishcmc-american-academy:official"
+      },
+      {
+        "id": "programme:vn:the-american-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "campusId": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "programme": "American",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:the-american-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "campusId": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:the-american-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "campusId": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-international-marguerite-duras:1",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "campusId": "campus:vn:lycee-francais-international-marguerite-duras:main",
+        "programme": "French National Curriculum",
+        "sourceId": "source:vn:lycee-francais-international-marguerite-duras:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-international-marguerite-duras:2",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "campusId": "campus:vn:lycee-francais-international-marguerite-duras:main",
+        "programme": "French Baccalauréat",
+        "sourceId": "source:vn:lycee-francais-international-marguerite-duras:official"
+      },
+      {
+        "id": "programme:vn:apu-american-international-school-da-nang:1",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "campusId": "campus:vn:apu-american-international-school-da-nang:main",
+        "programme": "American",
+        "sourceId": "source:vn:apu-american-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:apu-american-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:apu-american-international-school-ho-chi-minh-city:main",
+        "programme": "American",
+        "sourceId": "source:vn:apu-american-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:th:international-school-bangkok:1",
+        "schoolId": "school:th:international-school-bangkok",
+        "campusId": "campus:th:international-school-bangkok:main",
+        "programme": "American",
+        "sourceId": "source:th:international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:international-school-bangkok:2",
+        "schoolId": "school:th:international-school-bangkok",
+        "campusId": "campus:th:international-school-bangkok:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:th:international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:international-school-bangkok:3",
+        "schoolId": "school:th:international-school-bangkok",
+        "campusId": "campus:th:international-school-bangkok:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:nist-international-school-bangkok:1",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "campusId": "campus:th:nist-international-school-bangkok:main",
+        "programme": "IB PYP",
+        "sourceId": "source:th:nist-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:nist-international-school-bangkok:2",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "campusId": "campus:th:nist-international-school-bangkok:main",
+        "programme": "IB MYP",
+        "sourceId": "source:th:nist-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:nist-international-school-bangkok:3",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "campusId": "campus:th:nist-international-school-bangkok:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:nist-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:bangkok-patana-school:1",
+        "schoolId": "school:th:bangkok-patana-school",
+        "campusId": "campus:th:bangkok-patana-school:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:bangkok-patana-school:official"
+      },
+      {
+        "id": "programme:th:bangkok-patana-school:2",
+        "schoolId": "school:th:bangkok-patana-school",
+        "campusId": "campus:th:bangkok-patana-school:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:bangkok-patana-school:official"
+      },
+      {
+        "id": "programme:th:bangkok-patana-school:3",
+        "schoolId": "school:th:bangkok-patana-school",
+        "campusId": "campus:th:bangkok-patana-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:bangkok-patana-school:official"
+      },
+      {
+        "id": "programme:th:shrewsbury-international-school-bangkok:1",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "campusId": "campus:th:shrewsbury-international-school-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:shrewsbury-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:shrewsbury-international-school-bangkok:2",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "campusId": "campus:th:shrewsbury-international-school-bangkok:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:shrewsbury-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:shrewsbury-international-school-bangkok:3",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "campusId": "campus:th:shrewsbury-international-school-bangkok:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:shrewsbury-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:harrow-international-school-bangkok:1",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "campusId": "campus:th:harrow-international-school-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:harrow-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:harrow-international-school-bangkok:2",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "campusId": "campus:th:harrow-international-school-bangkok:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:harrow-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:harrow-international-school-bangkok:3",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "campusId": "campus:th:harrow-international-school-bangkok:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:harrow-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kis-international-school-bangkok:1",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "campusId": "campus:th:kis-international-school-bangkok:main",
+        "programme": "IB PYP",
+        "sourceId": "source:th:kis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kis-international-school-bangkok:2",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "campusId": "campus:th:kis-international-school-bangkok:main",
+        "programme": "IB MYP",
+        "sourceId": "source:th:kis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kis-international-school-bangkok:3",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "campusId": "campus:th:kis-international-school-bangkok:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:kis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kis-international-school-bangkok:4",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "campusId": "campus:th:kis-international-school-bangkok:main",
+        "programme": "IB Career-related Programme",
+        "sourceId": "source:th:kis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:ruamrudee-international-school:1",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "campusId": "campus:th:ruamrudee-international-school:main",
+        "programme": "American",
+        "sourceId": "source:th:ruamrudee-international-school:official"
+      },
+      {
+        "id": "programme:th:ruamrudee-international-school:2",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "campusId": "campus:th:ruamrudee-international-school:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:th:ruamrudee-international-school:official"
+      },
+      {
+        "id": "programme:th:ruamrudee-international-school:3",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "campusId": "campus:th:ruamrudee-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:ruamrudee-international-school:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-bangkok:1",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "campusId": "campus:th:st-andrews-international-school-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:st-andrews-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-bangkok:2",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "campusId": "campus:th:st-andrews-international-school-bangkok:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:st-andrews-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-bangkok:3",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "campusId": "campus:th:st-andrews-international-school-bangkok:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:st-andrews-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-bangkok:4",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "campusId": "campus:th:st-andrews-international-school-bangkok:main",
+        "programme": "IB Career-related Programme",
+        "sourceId": "source:th:st-andrews-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:bangkok-international-preparatory-secondary-school:1",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "campusId": "campus:th:bangkok-international-preparatory-secondary-school:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:bangkok-international-preparatory-secondary-school:official"
+      },
+      {
+        "id": "programme:th:bangkok-international-preparatory-secondary-school:2",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "campusId": "campus:th:bangkok-international-preparatory-secondary-school:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:bangkok-international-preparatory-secondary-school:official"
+      },
+      {
+        "id": "programme:th:bangkok-international-preparatory-secondary-school:3",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "campusId": "campus:th:bangkok-international-preparatory-secondary-school:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:bangkok-international-preparatory-secondary-school:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-bangkok:1",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "campusId": "campus:th:regents-international-school-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:regents-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-bangkok:2",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "campusId": "campus:th:regents-international-school-bangkok:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:regents-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-bangkok:3",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "campusId": "campus:th:regents-international-school-bangkok:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:regents-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:lycee-francais-international-de-bangkok:1",
+        "schoolId": "school:th:lycee-francais-international-de-bangkok",
+        "campusId": "campus:th:lycee-francais-international-de-bangkok:main",
+        "programme": "French National Curriculum",
+        "sourceId": "source:th:lycee-francais-international-de-bangkok:official"
+      },
+      {
+        "id": "programme:th:lycee-francais-international-de-bangkok:2",
+        "schoolId": "school:th:lycee-francais-international-de-bangkok",
+        "campusId": "campus:th:lycee-francais-international-de-bangkok:main",
+        "programme": "French Baccalauréat",
+        "sourceId": "source:th:lycee-francais-international-de-bangkok:official"
+      },
+      {
+        "id": "programme:th:concordian-international-school:1",
+        "schoolId": "school:th:concordian-international-school",
+        "campusId": "campus:th:concordian-international-school:main",
+        "programme": "IB PYP",
+        "sourceId": "source:th:concordian-international-school:official"
+      },
+      {
+        "id": "programme:th:concordian-international-school:2",
+        "schoolId": "school:th:concordian-international-school",
+        "campusId": "campus:th:concordian-international-school:main",
+        "programme": "IB MYP",
+        "sourceId": "source:th:concordian-international-school:official"
+      },
+      {
+        "id": "programme:th:concordian-international-school:3",
+        "schoolId": "school:th:concordian-international-school",
+        "campusId": "campus:th:concordian-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:concordian-international-school:official"
+      },
+      {
+        "id": "programme:th:thai-chinese-international-school:1",
+        "schoolId": "school:th:thai-chinese-international-school",
+        "campusId": "campus:th:thai-chinese-international-school:main",
+        "programme": "American",
+        "sourceId": "source:th:thai-chinese-international-school:official"
+      },
+      {
+        "id": "programme:th:thai-chinese-international-school:2",
+        "schoolId": "school:th:thai-chinese-international-school",
+        "campusId": "campus:th:thai-chinese-international-school:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:th:thai-chinese-international-school:official"
+      },
+      {
+        "id": "programme:th:basis-international-school-bangkok:1",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "campusId": "campus:th:basis-international-school-bangkok:main",
+        "programme": "BASIS Curriculum",
+        "sourceId": "source:th:basis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:basis-international-school-bangkok:2",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "campusId": "campus:th:basis-international-school-bangkok:main",
+        "programme": "American",
+        "sourceId": "source:th:basis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:basis-international-school-bangkok:3",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "campusId": "campus:th:basis-international-school-bangkok:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:th:basis-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kings-college-international-school-bangkok:1",
+        "schoolId": "school:th:kings-college-international-school-bangkok",
+        "campusId": "campus:th:kings-college-international-school-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:kings-college-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kings-college-international-school-bangkok:2",
+        "schoolId": "school:th:kings-college-international-school-bangkok",
+        "campusId": "campus:th:kings-college-international-school-bangkok:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:kings-college-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:kings-college-international-school-bangkok:3",
+        "schoolId": "school:th:kings-college-international-school-bangkok",
+        "campusId": "campus:th:kings-college-international-school-bangkok:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:kings-college-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:wellington-college-international-school-bangkok:1",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "campusId": "campus:th:wellington-college-international-school-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:wellington-college-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:wellington-college-international-school-bangkok:2",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "campusId": "campus:th:wellington-college-international-school-bangkok:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:wellington-college-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:wellington-college-international-school-bangkok:3",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "campusId": "campus:th:wellington-college-international-school-bangkok:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:wellington-college-international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:brighton-college-bangkok:1",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "campusId": "campus:th:brighton-college-bangkok:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:brighton-college-bangkok:official"
+      },
+      {
+        "id": "programme:th:brighton-college-bangkok:2",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "campusId": "campus:th:brighton-college-bangkok:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:brighton-college-bangkok:official"
+      },
+      {
+        "id": "programme:th:brighton-college-bangkok:3",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "campusId": "campus:th:brighton-college-bangkok:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:brighton-college-bangkok:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-bangkok-pracha-uthit:1",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "campusId": "campus:th:singapore-international-school-bangkok-pracha-uthit:main",
+        "programme": "Singapore",
+        "sourceId": "source:th:singapore-international-school-bangkok-pracha-uthit:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-bangkok-pracha-uthit:2",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "campusId": "campus:th:singapore-international-school-bangkok-pracha-uthit:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:singapore-international-school-bangkok-pracha-uthit:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-bangkok-pracha-uthit:3",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "campusId": "campus:th:singapore-international-school-bangkok-pracha-uthit:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:singapore-international-school-bangkok-pracha-uthit:official"
+      },
+      {
+        "id": "programme:th:prem-international-school-chiang-mai:1",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "campusId": "campus:th:prem-international-school-chiang-mai:main",
+        "programme": "IB PYP",
+        "sourceId": "source:th:prem-international-school-chiang-mai:official"
+      },
+      {
+        "id": "programme:th:prem-international-school-chiang-mai:2",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "campusId": "campus:th:prem-international-school-chiang-mai:main",
+        "programme": "IB MYP",
+        "sourceId": "source:th:prem-international-school-chiang-mai:official"
+      },
+      {
+        "id": "programme:th:prem-international-school-chiang-mai:3",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "campusId": "campus:th:prem-international-school-chiang-mai:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:prem-international-school-chiang-mai:official"
+      },
+      {
+        "id": "programme:th:prem-international-school-chiang-mai:4",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "campusId": "campus:th:prem-international-school-chiang-mai:main",
+        "programme": "IB Career-related Programme",
+        "sourceId": "source:th:prem-international-school-chiang-mai:official"
+      },
+      {
+        "id": "programme:th:chiang-mai-international-school:1",
+        "schoolId": "school:th:chiang-mai-international-school",
+        "campusId": "campus:th:chiang-mai-international-school:main",
+        "programme": "American",
+        "sourceId": "source:th:chiang-mai-international-school:official"
+      },
+      {
+        "id": "programme:th:chiang-mai-international-school:2",
+        "schoolId": "school:th:chiang-mai-international-school",
+        "campusId": "campus:th:chiang-mai-international-school:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:th:chiang-mai-international-school:official"
+      },
+      {
+        "id": "programme:th:lanna-international-school-thailand:1",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "campusId": "campus:th:lanna-international-school-thailand:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:lanna-international-school-thailand:official"
+      },
+      {
+        "id": "programme:th:lanna-international-school-thailand:2",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "campusId": "campus:th:lanna-international-school-thailand:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:lanna-international-school-thailand:official"
+      },
+      {
+        "id": "programme:th:lanna-international-school-thailand:3",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "campusId": "campus:th:lanna-international-school-thailand:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:lanna-international-school-thailand:official"
+      },
+      {
+        "id": "programme:th:panyaden-international-school:1",
+        "schoolId": "school:th:panyaden-international-school",
+        "campusId": "campus:th:panyaden-international-school:main",
+        "programme": "British",
+        "sourceId": "source:th:panyaden-international-school:official"
+      },
+      {
+        "id": "programme:th:panyaden-international-school:2",
+        "schoolId": "school:th:panyaden-international-school",
+        "campusId": "campus:th:panyaden-international-school:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:panyaden-international-school:official"
+      },
+      {
+        "id": "programme:th:panyaden-international-school:3",
+        "schoolId": "school:th:panyaden-international-school",
+        "campusId": "campus:th:panyaden-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:panyaden-international-school:official"
+      },
+      {
+        "id": "programme:th:british-international-school-phuket:1",
+        "schoolId": "school:th:british-international-school-phuket",
+        "campusId": "campus:th:british-international-school-phuket:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:british-international-school-phuket:official"
+      },
+      {
+        "id": "programme:th:british-international-school-phuket:2",
+        "schoolId": "school:th:british-international-school-phuket",
+        "campusId": "campus:th:british-international-school-phuket:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:british-international-school-phuket:official"
+      },
+      {
+        "id": "programme:th:british-international-school-phuket:3",
+        "schoolId": "school:th:british-international-school-phuket",
+        "campusId": "campus:th:british-international-school-phuket:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:british-international-school-phuket:official"
+      },
+      {
+        "id": "programme:th:uwc-thailand-international-school:1",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "campusId": "campus:th:uwc-thailand-international-school:main",
+        "programme": "IB PYP",
+        "sourceId": "source:th:uwc-thailand-international-school:official"
+      },
+      {
+        "id": "programme:th:uwc-thailand-international-school:2",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "campusId": "campus:th:uwc-thailand-international-school:main",
+        "programme": "IB MYP",
+        "sourceId": "source:th:uwc-thailand-international-school:official"
+      },
+      {
+        "id": "programme:th:uwc-thailand-international-school:3",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "campusId": "campus:th:uwc-thailand-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:uwc-thailand-international-school:official"
+      },
+      {
+        "id": "programme:th:headstart-international-school-phuket:1",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "campusId": "campus:th:headstart-international-school-phuket:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:headstart-international-school-phuket:official"
+      },
+      {
+        "id": "programme:th:headstart-international-school-phuket:2",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "campusId": "campus:th:headstart-international-school-phuket:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:headstart-international-school-phuket:official"
+      },
+      {
+        "id": "programme:th:headstart-international-school-phuket:3",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "campusId": "campus:th:headstart-international-school-phuket:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:headstart-international-school-phuket:official"
+      },
+      {
+        "id": "programme:th:rugby-school-thailand:1",
+        "schoolId": "school:th:rugby-school-thailand",
+        "campusId": "campus:th:rugby-school-thailand:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:rugby-school-thailand:official"
+      },
+      {
+        "id": "programme:th:rugby-school-thailand:2",
+        "schoolId": "school:th:rugby-school-thailand",
+        "campusId": "campus:th:rugby-school-thailand:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:rugby-school-thailand:official"
+      },
+      {
+        "id": "programme:th:rugby-school-thailand:3",
+        "schoolId": "school:th:rugby-school-thailand",
+        "campusId": "campus:th:rugby-school-thailand:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:rugby-school-thailand:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-pattaya:1",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "campusId": "campus:th:regents-international-school-pattaya:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:regents-international-school-pattaya:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-pattaya:2",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "campusId": "campus:th:regents-international-school-pattaya:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:regents-international-school-pattaya:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-pattaya:3",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "campusId": "campus:th:regents-international-school-pattaya:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:regents-international-school-pattaya:official"
+      },
+      {
+        "id": "programme:th:regents-international-school-pattaya:4",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "campusId": "campus:th:regents-international-school-pattaya:main",
+        "programme": "A Levels",
+        "sourceId": "source:th:regents-international-school-pattaya:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-green-valley:1",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "campusId": "campus:th:st-andrews-international-school-green-valley:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:th:st-andrews-international-school-green-valley:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-green-valley:2",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "campusId": "campus:th:st-andrews-international-school-green-valley:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:st-andrews-international-school-green-valley:official"
+      },
+      {
+        "id": "programme:th:st-andrews-international-school-green-valley:3",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "campusId": "campus:th:st-andrews-international-school-green-valley:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:th:st-andrews-international-school-green-valley:official"
+      }
+    ],
+    "accreditations": [
+      {
+        "id": "accreditation:vn:united-nations-international-school-hanoi:1",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:united-nations-international-school-hanoi:2",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:united-nations-international-school-hanoi:3",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "accreditation": "WASC",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-international-school-hanoi:1",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:british-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-international-school-hanoi:2",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:british-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-vietnamese-international-school-hanoi:1",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:concordia-international-school-hanoi:1",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "accreditation": "WASC",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:concordia-international-school-hanoi:2",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "accreditation": "NLSA",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:hanoi-international-school:1",
+        "schoolId": "school:vn:hanoi-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:hanoi-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:saigon-south-international-school:1",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:vn:saigon-south-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:saigon-south-international-school:2",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:saigon-south-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:european-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:australian-international-school-vietnam:1",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:australian-international-school-vietnam:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:australian-international-school-vietnam:2",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:australian-international-school-vietnam:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:singapore-international-school-da-nang:1",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:lycee-francais-alexandre-yersin-hanoi:1",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "accreditation": "AEFE",
+        "sourceId": "source:vn:lycee-francais-alexandre-yersin-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:renaissance-international-school-saigon:1",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:renaissance-international-school-saigon:2",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:renaissance-international-school-saigon:3",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:canadian-international-school-vietnam:1",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:canadian-international-school-vietnam:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:abc-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:the-american-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:lycee-francais-international-marguerite-duras:1",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "accreditation": "AEFE",
+        "sourceId": "source:vn:lycee-francais-international-marguerite-duras:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:international-school-bangkok:1",
+        "schoolId": "school:th:international-school-bangkok",
+        "accreditation": "WASC",
+        "sourceId": "source:th:international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:international-school-bangkok:2",
+        "schoolId": "school:th:international-school-bangkok",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:international-school-bangkok:3",
+        "schoolId": "school:th:international-school-bangkok",
+        "accreditation": "CIS",
+        "sourceId": "source:th:international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:nist-international-school-bangkok:1",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:nist-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:nist-international-school-bangkok:2",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "accreditation": "CIS",
+        "sourceId": "source:th:nist-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:nist-international-school-bangkok:3",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "accreditation": "NEASC",
+        "sourceId": "source:th:nist-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:bangkok-patana-school:1",
+        "schoolId": "school:th:bangkok-patana-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:bangkok-patana-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:bangkok-patana-school:2",
+        "schoolId": "school:th:bangkok-patana-school",
+        "accreditation": "CIS",
+        "sourceId": "source:th:bangkok-patana-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:shrewsbury-international-school-bangkok:1",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:th:shrewsbury-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:harrow-international-school-bangkok:1",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:th:harrow-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:harrow-international-school-bangkok:2",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "accreditation": "COBIS",
+        "sourceId": "source:th:harrow-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:kis-international-school-bangkok:1",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:kis-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:kis-international-school-bangkok:2",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "accreditation": "CIS",
+        "sourceId": "source:th:kis-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:ruamrudee-international-school:1",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:th:ruamrudee-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:ruamrudee-international-school:2",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:ruamrudee-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:st-andrews-international-school-bangkok:1",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:th:st-andrews-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:st-andrews-international-school-bangkok:2",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:st-andrews-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:bangkok-international-preparatory-secondary-school:1",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:th:bangkok-international-preparatory-secondary-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:bangkok-international-preparatory-secondary-school:2",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "accreditation": "COBIS",
+        "sourceId": "source:th:bangkok-international-preparatory-secondary-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:regents-international-school-bangkok:1",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:regents-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:lycee-francais-international-de-bangkok:1",
+        "schoolId": "school:th:lycee-francais-international-de-bangkok",
+        "accreditation": "AEFE",
+        "sourceId": "source:th:lycee-francais-international-de-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:concordian-international-school:1",
+        "schoolId": "school:th:concordian-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:concordian-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:thai-chinese-international-school:1",
+        "schoolId": "school:th:thai-chinese-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:th:thai-chinese-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:basis-international-school-bangkok:1",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "accreditation": "Cognia",
+        "sourceId": "source:th:basis-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:wellington-college-international-school-bangkok:1",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "accreditation": "COBIS",
+        "sourceId": "source:th:wellington-college-international-school-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:brighton-college-bangkok:1",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:th:brighton-college-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:brighton-college-bangkok:2",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "accreditation": "COBIS",
+        "sourceId": "source:th:brighton-college-bangkok:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:singapore-international-school-bangkok-pracha-uthit:1",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:th:singapore-international-school-bangkok-pracha-uthit:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:prem-international-school-chiang-mai:1",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:prem-international-school-chiang-mai:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:prem-international-school-chiang-mai:2",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "accreditation": "CIS",
+        "sourceId": "source:th:prem-international-school-chiang-mai:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:chiang-mai-international-school:1",
+        "schoolId": "school:th:chiang-mai-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:th:chiang-mai-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:lanna-international-school-thailand:1",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:th:lanna-international-school-thailand:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:panyaden-international-school:1",
+        "schoolId": "school:th:panyaden-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:panyaden-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:panyaden-international-school:2",
+        "schoolId": "school:th:panyaden-international-school",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:th:panyaden-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:british-international-school-phuket:1",
+        "schoolId": "school:th:british-international-school-phuket",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:british-international-school-phuket:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:british-international-school-phuket:2",
+        "schoolId": "school:th:british-international-school-phuket",
+        "accreditation": "CIS",
+        "sourceId": "source:th:british-international-school-phuket:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:uwc-thailand-international-school:1",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:uwc-thailand-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:uwc-thailand-international-school:2",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "accreditation": "CIS",
+        "sourceId": "source:th:uwc-thailand-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:headstart-international-school-phuket:1",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:th:headstart-international-school-phuket:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:rugby-school-thailand:1",
+        "schoolId": "school:th:rugby-school-thailand",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:th:rugby-school-thailand:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:rugby-school-thailand:2",
+        "schoolId": "school:th:rugby-school-thailand",
+        "accreditation": "COBIS",
+        "sourceId": "source:th:rugby-school-thailand:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:regents-international-school-pattaya:1",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:regents-international-school-pattaya:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:st-andrews-international-school-green-valley:1",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "accreditation": "IB World School",
+        "sourceId": "source:th:st-andrews-international-school-green-valley:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:st-andrews-international-school-green-valley:2",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "accreditation": "CIS",
+        "sourceId": "source:th:st-andrews-international-school-green-valley:official",
+        "status": "recorded"
+      }
+    ],
+    "sources": [
+      {
+        "id": "source:vn:united-nations-international-school-hanoi:official",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "United Nations International School of Hanoi",
+        "url": "https://www.unishanoi.org/about",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:british-international-school-hanoi:official",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "British International School Hanoi",
+        "url": "https://www.nordangliaeducation.com/bis-hanoi/faqs",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:british-vietnamese-international-school-hanoi:official",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "British Vietnamese International School Hanoi",
+        "url": "https://www.nordangliaeducation.com/bvis-hanoi",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:concordia-international-school-hanoi:official",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "Concordia International School Hanoi",
+        "url": "https://www.concordiahanoi.org/explore/who-we-are",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:hanoi-international-school:official",
+        "schoolId": "school:vn:hanoi-international-school",
+        "type": "official-school",
+        "publisher": "Hanoi International School",
+        "url": "https://www.hisvietnam.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "International School Ho Chi Minh City",
+        "url": "https://www.ishcmc.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:saigon-south-international-school:official",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "type": "official-school",
+        "publisher": "Saigon South International School",
+        "url": "https://www.ssis.edu.vn/our-school",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:british-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "British International School Ho Chi Minh City",
+        "url": "https://www.nordangliaeducation.com/bis-hcmc/academic-excellence/ks3",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:european-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "European International School Ho Chi Minh City",
+        "url": "https://www.eishcmc.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:australian-international-school-vietnam:official",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "type": "official-school",
+        "publisher": "Australian International School Vietnam",
+        "url": "https://www.aisvietnam.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:singapore-international-school-da-nang:official",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "type": "official-school",
+        "publisher": "Singapore International School @ Da Nang",
+        "url": "https://danang.sis.edu.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:st-nicholas-school-da-nang:official",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "type": "official-school",
+        "publisher": "St. Nicholas School",
+        "url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:st-paul-american-school-hanoi:official",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "type": "official-school",
+        "publisher": "St. Paul American School Hanoi",
+        "url": "https://stpaulhanoi.com/learn/middle-school-and-high-school/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:lycee-francais-alexandre-yersin-hanoi:official",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "type": "official-school",
+        "publisher": "Lycée Français Alexandre Yersin",
+        "url": "https://lfay.com.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:renaissance-international-school-saigon:official",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "type": "official-school",
+        "publisher": "Renaissance International School Saigon",
+        "url": "https://renaissance.edu.vn/curriculum/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:canadian-international-school-vietnam:official",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "type": "official-school",
+        "publisher": "Canadian International School Vietnam",
+        "url": "https://www.cis.edu.vn/en/admissions/faqs",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:abc-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "The ABC International School",
+        "url": "https://www.theabcis.com/about-us/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:ishcmc-american-academy:official",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "type": "official-school",
+        "publisher": "International School Ho Chi Minh City – American Academy",
+        "url": "https://www.aavn.edu.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:the-american-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "The American School",
+        "url": "https://www.tas.edu.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:lycee-francais-international-marguerite-duras:official",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "type": "official-school",
+        "publisher": "Lycée Français International Marguerite Duras",
+        "url": "https://lfiduras.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:apu-american-international-school-da-nang:official",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "type": "official-school",
+        "publisher": "APU American International School – Da Nang",
+        "url": "https://www.apu.edu.vn/welcome",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:apu-american-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "APU American International School – Ho Chi Minh City",
+        "url": "https://www.apu.edu.vn/welcome",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:international-school-bangkok:official",
+        "schoolId": "school:th:international-school-bangkok",
+        "type": "official-school",
+        "publisher": "International School Bangkok",
+        "url": "https://www.isb.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:nist-international-school-bangkok:official",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "NIST International School",
+        "url": "https://www.nist.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:bangkok-patana-school:official",
+        "schoolId": "school:th:bangkok-patana-school",
+        "type": "official-school",
+        "publisher": "Bangkok Patana School",
+        "url": "https://www.patana.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:shrewsbury-international-school-bangkok:official",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "Shrewsbury International School Bangkok",
+        "url": "https://www.shrewsbury.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:harrow-international-school-bangkok:official",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "Harrow International School Bangkok",
+        "url": "https://www.harrowschool.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:kis-international-school-bangkok:official",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "KIS International School Bangkok",
+        "url": "https://kis.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:ruamrudee-international-school:official",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "type": "official-school",
+        "publisher": "Ruamrudee International School",
+        "url": "https://www.rism.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:st-andrews-international-school-bangkok:official",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "St Andrews International School Bangkok",
+        "url": "https://www.nordangliaeducation.com/sta-bangkok",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:bangkok-international-preparatory-secondary-school:official",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "type": "official-school",
+        "publisher": "Bangkok International Preparatory & Secondary School",
+        "url": "https://www.bangkokprep.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:regents-international-school-bangkok:official",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "Regent's International School Bangkok",
+        "url": "https://regents.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:lycee-francais-international-de-bangkok:official",
+        "schoolId": "school:th:lycee-francais-international-de-bangkok",
+        "type": "official-school",
+        "publisher": "Lycée Français International de Bangkok",
+        "url": "https://lfib.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:concordian-international-school:official",
+        "schoolId": "school:th:concordian-international-school",
+        "type": "official-school",
+        "publisher": "Concordian International School",
+        "url": "https://www.concordian.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:thai-chinese-international-school:official",
+        "schoolId": "school:th:thai-chinese-international-school",
+        "type": "official-school",
+        "publisher": "Thai-Chinese International School",
+        "url": "https://tcis.ac.th/about-tcis",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:basis-international-school-bangkok:official",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "BASIS International School Bangkok",
+        "url": "https://basis.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:kings-college-international-school-bangkok:official",
+        "schoolId": "school:th:kings-college-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "King's College International School Bangkok",
+        "url": "https://www.kingsbangkok.ac.th/en",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:wellington-college-international-school-bangkok:official",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "type": "official-school",
+        "publisher": "Wellington College International School Bangkok",
+        "url": "https://www.wellingtoncollege.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:brighton-college-bangkok:official",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "type": "official-school",
+        "publisher": "Brighton College Bangkok",
+        "url": "https://brightoncollege.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:singapore-international-school-bangkok-pracha-uthit:official",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "type": "official-school",
+        "publisher": "Singapore International School of Bangkok – Pracha Uthit",
+        "url": "https://sisb.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:prem-international-school-chiang-mai:official",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "type": "official-school",
+        "publisher": "Prem International School",
+        "url": "https://ptis.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:chiang-mai-international-school:official",
+        "schoolId": "school:th:chiang-mai-international-school",
+        "type": "official-school",
+        "publisher": "Chiang Mai International School",
+        "url": "https://www.cmis.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:lanna-international-school-thailand:official",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "type": "official-school",
+        "publisher": "Lanna International School Thailand",
+        "url": "https://www.lannaist.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:panyaden-international-school:official",
+        "schoolId": "school:th:panyaden-international-school",
+        "type": "official-school",
+        "publisher": "Panyaden International School",
+        "url": "https://www.panyaden.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:british-international-school-phuket:official",
+        "schoolId": "school:th:british-international-school-phuket",
+        "type": "official-school",
+        "publisher": "British International School, Phuket",
+        "url": "https://www.bisphuket.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:uwc-thailand-international-school:official",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "type": "official-school",
+        "publisher": "UWC Thailand International School",
+        "url": "https://www.uwcthailand.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:headstart-international-school-phuket:official",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "type": "official-school",
+        "publisher": "HeadStart International School Phuket",
+        "url": "https://headstartphuket.com/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:rugby-school-thailand:official",
+        "schoolId": "school:th:rugby-school-thailand",
+        "type": "official-school",
+        "publisher": "Rugby School Thailand",
+        "url": "https://www.rugbyschool.ac.th/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:regents-international-school-pattaya:official",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "type": "official-school",
+        "publisher": "Regents International School Pattaya",
+        "url": "https://www.nordangliaeducation.com/risp-pattaya",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:st-andrews-international-school-green-valley:official",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "type": "official-school",
+        "publisher": "St Andrews International School Green Valley",
+        "url": "https://www.standrewsgreenvalley.com/",
+        "observedOn": "2026-07-23",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      }
+    ],
+    "verifications": [
+      {
+        "id": "verification:vn:united-nations-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:united-nations-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:british-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:british-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:british-vietnamese-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:british-vietnamese-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:concordia-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:concordia-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:hanoi-international-school:2026-07-22",
+        "schoolId": "school:vn:hanoi-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:hanoi-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:vn:international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:saigon-south-international-school:2026-07-22",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:saigon-south-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:vn:british-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:british-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:european-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:european-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:australian-international-school-vietnam:2026-07-22",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:australian-international-school-vietnam:official"
+        ]
+      },
+      {
+        "id": "verification:vn:singapore-international-school-da-nang:2026-07-22",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:singapore-international-school-da-nang:official"
+        ]
+      },
+      {
+        "id": "verification:vn:st-nicholas-school-da-nang:2026-07-22",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:st-nicholas-school-da-nang:official"
+        ]
+      },
+      {
+        "id": "verification:vn:st-paul-american-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:st-paul-american-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:lycee-francais-alexandre-yersin-hanoi:2026-07-22",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:lycee-francais-alexandre-yersin-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:renaissance-international-school-saigon:2026-07-22",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:renaissance-international-school-saigon:official"
+        ]
+      },
+      {
+        "id": "verification:vn:canadian-international-school-vietnam:2026-07-22",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:canadian-international-school-vietnam:official"
+        ]
+      },
+      {
+        "id": "verification:vn:abc-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:abc-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:ishcmc-american-academy:2026-07-22",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:ishcmc-american-academy:official"
+        ]
+      },
+      {
+        "id": "verification:vn:the-american-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:the-american-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:lycee-francais-international-marguerite-duras:2026-07-22",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:lycee-francais-international-marguerite-duras:official"
+        ]
+      },
+      {
+        "id": "verification:vn:apu-american-international-school-da-nang:2026-07-22",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:apu-american-international-school-da-nang:official"
+        ]
+      },
+      {
+        "id": "verification:vn:apu-american-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:apu-american-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:th:international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:nist-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:nist-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:nist-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:bangkok-patana-school:2026-07-23",
+        "schoolId": "school:th:bangkok-patana-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:bangkok-patana-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:shrewsbury-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:shrewsbury-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:shrewsbury-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:harrow-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:harrow-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:harrow-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:kis-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:kis-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:kis-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:ruamrudee-international-school:2026-07-23",
+        "schoolId": "school:th:ruamrudee-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:ruamrudee-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:st-andrews-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:st-andrews-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:st-andrews-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:bangkok-international-preparatory-secondary-school:2026-07-23",
+        "schoolId": "school:th:bangkok-international-preparatory-secondary-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:bangkok-international-preparatory-secondary-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:regents-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:regents-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:regents-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:lycee-francais-international-de-bangkok:2026-07-23",
+        "schoolId": "school:th:lycee-francais-international-de-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:lycee-francais-international-de-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:concordian-international-school:2026-07-23",
+        "schoolId": "school:th:concordian-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:concordian-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:thai-chinese-international-school:2026-07-23",
+        "schoolId": "school:th:thai-chinese-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:thai-chinese-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:basis-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:basis-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:basis-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:kings-college-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:kings-college-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:kings-college-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:wellington-college-international-school-bangkok:2026-07-23",
+        "schoolId": "school:th:wellington-college-international-school-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:wellington-college-international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:brighton-college-bangkok:2026-07-23",
+        "schoolId": "school:th:brighton-college-bangkok",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:brighton-college-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:singapore-international-school-bangkok-pracha-uthit:2026-07-23",
+        "schoolId": "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:singapore-international-school-bangkok-pracha-uthit:official"
+        ]
+      },
+      {
+        "id": "verification:th:prem-international-school-chiang-mai:2026-07-23",
+        "schoolId": "school:th:prem-international-school-chiang-mai",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:prem-international-school-chiang-mai:official"
+        ]
+      },
+      {
+        "id": "verification:th:chiang-mai-international-school:2026-07-23",
+        "schoolId": "school:th:chiang-mai-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:chiang-mai-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:lanna-international-school-thailand:2026-07-23",
+        "schoolId": "school:th:lanna-international-school-thailand",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:lanna-international-school-thailand:official"
+        ]
+      },
+      {
+        "id": "verification:th:panyaden-international-school:2026-07-23",
+        "schoolId": "school:th:panyaden-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:panyaden-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:british-international-school-phuket:2026-07-23",
+        "schoolId": "school:th:british-international-school-phuket",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:british-international-school-phuket:official"
+        ]
+      },
+      {
+        "id": "verification:th:uwc-thailand-international-school:2026-07-23",
+        "schoolId": "school:th:uwc-thailand-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:uwc-thailand-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:headstart-international-school-phuket:2026-07-23",
+        "schoolId": "school:th:headstart-international-school-phuket",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:headstart-international-school-phuket:official"
+        ]
+      },
+      {
+        "id": "verification:th:rugby-school-thailand:2026-07-23",
+        "schoolId": "school:th:rugby-school-thailand",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:rugby-school-thailand:official"
+        ]
+      },
+      {
+        "id": "verification:th:regents-international-school-pattaya:2026-07-23",
+        "schoolId": "school:th:regents-international-school-pattaya",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:regents-international-school-pattaya:official"
+        ]
+      },
+      {
+        "id": "verification:th:st-andrews-international-school-green-valley:2026-07-23",
+        "schoolId": "school:th:st-andrews-international-school-green-valley",
+        "level": "core",
+        "verifiedOn": "2026-07-23",
+        "sourceIds": [
+          "source:th:st-andrews-international-school-green-valley:official"
+        ]
+      }
+    ]
+  },
+  "records": [
+    {
+      "name": "United Nations International School of Hanoi",
+      "shortName": "UNIS Hanoi",
+      "slug": "united-nations-international-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "3–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "IB World School",
+        "CIS",
+        "WASC"
+      ],
+      "website": "https://www.unishanoi.org/",
+      "sourceUrl": "https://www.unishanoi.org/about",
+      "verifiedOn": "2026-07-22",
+      "founded": 1988,
+      "summary": "A full-continuum IB school with a United Nations heritage, serving Early Years through Grade 12 in Hanoi.",
+      "featured": true
+    },
+    {
+      "name": "British International School Hanoi",
+      "shortName": "BIS Hanoi",
+      "slug": "british-international-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "CIS",
+        "IB World School"
+      ],
+      "website": "https://www.nordangliaeducation.com/bis-hanoi",
+      "sourceUrl": "https://www.nordangliaeducation.com/bis-hanoi/faqs",
+      "verifiedOn": "2026-07-22",
+      "summary": "A British-curriculum school in Long Bien progressing from Early Years through IGCSE and the IB Diploma.",
+      "featured": true
+    },
+    {
+      "name": "British Vietnamese International School Hanoi",
+      "shortName": "BVIS Hanoi",
+      "slug": "british-vietnamese-international-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "British",
+        "Cambridge IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English and Vietnamese",
+      "schoolType": "Bilingual international school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "Cambridge International"
+      ],
+      "website": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "sourceUrl": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "verifiedOn": "2026-07-22",
+      "summary": "A bilingual British-style school combining English and Vietnamese learning from Early Years to sixth form."
+    },
+    {
+      "name": "Concordia International School Hanoi",
+      "shortName": "Concordia Hanoi",
+      "slug": "concordia-international-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "American",
+        "Advanced Placement"
+      ],
+      "ageRange": "Pre-K–Grade 12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "WASC",
+        "NLSA"
+      ],
+      "website": "https://www.concordiahanoi.org/",
+      "sourceUrl": "https://www.concordiahanoi.org/explore/who-we-are",
+      "verifiedOn": "2026-07-22",
+      "summary": "A non-profit American international school offering college-preparatory and Advanced Placement pathways."
+    },
+    {
+      "name": "Hanoi International School",
+      "shortName": "HIS",
+      "slug": "hanoi-international-school",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "4–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.hisvietnam.com/",
+      "sourceUrl": "https://www.hisvietnam.com/",
+      "verifiedOn": "2026-07-22",
+      "summary": "A compact, fully accredited IB World School serving students from age four through Grade 12 in central Hanoi."
+    },
+    {
+      "name": "International School Ho Chi Minh City",
+      "shortName": "ISHCMC",
+      "slug": "international-school-ho-chi-minh-city",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.ishcmc.com/",
+      "sourceUrl": "https://www.ishcmc.com/",
+      "verifiedOn": "2026-07-22",
+      "founded": 1993,
+      "summary": "Ho Chi Minh City’s first international school, offering a full IB pathway across two campuses.",
+      "featured": true
+    },
+    {
+      "name": "Saigon South International School",
+      "shortName": "SSIS",
+      "slug": "saigon-south-international-school",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "American",
+        "Advanced Placement",
+        "IB Diploma"
+      ],
+      "ageRange": "3–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "WASC",
+        "IB World School"
+      ],
+      "website": "https://www.ssis.edu.vn/",
+      "sourceUrl": "https://www.ssis.edu.vn/our-school",
+      "verifiedOn": "2026-07-22",
+      "founded": 1997,
+      "summary": "A not-for-profit American-curriculum school in District 7 with AP and IB Diploma options in high school.",
+      "featured": true
+    },
+    {
+      "name": "British International School Ho Chi Minh City",
+      "shortName": "BIS HCMC",
+      "slug": "british-international-school-ho-chi-minh-city",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.nordangliaeducation.com/bis-hcmc",
+      "sourceUrl": "https://www.nordangliaeducation.com/bis-hcmc/academic-excellence/ks3",
+      "verifiedOn": "2026-07-22",
+      "summary": "A multi-campus British school following the English curriculum through IGCSE and the IB Diploma.",
+      "featured": true
+    },
+    {
+      "name": "European International School Ho Chi Minh City",
+      "shortName": "EIS HCMC",
+      "slug": "european-international-school-ho-chi-minh-city",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.eishcmc.com/",
+      "sourceUrl": "https://www.eishcmc.com/",
+      "verifiedOn": "2026-07-22",
+      "summary": "A boutique full-continuum IB school in Thao Dien with a village-style campus and international community."
+    },
+    {
+      "name": "Australian International School Vietnam",
+      "shortName": "AIS Vietnam",
+      "slug": "australian-international-school-vietnam",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "IB PYP",
+        "Cambridge",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "18 months–18",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "IB World School",
+        "Cambridge International"
+      ],
+      "website": "https://www.aisvietnam.com/",
+      "sourceUrl": "https://www.aisvietnam.com/",
+      "verifiedOn": "2026-07-22",
+      "summary": "An international school combining IB programmes with Cambridge secondary pathways across multiple campuses."
+    },
+    {
+      "name": "Singapore International School @ Da Nang",
+      "shortName": "SIS Da Nang",
+      "slug": "singapore-international-school-da-nang",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Da Nang",
+      "citySlug": "da-nang",
+      "region": "Central Vietnam",
+      "curricula": [
+        "Singapore",
+        "Cambridge",
+        "A Levels"
+      ],
+      "ageRange": "Kindergarten–Year 12",
+      "language": "English and Vietnamese",
+      "schoolType": "International and integrated school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "Cambridge International"
+      ],
+      "website": "https://danang.sis.edu.vn/",
+      "sourceUrl": "https://danang.sis.edu.vn/",
+      "verifiedOn": "2026-07-22",
+      "summary": "A Da Nang campus offering international and integrated programmes with Singapore and Cambridge pathways."
+    },
+    {
+      "name": "St. Nicholas School",
+      "shortName": "SNS Da Nang",
+      "slug": "st-nicholas-school-da-nang",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Da Nang",
+      "citySlug": "da-nang",
+      "region": "Central Vietnam",
+      "curricula": [
+        "American Common Core",
+        "Vietnamese National Curriculum"
+      ],
+      "ageRange": "K–12",
+      "language": "English and Vietnamese",
+      "schoolType": "Bilingual international school",
+      "ownership": "Independent",
+      "accreditation": [],
+      "website": "https://sns.edu.vn/",
+      "sourceUrl": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "verifiedOn": "2026-07-22",
+      "summary": "A K–12 school in Da Nang combining an American-oriented programme with Vietnam’s national curriculum."
+    },
+    {
+      "name": "St. Paul American School Hanoi",
+      "shortName": "St. Paul Hanoi",
+      "slug": "st-paul-american-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "American",
+        "Advanced Placement"
+      ],
+      "ageRange": "Grade 1–12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [],
+      "website": "https://stpaulhanoi.com/",
+      "sourceUrl": "https://stpaulhanoi.com/learn/middle-school-and-high-school/",
+      "verifiedOn": "2026-07-22",
+      "summary": "An American-curriculum school serving Grades 1–12, with a university-preparatory high school programme in Hanoi."
+    },
+    {
+      "name": "Lycée Français Alexandre Yersin",
+      "shortName": "LFAY",
+      "slug": "lycee-francais-alexandre-yersin-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "French National Curriculum",
+        "French Baccalauréat"
+      ],
+      "ageRange": "3–18",
+      "language": "French",
+      "schoolType": "French international school",
+      "ownership": "AEFE network school",
+      "accreditation": [
+        "AEFE"
+      ],
+      "website": "https://lfay.com.vn/",
+      "sourceUrl": "https://lfay.com.vn/",
+      "verifiedOn": "2026-07-22",
+      "founded": 1982,
+      "summary": "A French international school in Hanoi following France’s national curriculum from maternelle through the baccalauréat."
+    },
+    {
+      "name": "Renaissance International School Saigon",
+      "shortName": "Renaissance Saigon",
+      "slug": "renaissance-international-school-saigon",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "Cambridge IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "CIS",
+        "IB World School",
+        "Cambridge International"
+      ],
+      "website": "https://renaissance.edu.vn/",
+      "sourceUrl": "https://renaissance.edu.vn/curriculum/",
+      "verifiedOn": "2026-07-22",
+      "summary": "A District 7 international school combining IB programmes with Cambridge IGCSE across the full age range."
+    },
+    {
+      "name": "Canadian International School Vietnam",
+      "shortName": "CIS Vietnam",
+      "slug": "canadian-international-school-vietnam",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "Ontario Curriculum",
+        "IB Diploma"
+      ],
+      "ageRange": "Kindergarten–Grade 12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "CIS"
+      ],
+      "website": "https://www.cis.edu.vn/en/",
+      "sourceUrl": "https://www.cis.edu.vn/en/admissions/faqs",
+      "verifiedOn": "2026-07-22",
+      "summary": "A Canadian international school in Ho Chi Minh City delivering Ontario’s curriculum with an IB Diploma pathway."
+    },
+    {
+      "name": "The ABC International School",
+      "shortName": "ABCIS",
+      "slug": "abc-international-school-ho-chi-minh-city",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "English National Curriculum",
+        "Cambridge IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "Cambridge International"
+      ],
+      "website": "https://www.theabcis.com/",
+      "sourceUrl": "https://www.theabcis.com/about-us/",
+      "verifiedOn": "2026-07-22",
+      "founded": 1995,
+      "summary": "A British-curriculum international school serving students from nursery through IGCSE and A Levels."
+    },
+    {
+      "name": "International School Ho Chi Minh City – American Academy",
+      "shortName": "ISHCMC-AA",
+      "slug": "ishcmc-american-academy",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "American",
+        "Advanced Placement"
+      ],
+      "ageRange": "11–18",
+      "language": "English",
+      "schoolType": "International secondary school",
+      "ownership": "Independent school group",
+      "accreditation": [],
+      "website": "https://www.aavn.edu.vn/",
+      "sourceUrl": "https://www.aavn.edu.vn/",
+      "verifiedOn": "2026-07-22",
+      "summary": "An American middle and high school offering personalised pathways and Advanced Placement courses for ages 11–18."
+    },
+    {
+      "name": "The American School",
+      "shortName": "TAS",
+      "slug": "the-american-school-ho-chi-minh-city",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "American",
+        "IB PYP",
+        "Advanced Placement"
+      ],
+      "ageRange": "Pre-K–Grade 12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.tas.edu.vn/",
+      "sourceUrl": "https://www.tas.edu.vn/",
+      "verifiedOn": "2026-07-22",
+      "summary": "An American international school with an IB Primary Years pathway and Advanced Placement options for older students."
+    },
+    {
+      "name": "Lycée Français International Marguerite Duras",
+      "shortName": "LFI Duras",
+      "slug": "lycee-francais-international-marguerite-duras",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "French National Curriculum",
+        "French Baccalauréat"
+      ],
+      "ageRange": "3–18",
+      "language": "French",
+      "schoolType": "French international school",
+      "ownership": "AEFE network school",
+      "accreditation": [
+        "AEFE"
+      ],
+      "website": "https://lfiduras.com/",
+      "sourceUrl": "https://lfiduras.com/",
+      "verifiedOn": "2026-07-22",
+      "summary": "A French international school in Ho Chi Minh City delivering France’s national curriculum through the baccalauréat."
+    },
+    {
+      "name": "APU American International School – Da Nang",
+      "shortName": "APU Da Nang",
+      "slug": "apu-american-international-school-da-nang",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Da Nang",
+      "citySlug": "da-nang",
+      "region": "Central Vietnam",
+      "curricula": [
+        "American"
+      ],
+      "ageRange": "K–12",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent school group",
+      "accreditation": [],
+      "website": "https://www.apu.edu.vn/",
+      "sourceUrl": "https://www.apu.edu.vn/welcome",
+      "verifiedOn": "2026-07-22",
+      "founded": 2015,
+      "summary": "The Da Nang campus of APU’s K–12 American education pathway, with day and boarding options in Central Vietnam."
+    },
+    {
+      "name": "APU American International School – Ho Chi Minh City",
+      "shortName": "APU HCMC",
+      "slug": "apu-american-international-school-ho-chi-minh-city",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Ho Chi Minh City",
+      "citySlug": "ho-chi-minh-city",
+      "region": "Southern Vietnam",
+      "curricula": [
+        "American"
+      ],
+      "ageRange": "K–12",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent school group",
+      "accreditation": [],
+      "website": "https://www.apu.edu.vn/",
+      "sourceUrl": "https://www.apu.edu.vn/welcome",
+      "verifiedOn": "2026-07-22",
+      "founded": 2004,
+      "summary": "A K–12 American international school in Ho Chi Minh City with a pathway focused on transition to U.S. higher education."
+    },
+    {
+      "name": "International School Bangkok",
+      "shortName": "ISB",
+      "slug": "international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American",
+        "Advanced Placement",
+        "IB Diploma"
+      ],
+      "ageRange": "3–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "WASC",
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://www.isb.ac.th/",
+      "sourceUrl": "https://www.isb.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1951,
+      "summary": "An independent, not-for-profit school in Nonthaburi with a US-based curriculum and AP and IB pathways in high school.",
+      "featured": true
+    },
+    {
+      "name": "NIST International School",
+      "shortName": "NIST",
+      "slug": "nist-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "3–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "IB World School",
+        "CIS",
+        "NEASC"
+      ],
+      "website": "https://www.nist.ac.th/",
+      "sourceUrl": "https://www.nist.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1992,
+      "summary": "A not-for-profit full-continuum IB school in central Bangkok with an internationally diverse student community.",
+      "featured": true
+    },
+    {
+      "name": "Bangkok Patana School",
+      "shortName": "Bangkok Patana",
+      "slug": "bangkok-patana-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "18 months–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://www.patana.ac.th/",
+      "sourceUrl": "https://www.patana.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1957,
+      "summary": "A not-for-profit British international school progressing from early years through IGCSE and the IB Diploma.",
+      "featured": true
+    },
+    {
+      "name": "Shrewsbury International School Bangkok",
+      "shortName": "Shrewsbury Bangkok",
+      "slug": "shrewsbury-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "Cambridge IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "British Schools Overseas"
+      ],
+      "website": "https://www.shrewsbury.ac.th/",
+      "sourceUrl": "https://www.shrewsbury.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2003,
+      "summary": "A British international school operating City and Riverside campuses, with IGCSE and A Level pathways."
+    },
+    {
+      "name": "Harrow International School Bangkok",
+      "shortName": "Harrow Bangkok",
+      "slug": "harrow-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "18 months–18",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "British Schools Overseas",
+        "COBIS"
+      ],
+      "website": "https://www.harrowschool.ac.th/",
+      "sourceUrl": "https://www.harrowschool.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1998,
+      "summary": "A British day and boarding school in north Bangkok offering an English curriculum through IGCSE and A Levels."
+    },
+    {
+      "name": "KIS International School Bangkok",
+      "shortName": "KIS Bangkok",
+      "slug": "kis-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma",
+        "IB Career-related Programme"
+      ],
+      "ageRange": "2–19",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Family-owned",
+      "accreditation": [
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://kis.ac.th/",
+      "sourceUrl": "https://kis.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1998,
+      "summary": "A family-owned IB continuum school in Huai Khwang offering PYP, MYP, Diploma and Career-related programmes."
+    },
+    {
+      "name": "Ruamrudee International School",
+      "shortName": "RIS",
+      "slug": "ruamrudee-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "American",
+        "Advanced Placement",
+        "IB Diploma"
+      ],
+      "ageRange": "Pre-K–Grade 12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "WASC",
+        "IB World School"
+      ],
+      "website": "https://www.rism.ac.th/",
+      "sourceUrl": "https://www.rism.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1957,
+      "summary": "An American-curriculum school in Min Buri with Advanced Placement and IB Diploma options in high school."
+    },
+    {
+      "name": "St Andrews International School Bangkok",
+      "shortName": "St Andrews Bangkok",
+      "slug": "st-andrews-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma",
+        "IB Career-related Programme"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "British Schools Overseas",
+        "IB World School"
+      ],
+      "website": "https://www.nordangliaeducation.com/sta-bangkok",
+      "sourceUrl": "https://www.nordangliaeducation.com/sta-bangkok",
+      "verifiedOn": "2026-07-23",
+      "summary": "A British international school with early years through IGCSE and several senior pathways including IBDP and IBCP."
+    },
+    {
+      "name": "Bangkok International Preparatory & Secondary School",
+      "shortName": "Bangkok Prep",
+      "slug": "bangkok-international-preparatory-secondary-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "3–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "British Schools Overseas",
+        "COBIS"
+      ],
+      "website": "https://www.bangkokprep.ac.th/",
+      "sourceUrl": "https://www.bangkokprep.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2003,
+      "summary": "A not-for-profit British school in Bangkok offering the English curriculum, IGCSEs and A Levels."
+    },
+    {
+      "name": "Regent's International School Bangkok",
+      "shortName": "Regent's Bangkok",
+      "slug": "regents-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://regents.ac.th/",
+      "sourceUrl": "https://regents.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1999,
+      "summary": "A British international school in Bangkok following the English curriculum through IGCSE and the IB Diploma."
+    },
+    {
+      "name": "Lycée Français International de Bangkok",
+      "shortName": "LFIB",
+      "slug": "lycee-francais-international-de-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "French National Curriculum",
+        "French Baccalauréat"
+      ],
+      "ageRange": "3–18",
+      "language": "French and multilingual pathways",
+      "schoolType": "French international school",
+      "ownership": "AEFE network school",
+      "accreditation": [
+        "AEFE"
+      ],
+      "website": "https://lfib.ac.th/",
+      "sourceUrl": "https://lfib.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "summary": "An AEFE-recognised school delivering France's national curriculum from maternelle through the baccalauréat."
+    },
+    {
+      "name": "Concordian International School",
+      "shortName": "Concordian",
+      "slug": "concordian-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "Pre-K–Grade 12",
+      "language": "English, Chinese and Thai",
+      "schoolType": "Trilingual international day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.concordian.ac.th/",
+      "sourceUrl": "https://www.concordian.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2001,
+      "summary": "A trilingual English-Chinese-Thai school in Samut Prakan offering the IB continuum from early years to Grade 12."
+    },
+    {
+      "name": "Thai-Chinese International School",
+      "shortName": "TCIS",
+      "slug": "thai-chinese-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American",
+        "Advanced Placement"
+      ],
+      "ageRange": "2–18",
+      "language": "English, Chinese and Thai",
+      "schoolType": "Trilingual international day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "WASC"
+      ],
+      "website": "https://www.tcis.ac.th/",
+      "sourceUrl": "https://tcis.ac.th/about-tcis",
+      "verifiedOn": "2026-07-23",
+      "founded": 1995,
+      "summary": "A WASC-accredited American-curriculum school with daily Chinese and Thai language learning from age two to Grade 12."
+    },
+    {
+      "name": "BASIS International School Bangkok",
+      "shortName": "BASIS Bangkok",
+      "slug": "basis-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "BASIS Curriculum",
+        "American",
+        "Advanced Placement"
+      ],
+      "ageRange": "Nursery–Grade 12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "Cognia"
+      ],
+      "website": "https://basis.ac.th/",
+      "sourceUrl": "https://basis.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2019,
+      "summary": "A Rama 2 campus delivering the BASIS Curriculum from nursery through Grade 12 with advanced high-school coursework."
+    },
+    {
+      "name": "King's College International School Bangkok",
+      "shortName": "King's Bangkok",
+      "slug": "kings-college-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [],
+      "website": "https://www.kingsbangkok.ac.th/",
+      "sourceUrl": "https://www.kingsbangkok.ac.th/en",
+      "verifiedOn": "2026-07-23",
+      "founded": 2020,
+      "summary": "A British international school partnered with King's College School, Wimbledon, serving early years through sixth form."
+    },
+    {
+      "name": "Wellington College International School Bangkok",
+      "shortName": "Wellington Bangkok",
+      "slug": "wellington-college-international-school-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "COBIS"
+      ],
+      "website": "https://www.wellingtoncollege.ac.th/",
+      "sourceUrl": "https://www.wellingtoncollege.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2018,
+      "summary": "A British international school in eastern Bangkok serving early years through senior school and sixth form."
+    },
+    {
+      "name": "Brighton College Bangkok",
+      "shortName": "Brighton Bangkok",
+      "slug": "brighton-college-bangkok",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "British Schools Overseas",
+        "COBIS"
+      ],
+      "website": "https://brightoncollege.ac.th/",
+      "sourceUrl": "https://brightoncollege.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2016,
+      "summary": "A British school in Bangkok offering an English curriculum pathway from early years to IGCSE and A Levels."
+    },
+    {
+      "name": "Singapore International School of Bangkok – Pracha Uthit",
+      "shortName": "SISB Pracha Uthit",
+      "slug": "singapore-international-school-bangkok-pracha-uthit",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "citySlug": "bangkok",
+      "region": "Central Thailand",
+      "curricula": [
+        "Singapore",
+        "Cambridge IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English, Chinese and Thai",
+      "schoolType": "Trilingual international day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "Cambridge International"
+      ],
+      "website": "https://sisb.ac.th/",
+      "sourceUrl": "https://sisb.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "summary": "The flagship SISB campus, combining Singapore-oriented learning with Cambridge secondary qualifications and three languages."
+    },
+    {
+      "name": "Prem International School",
+      "shortName": "Prem",
+      "slug": "prem-international-school-chiang-mai",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma",
+        "IB Career-related Programme"
+      ],
+      "ageRange": "2.5–19",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://ptis.ac.th/",
+      "sourceUrl": "https://ptis.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2001,
+      "summary": "A four-programme IB day and boarding school on a large campus in Mae Rim, Chiang Mai."
+    },
+    {
+      "name": "Chiang Mai International School",
+      "shortName": "CMIS",
+      "slug": "chiang-mai-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "American",
+        "Advanced Placement"
+      ],
+      "ageRange": "Preschool–Grade 12",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "WASC"
+      ],
+      "website": "https://www.cmis.ac.th/",
+      "sourceUrl": "https://www.cmis.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1954,
+      "summary": "An American-curriculum school serving preschool through Grade 12 in a diverse Christian learning community."
+    },
+    {
+      "name": "Lanna International School Thailand",
+      "shortName": "LANNA",
+      "slug": "lanna-international-school-thailand",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "Cambridge IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "Cambridge International"
+      ],
+      "website": "https://www.lannaist.ac.th/",
+      "sourceUrl": "https://www.lannaist.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1993,
+      "summary": "A British international school in Chiang Mai with English curriculum foundations and Cambridge qualifications."
+    },
+    {
+      "name": "Panyaden International School",
+      "shortName": "Panyaden",
+      "slug": "panyaden-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "British",
+        "Cambridge IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English and Thai",
+      "schoolType": "Bilingual international day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School",
+        "Cambridge International"
+      ],
+      "website": "https://www.panyaden.ac.th/",
+      "sourceUrl": "https://www.panyaden.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2011,
+      "summary": "A bilingual school near Chiang Mai combining British and Cambridge pathways with the IB Diploma and a values-led approach."
+    },
+    {
+      "name": "British International School, Phuket",
+      "shortName": "BISP",
+      "slug": "british-international-school-phuket",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Phuket",
+      "citySlug": "phuket",
+      "region": "Southern Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "Cambridge IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent",
+      "accreditation": [
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://www.bisphuket.ac.th/",
+      "sourceUrl": "https://www.bisphuket.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1996,
+      "summary": "A British day and boarding school in Phuket offering Cambridge IGCSE and the IB Diploma."
+    },
+    {
+      "name": "UWC Thailand International School",
+      "shortName": "UWC Thailand",
+      "slug": "uwc-thailand-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Phuket",
+      "citySlug": "phuket",
+      "region": "Southern Thailand",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "Pre-K–Grade 12",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://www.uwcthailand.ac.th/",
+      "sourceUrl": "https://www.uwcthailand.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "summary": "A not-for-profit UWC school in Phuket offering a full IB continuum to day and boarding students."
+    },
+    {
+      "name": "HeadStart International School Phuket",
+      "shortName": "HeadStart Phuket",
+      "slug": "headstart-international-school-phuket",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Phuket",
+      "citySlug": "phuket",
+      "region": "Southern Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "Cambridge IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent",
+      "accreditation": [
+        "Cambridge International"
+      ],
+      "website": "https://headstartphuket.com/",
+      "sourceUrl": "https://headstartphuket.com/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2005,
+      "summary": "A two-campus Phuket school offering the English National Curriculum from age two through sixth form."
+    },
+    {
+      "name": "Rugby School Thailand",
+      "shortName": "Rugby School Thailand",
+      "slug": "rugby-school-thailand",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chonburi",
+      "citySlug": "chonburi",
+      "region": "Eastern Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "British Schools Overseas",
+        "COBIS"
+      ],
+      "website": "https://www.rugbyschool.ac.th/",
+      "sourceUrl": "https://www.rugbyschool.ac.th/",
+      "verifiedOn": "2026-07-23",
+      "founded": 2017,
+      "summary": "A British day and boarding school on an extensive Chonburi campus, offering IGCSE and A Level pathways."
+    },
+    {
+      "name": "Regents International School Pattaya",
+      "shortName": "Regents Pattaya",
+      "slug": "regents-international-school-pattaya",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Pattaya",
+      "citySlug": "pattaya",
+      "region": "Eastern Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "Cambridge IGCSE",
+        "IB Diploma",
+        "A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day and boarding school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.nordangliaeducation.com/risp-pattaya",
+      "sourceUrl": "https://www.nordangliaeducation.com/risp-pattaya",
+      "verifiedOn": "2026-07-23",
+      "founded": 1994,
+      "summary": "A British day and boarding school near Pattaya with Cambridge IGCSE and both IB Diploma and A Level senior options."
+    },
+    {
+      "name": "St Andrews International School Green Valley",
+      "shortName": "St Andrews Green Valley",
+      "slug": "st-andrews-international-school-green-valley",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Rayong",
+      "citySlug": "rayong",
+      "region": "Eastern Thailand",
+      "curricula": [
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "International day school",
+      "ownership": "Independent school group",
+      "accreditation": [
+        "IB World School",
+        "CIS"
+      ],
+      "website": "https://www.standrewsgreenvalley.com/",
+      "sourceUrl": "https://www.standrewsgreenvalley.com/",
+      "verifiedOn": "2026-07-23",
+      "founded": 1996,
+      "summary": "A British international school on the Eastern Seaboard, progressing from early years through IGCSE and the IB Diploma."
+    }
+  ]
+}

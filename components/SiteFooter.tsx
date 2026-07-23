@@ -15,6 +15,7 @@ export function SiteFooter() {
           </p>
           <div className="footer-links">
             <Link href="/countries/vietnam">Explore Vietnam</Link>
+            <Link href="/countries/thailand">Explore Thailand</Link>
             <Link href="/about">How records are verified</Link>
           </div>
         </div>

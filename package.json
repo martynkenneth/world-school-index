@@ -12,7 +12,7 @@
     "start": "vinext start",
     "data:export": "node --experimental-strip-types scripts/export-data.mjs",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .netlify",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

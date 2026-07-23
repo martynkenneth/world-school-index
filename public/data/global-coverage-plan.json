@@ -17,9 +17,9 @@
       "slug": "thailand",
       "code": "TH",
       "region": "Southeast Asia",
-      "stage": "research",
-      "stageLabel": "Research next",
-      "nextStep": "Build Bangkok, Chiang Mai, Phuket and regional candidate lists.",
+      "stage": "published",
+      "stageLabel": "Published · expanding",
+      "nextStep": "Expand the national candidate inventory beyond the first major-city collection.",
       "wave": 1
     },
     {
@@ -114,6 +114,18 @@
     }
   ],
   "sourceRegistry": [
+    {
+      "id": "isat-member-schools",
+      "name": "International Schools Association of Thailand member directory",
+      "url": "https://www.isat.or.th/search",
+      "authority": "association",
+      "geographicScope": "Thailand",
+      "useFor": [
+        "candidate discovery",
+        "operating and licence screening"
+      ],
+      "reviewCadenceDays": 90
+    },
     {
       "id": "ib-world-schools",
       "name": "International Baccalaureate World School directory",

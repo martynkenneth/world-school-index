@@ -32,11 +32,11 @@ export default function AboutPage() {
         </ol>
         <h2>What comes next</h2>
         <p>
-          The Vietnam collection is a verified starting set, not yet a complete national
-          census. Future review batches will add schools, correct records, and introduce
-          fields such as fees and admissions only where dependable sources are available.
+          The Vietnam and Thailand collections are verified starting sets, not yet complete
+          national censuses. Future review batches will add schools, correct records, and
+          introduce fields such as fees and admissions only where dependable sources are available.
         </p>
-        <div className="method-cta"><Link className="button primary" href="/countries/vietnam">Explore Vietnam</Link></div>
+        <div className="method-cta"><Link className="button primary" href="/countries/thailand">Explore Thailand</Link></div>
       </section>
     </main>
   );

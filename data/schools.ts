@@ -1,3 +1,5 @@
+import { thailandSchools } from "./thailand-schools.ts";
+
 export type School = {
   name: string;
   shortName: string;
@@ -22,7 +24,7 @@ export type School = {
   featured?: boolean;
 };
 
-export const schools: School[] = [
+const vietnamSchools: School[] = [
   {
     name: "United Nations International School of Hanoi",
     shortName: "UNIS Hanoi",
@@ -521,18 +523,22 @@ export const schools: School[] = [
   },
 ];
 
-export const countries = [
-  {
-    name: "Vietnam",
-    slug: "vietnam",
-    code: "VN",
-    status: "Building coverage",
-    schoolCount: schools.filter((school) => school.countryCode === "VN").length,
-    cityCount: new Set(
-      schools.filter((school) => school.countryCode === "VN").map((school) => school.city),
-    ).size,
-  },
-];
+export const schools: School[] = [...vietnamSchools, ...thailandSchools];
+
+export const countries = Array.from(
+  new Map(
+    schools.map((school) => [school.countryCode, {
+      name: school.country,
+      slug: school.countrySlug,
+      code: school.countryCode,
+      status: "Building coverage",
+      schoolCount: schools.filter((item) => item.countryCode === school.countryCode).length,
+      cityCount: new Set(
+        schools.filter((item) => item.countryCode === school.countryCode).map((item) => item.city),
+      ).size,
+    }]),
+  ).values(),
+);
 
 export function getSchool(slug: string) {
   return schools.find((school) => school.slug === slug);

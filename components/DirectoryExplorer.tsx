@@ -5,6 +5,7 @@ import type { School } from "@/data/schools";
 import { SchoolCard } from "./SchoolCard";
 
 export function DirectoryExplorer({ schools }: { schools: School[] }) {
+  const country = schools[0];
   const [query, setQuery] = useState("");
   const [city, setCity] = useState("All cities");
   const [curriculum, setCurriculum] = useState("All curricula");
@@ -50,8 +51,8 @@ export function DirectoryExplorer({ schools }: { schools: School[] }) {
     <section className="directory-explorer" aria-labelledby="directory-heading">
       <div className="directory-heading-row">
         <div>
-          <span className="eyebrow">Verified seed directory</span>
-          <h2 id="directory-heading">Explore schools in Vietnam</h2>
+          <span className="eyebrow">Source-checked directory</span>
+          <h2 id="directory-heading">Explore schools in {country.country}</h2>
         </div>
         <p><strong>{filtered.length}</strong> of {schools.length} records</p>
       </div>
@@ -85,8 +86,8 @@ export function DirectoryExplorer({ schools }: { schools: School[] }) {
         </label>
       </div>
       <div className="directory-toolbar">
-        <a className="text-link" href="/data/vietnam-schools.json" download>
-          Download Vietnam data (JSON) ↓
+        <a className="text-link" href={`/data/${country.countrySlug}-schools.json`} download>
+          Download {country.country} data (JSON) ↓
         </a>
         <button type="button" onClick={resetFilters}>Reset filters</button>
       </div>

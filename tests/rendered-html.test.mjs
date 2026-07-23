@@ -34,7 +34,7 @@ test("server-renders the global coverage roadmap", async () => {
   assert.match(html, /<title>World School Index/i);
   assert.match(html, /Find the right international school, anywhere\./);
   assert.match(html, /Global coverage roadmap/);
-  assert.match(html, /Vietnam first\. Southeast Asia next\./);
+  assert.match(html, /Vietnam and Thailand live\. Southeast Asia next\./);
   assert.match(html, /Thailand/);
   assert.match(html, /Singapore/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);
@@ -62,11 +62,47 @@ test("ships normalized entities in the public data export", async () => {
   await assert.rejects(access(new URL("public/_sites-preview", templateRoot)));
 });
 
+test("ships the first source-checked Thailand collection", async () => {
+  const dataExport = await readFile(
+    new URL("../public/data/thailand-schools.json", import.meta.url),
+    "utf8",
+  );
+  const parsed = JSON.parse(dataExport);
+  assert.equal(parsed.schemaVersion, "2.0");
+  assert.equal(parsed.recordCount, 28);
+  assert.equal(parsed.entities.schools.length, 28);
+  assert.equal(parsed.entities.campuses.length, 28);
+  assert.equal(parsed.entities.sources.length, 28);
+  assert.equal(parsed.entities.verifications.length, 28);
+});
+
 test("keeps the Vietnam country directory available", async () => {
   const response = await render("/countries/vietnam");
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /International schools in Vietnam/);
+  assert.match(html, /<title>International Schools in Vietnam/);
   assert.match(html, /22/);
-  assert.match(html, /Download Vietnam data/);
+  assert.match(html, /href="\/data\/vietnam-schools\.json"/);
+});
+
+test("renders the Thailand country directory and a Thailand school record", async () => {
+  const [countryResponse, schoolResponse] = await Promise.all([
+    render("/countries/thailand"),
+    render("/schools/international-school-bangkok"),
+  ]);
+  assert.equal(countryResponse.status, 200);
+  assert.equal(schoolResponse.status, 200);
+
+  const countryHtml = await countryResponse.text();
+  assert.match(countryHtml, /<title>International Schools in Thailand/);
+  assert.match(countryHtml, /28/);
+  assert.match(countryHtml, /href="\/data\/thailand-schools\.json"/);
+  assert.match(countryHtml, /Bangkok/);
+  assert.match(countryHtml, /Chiang Mai/);
+  assert.match(countryHtml, /Phuket/);
+
+  const schoolHtml = await schoolResponse.text();
+  assert.match(schoolHtml, /International School Bangkok/);
+  assert.match(schoolHtml, /Nonthaburi[\s\S]*Thailand/);
+  assert.match(schoolHtml, /addressCountry":"TH/);
 });

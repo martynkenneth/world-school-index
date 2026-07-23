@@ -20,7 +20,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
     "@type": "School",
     name: school.name,
     url: school.website,
-    address: { "@type": "PostalAddress", addressLocality: school.city, addressCountry: "VN" },
+    address: { "@type": "PostalAddress", addressLocality: school.city, addressCountry: school.countryCode },
   };
 
   return (
@@ -28,7 +28,7 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="school-hero">
         <div className="shell">
-          <div className="breadcrumbs"><Link href="/">World</Link><span>/</span><Link href="/countries/vietnam">Vietnam</Link><span>/</span><Link href={`/cities/${school.citySlug}`}>{school.city}</Link></div>
+          <div className="breadcrumbs"><Link href="/">World</Link><span>/</span><Link href={`/countries/${school.countrySlug}`}>{school.country}</Link><span>/</span><Link href={`/cities/${school.citySlug}`}>{school.city}</Link></div>
           <div className="school-title-grid">
             <div>
               <span className="eyebrow light">Verified school record</span>

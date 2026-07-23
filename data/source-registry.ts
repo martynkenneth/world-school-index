@@ -10,6 +10,15 @@ export type DiscoverySource = {
 
 export const globalSourceRegistry: DiscoverySource[] = [
   {
+    id: "isat-member-schools",
+    name: "International Schools Association of Thailand member directory",
+    url: "https://www.isat.or.th/search",
+    authority: "association",
+    geographicScope: "Thailand",
+    useFor: ["candidate discovery", "operating and licence screening"],
+    reviewCadenceDays: 90,
+  },
+  {
     id: "ib-world-schools",
     name: "International Baccalaureate World School directory",
     url: "https://www.ibo.org/programmes/find-an-ib-school/",
