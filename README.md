@@ -89,8 +89,18 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
+- `npm run build:netlify`: create the Nitro-powered Netlify build
+- `npm test`: build the site and verify the homepage, country route, and data export
 - `npm run db:generate`: generate Drizzle migrations after schema changes
+
+## Netlify
+
+The project keeps its existing Sites/Cloudflare build and uses a separate Nitro
+path on Netlify. The checked-in `netlify.toml` runs `npm run build:netlify`,
+publishes `dist`, and skips Netlify's standard Next.js adapter because Vinext is
+providing the application runtime. Netlify sets its platform environment
+automatically; local parity checks can set `NETLIFY=true` and
+`NITRO_PRESET=netlify` before running the Netlify build command.
 
 ## Learn More
 
