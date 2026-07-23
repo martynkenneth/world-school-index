@@ -1,7 +1,1559 @@
 {
-  "generatedOn": "2026-07-22",
+  "schemaVersion": "2.0",
+  "generatedOn": "2026-07-23",
   "country": "Vietnam",
   "recordCount": 22,
+  "coverage": {
+    "name": "Vietnam",
+    "slug": "vietnam",
+    "code": "VN",
+    "region": "Southeast Asia",
+    "stage": "published",
+    "stageLabel": "Published · expanding",
+    "nextStep": "Complete the national candidate inventory and secondary-city review.",
+    "wave": 0
+  },
+  "entities": {
+    "schools": [
+      {
+        "id": "school:vn:united-nations-international-school-hanoi",
+        "canonicalName": "United Nations International School of Hanoi",
+        "shortName": "UNIS Hanoi",
+        "slug": "united-nations-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1988
+      },
+      {
+        "id": "school:vn:british-international-school-hanoi",
+        "canonicalName": "British International School Hanoi",
+        "shortName": "BIS Hanoi",
+        "slug": "british-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:british-vietnamese-international-school-hanoi",
+        "canonicalName": "British Vietnamese International School Hanoi",
+        "shortName": "BVIS Hanoi",
+        "slug": "british-vietnamese-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:concordia-international-school-hanoi",
+        "canonicalName": "Concordia International School Hanoi",
+        "shortName": "Concordia Hanoi",
+        "slug": "concordia-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not-for-profit"
+      },
+      {
+        "id": "school:vn:hanoi-international-school",
+        "canonicalName": "Hanoi International School",
+        "shortName": "HIS",
+        "slug": "hanoi-international-school",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:international-school-ho-chi-minh-city",
+        "canonicalName": "International School Ho Chi Minh City",
+        "shortName": "ISHCMC",
+        "slug": "international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 1993
+      },
+      {
+        "id": "school:vn:saigon-south-international-school",
+        "canonicalName": "Saigon South International School",
+        "shortName": "SSIS",
+        "slug": "saigon-south-international-school",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1997
+      },
+      {
+        "id": "school:vn:british-international-school-ho-chi-minh-city",
+        "canonicalName": "British International School Ho Chi Minh City",
+        "shortName": "BIS HCMC",
+        "slug": "british-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:european-international-school-ho-chi-minh-city",
+        "canonicalName": "European International School Ho Chi Minh City",
+        "shortName": "EIS HCMC",
+        "slug": "european-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:australian-international-school-vietnam",
+        "canonicalName": "Australian International School Vietnam",
+        "shortName": "AIS Vietnam",
+        "slug": "australian-international-school-vietnam",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:singapore-international-school-da-nang",
+        "canonicalName": "Singapore International School @ Da Nang",
+        "shortName": "SIS Da Nang",
+        "slug": "singapore-international-school-da-nang",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:st-nicholas-school-da-nang",
+        "canonicalName": "St. Nicholas School",
+        "shortName": "SNS Da Nang",
+        "slug": "st-nicholas-school-da-nang",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:st-paul-american-school-hanoi",
+        "canonicalName": "St. Paul American School Hanoi",
+        "shortName": "St. Paul Hanoi",
+        "slug": "st-paul-american-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "canonicalName": "Lycée Français Alexandre Yersin",
+        "shortName": "LFAY",
+        "slug": "lycee-francais-alexandre-yersin-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "AEFE network school",
+        "founded": 1982
+      },
+      {
+        "id": "school:vn:renaissance-international-school-saigon",
+        "canonicalName": "Renaissance International School Saigon",
+        "shortName": "Renaissance Saigon",
+        "slug": "renaissance-international-school-saigon",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:canadian-international-school-vietnam",
+        "canonicalName": "Canadian International School Vietnam",
+        "shortName": "CIS Vietnam",
+        "slug": "canadian-international-school-vietnam",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:abc-international-school-ho-chi-minh-city",
+        "canonicalName": "The ABC International School",
+        "shortName": "ABCIS",
+        "slug": "abc-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent",
+        "founded": 1995
+      },
+      {
+        "id": "school:vn:ishcmc-american-academy",
+        "canonicalName": "International School Ho Chi Minh City – American Academy",
+        "shortName": "ISHCMC-AA",
+        "slug": "ishcmc-american-academy",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group"
+      },
+      {
+        "id": "school:vn:the-american-school-ho-chi-minh-city",
+        "canonicalName": "The American School",
+        "shortName": "TAS",
+        "slug": "the-american-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:lycee-francais-international-marguerite-duras",
+        "canonicalName": "Lycée Français International Marguerite Duras",
+        "shortName": "LFI Duras",
+        "slug": "lycee-francais-international-marguerite-duras",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "AEFE network school"
+      },
+      {
+        "id": "school:vn:apu-american-international-school-da-nang",
+        "canonicalName": "APU American International School – Da Nang",
+        "shortName": "APU Da Nang",
+        "slug": "apu-american-international-school-da-nang",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2015
+      },
+      {
+        "id": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "canonicalName": "APU American International School – Ho Chi Minh City",
+        "shortName": "APU HCMC",
+        "slug": "apu-american-international-school-ho-chi-minh-city",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Independent school group",
+        "founded": 2004
+      }
+    ],
+    "campuses": [
+      {
+        "id": "campus:vn:united-nations-international-school-hanoi:main",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "name": "UNIS Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:british-international-school-hanoi:main",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "name": "BIS Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "name": "BVIS Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:concordia-international-school-hanoi:main",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "name": "Concordia Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:hanoi-international-school:main",
+        "schoolId": "school:vn:hanoi-international-school",
+        "name": "HIS main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "name": "ISHCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:saigon-south-international-school:main",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "name": "SSIS main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "name": "BIS HCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "name": "EIS HCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:australian-international-school-vietnam:main",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "name": "AIS Vietnam main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:vn:singapore-international-school-da-nang:main",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "name": "SIS Da Nang main campus",
+        "countryCode": "VN",
+        "city": "Da Nang",
+        "citySlug": "da-nang",
+        "region": "Central Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:st-nicholas-school-da-nang:main",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "name": "SNS Da Nang main campus",
+        "countryCode": "VN",
+        "city": "Da Nang",
+        "citySlug": "da-nang",
+        "region": "Central Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:st-paul-american-school-hanoi:main",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "name": "St. Paul Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:lycee-francais-alexandre-yersin-hanoi:main",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "name": "LFAY main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:renaissance-international-school-saigon:main",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "name": "Renaissance Saigon main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:canadian-international-school-vietnam:main",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "name": "CIS Vietnam main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "name": "ABCIS main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:ishcmc-american-academy:main",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "name": "ISHCMC-AA main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "name": "TAS main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:vn:lycee-francais-international-marguerite-duras:main",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "name": "LFI Duras main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:apu-american-international-school-da-nang:main",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "name": "APU Da Nang main campus",
+        "countryCode": "VN",
+        "city": "Da Nang",
+        "citySlug": "da-nang",
+        "region": "Central Vietnam",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:vn:apu-american-international-school-ho-chi-minh-city:main",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "name": "APU HCMC main campus",
+        "countryCode": "VN",
+        "city": "Ho Chi Minh City",
+        "citySlug": "ho-chi-minh-city",
+        "region": "Southern Vietnam",
+        "campusType": "day-and-boarding"
+      }
+    ],
+    "programmes": [
+      {
+        "id": "programme:vn:united-nations-international-school-hanoi:1",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "campusId": "campus:vn:united-nations-international-school-hanoi:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:united-nations-international-school-hanoi:2",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "campusId": "campus:vn:united-nations-international-school-hanoi:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:united-nations-international-school-hanoi:3",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "campusId": "campus:vn:united-nations-international-school-hanoi:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-hanoi:1",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "campusId": "campus:vn:british-international-school-hanoi:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:vn:british-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-hanoi:2",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "campusId": "campus:vn:british-international-school-hanoi:main",
+        "programme": "IGCSE",
+        "sourceId": "source:vn:british-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-hanoi:3",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "campusId": "campus:vn:british-international-school-hanoi:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:british-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-vietnamese-international-school-hanoi:1",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "campusId": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "programme": "British",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-vietnamese-international-school-hanoi:2",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "campusId": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:british-vietnamese-international-school-hanoi:3",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "campusId": "campus:vn:british-vietnamese-international-school-hanoi:main",
+        "programme": "A Levels",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:concordia-international-school-hanoi:1",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "campusId": "campus:vn:concordia-international-school-hanoi:main",
+        "programme": "American",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:concordia-international-school-hanoi:2",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "campusId": "campus:vn:concordia-international-school-hanoi:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:hanoi-international-school:1",
+        "schoolId": "school:vn:hanoi-international-school",
+        "campusId": "campus:vn:hanoi-international-school:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:hanoi-international-school:2",
+        "schoolId": "school:vn:hanoi-international-school",
+        "campusId": "campus:vn:hanoi-international-school:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:hanoi-international-school:3",
+        "schoolId": "school:vn:hanoi-international-school",
+        "campusId": "campus:vn:hanoi-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:international-school-ho-chi-minh-city:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:international-school-ho-chi-minh-city:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:international-school-ho-chi-minh-city:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:saigon-south-international-school:1",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "campusId": "campus:vn:saigon-south-international-school:main",
+        "programme": "American",
+        "sourceId": "source:vn:saigon-south-international-school:official"
+      },
+      {
+        "id": "programme:vn:saigon-south-international-school:2",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "campusId": "campus:vn:saigon-south-international-school:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:saigon-south-international-school:official"
+      },
+      {
+        "id": "programme:vn:saigon-south-international-school:3",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "campusId": "campus:vn:saigon-south-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:saigon-south-international-school:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "programme": "IGCSE",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:british-international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:british-international-school-ho-chi-minh-city:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:european-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:european-international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:european-international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:european-international-school-ho-chi-minh-city:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:1",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:2",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:3",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "IGCSE",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:australian-international-school-vietnam:4",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "campusId": "campus:vn:australian-international-school-vietnam:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:australian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-da-nang:1",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "campusId": "campus:vn:singapore-international-school-da-nang:main",
+        "programme": "Singapore",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-da-nang:2",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "campusId": "campus:vn:singapore-international-school-da-nang:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-da-nang:3",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "campusId": "campus:vn:singapore-international-school-da-nang:main",
+        "programme": "A Levels",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:st-nicholas-school-da-nang:1",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "campusId": "campus:vn:st-nicholas-school-da-nang:main",
+        "programme": "American Common Core",
+        "sourceId": "source:vn:st-nicholas-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:st-nicholas-school-da-nang:2",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "campusId": "campus:vn:st-nicholas-school-da-nang:main",
+        "programme": "Vietnamese National Curriculum",
+        "sourceId": "source:vn:st-nicholas-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:st-paul-american-school-hanoi:1",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "campusId": "campus:vn:st-paul-american-school-hanoi:main",
+        "programme": "American",
+        "sourceId": "source:vn:st-paul-american-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:st-paul-american-school-hanoi:2",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "campusId": "campus:vn:st-paul-american-school-hanoi:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:st-paul-american-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-alexandre-yersin-hanoi:1",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "campusId": "campus:vn:lycee-francais-alexandre-yersin-hanoi:main",
+        "programme": "French National Curriculum",
+        "sourceId": "source:vn:lycee-francais-alexandre-yersin-hanoi:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-alexandre-yersin-hanoi:2",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "campusId": "campus:vn:lycee-francais-alexandre-yersin-hanoi:main",
+        "programme": "French Baccalauréat",
+        "sourceId": "source:vn:lycee-francais-alexandre-yersin-hanoi:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:1",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:2",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "IB MYP",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:3",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:renaissance-international-school-saigon:4",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "campusId": "campus:vn:renaissance-international-school-saigon:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official"
+      },
+      {
+        "id": "programme:vn:canadian-international-school-vietnam:1",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "campusId": "campus:vn:canadian-international-school-vietnam:main",
+        "programme": "Ontario Curriculum",
+        "sourceId": "source:vn:canadian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:canadian-international-school-vietnam:2",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "campusId": "campus:vn:canadian-international-school-vietnam:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:vn:canadian-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:abc-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:abc-international-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:abc-international-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:abc-international-school-ho-chi-minh-city:main",
+        "programme": "A Levels",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:ishcmc-american-academy:1",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "campusId": "campus:vn:ishcmc-american-academy:main",
+        "programme": "American",
+        "sourceId": "source:vn:ishcmc-american-academy:official"
+      },
+      {
+        "id": "programme:vn:ishcmc-american-academy:2",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "campusId": "campus:vn:ishcmc-american-academy:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:ishcmc-american-academy:official"
+      },
+      {
+        "id": "programme:vn:the-american-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "campusId": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "programme": "American",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:the-american-school-ho-chi-minh-city:2",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "campusId": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "programme": "IB PYP",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:the-american-school-ho-chi-minh-city:3",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "campusId": "campus:vn:the-american-school-ho-chi-minh-city:main",
+        "programme": "Advanced Placement",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-international-marguerite-duras:1",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "campusId": "campus:vn:lycee-francais-international-marguerite-duras:main",
+        "programme": "French National Curriculum",
+        "sourceId": "source:vn:lycee-francais-international-marguerite-duras:official"
+      },
+      {
+        "id": "programme:vn:lycee-francais-international-marguerite-duras:2",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "campusId": "campus:vn:lycee-francais-international-marguerite-duras:main",
+        "programme": "French Baccalauréat",
+        "sourceId": "source:vn:lycee-francais-international-marguerite-duras:official"
+      },
+      {
+        "id": "programme:vn:apu-american-international-school-da-nang:1",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "campusId": "campus:vn:apu-american-international-school-da-nang:main",
+        "programme": "American",
+        "sourceId": "source:vn:apu-american-international-school-da-nang:official"
+      },
+      {
+        "id": "programme:vn:apu-american-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "campusId": "campus:vn:apu-american-international-school-ho-chi-minh-city:main",
+        "programme": "American",
+        "sourceId": "source:vn:apu-american-international-school-ho-chi-minh-city:official"
+      }
+    ],
+    "accreditations": [
+      {
+        "id": "accreditation:vn:united-nations-international-school-hanoi:1",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:united-nations-international-school-hanoi:2",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:united-nations-international-school-hanoi:3",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "accreditation": "WASC",
+        "sourceId": "source:vn:united-nations-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-international-school-hanoi:1",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:british-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-international-school-hanoi:2",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:british-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-vietnamese-international-school-hanoi:1",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:british-vietnamese-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:concordia-international-school-hanoi:1",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "accreditation": "WASC",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:concordia-international-school-hanoi:2",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "accreditation": "NLSA",
+        "sourceId": "source:vn:concordia-international-school-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:hanoi-international-school:1",
+        "schoolId": "school:vn:hanoi-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:hanoi-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:saigon-south-international-school:1",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:vn:saigon-south-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:saigon-south-international-school:2",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:saigon-south-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:british-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:british-international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:european-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:european-international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:australian-international-school-vietnam:1",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:australian-international-school-vietnam:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:australian-international-school-vietnam:2",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:australian-international-school-vietnam:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:singapore-international-school-da-nang:1",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:singapore-international-school-da-nang:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:lycee-francais-alexandre-yersin-hanoi:1",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "accreditation": "AEFE",
+        "sourceId": "source:vn:lycee-francais-alexandre-yersin-hanoi:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:renaissance-international-school-saigon:1",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:renaissance-international-school-saigon:2",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:renaissance-international-school-saigon:3",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:renaissance-international-school-saigon:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:canadian-international-school-vietnam:1",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "accreditation": "CIS",
+        "sourceId": "source:vn:canadian-international-school-vietnam:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:abc-international-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "accreditation": "Cambridge International",
+        "sourceId": "source:vn:abc-international-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:the-american-school-ho-chi-minh-city:1",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "accreditation": "IB World School",
+        "sourceId": "source:vn:the-american-school-ho-chi-minh-city:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:vn:lycee-francais-international-marguerite-duras:1",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "accreditation": "AEFE",
+        "sourceId": "source:vn:lycee-francais-international-marguerite-duras:official",
+        "status": "recorded"
+      }
+    ],
+    "sources": [
+      {
+        "id": "source:vn:united-nations-international-school-hanoi:official",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "United Nations International School of Hanoi",
+        "url": "https://www.unishanoi.org/about",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:british-international-school-hanoi:official",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "British International School Hanoi",
+        "url": "https://www.nordangliaeducation.com/bis-hanoi/faqs",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:british-vietnamese-international-school-hanoi:official",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "British Vietnamese International School Hanoi",
+        "url": "https://www.nordangliaeducation.com/bvis-hanoi",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:concordia-international-school-hanoi:official",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "Concordia International School Hanoi",
+        "url": "https://www.concordiahanoi.org/explore/who-we-are",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:hanoi-international-school:official",
+        "schoolId": "school:vn:hanoi-international-school",
+        "type": "official-school",
+        "publisher": "Hanoi International School",
+        "url": "https://www.hisvietnam.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "International School Ho Chi Minh City",
+        "url": "https://www.ishcmc.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:saigon-south-international-school:official",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "type": "official-school",
+        "publisher": "Saigon South International School",
+        "url": "https://www.ssis.edu.vn/our-school",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:british-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "British International School Ho Chi Minh City",
+        "url": "https://www.nordangliaeducation.com/bis-hcmc/academic-excellence/ks3",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:european-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "European International School Ho Chi Minh City",
+        "url": "https://www.eishcmc.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:australian-international-school-vietnam:official",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "type": "official-school",
+        "publisher": "Australian International School Vietnam",
+        "url": "https://www.aisvietnam.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:singapore-international-school-da-nang:official",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "type": "official-school",
+        "publisher": "Singapore International School @ Da Nang",
+        "url": "https://danang.sis.edu.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:st-nicholas-school-da-nang:official",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "type": "official-school",
+        "publisher": "St. Nicholas School",
+        "url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:st-paul-american-school-hanoi:official",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "type": "official-school",
+        "publisher": "St. Paul American School Hanoi",
+        "url": "https://stpaulhanoi.com/learn/middle-school-and-high-school/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:lycee-francais-alexandre-yersin-hanoi:official",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "type": "official-school",
+        "publisher": "Lycée Français Alexandre Yersin",
+        "url": "https://lfay.com.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:renaissance-international-school-saigon:official",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "type": "official-school",
+        "publisher": "Renaissance International School Saigon",
+        "url": "https://renaissance.edu.vn/curriculum/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:canadian-international-school-vietnam:official",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "type": "official-school",
+        "publisher": "Canadian International School Vietnam",
+        "url": "https://www.cis.edu.vn/en/admissions/faqs",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:abc-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "The ABC International School",
+        "url": "https://www.theabcis.com/about-us/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:ishcmc-american-academy:official",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "type": "official-school",
+        "publisher": "International School Ho Chi Minh City – American Academy",
+        "url": "https://www.aavn.edu.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:the-american-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "The American School",
+        "url": "https://www.tas.edu.vn/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:lycee-francais-international-marguerite-duras:official",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "type": "official-school",
+        "publisher": "Lycée Français International Marguerite Duras",
+        "url": "https://lfiduras.com/",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:apu-american-international-school-da-nang:official",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "type": "official-school",
+        "publisher": "APU American International School – Da Nang",
+        "url": "https://www.apu.edu.vn/welcome",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:apu-american-international-school-ho-chi-minh-city:official",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "type": "official-school",
+        "publisher": "APU American International School – Ho Chi Minh City",
+        "url": "https://www.apu.edu.vn/welcome",
+        "observedOn": "2026-07-22",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      }
+    ],
+    "verifications": [
+      {
+        "id": "verification:vn:united-nations-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:united-nations-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:united-nations-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:british-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:british-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:british-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:british-vietnamese-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:british-vietnamese-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:british-vietnamese-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:concordia-international-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:concordia-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:concordia-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:hanoi-international-school:2026-07-22",
+        "schoolId": "school:vn:hanoi-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:hanoi-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:vn:international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:saigon-south-international-school:2026-07-22",
+        "schoolId": "school:vn:saigon-south-international-school",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:saigon-south-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:vn:british-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:british-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:british-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:european-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:european-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:european-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:australian-international-school-vietnam:2026-07-22",
+        "schoolId": "school:vn:australian-international-school-vietnam",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:australian-international-school-vietnam:official"
+        ]
+      },
+      {
+        "id": "verification:vn:singapore-international-school-da-nang:2026-07-22",
+        "schoolId": "school:vn:singapore-international-school-da-nang",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:singapore-international-school-da-nang:official"
+        ]
+      },
+      {
+        "id": "verification:vn:st-nicholas-school-da-nang:2026-07-22",
+        "schoolId": "school:vn:st-nicholas-school-da-nang",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:st-nicholas-school-da-nang:official"
+        ]
+      },
+      {
+        "id": "verification:vn:st-paul-american-school-hanoi:2026-07-22",
+        "schoolId": "school:vn:st-paul-american-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:st-paul-american-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:lycee-francais-alexandre-yersin-hanoi:2026-07-22",
+        "schoolId": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:lycee-francais-alexandre-yersin-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:renaissance-international-school-saigon:2026-07-22",
+        "schoolId": "school:vn:renaissance-international-school-saigon",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:renaissance-international-school-saigon:official"
+        ]
+      },
+      {
+        "id": "verification:vn:canadian-international-school-vietnam:2026-07-22",
+        "schoolId": "school:vn:canadian-international-school-vietnam",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:canadian-international-school-vietnam:official"
+        ]
+      },
+      {
+        "id": "verification:vn:abc-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:abc-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:abc-international-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:ishcmc-american-academy:2026-07-22",
+        "schoolId": "school:vn:ishcmc-american-academy",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:ishcmc-american-academy:official"
+        ]
+      },
+      {
+        "id": "verification:vn:the-american-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:the-american-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:the-american-school-ho-chi-minh-city:official"
+        ]
+      },
+      {
+        "id": "verification:vn:lycee-francais-international-marguerite-duras:2026-07-22",
+        "schoolId": "school:vn:lycee-francais-international-marguerite-duras",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:lycee-francais-international-marguerite-duras:official"
+        ]
+      },
+      {
+        "id": "verification:vn:apu-american-international-school-da-nang:2026-07-22",
+        "schoolId": "school:vn:apu-american-international-school-da-nang",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:apu-american-international-school-da-nang:official"
+        ]
+      },
+      {
+        "id": "verification:vn:apu-american-international-school-ho-chi-minh-city:2026-07-22",
+        "schoolId": "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "level": "core",
+        "verifiedOn": "2026-07-22",
+        "sourceIds": [
+          "source:vn:apu-american-international-school-ho-chi-minh-city:official"
+        ]
+      }
+    ]
+  },
   "records": [
     {
       "name": "United Nations International School of Hanoi",

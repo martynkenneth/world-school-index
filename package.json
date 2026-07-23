@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "vinext build",
+    "build": "npm run data:export && vinext build",
     "start": "vinext start",
     "data:export": "node --experimental-strip-types scripts/export-data.mjs",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",

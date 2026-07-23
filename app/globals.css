@@ -77,6 +77,27 @@ nav a:hover { color: var(--forest-2); }
 .country-card dt { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
 .country-card dd { margin: 3px 0 0; font: 500 28px Georgia, serif; }
 .country-arrow { font-size: 30px; }
+.coverage-board { border: 1px solid var(--line); background: var(--white); }
+.coverage-summary { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--forest); color: white; }
+.coverage-summary div { padding: 24px 28px; border-right: 1px solid rgba(255,255,255,.14); display: flex; align-items: baseline; gap: 10px; }
+.coverage-summary div:last-child { border-right: 0; }
+.coverage-summary strong { font: 500 32px Georgia, serif; color: var(--gold); }
+.coverage-summary span { color: #c5d9cf; font-size: 12px; }
+.roadmap-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.roadmap-country { min-height: 230px; padding: 26px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 48px 1fr; gap: 16px; position: relative; }
+.roadmap-country:nth-child(3n) { border-right: 0; }
+.roadmap-country:nth-last-child(-n+2) { border-bottom: 0; }
+.roadmap-country.live { grid-template-columns: 48px 1fr 24px; background: #f1f6f1; }
+.roadmap-country.live:hover { background: #e8f1e9; }
+.roadmap-code { width: 42px; height: 42px; border: 1px solid #bdc8c1; display: grid; place-items: center; border-radius: 50%; font: 700 11px var(--font-geist-mono), monospace; }
+.roadmap-country h3 { font-size: 25px; margin: 7px 0 8px; }
+.roadmap-country p { color: var(--muted); font-size: 12px; line-height: 1.55; margin: 0; }
+.roadmap-country small { display: block; margin-top: 14px; color: var(--forest-2); font-weight: 700; }
+.roadmap-status { font: 700 9px var(--font-geist-mono), monospace; letter-spacing: .08em; text-transform: uppercase; }
+.roadmap-status.published { color: #13815e; }
+.roadmap-status.research { color: #9a650a; }
+.roadmap-status.queued { color: #7b8580; }
+.roadmap-country .country-arrow { align-self: center; font-size: 22px; }
 .warm-section { background: var(--warm); }
 
 .school-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
@@ -189,7 +210,10 @@ nav a:hover { color: var(--forest-2); }
   .hero-grid, .principles, .record-layout, .school-title-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 54px; }
   .coverage-card { max-width: 420px; }
-  .school-grid { grid-template-columns: repeat(2, 1fr); }
+  .school-grid, .roadmap-grid { grid-template-columns: repeat(2, 1fr); }
+  .roadmap-country:nth-child(3n) { border-right: 1px solid var(--line); }
+  .roadmap-country:nth-child(2n) { border-right: 0; }
+  .roadmap-country:nth-last-child(-n+2) { border-bottom: 0; }
   .country-card { grid-template-columns: 86px 1fr 34px; }
   .country-card dl { display: none; }
   .split-heading { align-items: start; flex-direction: column; gap: 22px; }
@@ -205,7 +229,11 @@ nav a:hover { color: var(--forest-2); }
   nav { gap: 15px; font-size: 12px; }
   .home-hero { padding: 72px 0 68px; }
   h1 { font-size: 48px; }
-  .school-grid, .city-strip, .filters, .footer-grid, .nearby-links { grid-template-columns: 1fr; }
+  .school-grid, .city-strip, .filters, .footer-grid, .nearby-links, .roadmap-grid, .coverage-summary { grid-template-columns: 1fr; }
+  .coverage-summary div { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.14); }
+  .coverage-summary div:last-child { border-bottom: 0; }
+  .roadmap-country, .roadmap-country:nth-child(2n), .roadmap-country:nth-child(3n), .roadmap-country:nth-last-child(-n+2) { border-right: 0; border-bottom: 1px solid var(--line); }
+  .roadmap-country:last-child { border-bottom: 0; }
   .school-card { min-height: auto; }
   .city-strip a { border-right: 0; border-bottom: 1px solid var(--line); }
   .city-strip a:last-child { border-bottom: 0; }

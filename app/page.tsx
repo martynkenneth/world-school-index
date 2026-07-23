@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SchoolCard } from "@/components/SchoolCard";
+import { countryCoverage, coverageSummary } from "@/data/coverage";
 import { countries, schools } from "@/data/schools";
 
 const featured = schools.filter((school) => school.featured).slice(0, 3);
@@ -32,30 +33,48 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section shell country-launch">
+      <section className="section shell country-launch" id="country-roadmap">
         <div className="section-heading split-heading">
           <div>
-            <span className="eyebrow">Country index</span>
-            <h2>Starting with Vietnam</h2>
+            <span className="eyebrow">Global coverage roadmap</span>
+            <h2>Vietnam first. Southeast Asia next.</h2>
           </div>
           <p>
-            Each country collection uses the same structured record, making the directory
-            straightforward to extend without sacrificing quality.
+            Every country moves through the same research, verification, and publication
+            stages. Future countries remain clearly labelled until records meet the minimum standard.
           </p>
         </div>
-        <Link className="country-card" href="/countries/vietnam">
-          <div className="country-code">VN</div>
-          <div>
-            <span className="status-dot">Live collection</span>
-            <h3>Vietnam</h3>
-            <p>Hanoi · Ho Chi Minh City · Da Nang</p>
+        <div className="coverage-board" aria-label="Southeast Asia coverage progress">
+          <div className="coverage-summary">
+            <div><strong>{coverageSummary.published}</strong><span>country published</span></div>
+            <div><strong>{coverageSummary.researching}</strong><span>countries in research</span></div>
+            <div><strong>{coverageSummary.queued}</strong><span>countries queued</span></div>
           </div>
-          <dl>
-            <div><dt>Schools</dt><dd>{countries[0].schoolCount}</dd></div>
-            <div><dt>Cities</dt><dd>{countries[0].cityCount}</dd></div>
-          </dl>
-          <span className="country-arrow">→</span>
-        </Link>
+          <div className="roadmap-grid">
+            {countryCoverage.map((country) => {
+              const content = (
+                <>
+                  <div className="roadmap-code">{country.code}</div>
+                  <div>
+                    <span className={`roadmap-status ${country.stage}`}>{country.stageLabel}</span>
+                    <h3>{country.name}</h3>
+                    <p>{country.nextStep}</p>
+                    {country.code === "VN" && (
+                      <small>{countries[0].schoolCount} records · {countries[0].cityCount} cities</small>
+                    )}
+                  </div>
+                </>
+              );
+              return country.stage === "published" ? (
+                <Link className="roadmap-country live" href={`/countries/${country.slug}`} key={country.code}>
+                  {content}<span className="country-arrow">→</span>
+                </Link>
+              ) : (
+                <article className="roadmap-country" key={country.code}>{content}</article>
+              );
+            })}
+          </div>
+        </div>
       </section>
 
       <section className="section warm-section">

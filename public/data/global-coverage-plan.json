@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.0",
+  "generatedOn": "2026-07-23",
+  "countries": [
+    {
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "code": "VN",
+      "region": "Southeast Asia",
+      "stage": "published",
+      "stageLabel": "Published · expanding",
+      "nextStep": "Complete the national candidate inventory and secondary-city review.",
+      "wave": 0
+    },
+    {
+      "name": "Thailand",
+      "slug": "thailand",
+      "code": "TH",
+      "region": "Southeast Asia",
+      "stage": "research",
+      "stageLabel": "Research next",
+      "nextStep": "Build Bangkok, Chiang Mai, Phuket and regional candidate lists.",
+      "wave": 1
+    },
+    {
+      "name": "Singapore",
+      "slug": "singapore",
+      "code": "SG",
+      "region": "Southeast Asia",
+      "stage": "research",
+      "stageLabel": "Research next",
+      "nextStep": "Reconcile regulator, curriculum and accreditation directories.",
+      "wave": 1
+    },
+    {
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "code": "MY",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and city coverage map.",
+      "wave": 2
+    },
+    {
+      "name": "Cambodia",
+      "slug": "cambodia",
+      "code": "KH",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and city coverage map.",
+      "wave": 2
+    },
+    {
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "code": "ID",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and city coverage map.",
+      "wave": 2
+    },
+    {
+      "name": "Philippines",
+      "slug": "philippines",
+      "code": "PH",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and city coverage map.",
+      "wave": 2
+    },
+    {
+      "name": "Brunei",
+      "slug": "brunei",
+      "code": "BN",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and candidate inventory.",
+      "wave": 3
+    },
+    {
+      "name": "Laos",
+      "slug": "laos",
+      "code": "LA",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and candidate inventory.",
+      "wave": 3
+    },
+    {
+      "name": "Myanmar",
+      "slug": "myanmar",
+      "code": "MM",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and candidate inventory.",
+      "wave": 3
+    },
+    {
+      "name": "Timor-Leste",
+      "slug": "timor-leste",
+      "code": "TL",
+      "region": "Southeast Asia",
+      "stage": "queued",
+      "stageLabel": "Queued",
+      "nextStep": "Prepare source registry and candidate inventory.",
+      "wave": 3
+    }
+  ],
+  "sourceRegistry": [
+    {
+      "id": "ib-world-schools",
+      "name": "International Baccalaureate World School directory",
+      "url": "https://www.ibo.org/programmes/find-an-ib-school/",
+      "authority": "curriculum",
+      "geographicScope": "Global",
+      "useFor": [
+        "candidate discovery",
+        "programme authorization"
+      ],
+      "reviewCadenceDays": 180
+    },
+    {
+      "id": "cambridge-schools",
+      "name": "Cambridge International school directory",
+      "url": "https://www.cambridgeinternational.org/why-choose-us/find-a-cambridge-school/",
+      "authority": "curriculum",
+      "geographicScope": "Global",
+      "useFor": [
+        "candidate discovery",
+        "programme registration"
+      ],
+      "reviewCadenceDays": 180
+    },
+    {
+      "id": "cis-members",
+      "name": "Council of International Schools membership directory",
+      "url": "https://www.cois.org/header-portals-microsite-membership-directory",
+      "authority": "association",
+      "geographicScope": "Global",
+      "useFor": [
+        "candidate discovery",
+        "membership verification"
+      ],
+      "reviewCadenceDays": 180
+    },
+    {
+      "id": "cobis-members",
+      "name": "Council of British International Schools directory",
+      "url": "https://www.cobis.org.uk/our-network/search-for-cobis-members/cobis-school-search",
+      "authority": "association",
+      "geographicScope": "Global",
+      "useFor": [
+        "candidate discovery",
+        "membership verification"
+      ],
+      "reviewCadenceDays": 180
+    },
+    {
+      "id": "neasc-schools",
+      "name": "NEASC directory of accredited and candidate schools",
+      "url": "https://www.neasc.org/school-directory",
+      "authority": "accreditor",
+      "geographicScope": "Global",
+      "useFor": [
+        "candidate discovery",
+        "accreditation verification"
+      ],
+      "reviewCadenceDays": 180
+    },
+    {
+      "id": "wasc-schools",
+      "name": "Accrediting Commission for Schools, WASC",
+      "url": "https://acswasc.org/",
+      "authority": "accreditor",
+      "geographicScope": "Global",
+      "useFor": [
+        "accreditation verification"
+      ],
+      "reviewCadenceDays": 180
+    },
+    {
+      "id": "uk-bso",
+      "name": "UK Government British Schools Overseas register",
+      "url": "https://www.gov.uk/government/publications/british-schools-overseas-inspection-reports",
+      "authority": "government",
+      "geographicScope": "Global",
+      "useFor": [
+        "candidate discovery",
+        "inspection and registration verification"
+      ],
+      "reviewCadenceDays": 90
+    }
+  ]
+}
