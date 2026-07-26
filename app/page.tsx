@@ -39,7 +39,7 @@ export default function Home() {
             <div className="coverage-orbit" aria-hidden="true"><span>VN</span></div>
             <span className="eyebrow">Coverage now</span>
             <strong>{schools.length}</strong>
-            <p>source-checked school records across {totalCities} cities in {countries.length} countries</p>
+            <p>official-source-linked profiles across {totalCities} cities in {countries.length} countries</p>
             <div className="coverage-progress"><span /></div>
             <small>Vietnam + Thailand · Collections expanding</small>
           </div>
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
         <div className="principle-grid">
           <article><span>01</span><h3>Source-led</h3><p>Every school record links back to an official source.</p></article>
-          <article><span>02</span><h3>Date-stamped</h3><p>Verification dates make stale information easier to spot.</p></article>
+          <article><span>02</span><h3>Status-labelled</h3><p>Each profile distinguishes provisional facts from evidence-backed claims.</p></article>
           <article><span>03</span><h3>Globally consistent</h3><p>The same core fields will work for every country and city.</p></article>
         </div>
       </section>

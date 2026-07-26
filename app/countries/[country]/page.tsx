@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const cityNames = Array.from(new Set(countrySchools.map((school) => school.city)));
   return {
     title: `International Schools in ${countryName} | World School Index`,
-    description: `Explore source-checked international schools across ${cityNames.join(", ")}, ${countryName}.`,
+    description: `Explore official-source-linked international school profiles across ${cityNames.join(", ")}, ${countryName}.`,
   };
 }
 
@@ -35,7 +35,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             accreditations across {countryName}&apos;s main international-school hubs.
           </p>
           <div className="country-stats">
-            <div><strong>{countrySchools.length}</strong><span>source-checked records</span></div>
+            <div><strong>{countrySchools.length}</strong><span>school profiles</span></div>
             <div><strong>{cities.length}</strong><span>cities covered</span></div>
             <div><strong>100%</strong><span>official-source links</span></div>
           </div>
@@ -52,8 +52,9 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
         <div className="coverage-note">
           <strong>Coverage note</strong>
           <p>
-            This expanding collection prioritises schools with a current official website and
-            published curriculum information. It is not yet a claim of national completeness.
+            Provisional profiles display useful directory facts while field-level evidence is
+            collected. Their status is shown on every card and record; this is not yet a claim
+            of national completeness.
           </p>
         </div>
         <DirectoryExplorer schools={countrySchools} />

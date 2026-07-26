@@ -105,6 +105,33 @@ test("renders the Thailand country directory and a Thailand school record", asyn
   const schoolHtml = await schoolResponse.text();
   assert.match(schoolHtml, /International School Bangkok/);
   assert.match(schoolHtml, /Nonthaburi[\s\S]*Thailand/);
-  assert.match(schoolHtml, /addressCountry":"TH/);
+  assert.match(schoolHtml, /Provisional school profile/);
+  assert.match(schoolHtml, /Evidence capture pending/);
+  assert.doesNotMatch(schoolHtml, /application\/ld\+json/);
   assert.match(schoolHtml, /name="robots" content="noindex,\s*follow"/);
+});
+
+test("publishes directory hubs and a clear data disclaimer", async () => {
+  const [homeResponse, disclaimerResponse] = await Promise.all([
+    render("/"),
+    render("/disclaimer"),
+  ]);
+  const homeHtml = await homeResponse.text();
+  const disclaimerHtml = await disclaimerResponse.text();
+
+  assert.match(homeHtml, /name="robots" content="index,\s*follow"/);
+  assert.match(homeHtml, /official-source-linked profiles/);
+  assert.match(disclaimerHtml, /Use the directory as a starting point/);
+  assert.match(disclaimerHtml, /Always confirm important details directly with the school/);
+});
+
+test("shows evidence progress without indexing a below-gate strict record", async () => {
+  const response = await render("/schools/united-nations-international-school-hanoi");
+  const html = await response.text();
+
+  assert.match(html, /7\/12/);
+  assert.match(html, /Evidence-backed/);
+  assert.match(html, /Open conflicts[\s\S]*2/);
+  assert.match(html, /application\/ld\+json/);
+  assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });

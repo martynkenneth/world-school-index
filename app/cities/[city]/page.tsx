@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
   if (!citySchools.length) return {};
   return {
     title: `International Schools in ${citySchools[0].city} | World School Index`,
-    description: `Explore source-checked international schools in ${citySchools[0].city}, ${citySchools[0].country}.`,
+    description: `Explore official-source-linked international school profiles in ${citySchools[0].city}, ${citySchools[0].country}.`,
   };
 }
 
@@ -29,7 +29,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
           <div className="breadcrumbs"><Link href="/">World</Link><span>/</span><Link href={`/countries/${countrySlug}`}>{countryName}</Link><span>/</span><span>{cityName}</span></div>
           <span className="eyebrow light">City directory</span>
           <h1>International schools in {cityName}</h1>
-          <p>{citySchools.length} source-checked records in the current collection.</p>
+          <p>{citySchools.length} official-source-linked profiles in the current collection.</p>
         </div>
       </section>
       <section className="section shell">

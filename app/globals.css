@@ -106,6 +106,8 @@ nav a:hover { color: var(--forest-2); }
 .card-topline { display: flex; align-items: center; justify-content: space-between; }
 .school-monogram { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; background: var(--mint); color: var(--forest); font: 700 12px var(--font-geist-mono), monospace; }
 .verified-pill { font-size: 10px; font-weight: 700; color: var(--forest-2); background: #edf6f0; padding: 6px 8px; border-radius: 999px; }
+.verified-pill.provisional { color: #765313; background: #fff3d7; }
+.verified-pill.reviewed { color: var(--forest-2); background: #dff1e7; }
 .location-line { margin: 24px 0 8px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
 .location-line a { color: var(--forest-2); font-weight: 700; }
 .school-card h3 a:hover { color: var(--forest-2); }
@@ -175,7 +177,12 @@ nav a:hover { color: var(--forest-2); }
 .fact-table { border-top: 1px solid var(--line); margin: 0; }
 .fact-table div { display: grid; grid-template-columns: 190px 1fr; padding: 17px 0; border-bottom: 1px solid var(--line); }
 .fact-table dt { color: var(--muted); font-size: 13px; }
-.fact-table dd { margin: 0; font-weight: 600; }
+.fact-table dd { margin: 0; font-weight: 600; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.fact-state { flex: 0 0 auto; padding: 5px 8px; border-radius: 999px; font-size: 9px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+.fact-state.evidence-backed { color: #0b694c; background: #dff1e7; }
+.fact-state.pending { color: #765313; background: #fff3d7; }
+.fact-state.conflict { color: #8b2e2e; background: #f9dfdf; }
+.section-verification { display: flex; justify-content: flex-end; margin: -18px 0 12px; }
 .large-tags .tag { padding: 9px 12px; font-size: 13px; }
 .accreditation-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
 .accreditation-list span { background: var(--mint); color: var(--forest); padding: 10px 13px; font-size: 13px; font-weight: 700; }
@@ -188,6 +195,7 @@ nav a:hover { color: var(--forest-2); }
 .source-panel dt { color: var(--muted); }
 .source-panel dd { margin: 0; font-weight: 700; text-align: right; }
 .source-panel > small { display: block; color: var(--muted); line-height: 1.5; margin-top: 20px; }
+.disclaimer-link { display: inline-block; margin-top: 16px; color: var(--forest-2); font-size: 12px; font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
 .nearby-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 .nearby-links a { border: 1px solid var(--line); padding: 16px; background: var(--white); }
 .nearby-links strong, .nearby-links span { display: block; }
@@ -198,13 +206,16 @@ nav a:hover { color: var(--forest-2); }
 .prose-page h2:first-child { margin-top: 0; }
 .prose-page p, .prose-page li { color: #4f5e58; }
 .prose-page li { margin: 10px 0; line-height: 1.6; }
-.method-cta { margin-top: 48px; }
+.method-cta { margin-top: 48px; display: flex; gap: 12px; flex-wrap: wrap; }
+.disclaimer-callout { padding: 24px 26px; background: #fff3d7; border-left: 4px solid var(--gold); }
+.disclaimer-callout strong { font-size: 18px; }
+.disclaimer-callout p { margin: 6px 0 0; }
 
 .site-footer { background: #0b2d26; color: white; padding: 70px 0; }
 .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; }
 .site-footer h2 { font-size: 40px; margin-top: 12px; }
 .site-footer p { color: #b8d0c4; margin-top: 0; }
-.footer-links { display: flex; gap: 22px; margin-top: 24px; font-size: 13px; font-weight: 700; color: var(--gold); }
+.footer-links { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 24px; font-size: 13px; font-weight: 700; color: var(--gold); }
 
 @media (max-width: 900px) {
   .hero-grid, .principles, .record-layout, .school-title-grid { grid-template-columns: 1fr; }
@@ -247,6 +258,7 @@ nav a:hover { color: var(--forest-2); }
   .principle-grid { grid-template-columns: 1fr; }
   .principle-grid article { border-right: 0; border-bottom: 1px solid var(--line); }
   .fact-table div { grid-template-columns: 115px 1fr; }
+  .fact-table dd { align-items: flex-start; flex-direction: column; gap: 8px; }
   .site-footer { padding: 54px 0; }
   .footer-links { flex-direction: column; }
 }

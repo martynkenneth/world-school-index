@@ -2,15 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { formatVerifiedDate, getSchool, getSchoolsByCity } from "@/data/schools";
+import {
+  getFieldVerificationState,
+  getStrictRecord,
+  getVerificationSummary,
+  type FieldVerificationState,
+} from "@/data/verification";
+
+function FieldState({ state }: { state: FieldVerificationState }) {
+  const labels = {
+    "evidence-backed": "Evidence-backed",
+    conflict: "Conflicting sources",
+    pending: "Evidence capture pending",
+  };
+  return <span className={`fact-state ${state}`}>{labels[state]}</span>;
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const school = getSchool(slug);
   if (!school) return {};
+  const verification = getVerificationSummary(slug);
   return {
     title: `${school.name} | World School Index`,
     description: `${school.name} school record for ${school.city}, ${school.country}.`,
-    robots: school.indexable === true ? { index: true, follow: true } : { index: false, follow: true },
+    robots: verification.indexable ? { index: true, follow: true } : { index: false, follow: true },
   };
 }
 
@@ -18,7 +34,24 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const school = getSchool(slug);
   if (!school) notFound();
+  const verification = getVerificationSummary(slug);
+  const strictRecord = getStrictRecord(slug);
   const nearby = getSchoolsByCity(school.citySlug).filter((item) => item.slug !== school.slug).slice(0, 3);
+  const ageRange = strictRecord?.age_range.min != null && strictRecord.age_range.max != null
+    ? `${strictRecord.age_range.min}-${strictRecord.age_range.max}`
+    : school.ageRange;
+  const language = strictRecord?.languages.instruction.length
+    ? strictRecord.languages.instruction.join(", ")
+    : school.language;
+  const schoolType = strictRecord?.school_type === "non-profit"
+    ? "Not-for-profit international day school"
+    : school.schoolType;
+  const ownership = strictRecord?.school_type === "non-profit" ? "Not-for-profit" : school.ownership;
+  const curricula = strictRecord?.curricula.length ? strictRecord.curricula : school.curricula;
+  const accreditation = strictRecord?.accreditations.length
+    ? strictRecord.accreditations.map((item) => item.body)
+    : school.accreditation;
+  const founded = strictRecord?.founded ?? school.founded;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -29,17 +62,30 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
 
   return (
     <main>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {verification.hasStrictRecord && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
       <section className="school-hero">
         <div className="shell">
           <div className="breadcrumbs"><Link href="/">World</Link><span>/</span><Link href={`/countries/${school.countrySlug}`}>{school.country}</Link><span>/</span><Link href={`/cities/${school.citySlug}`}>{school.city}</Link></div>
           <div className="school-title-grid">
             <div>
-              <span className="eyebrow light">Legacy school record</span>
+              <span className="eyebrow light">Provisional school profile</span>
               <h1>{school.name}</h1>
-              <p>{school.city}, {school.country}. Field-level source verification is pending.</p>
+              <p>
+                {school.city}, {school.country}. Published from an official school source;
+                field-level evidence review is in progress.
+              </p>
             </div>
-            <div className="record-seal"><span>{school.countryCode}</span><strong>Verification pending</strong><small>Legacy check {formatVerifiedDate(school.verifiedOn)}</small></div>
+            <div className="record-seal">
+              <span>{verification.hasStrictRecord ? `${verification.completenessScore}/12` : school.countryCode}</span>
+              <strong>{verification.hasStrictRecord ? "Evidence review" : "Provisional profile"}</strong>
+              <small>
+                {verification.lastVerified
+                  ? `Evidence checked ${formatVerifiedDate(verification.lastVerified)}`
+                  : `Official source linked ${formatVerifiedDate(school.verifiedOn)}`}
+              </small>
+            </div>
           </div>
         </div>
       </section>
@@ -49,20 +95,24 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
             <span className="eyebrow">At a glance</span>
             <h2>Core school information</h2>
             <dl className="fact-table">
-              <div><dt>Location</dt><dd>{school.city}, {school.country}</dd></div>
-              <div><dt>Age range</dt><dd>{school.ageRange}</dd></div>
-              <div><dt>Language</dt><dd>{school.language}</dd></div>
-              <div><dt>School type</dt><dd>{school.schoolType}</dd></div>
-              <div><dt>Ownership</dt><dd>{school.ownership}</dd></div>
-              {school.founded && <div><dt>Founded</dt><dd>{school.founded}</dd></div>}
+              <div><dt>Location</dt><dd><span>{school.city}, {school.country}</span><FieldState state={getFieldVerificationState(slug, ["location.city", "location.country"])} /></dd></div>
+              <div><dt>Age range</dt><dd><span>{ageRange}</span><FieldState state={getFieldVerificationState(slug, ["age_range"])} /></dd></div>
+              <div><dt>Language</dt><dd><span>{language}</span><FieldState state={getFieldVerificationState(slug, ["languages.instruction"])} /></dd></div>
+              <div><dt>School type</dt><dd><span>{schoolType}</span><FieldState state={getFieldVerificationState(slug, ["school_type"])} /></dd></div>
+              <div><dt>Ownership</dt><dd><span>{ownership}</span><FieldState state={getFieldVerificationState(slug, ["school_type"])} /></dd></div>
+              {founded && <div><dt>Founded</dt><dd><span>{founded}</span><FieldState state={getFieldVerificationState(slug, ["founded"])} /></dd></div>}
             </dl>
           </div>
           <div className="record-section">
             <span className="eyebrow">Academic pathways</span>
             <h2>Curriculum and accreditation</h2>
-            <div className="tag-row large-tags">{school.curricula.map((item) => <span className="tag" key={item}>{item}</span>)}</div>
-            {school.accreditation.length ? (
-              <div className="accreditation-list">{school.accreditation.map((item) => <span key={item}>✓ {item}</span>)}</div>
+            <div className="section-verification"><FieldState state={getFieldVerificationState(slug, ["curricula"])} /></div>
+            <div className="tag-row large-tags">{curricula.map((item) => <span className="tag" key={item}>{item}</span>)}</div>
+            {accreditation.length ? (
+              <>
+                <div className="section-verification"><FieldState state={getFieldVerificationState(slug, ["accreditations"])} /></div>
+                <div className="accreditation-list">{accreditation.map((item) => <span key={item}>{item}</span>)}</div>
+              </>
             ) : (
               <p className="muted">No external accreditation has yet been recorded in this seed entry.</p>
             )}
@@ -76,13 +126,21 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
           )}
         </div>
         <aside className="source-panel">
-          <span className="eyebrow">Legacy source</span>
-          <h2>Check the original</h2>
-          <p>This record has not yet passed the new field-level evidence standard.</p>
-          <dl><div><dt>Legacy check</dt><dd>{formatVerifiedDate(school.verifiedOn)}</dd></div><div><dt>Source type</dt><dd>Official school website</dd></div></dl>
+          <span className="eyebrow">Verification status</span>
+          <h2>{verification.hasStrictRecord ? `${verification.completenessScore} of 12 core fields` : "Provisional profile"}</h2>
+          <p>
+            Available facts are shown for discovery, but only facts carrying an evidence-backed
+            label have completed the field-level source check.
+          </p>
+          <dl>
+            <div><dt>Search indexing</dt><dd>{verification.indexable ? "Eligible" : "Held until 8/12"}</dd></div>
+            <div><dt>Source type</dt><dd>Official school website</dd></div>
+            {verification.conflictCount > 0 && <div><dt>Open conflicts</dt><dd>{verification.conflictCount}</dd></div>}
+          </dl>
           <a className="button primary full" href={school.sourceUrl} target="_blank" rel="noreferrer">Open source ↗</a>
           <a className="button outline full" href={school.website} target="_blank" rel="noreferrer">Visit school website ↗</a>
           <small>Admissions, fees, capacity, and programmes can change. Confirm directly before making decisions.</small>
+          <Link className="disclaimer-link" href="/disclaimer">Read the data disclaimer</Link>
         </aside>
       </section>
     </main>

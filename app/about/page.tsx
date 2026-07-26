@@ -16,11 +16,16 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="section shell narrow prose-page">
-        <h2>Evidence before coverage</h2>
+        <h2>Useful coverage, honest status</h2>
         <p>
-          A value is stored only when it appears on a fetched primary-source page. Each
-          populated field records its source URL, retrieval date, and a short verbatim
-          evidence snippet. Unsupported values remain unpublished.
+          Once a school&apos;s identity, location, and official website are confirmed, it can
+          appear as a provisional profile. This keeps the directory useful while making it
+          clear which facts still need field-level evidence.
+        </p>
+        <p>
+          A fact receives an evidence-backed label only when it appears on a fetched
+          primary-source page with a source URL, retrieval date, and short evidence snippet.
+          Unsupported values never receive verified status.
         </p>
         <h2>Publication gate</h2>
         <ol>
@@ -29,13 +34,16 @@ export default function AboutPage() {
           <li>Conflicting sources are retained for human review, not silently resolved.</li>
           <li>At least eight core fields are required before search indexing.</li>
         </ol>
-        <h2>Migration status</h2>
+        <h2>Profile visibility</h2>
         <p>
-          Earlier Vietnam and Thailand entries remain visible as legacy records while they
-          are migrated. They are excluded from search indexing until they pass the new
-          field-level evidence and completeness checks.
+          Vietnam and Thailand profiles remain visible while evidence capture continues.
+          School pages below the eight-field threshold are labelled provisional and excluded
+          from search indexing. Country and city directories remain discoverable.
         </p>
-        <div className="method-cta"><Link className="button primary" href="/about/crawler">Crawler policy</Link></div>
+        <div className="method-cta">
+          <Link className="button primary" href="/about/crawler">Crawler policy</Link>
+          <Link className="button outline" href="/disclaimer">Read the data disclaimer</Link>
+        </div>
       </section>
     </main>
   );

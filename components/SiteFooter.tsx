@@ -10,13 +10,14 @@ export function SiteFooter() {
         </div>
         <div>
           <p>
-            School details change. New-format records carry field-level source evidence;
-            legacy records remain excluded from indexing until migrated.
+            School details change. Provisional profiles make the directory useful while
+            field-level evidence is collected; only qualifying school records are indexed.
           </p>
           <div className="footer-links">
             <Link href="/countries/vietnam">Explore Vietnam</Link>
             <Link href="/countries/thailand">Explore Thailand</Link>
             <Link href="/about">How records are verified</Link>
+            <Link href="/disclaimer">Data disclaimer</Link>
             <Link href="/about/crawler">Crawler policy</Link>
           </div>
         </div>

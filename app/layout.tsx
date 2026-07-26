@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL(baseUrl),
     title: "World School Index | International Schools Directory",
     description: "A source-led global directory of international schools, built country by country.",
-    robots: { index: false, follow: true },
+    robots: { index: true, follow: true },
     openGraph: {
       title: "World School Index",
       description: "International schools, clearly mapped. Vietnam and Thailand collections now live.",
