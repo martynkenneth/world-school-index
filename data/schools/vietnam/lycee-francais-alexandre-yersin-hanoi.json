@@ -1,0 +1,182 @@
+{
+  "id": "vn-hanoi-lycee-francais-alexandre-yersin-hanoi",
+  "name": "Lycée Français Alexandre Yersin",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Hanoï",
+    "district": "Phường Bồ Đề",
+    "address": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": 1982,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "PS",
+    "terminale"
+  ],
+  "accreditations": [
+    {
+      "body": "AEFE",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": "Plus de 1100",
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+ 84 (0)24 38 436 779",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Le Lycée Français Alexandre Yersin",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Hanoï (Vietnam)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "ville de Hanoï (Vietnam)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.district": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Phường Bồ Đề Hà Nội Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "a vu le jour en 1982",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "scolarisés de la PS à la terminale",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[1]": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "scolarisés de la PS à la terminale",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Agence pour l’enseignement français à l’étranger ( AEFE )",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "enrolment.total": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Plus de 1100 élèves scolarisés de la PS à la terminale",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Tél. : + 84 (0)24 38 436 779",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 5,
+  "indexable": false,
+  "last_verified": "2026-07-26"
+}

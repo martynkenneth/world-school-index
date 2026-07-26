@@ -1,0 +1,224 @@
+{
+  "id": "vn-hanoi-concordia-international-school-hanoi",
+  "name": "Concordia International School Hanoi",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "district": null,
+    "address": "Van Tri Golf Course Tho Da, Thien Loc, Hanoi, Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": 2011,
+  "school_type": "non-profit",
+  "curricula": [
+    "American"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "Preschool",
+    "Grade 12"
+  ],
+  "accreditations": [
+    {
+      "body": "Western Association of Schools and Colleges",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "National Lutheran School Accreditation Commission",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": "555+",
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 24 3795 8878",
+    "email": "admissions@concordiahanoi.org"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Concordia International School Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "international day school in Hanoi, Vietnam with English instruction",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "international day school in Hanoi, Vietnam with English instruction",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.concordiahanoi.org/connect/contact-us",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Van Tri Golf Course Tho Da, Thien Loc, Hanoi, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "serving the Hanoi community and transforming lives since 2011",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "school_type": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "a private, non-profit, co-educational, international day school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "We follow an American, standards-based curriculum",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "students from Preschool through Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[1]": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "students from Preschool through Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.concordiahanoi.org/connect/contact-us",
+      "retrieved_date": "2026-07-26",
+      "evidence": "accredited by the Western Association of Schools and Colleges (WASC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[1].body": {
+      "source_url": "https://www.concordiahanoi.org/connect/contact-us",
+      "retrieved_date": "2026-07-26",
+      "evidence": "The National Lutheran School Accreditation Commission (NLSA)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "enrolment.total": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "555+ Students Number of students enrolled from Preschool through Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
+      "retrieved_date": "2026-07-26",
+      "evidence": "international day school in Hanoi, Vietnam with English instruction",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.concordiahanoi.org/connect/contact-us",
+      "retrieved_date": "2026-07-26",
+      "evidence": "INTERNATIONAL: +84 24 3795 8878",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.concordiahanoi.org/connect/contact-us",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Admissions Inquiries - admissions@concordiahanoi.org",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 7,
+  "indexable": false,
+  "last_verified": "2026-07-26"
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-07-26",
+  "selection_order": [
+    "Vietnam",
+    "Thailand",
+    "remaining Southeast Asia",
+    "global regions"
+  ],
+  "cities": [
+    {
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "city_slug": "hanoi",
+      "status": "complete",
+      "schools_discovered": 7,
+      "schools_processed": 7,
+      "school_ids": [
+        "school:vn:british-international-school-hanoi",
+        "school:vn:british-vietnamese-international-school-hanoi",
+        "school:vn:concordia-international-school-hanoi",
+        "school:vn:hanoi-international-school",
+        "school:vn:lycee-francais-alexandre-yersin-hanoi",
+        "school:vn:st-paul-american-school-hanoi",
+        "school:vn:united-nations-international-school-hanoi"
+      ],
+      "school_results": [
+        {
+          "school_id": "school:vn:british-international-school-hanoi",
+          "result": "record_added",
+          "completeness_score": 7,
+          "indexable": false,
+          "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:british-vietnamese-international-school-hanoi",
+          "result": "record_added",
+          "completeness_score": 6,
+          "indexable": false,
+          "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:concordia-international-school-hanoi",
+          "result": "record_added",
+          "completeness_score": 7,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "fees.by_year_group", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:hanoi-international-school",
+          "result": "record_added",
+          "completeness_score": 6,
+          "indexable": false,
+          "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+          "result": "record_added",
+          "completeness_score": 5,
+          "indexable": false,
+          "unresolved_fields": ["curricula", "age_range", "fees.by_year_group", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:st-paul-american-school-hanoi",
+          "result": "record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:united-nations-international-school-hanoi",
+          "result": "reviewed_no_safe_change",
+          "completeness_score": 7,
+          "indexable": false,
+          "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days", "enrolment.nationalities_count"]
+        }
+      ],
+      "source_urls": [
+        "https://www.nordangliaeducation.com/bis-hanoi/about-us",
+        "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
+        "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
+        "https://www.nordangliaeducation.com/bvis-hanoi",
+        "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+        "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+        "https://www.concordiahanoi.org/explore/who-we-are",
+        "https://www.concordiahanoi.org/connect/contact-us",
+        "https://www.hisvietnam.com/home-clone/about/contact-us",
+        "https://www.hisvietnam.com/admissions/admisions-faq",
+        "https://lfay.com.vn/etablissement/",
+        "https://stpaulhanoi.com/",
+        "https://stpaulhanoi.com/learn/",
+        "https://www.unishanoi.org/"
+      ],
+      "last_run_date": "2026-07-26",
+      "unresolved_conflicts": [
+        {
+          "school_id": "school:vn:united-nations-international-school-hanoi",
+          "field_paths": [
+            "enrolment.total",
+            "enrolment.nationalities_count"
+          ],
+          "reason": "Official UNIS pages publish differing current values; human resolution remains required."
+        }
+      ],
+      "next_action": "Begin Ho Chi Minh City; keep Hanoi thin records and UNIS conflicts in the manual verification queue."
+    }
+  ]
+}

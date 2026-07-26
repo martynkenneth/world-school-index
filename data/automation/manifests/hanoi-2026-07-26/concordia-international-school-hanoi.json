@@ -1,0 +1,23 @@
+{
+  "id": "vn-hanoi-concordia-international-school-hanoi",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/concordia-international-school-hanoi/2026-07-26.fetch.json",
+  "output": "data/schools/vietnam/concordia-international-school-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "Concordia International School Hanoi", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "Concordia International School Hanoi" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "international day school in Hanoi, Vietnam with English instruction" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "international day school in Hanoi, Vietnam with English instruction" },
+    { "path": "location.address", "value": "Van Tri Golf Course Tho Da, Thien Loc, Hanoi, Vietnam", "source_url": "https://www.concordiahanoi.org/connect/contact-us", "retrieved_date": "2026-07-26", "evidence": "Van Tri Golf Course Tho Da, Thien Loc, Hanoi, Vietnam" },
+    { "path": "founded", "value": 2011, "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "serving the Hanoi community and transforming lives since 2011" },
+    { "path": "school_type", "value": "non-profit", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "a private, non-profit, co-educational, international day school" },
+    { "path": "curricula[0]", "value": "American", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "We follow an American, standards-based curriculum" },
+    { "path": "year_groups[0]", "value": "Preschool", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "students from Preschool through Grade 12" },
+    { "path": "year_groups[1]", "value": "Grade 12", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "students from Preschool through Grade 12" },
+    { "path": "accreditations[0].body", "value": "Western Association of Schools and Colleges", "source_url": "https://www.concordiahanoi.org/connect/contact-us", "retrieved_date": "2026-07-26", "evidence": "accredited by the Western Association of Schools and Colleges (WASC)" },
+    { "path": "accreditations[1].body", "value": "National Lutheran School Accreditation Commission", "source_url": "https://www.concordiahanoi.org/connect/contact-us", "retrieved_date": "2026-07-26", "evidence": "The National Lutheran School Accreditation Commission (NLSA)" },
+    { "path": "enrolment.total", "value": "555+", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "555+ Students Number of students enrolled from Preschool through Grade 12" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://www.concordiahanoi.org/explore/who-we-are", "retrieved_date": "2026-07-26", "evidence": "international day school in Hanoi, Vietnam with English instruction" },
+    { "path": "contact.phone", "value": "+84 24 3795 8878", "source_url": "https://www.concordiahanoi.org/connect/contact-us", "retrieved_date": "2026-07-26", "evidence": "INTERNATIONAL: +84 24 3795 8878" },
+    { "path": "contact.email", "value": "admissions@concordiahanoi.org", "source_url": "https://www.concordiahanoi.org/connect/contact-us", "retrieved_date": "2026-07-26", "evidence": "Admissions Inquiries - admissions@concordiahanoi.org" }
+  ]
+}

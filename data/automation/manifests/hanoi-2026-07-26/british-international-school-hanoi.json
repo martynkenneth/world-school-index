@@ -1,0 +1,21 @@
+{
+  "id": "vn-hanoi-british-international-school-hanoi",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/british-international-school-hanoi/2026-07-26.fetch.json",
+  "output": "data/schools/vietnam/british-international-school-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "British International School Hanoi", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us", "retrieved_date": "2026-07-26", "evidence": "British International School Hanoi" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us", "retrieved_date": "2026-07-26", "evidence": "Hanoi 100000 Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us", "retrieved_date": "2026-07-26", "evidence": "Phuc Loi Ward Hanoi 100000 Vietnam" },
+    { "path": "location.district", "value": "Phuc Loi Ward", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us", "retrieved_date": "2026-07-26", "evidence": "Phuc Loi Ward Hanoi 100000 Vietnam" },
+    { "path": "location.address", "value": "Hoa Lan Road, Vinhomes Riverside Phuc Loi Ward Hanoi 100000 Vietnam", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us", "retrieved_date": "2026-07-26", "evidence": "Hoa Lan Road, Vinhomes Riverside Phuc Loi Ward Hanoi 100000 Vietnam" },
+    { "path": "curricula[0]", "value": "IGCSEs", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence", "retrieved_date": "2026-07-26", "evidence": "This includes IGCSEs and the International Baccalaureate Diploma Programme (IBDP)" },
+    { "path": "curricula[1]", "value": "International Baccalaureate Diploma Programme", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence", "retrieved_date": "2026-07-26", "evidence": "This includes IGCSEs and the International Baccalaureate Diploma Programme (IBDP)" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us", "retrieved_date": "2026-07-26", "evidence": "students aged from 2 to 18 years old" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us", "retrieved_date": "2026-07-26", "evidence": "students aged from 2 to 18 years old" },
+    { "path": "staffing.teacher_student_ratio", "value": "1:12", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence", "retrieved_date": "2026-07-26", "evidence": "Teacher to student ratio 1:12" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence", "retrieved_date": "2026-07-26", "evidence": "English National Curriculum" },
+    { "path": "contact.phone", "value": "+84 24 3946 0435", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us", "retrieved_date": "2026-07-26", "evidence": "General Enquiries +84 24 3946 0435" },
+    { "path": "contact.email", "value": "bishanoi@bishanoi.com", "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us", "retrieved_date": "2026-07-26", "evidence": "Email: bishanoi@bishanoi.com" }
+  ]
+}

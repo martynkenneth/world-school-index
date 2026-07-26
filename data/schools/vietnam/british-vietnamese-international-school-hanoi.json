@@ -1,0 +1,202 @@
+{
+  "id": "vn-hanoi-british-vietnamese-international-school-hanoi",
+  "name": "British Vietnamese International School Hanoi",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "district": "Thanh Xuan District",
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": "bilingual",
+  "curricula": [
+    "IGCSEs",
+    "A-levels"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": true,
+    "currency": "VND",
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": "3,500,000 VND",
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": "1:12",
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English",
+      "Vietnamese"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-26",
+      "evidence": "British Vietnamese International School Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-26",
+      "evidence": "among the highest achievers in Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-26",
+      "evidence": "British Vietnamese International School Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.district": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Situated in the Thanh Xuan District of central Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "school_type": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "a unique bilingual environment",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-26",
+      "evidence": "our older students study for their IGCSEs and A-levels",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-26",
+      "evidence": "our older students study for their IGCSEs and A-levels",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "2-18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "2-18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "staffing.teacher_student_ratio": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "1:12 teacher-student ratio",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "2 teaching languages – English and Vietnamese",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[1]": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+      "retrieved_date": "2026-07-26",
+      "evidence": "2 teaching languages – English and Vietnamese",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Application Fee of 3,500,000 VND per child",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.additional.application": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-26",
+      "evidence": "Application Fee of 3,500,000 VND per child",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-07-26"
+}

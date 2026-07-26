@@ -1,0 +1,19 @@
+{
+  "id": "vn-hanoi-lycee-francais-alexandre-yersin-hanoi",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/lycee-francais-alexandre-yersin-hanoi/2026-07-26.fetch.json",
+  "output": "data/schools/vietnam/lycee-francais-alexandre-yersin-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "Lycée Français Alexandre Yersin", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Le Lycée Français Alexandre Yersin" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Hanoï (Vietnam)" },
+    { "path": "location.city", "value": "Hanoï", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "ville de Hanoï (Vietnam)" },
+    { "path": "location.district", "value": "Phường Bồ Đề", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Phường Bồ Đề Hà Nội Vietnam" },
+    { "path": "location.address", "value": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam" },
+    { "path": "founded", "value": 1982, "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "a vu le jour en 1982" },
+    { "path": "year_groups[0]", "value": "PS", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "scolarisés de la PS à la terminale" },
+    { "path": "year_groups[1]", "value": "terminale", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "scolarisés de la PS à la terminale" },
+    { "path": "accreditations[0].body", "value": "AEFE", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Agence pour l’enseignement français à l’étranger ( AEFE )" },
+    { "path": "enrolment.total", "value": "Plus de 1100", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Plus de 1100 élèves scolarisés de la PS à la terminale" },
+    { "path": "contact.phone", "value": "+ 84 (0)24 38 436 779", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-26", "evidence": "Tél. : + 84 (0)24 38 436 779" }
+  ]
+}
