@@ -1,0 +1,4 @@
+{"date":"2026-07-27","field":"fees.by_year_group","old_value":[],"new_value":[{"label":"Elementary Grades 1-5","tuition":"666,000,000"},{"label":"Middle School Grades 6-8","tuition":"778,000,000"},{"label":"High School Grades 9-12","tuition":"855,000,000"}]}
+{"date":"2026-07-27","field":"languages.instruction","old_value":[],"new_value":["English"]}
+{"date":"2026-07-27","field":"enrolment.nationalities_count","old_value":null,"new_value":"20"}
+{"date":"2026-07-27","field":"completeness_score","old_value":4,"new_value":6}

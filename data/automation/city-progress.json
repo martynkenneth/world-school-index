@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-07-27",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -27,49 +27,49 @@
       "school_results": [
         {
           "school_id": "school:vn:british-international-school-hanoi",
-          "result": "record_added",
-          "completeness_score": 7,
-          "indexable": false,
-          "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "contact.website", "admissions.open_days"]
+          "result": "record_enriched",
+          "completeness_score": 10,
+          "indexable": true,
+          "unresolved_fields": ["enrolment.total", "contact.website"]
         },
         {
           "school_id": "school:vn:british-vietnamese-international-school-hanoi",
-          "result": "record_added",
-          "completeness_score": 6,
-          "indexable": false,
-          "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "contact.website", "admissions.open_days"]
+          "result": "record_enriched",
+          "completeness_score": 9,
+          "indexable": true,
+          "unresolved_fields": ["enrolment.total", "contact.website", "admissions.open_days"]
         },
         {
           "school_id": "school:vn:concordia-international-school-hanoi",
-          "result": "record_added",
-          "completeness_score": 7,
-          "indexable": false,
-          "unresolved_fields": ["age_range", "fees.by_year_group", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"]
+          "result": "record_enriched",
+          "completeness_score": 8,
+          "indexable": true,
+          "unresolved_fields": ["age_range", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"]
         },
         {
           "school_id": "school:vn:hanoi-international-school",
-          "result": "record_added",
-          "completeness_score": 6,
+          "result": "record_enriched",
+          "completeness_score": 7,
           "indexable": false,
-          "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+          "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"]
         },
         {
           "school_id": "school:vn:lycee-francais-alexandre-yersin-hanoi",
-          "result": "record_added",
-          "completeness_score": 5,
+          "result": "record_enriched_with_address_conflict",
+          "completeness_score": 6,
           "indexable": false,
-          "unresolved_fields": ["curricula", "age_range", "fees.by_year_group", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+          "unresolved_fields": ["location.address", "age_range", "fees.by_year_group", "staffing.teacher_student_ratio", "languages.instruction", "admissions.open_days"]
         },
         {
           "school_id": "school:vn:st-paul-american-school-hanoi",
-          "result": "record_added",
-          "completeness_score": 4,
+          "result": "record_enriched",
+          "completeness_score": 6,
           "indexable": false,
-          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+          "unresolved_fields": ["age_range", "accreditations", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"]
         },
         {
           "school_id": "school:vn:united-nations-international-school-hanoi",
-          "result": "reviewed_no_safe_change",
+          "result": "record_enriched",
           "completeness_score": 7,
           "indexable": false,
           "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days", "enrolment.nationalities_count"]
@@ -79,20 +79,46 @@
         "https://www.nordangliaeducation.com/bis-hanoi/about-us",
         "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
         "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
+        "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
+        "https://www.nordangliaeducation.com/bis-hanoi/parent-essentials/accreditations",
         "https://www.nordangliaeducation.com/bvis-hanoi",
         "https://www.nordangliaeducation.com/bvis-hanoi/campus",
+        "https://www.nordangliaeducation.com/bvis-hanoi/contact-us",
         "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+        "https://www.nordangliaeducation.com/bvis-hanoi/parent-essentials/accreditations",
         "https://www.concordiahanoi.org/explore/who-we-are",
         "https://www.concordiahanoi.org/connect/contact-us",
+        "https://www.concordiahanoi.org/admissions/admissions-faqs",
         "https://www.hisvietnam.com/home-clone/about/contact-us",
         "https://www.hisvietnam.com/admissions/admisions-faq",
+        "https://www.hisvietnam.com/admissions/tuition-and-fees",
+        "https://www.hisvietnam.com/admissions/scholarships-202627",
         "https://lfay.com.vn/etablissement/",
+        "https://lfay.com.vn/pedagogie/",
+        "https://lfay.com.vn/parcours-langues/",
+        "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
         "https://stpaulhanoi.com/",
         "https://stpaulhanoi.com/learn/",
-        "https://www.unishanoi.org/"
+        "https://stpaulhanoi.com/admissions/tuition/",
+        "https://stpaulhanoi.com/admissions/admissions-faqs/",
+        "https://stpaulhanoi.com/school-safety/school-information/",
+        "https://www.unishanoi.org/",
+        "https://www.unishanoi.org/about",
+        "https://www.unishanoi.org/about/welcome-from-the-head-of-school",
+        "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
+        "https://www.unishanoi.org/admissions/how-to-apply",
+        "https://www.unishanoi.org/admissions/tuition-fees",
+        "https://www.unishanoi.org/admissions/frequently-asked-questions"
       ],
-      "last_run_date": "2026-07-26",
+      "last_run_date": "2026-07-27",
       "unresolved_conflicts": [
+        {
+          "school_id": "school:vn:lycee-francais-alexandre-yersin-hanoi",
+          "field_paths": [
+            "location.address"
+          ],
+          "reason": "The official school page and the authoritative AEFE profile publish different ward and district details; human resolution remains required."
+        },
         {
           "school_id": "school:vn:united-nations-international-school-hanoi",
           "field_paths": [
@@ -102,7 +128,9 @@
           "reason": "Official UNIS pages publish differing current values; human resolution remains required."
         }
       ],
-      "next_action": "Begin Ho Chi Minh City; keep Hanoi thin records and UNIS conflicts in the manual verification queue."
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "next_action": "Begin Ho Chi Minh City; keep Hanoi thin records plus LFAY and UNIS conflicts in the manual verification queue."
     }
   ]
 }

@@ -39,13 +39,38 @@
     }
   ],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026-2027",
     "fee_basis": null,
-    "by_year_group": [],
+    "by_year_group": [
+      {
+        "label": "Preschool",
+        "tuition": "558,034,000 ₫"
+      },
+      {
+        "label": "Reception",
+        "tuition": "677,865,000 ₫"
+      },
+      {
+        "label": "Grades 1 - 5",
+        "tuition": "861,787,000 ₫"
+      },
+      {
+        "label": "Grades 6 - 8",
+        "tuition": "912,192,000 ₫"
+      },
+      {
+        "label": "Grades 9 - 10",
+        "tuition": "1,001,962,000 ₫"
+      },
+      {
+        "label": "Grades 11 - 12",
+        "tuition": "1,038,822,000 ₫"
+      }
+    ],
     "additional": {
-      "application": null,
+      "application": "10,800,000VND",
       "enrolment": null,
       "capital_levy": null,
       "bus": null,
@@ -99,7 +124,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Concordia International School Hanoi",
       "method": "published",
       "conflict": false,
@@ -107,7 +132,7 @@
     },
     "location.country": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "international day school in Hanoi, Vietnam with English instruction",
       "method": "published",
       "conflict": false,
@@ -115,7 +140,7 @@
     },
     "location.city": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "international day school in Hanoi, Vietnam with English instruction",
       "method": "published",
       "conflict": false,
@@ -123,7 +148,7 @@
     },
     "location.address": {
       "source_url": "https://www.concordiahanoi.org/connect/contact-us",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Van Tri Golf Course Tho Da, Thien Loc, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -131,7 +156,7 @@
     },
     "founded": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "serving the Hanoi community and transforming lives since 2011",
       "method": "published",
       "conflict": false,
@@ -139,7 +164,7 @@
     },
     "school_type": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "a private, non-profit, co-educational, international day school",
       "method": "published",
       "conflict": false,
@@ -147,7 +172,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "We follow an American, standards-based curriculum",
       "method": "published",
       "conflict": false,
@@ -155,7 +180,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "students from Preschool through Grade 12",
       "method": "published",
       "conflict": false,
@@ -163,7 +188,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "students from Preschool through Grade 12",
       "method": "published",
       "conflict": false,
@@ -171,7 +196,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.concordiahanoi.org/connect/contact-us",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "accredited by the Western Association of Schools and Colleges (WASC)",
       "method": "published",
       "conflict": false,
@@ -179,15 +204,135 @@
     },
     "accreditations[1].body": {
       "source_url": "https://www.concordiahanoi.org/connect/contact-us",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "The National Lutheran School Accreditation Commission (NLSA)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Pay Application Fee of 10,800,000VND",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "2026-2027 Tuition & Fees",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Preschool 516,698,000 ₫ 558,034,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Preschool 516,698,000 ₫ 558,034,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Reception 627,652,000 ₫ 677,865,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Reception 627,652,000 ₫ 677,865,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 1 - 5 797,950,000 ₫ 861,787,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 1 - 5 797,950,000 ₫ 861,787,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 6 - 8 844,621,000 ₫ 912,192,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 6 - 8 844,621,000 ₫ 912,192,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 9 - 10 927,742,000 ₫ 1,001,962,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 9 - 10 927,742,000 ₫ 1,001,962,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 11 - 12 961,871,000 ₫ 1,038,822,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Grades 11 - 12 961,871,000 ₫ 1,038,822,000 ₫",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.additional.application": {
+      "source_url": "https://www.concordiahanoi.org/admissions/admissions-faqs",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Pay Application Fee of 10,800,000VND",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "enrolment.total": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "555+ Students Number of students enrolled from Preschool through Grade 12",
       "method": "published",
       "conflict": false,
@@ -195,7 +340,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://www.concordiahanoi.org/explore/who-we-are",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "international day school in Hanoi, Vietnam with English instruction",
       "method": "published",
       "conflict": false,
@@ -203,7 +348,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.concordiahanoi.org/connect/contact-us",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "INTERNATIONAL: +84 24 3795 8878",
       "method": "published",
       "conflict": false,
@@ -211,14 +356,14 @@
     },
     "contact.email": {
       "source_url": "https://www.concordiahanoi.org/connect/contact-us",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Admissions Inquiries - admissions@concordiahanoi.org",
       "method": "published",
       "conflict": false,
       "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-07-26"
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-07-27"
 }

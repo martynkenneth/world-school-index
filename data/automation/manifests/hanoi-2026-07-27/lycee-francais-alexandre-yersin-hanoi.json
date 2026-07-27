@@ -1,0 +1,24 @@
+{
+  "id": "vn-hanoi-lycee-francais-alexandre-yersin-hanoi",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/lycee-francais-alexandre-yersin-hanoi/2026-07-27.fetch.json",
+  "output": "data/schools/vietnam/lycee-francais-alexandre-yersin-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "Lycée Français Alexandre Yersin", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "Le Lycée Français Alexandre Yersin" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "Hanoï (Vietnam)" },
+    { "path": "location.city", "value": "Hanoï", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "ville de Hanoï (Vietnam)" },
+    { "path": "location.address", "value": null, "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam", "method": "conflict", "conflict": true, "candidates": [
+      { "value": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam" },
+      { "value": "Số 44 phố Gia Thượng, Phường Ngọc Thụy, Long Biên, Hà Nội", "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin", "retrieved_date": "2026-07-27", "evidence": "Số 44 phố Gia Thượng, Phường Ngọc Thụy, Long Biên, Hà Nội" }
+    ] },
+    { "path": "founded", "value": 1982, "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "a vu le jour en 1982" },
+    { "path": "curricula[0]", "value": "baccalauréat général", "source_url": "https://lfay.com.vn/pedagogie/", "retrieved_date": "2026-07-27", "evidence": "prépare en deux ans les lycéens au baccalauréat général" },
+    { "path": "year_groups[0]", "value": "PS", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "scolarisés de la PS à la terminale" },
+    { "path": "year_groups[1]", "value": "terminale", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "scolarisés de la PS à la terminale" },
+    { "path": "accreditations[0].body", "value": "AEFE", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "Agence pour l’enseignement français à l’étranger ( AEFE )" },
+    { "path": "enrolment.total", "value": "1158", "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin", "retrieved_date": "2026-07-27", "evidence": "élèves 1158" },
+    { "path": "contact.website", "value": "https://lfay.com.vn/", "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin", "retrieved_date": "2026-07-27", "evidence": "Site web https://lfay.com.vn/" },
+    { "path": "contact.phone", "value": "+ 84 (0)24 38 436 779", "source_url": "https://lfay.com.vn/etablissement/", "retrieved_date": "2026-07-27", "evidence": "Tél. : + 84 (0)24 38 436 779" },
+    { "path": "contact.email", "value": "secretariat@lfay.com.vn", "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin", "retrieved_date": "2026-07-27", "evidence": "secretariat@lfay.com.vn" }
+  ]
+}

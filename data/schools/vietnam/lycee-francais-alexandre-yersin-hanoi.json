@@ -6,14 +6,16 @@
   "location": {
     "country": "Vietnam",
     "city": "Hanoï",
-    "district": "Phường Bồ Đề",
-    "address": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
+    "district": null,
+    "address": null,
     "lat": null,
     "lng": null
   },
   "founded": 1982,
   "school_type": null,
-  "curricula": [],
+  "curricula": [
+    "baccalauréat général"
+  ],
   "age_range": {
     "min": null,
     "max": null
@@ -48,7 +50,7 @@
     "early_payment_discount": null
   },
   "enrolment": {
-    "total": "Plus de 1100",
+    "total": "1158",
     "nationalities_count": null,
     "largest_nationality": null,
     "largest_nationality_pct": null
@@ -81,15 +83,15 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://lfay.com.vn/",
     "admissions_url": null,
     "phone": "+ 84 (0)24 38 436 779",
-    "email": null
+    "email": "secretariat@lfay.com.vn"
   },
   "provenance": {
     "name": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Le Lycée Français Alexandre Yersin",
       "method": "published",
       "conflict": false,
@@ -97,7 +99,7 @@
     },
     "location.country": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Hanoï (Vietnam)",
       "method": "published",
       "conflict": false,
@@ -105,39 +107,52 @@
     },
     "location.city": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "ville de Hanoï (Vietnam)",
-      "method": "published",
-      "conflict": false,
-      "candidates": []
-    },
-    "location.district": {
-      "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
-      "evidence": "Phường Bồ Đề Hà Nội Vietnam",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "location.address": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
+      "method": "conflict",
+      "conflict": true,
+      "candidates": [
+        {
+          "value": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
+          "source_url": "https://lfay.com.vn/etablissement/",
+          "retrieved_date": "2026-07-27",
+          "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam"
+        },
+        {
+          "value": "Số 44 phố Gia Thượng, Phường Ngọc Thụy, Long Biên, Hà Nội",
+          "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
+          "retrieved_date": "2026-07-27",
+          "evidence": "Số 44 phố Gia Thượng, Phường Ngọc Thụy, Long Biên, Hà Nội"
+        }
+      ]
+    },
+    "founded": {
+      "source_url": "https://lfay.com.vn/etablissement/",
+      "retrieved_date": "2026-07-27",
+      "evidence": "a vu le jour en 1982",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
-    "founded": {
-      "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
-      "evidence": "a vu le jour en 1982",
+    "curricula[0]": {
+      "source_url": "https://lfay.com.vn/pedagogie/",
+      "retrieved_date": "2026-07-27",
+      "evidence": "prépare en deux ans les lycéens au baccalauréat général",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "year_groups[0]": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "scolarisés de la PS à la terminale",
       "method": "published",
       "conflict": false,
@@ -145,7 +160,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "scolarisés de la PS à la terminale",
       "method": "published",
       "conflict": false,
@@ -153,30 +168,46 @@
     },
     "accreditations[0].body": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Agence pour l’enseignement français à l’étranger ( AEFE )",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "enrolment.total": {
-      "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
-      "evidence": "Plus de 1100 élèves scolarisés de la PS à la terminale",
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
+      "retrieved_date": "2026-07-27",
+      "evidence": "élèves 1158",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.website": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Site web https://lfay.com.vn/",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "contact.phone": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "Tél. : + 84 (0)24 38 436 779",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
+      "retrieved_date": "2026-07-27",
+      "evidence": "secretariat@lfay.com.vn",
       "method": "published",
       "conflict": false,
       "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-07-26"
+  "last_verified": "2026-07-27"
 }

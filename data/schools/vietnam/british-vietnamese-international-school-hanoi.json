@@ -7,7 +7,7 @@
     "country": "Vietnam",
     "city": "Hanoi",
     "district": "Thanh Xuan District",
-    "address": null,
+    "address": "Royal City, 72A Nguyen Trai Street Thanh Xuan District Hanoi, 10000, Vietnam",
     "lat": null,
     "lng": null
   },
@@ -22,13 +22,97 @@
     "max": 18
   },
   "year_groups": [],
-  "accreditations": [],
+  "accreditations": [
+    {
+      "body": "Western Association of Schools and Colleges",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "Council of International Schools",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "Cambridge International Examinations Board",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
   "fees": {
     "published": true,
     "currency": "VND",
-    "academic_year": null,
+    "academic_year": "2026-2027",
     "fee_basis": null,
-    "by_year_group": [],
+    "by_year_group": [
+      {
+        "label": "F1",
+        "tuition": "261,800,000"
+      },
+      {
+        "label": "F2",
+        "tuition": "261,800,000"
+      },
+      {
+        "label": "F3",
+        "tuition": "354,400,000"
+      },
+      {
+        "label": "Year 1",
+        "tuition": "480,400,000"
+      },
+      {
+        "label": "Year 2",
+        "tuition": "496,100,000"
+      },
+      {
+        "label": "Year 3",
+        "tuition": "496,100,000"
+      },
+      {
+        "label": "Year 4",
+        "tuition": "496,100,000"
+      },
+      {
+        "label": "Year 5",
+        "tuition": "496,100,000"
+      },
+      {
+        "label": "Year 6",
+        "tuition": "496,100,000"
+      },
+      {
+        "label": "Year 7",
+        "tuition": "582,600,000"
+      },
+      {
+        "label": "Year 8",
+        "tuition": "593,300,000"
+      },
+      {
+        "label": "Year 9",
+        "tuition": "593,300,000"
+      },
+      {
+        "label": "Year 10",
+        "tuition": "606,800,000"
+      },
+      {
+        "label": "Year 11",
+        "tuition": "606,800,000"
+      },
+      {
+        "label": "Year 12",
+        "tuition": "661,500,000"
+      },
+      {
+        "label": "Year 13",
+        "tuition": "661,500,000"
+      }
+    ],
     "additional": {
       "application": "3,500,000 VND",
       "enrolment": null,
@@ -79,13 +163,13 @@
   "contact": {
     "website": null,
     "admissions_url": null,
-    "phone": null,
-    "email": null
+    "phone": "+(84-24) 6266 8800",
+    "email": "enquiry@bvishanoi.com"
   },
   "provenance": {
     "name": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "British Vietnamese International School Hanoi",
       "method": "published",
       "conflict": false,
@@ -93,31 +177,39 @@
     },
     "location.country": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "retrieved_date": "2026-07-26",
-      "evidence": "among the highest achievers in Vietnam",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Hanoi, 10000, Vietnam",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "location.city": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "British Vietnamese International School Hanoi",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "location.district": {
-      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
-      "evidence": "Situated in the Thanh Xuan District of central Hanoi",
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/contact-us",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Royal City, 72A Nguyen Trai Street, Thanh Xuan District, Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Royal City, 72A Nguyen Trai Street Thanh Xuan District Hanoi, 10000, Vietnam",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "school_type": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "a unique bilingual environment",
       "method": "published",
       "conflict": false,
@@ -125,7 +217,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "our older students study for their IGCSEs and A-levels",
       "method": "published",
       "conflict": false,
@@ -133,7 +225,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "our older students study for their IGCSEs and A-levels",
       "method": "published",
       "conflict": false,
@@ -141,7 +233,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "2-18 years old",
       "method": "published",
       "conflict": false,
@@ -149,15 +241,319 @@
     },
     "age_range.max": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "2-18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/parent-essentials/accreditations",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Western Association of Schools and Colleges (ACS WASC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[1].body": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+      "retrieved_date": "2026-07-27",
+      "evidence": "accredited by the Council of International Schools (CIS)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[2].body": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/parent-essentials/accreditations",
+      "retrieved_date": "2026-07-27",
+      "evidence": "fully accredited by the Cambridge International Examinations Board",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Annual Fee(VND)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Tuition fees (2026-2027)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "F1 261,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "F1 261,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "F2 261,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "F2 261,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "F3 354,400,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "F3 354,400,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 1 480,400,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 1 480,400,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 2 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 2 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 3 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 3 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 4 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 4 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 5 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 5 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 6 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 6 496,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 7 582,600,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 7 582,600,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 8 593,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 8 593,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 9 593,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 9 593,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 10 606,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 10 606,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 11 606,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 11 606,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 12 661,500,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 12 661,500,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].label": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 13 661,500,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].tuition": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Year 13 661,500,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.additional.application": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Application Fee of 3,500,000 VND per child",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "staffing.teacher_student_ratio": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "1:12 teacher-student ratio",
       "method": "published",
       "conflict": false,
@@ -165,7 +561,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "2 teaching languages – English and Vietnamese",
       "method": "published",
       "conflict": false,
@@ -173,30 +569,30 @@
     },
     "languages.instruction[1]": {
       "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/campus",
-      "retrieved_date": "2026-07-26",
+      "retrieved_date": "2026-07-27",
       "evidence": "2 teaching languages – English and Vietnamese",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
-    "fees.currency": {
-      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-26",
-      "evidence": "Application Fee of 3,500,000 VND per child",
+    "contact.phone": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/contact-us",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Telephone: +(84-24) 6266 8800",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
-    "fees.additional.application": {
-      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-26",
-      "evidence": "Application Fee of 3,500,000 VND per child",
+    "contact.email": {
+      "source_url": "https://www.nordangliaeducation.com/bvis-hanoi/contact-us",
+      "retrieved_date": "2026-07-27",
+      "evidence": "Email: enquiry@bvishanoi.com",
       "method": "published",
       "conflict": false,
       "candidates": []
     }
   },
-  "completeness_score": 6,
-  "indexable": false,
-  "last_verified": "2026-07-26"
+  "completeness_score": 9,
+  "indexable": true,
+  "last_verified": "2026-07-27"
 }

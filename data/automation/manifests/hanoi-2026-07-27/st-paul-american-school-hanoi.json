@@ -1,0 +1,32 @@
+{
+  "id": "vn-hanoi-st-paul-american-school-hanoi",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/st-paul-american-school-hanoi/2026-07-27.fetch.json",
+  "output": "data/schools/vietnam/st-paul-american-school-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "St. Paul American School Hanoi", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "St. Paul American School Hanoi" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "international schools in Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "St. Paul American School Hanoi" },
+    { "path": "location.address", "value": "New Urban - Splendora, Km10+600 Thang Long Highway, Son Dong, Hanoi", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "New Urban - Splendora, Km10+600 Thang Long Highway, Son Dong, Hanoi" },
+    { "path": "founded", "value": 2011, "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "Founded in 2011" },
+    { "path": "curricula[0]", "value": "American curriculum", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "Grade 1-12 American curriculum" },
+    { "path": "curricula[1]", "value": "Common Core Standards", "source_url": "https://stpaulhanoi.com/learn/", "retrieved_date": "2026-07-27", "evidence": "following the Common Core Standards from the United States" },
+    { "path": "curricula[2]", "value": "Advanced Placement", "source_url": "https://stpaulhanoi.com/learn/", "retrieved_date": "2026-07-27", "evidence": "a wide range of Advanced Placement (AP) courses" },
+    { "path": "fees.currency", "value": "VND", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Full payment (VND)" },
+    { "path": "fees.academic_year", "value": "2026-2027", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Tuition Fees for 2026-2027" },
+    { "path": "fees.by_year_group[0].label", "value": "Elementary Grades 1-5", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Elementary Grades 1-5 666,000,000" },
+    { "path": "fees.by_year_group[0].tuition", "value": "666,000,000", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Elementary Grades 1-5 666,000,000" },
+    { "path": "fees.by_year_group[1].label", "value": "Middle School Grades 6-8", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Middle School Grades 6-8 778,000,000" },
+    { "path": "fees.by_year_group[1].tuition", "value": "778,000,000", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Middle School Grades 6-8 778,000,000" },
+    { "path": "fees.by_year_group[2].label", "value": "High School Grades 9-12", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "High School Grades 9-12 855,000,000" },
+    { "path": "fees.by_year_group[2].tuition", "value": "855,000,000", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "High School Grades 9-12 855,000,000" },
+    { "path": "fees.additional.application", "value": "7,500,000 VND", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Application and Assessment Fee 7,500,000 VND" },
+    { "path": "fees.additional.enrolment", "value": "40,000,000 VND", "source_url": "https://stpaulhanoi.com/admissions/tuition/", "retrieved_date": "2026-07-27", "evidence": "Enrollment Fee 40,000,000 VND" },
+    { "path": "enrolment.nationalities_count", "value": "20", "source_url": "https://stpaulhanoi.com/admissions/admissions-faqs/", "retrieved_date": "2026-07-27", "evidence": "approximately 20 different nationalities" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://stpaulhanoi.com/admissions/admissions-faqs/", "retrieved_date": "2026-07-27", "evidence": "The default language of instruction and student interaction in all classes is English." },
+    { "path": "languages.eal_provision.model", "value": "SPELL", "source_url": "https://stpaulhanoi.com/admissions/admissions-faqs/", "retrieved_date": "2026-07-27", "evidence": "our own ESL program called SPELL" },
+    { "path": "languages.eal_provision.additional_cost", "value": "no additional cost", "source_url": "https://stpaulhanoi.com/admissions/admissions-faqs/", "retrieved_date": "2026-07-27", "evidence": "provided to our families at no additional cost" },
+    { "path": "contact.phone", "value": "+84 24 3399 6464", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "+84 24 3399 6464" },
+    { "path": "contact.email", "value": "info@stpaulhanoi.com", "source_url": "https://stpaulhanoi.com/", "retrieved_date": "2026-07-27", "evidence": "info@stpaulhanoi.com" }
+  ]
+}
