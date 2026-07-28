@@ -1,0 +1,14 @@
+{
+  "id": "vn-ho-chi-minh-city-lycee-francais-international-marguerite-duras",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/lycee-francais-international-marguerite-duras/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/lycee-francais-international-marguerite-duras.json",
+  "claims": [
+    { "path": "name", "value": "Lycée Français International Marguerite Duras", "source_url": "https://lfiduras.com/index.php/contacts/", "retrieved_date": "2026-07-28", "evidence": "Lycée Français International Marguerite Duras" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://lfiduras.com/index.php/contacts/", "retrieved_date": "2026-07-28", "evidence": "Ho Chi Minh Ville – Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh Ville", "source_url": "https://lfiduras.com/index.php/contacts/", "retrieved_date": "2026-07-28", "evidence": "Ho Chi Minh Ville – Vietnam" },
+    { "path": "location.address", "value": "260, route N° 11 – Long Binh – Ho Chi Minh Ville – Vietnam", "source_url": "https://lfiduras.com/index.php/contacts/", "retrieved_date": "2026-07-28", "evidence": "260, route N° 11 – Long Binh – Ho Chi Minh Ville – Vietnam" },
+    { "path": "contact.phone", "value": "+84 (028) 37 25 22 08", "source_url": "https://lfiduras.com/index.php/contacts/", "retrieved_date": "2026-07-28", "evidence": "Téléphone : +84 (028) 37 25 22 08" },
+    { "path": "contact.email", "value": "sec.direction@lfiduras.com", "source_url": "https://lfiduras.com/index.php/contacts/", "retrieved_date": "2026-07-28", "evidence": "Secrétariat de Direction : sec.direction@lfiduras.com" }
+  ]
+}

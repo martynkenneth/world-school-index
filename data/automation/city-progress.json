@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-27",
+  "updated_at": "2026-07-28",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -131,6 +131,64 @@
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
       "next_action": "Begin Ho Chi Minh City; keep Hanoi thin records plus LFAY and UNIS conflicts in the manual verification queue."
+    },
+    {
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "city_slug": "ho-chi-minh-city",
+      "status": "in_progress",
+      "schools_discovered": 12,
+      "schools_processed": 10,
+      "school_ids": [
+        "school:vn:apu-american-international-school-ho-chi-minh-city",
+        "school:vn:australian-international-school-vietnam",
+        "school:vn:british-international-school-ho-chi-minh-city",
+        "school:vn:canadian-international-school-vietnam",
+        "school:vn:european-international-school-ho-chi-minh-city",
+        "school:vn:international-school-ho-chi-minh-city",
+        "school:vn:ishcmc-american-academy",
+        "school:vn:lycee-francais-international-marguerite-duras",
+        "school:vn:renaissance-international-school-saigon",
+        "school:vn:saigon-south-international-school"
+      ],
+      "school_results": [
+        { "school_id": "school:vn:apu-american-international-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 2, "indexable": false, "unresolved_fields": ["location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:australian-international-school-vietnam", "result": "provisional_profile_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["location.address", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website"] },
+        { "school_id": "school:vn:british-international-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["location.address", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:canadian-international-school-vietnam", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:european-international-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:international-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:ishcmc-american-academy", "result": "provisional_profile_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:lycee-francais-international-marguerite-duras", "result": "provisional_profile_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:renaissance-international-school-saigon", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:saigon-south-international-school", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
+      ],
+      "source_urls": [
+        "https://apu.edu.vn/apu-in-ho-chi-minh-city",
+        "https://www.aisvietnam.com/",
+        "https://www.aisvietnam.com/visit-us/open-mornings",
+        "https://www.nordangliaeducation.com/bis-hcmc",
+        "https://www.nordangliaeducation.com/bis-hcmc/contact-us",
+        "https://cis.edu.vn/vi",
+        "https://cis.edu.vn/vi/tuyen-sinh/cau-hoi",
+        "https://www.eishcmc.com/",
+        "https://www.eishcmc.com/enquire-now",
+        "https://www.ishcmc.com/",
+        "https://www.aavn.edu.vn/admissions/",
+        "https://www.aavn.edu.vn/eal-program/",
+        "https://lfiduras.com/",
+        "https://lfiduras.com/index.php/contacts/",
+        "https://renaissance.edu.vn/secondary-school/",
+        "https://renaissance.edu.vn/curriculum/",
+        "https://www.ssis.edu.vn/parent-portal/contacts",
+        "https://www.ssis.edu.vn/academics/teaching-and-learning"
+      ],
+      "last_run_date": "2026-07-28",
+      "unresolved_conflicts": [],
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "sheet_claims_blocked": 0,
+      "next_action": "Process the remaining two queued schools in Ho Chi Minh City: The ABC International School and The American School; then mark the city complete if discovery confirms no additional schools."
     }
   ]
 }

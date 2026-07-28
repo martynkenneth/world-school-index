@@ -1,0 +1,17 @@
+{
+  "id": "vn-ho-chi-minh-city-renaissance-international-school-saigon",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/renaissance-international-school-saigon/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/renaissance-international-school-saigon.json",
+  "claims": [
+    { "path": "name", "value": "Renaissance International School Saigon", "source_url": "https://renaissance.edu.vn/secondary-school/", "retrieved_date": "2026-07-28", "evidence": "Renaissance International School Saigon" },
+    { "path": "location.city", "value": "HCMC", "source_url": "https://renaissance.edu.vn/secondary-school/", "retrieved_date": "2026-07-28", "evidence": "74 Nguyen Thi Thap, Tan Thuan Ward, HCMC" },
+    { "path": "location.address", "value": "74 Nguyen Thi Thap, Tan Thuan Ward, HCMC", "source_url": "https://renaissance.edu.vn/secondary-school/", "retrieved_date": "2026-07-28", "evidence": "74 Nguyen Thi Thap, Tan Thuan Ward, HCMC" },
+    { "path": "curricula[0]", "value": "Primary Years Programme", "source_url": "https://renaissance.edu.vn/curriculum/", "retrieved_date": "2026-07-28", "evidence": "The Primary Years Programme" },
+    { "path": "curricula[1]", "value": "Middle Years Programme", "source_url": "https://renaissance.edu.vn/secondary-school/", "retrieved_date": "2026-07-28", "evidence": "Middle Years Programme" },
+    { "path": "curricula[2]", "value": "Cambridge IGCSE", "source_url": "https://renaissance.edu.vn/curriculum/", "retrieved_date": "2026-07-28", "evidence": "Cambridge IGCSE Programme" },
+    { "path": "curricula[3]", "value": "IB Diploma", "source_url": "https://renaissance.edu.vn/secondary-school/", "retrieved_date": "2026-07-28", "evidence": "full IB Diploma" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://renaissance.edu.vn/curriculum/", "retrieved_date": "2026-07-28", "evidence": "For students aged 2 to 11" },
+    { "path": "contact.phone", "value": "028 3773 3171", "source_url": "https://renaissance.edu.vn/secondary-school/", "retrieved_date": "2026-07-28", "evidence": "Phone 028 3773 3171" }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "vn-ho-chi-minh-city-ishcmc-american-academy",
+  "name": "International School Ho Chi Minh City – American Academy",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": null,
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": "16 Vo Truong Toan St., An Khanh, HCMC",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "American curriculum"
+  ],
+  "age_range": {
+    "min": 11,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "(84-28) 3898 9098",
+    "email": "admissions@aavn.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.aavn.edu.vn/admissions/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "International School Ho Chi Minh City – American Academy",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.aavn.edu.vn/eal-program/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "American curriculum secondary school in Ho Chi Minh City",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.aavn.edu.vn/admissions/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "16 Vo Truong Toan St., An Khanh, HCMC",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.aavn.edu.vn/eal-program/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "a leading American curriculum secondary school in Ho Chi Minh City",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.aavn.edu.vn/eal-program/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "students aged 11 to 18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.aavn.edu.vn/eal-program/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "students aged 11 to 18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.aavn.edu.vn/eal-program/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "majority of subjects across our curriculum are taught in English",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.aavn.edu.vn/admissions/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "PHONE : (84-28) 3898 9098",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.aavn.edu.vn/admissions/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "EMAIL : admissions@aavn.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

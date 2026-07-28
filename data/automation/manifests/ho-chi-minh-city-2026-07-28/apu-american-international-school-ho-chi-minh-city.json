@@ -1,0 +1,13 @@
+{
+  "id": "vn-ho-chi-minh-city-apu-american-international-school-ho-chi-minh-city",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/apu-american-international-school-ho-chi-minh-city/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/apu-american-international-school-ho-chi-minh-city.json",
+  "claims": [
+    { "path": "name", "value": "APU AMERICAN INTERNATIONAL SCHOOLS", "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city", "retrieved_date": "2026-07-28", "evidence": "APU AMERICAN INTERNATIONAL SCHOOLS" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city", "retrieved_date": "2026-07-28", "evidence": "501 Lac Long Quan Street, Hoa Binh Ward, Ho Chi Minh City" },
+    { "path": "year_groups[0]", "value": "Elementary (K-5)", "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city", "retrieved_date": "2026-07-28", "evidence": "Elementary (K-5)" },
+    { "path": "year_groups[1]", "value": "Middle School - High School (6-12)", "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city", "retrieved_date": "2026-07-28", "evidence": "Middle School - High School (6-12)" },
+    { "path": "contact.email", "value": "info@apu.edu.vn", "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city", "retrieved_date": "2026-07-28", "evidence": "INTERNATIONAL PROGRAM info@apu.edu.vn" }
+  ]
+}

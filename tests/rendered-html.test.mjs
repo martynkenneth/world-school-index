@@ -135,3 +135,22 @@ test("shows evidence progress without indexing a below-gate strict record", asyn
   assert.match(html, /application\/ld\+json/);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
+
+test("renders a strict provisional Ho Chi Minh City profile without indexing it", async () => {
+  const response = await render("/schools/european-international-school-ho-chi-minh-city");
+  const html = await response.text();
+
+  assert.match(html, /6\/12/);
+  assert.match(html, /Evidence-backed/);
+  assert.match(html, /application\/ld\+json/);
+  assert.match(html, /name="robots" content="noindex,\s*follow"/);
+});
+
+test("does not label a partial composite location as evidence-backed", async () => {
+  const response = await render("/schools/apu-american-international-school-ho-chi-minh-city");
+  const html = await response.text();
+
+  assert.match(html, /2\/12/);
+  assert.match(html, /Ho Chi Minh City, Vietnam[\s\S]*Evidence capture pending/);
+  assert.match(html, /name="robots" content="noindex,\s*follow"/);
+});

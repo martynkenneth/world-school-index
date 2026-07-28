@@ -1,0 +1,15 @@
+{
+  "id": "vn-ho-chi-minh-city-saigon-south-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/saigon-south-international-school/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/saigon-south-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Saigon South International School", "source_url": "https://www.ssis.edu.vn/parent-portal/contacts", "retrieved_date": "2026-07-28", "evidence": "Saigon South International School" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.ssis.edu.vn/parent-portal/contacts", "retrieved_date": "2026-07-28", "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.ssis.edu.vn/parent-portal/contacts", "retrieved_date": "2026-07-28", "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam" },
+    { "path": "location.address", "value": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam", "source_url": "https://www.ssis.edu.vn/parent-portal/contacts", "retrieved_date": "2026-07-28", "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam" },
+    { "path": "curricula[0]", "value": "North American standards", "source_url": "https://www.ssis.edu.vn/academics/teaching-and-learning", "retrieved_date": "2026-07-28", "evidence": "Based on North American standards, our curriculum challenges students" },
+    { "path": "contact.phone", "value": "(84-28) 3 622 0870", "source_url": "https://www.ssis.edu.vn/parent-portal/contacts", "retrieved_date": "2026-07-28", "evidence": "School Phone Number: (84-28) 3 622 0870" },
+    { "path": "contact.email", "value": "info@ssis.edu.vn", "source_url": "https://www.ssis.edu.vn/parent-portal/contacts", "retrieved_date": "2026-07-28", "evidence": "E info@ssis.edu.vn" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vn-ho-chi-minh-city-canadian-international-school-vietnam",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/canadian-international-school-vietnam/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/canadian-international-school-vietnam.json",
+  "claims": [
+    { "path": "name", "value": "The Canadian International School", "source_url": "https://cis.edu.vn/vi", "retrieved_date": "2026-07-28", "evidence": "The Canadian International School (CIS)" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://cis.edu.vn/vi", "retrieved_date": "2026-07-28", "evidence": "The Canadian International School - CIS (Vietnam)" },
+    { "path": "location.city", "value": "Hồ Chí Minh", "source_url": "https://cis.edu.vn/vi", "retrieved_date": "2026-07-28", "evidence": "07 Đường Số 23, Phường Tân Mỹ, TP. Hồ Chí Minh" },
+    { "path": "location.address", "value": "07 Đường Số 23, Phường Tân Mỹ, TP. Hồ Chí Minh", "source_url": "https://cis.edu.vn/vi", "retrieved_date": "2026-07-28", "evidence": "07 Đường Số 23, Phường Tân Mỹ, TP. Hồ Chí Minh" },
+    { "path": "curricula[0]", "value": "Ontario", "source_url": "https://cis.edu.vn/vi/tuyen-sinh/cau-hoi", "retrieved_date": "2026-07-28", "evidence": "chương tr&igrave;nh của Ontario (Canada) đầu ti&ecirc;n tại Việt Nam." },
+    { "path": "contact.phone", "value": "1900 255 636", "source_url": "https://cis.edu.vn/vi", "retrieved_date": "2026-07-28", "evidence": "1900 255 636" },
+    { "path": "contact.email", "value": "enquiry@cis.edu.vn", "source_url": "https://cis.edu.vn/vi", "retrieved_date": "2026-07-28", "evidence": "enquiry@cis.edu.vn" }
+  ]
+}

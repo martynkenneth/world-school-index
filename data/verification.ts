@@ -5,6 +5,16 @@ import hanoiInternationalSchool from "./schools/vietnam/hanoi-international-scho
 import lfayHanoi from "./schools/vietnam/lycee-francais-alexandre-yersin-hanoi.json";
 import stPaulHanoi from "./schools/vietnam/st-paul-american-school-hanoi.json";
 import unisHanoi from "./schools/vietnam/united-nations-international-school-hanoi.json";
+import apuHcmc from "./schools/vietnam/apu-american-international-school-ho-chi-minh-city.json";
+import aisVietnam from "./schools/vietnam/australian-international-school-vietnam.json";
+import bisHcmc from "./schools/vietnam/british-international-school-ho-chi-minh-city.json";
+import cisVietnam from "./schools/vietnam/canadian-international-school-vietnam.json";
+import eisHcmc from "./schools/vietnam/european-international-school-ho-chi-minh-city.json";
+import ishcmc from "./schools/vietnam/international-school-ho-chi-minh-city.json";
+import ishcmcAmericanAcademy from "./schools/vietnam/ishcmc-american-academy.json";
+import lfiDuras from "./schools/vietnam/lycee-francais-international-marguerite-duras.json";
+import renaissanceSaigon from "./schools/vietnam/renaissance-international-school-saigon.json";
+import ssis from "./schools/vietnam/saigon-south-international-school.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -31,6 +41,16 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "lycee-francais-alexandre-yersin-hanoi": lfayHanoi as StrictSchoolRecord,
   "st-paul-american-school-hanoi": stPaulHanoi as StrictSchoolRecord,
   "united-nations-international-school-hanoi": unisHanoi as StrictSchoolRecord,
+  "apu-american-international-school-ho-chi-minh-city": apuHcmc as StrictSchoolRecord,
+  "australian-international-school-vietnam": aisVietnam as StrictSchoolRecord,
+  "british-international-school-ho-chi-minh-city": bisHcmc as StrictSchoolRecord,
+  "canadian-international-school-vietnam": cisVietnam as StrictSchoolRecord,
+  "european-international-school-ho-chi-minh-city": eisHcmc as StrictSchoolRecord,
+  "international-school-ho-chi-minh-city": ishcmc as StrictSchoolRecord,
+  "ishcmc-american-academy": ishcmcAmericanAcademy as StrictSchoolRecord,
+  "lycee-francais-international-marguerite-duras": lfiDuras as StrictSchoolRecord,
+  "renaissance-international-school-saigon": renaissanceSaigon as StrictSchoolRecord,
+  "saigon-south-international-school": ssis as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {
@@ -67,10 +87,10 @@ export function getFieldVerificationState(
   const record = getStrictRecord(slug);
   if (!record) return "pending";
 
-  const matches = Object.entries(record.provenance).filter(([key]) =>
-    fieldPrefixes.some((prefix) => key === prefix || key.startsWith(`${prefix}[`) || key.startsWith(`${prefix}.`)),
-  );
+  const matchesByPrefix = fieldPrefixes.map((prefix) => Object.entries(record.provenance).filter(([key]) =>
+    key === prefix || key.startsWith(`${prefix}[`) || key.startsWith(`${prefix}.`),
+  ));
 
-  if (matches.some(([, entry]) => entry.conflict)) return "conflict";
-  return matches.length > 0 ? "evidence-backed" : "pending";
+  if (matchesByPrefix.flat().some(([, entry]) => entry.conflict)) return "conflict";
+  return matchesByPrefix.every((matches) => matches.length > 0) ? "evidence-backed" : "pending";
 }

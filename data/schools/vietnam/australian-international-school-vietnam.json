@@ -1,0 +1,204 @@
+{
+  "id": "vn-ho-chi-minh-city-australian-international-school-vietnam",
+  "name": "Australian International School Saigon",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "International Baccalaureate",
+    "Cambridge"
+  ],
+  "age_range": {
+    "min": 1.5,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "Council of International Schools",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "International Baccalaureate",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "Cambridge Assessment Examinations",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [
+      "Every Friday"
+    ],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": "info@aisvietnam.com"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.aisvietnam.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "At Australian International School Saigon (AIS)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.aisvietnam.com/visit-us/open-mornings",
+      "retrieved_date": "2026-07-28",
+      "evidence": "264 Mai Chi Tho Street, Binh Trung Ward, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.aisvietnam.com/visit-us/open-mornings",
+      "retrieved_date": "2026-07-28",
+      "evidence": "264 Mai Chi Tho Street, Binh Trung Ward, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.aisvietnam.com/visit-us/open-mornings",
+      "retrieved_date": "2026-07-28",
+      "evidence": "A diverse curriculum featuring International Baccalaureate (IB) and Cambridge programmes",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.aisvietnam.com/visit-us/open-mornings",
+      "retrieved_date": "2026-07-28",
+      "evidence": "A diverse curriculum featuring International Baccalaureate (IB) and Cambridge programmes",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.aisvietnam.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Thu Thiem Campus Ages 1.5 to 18 Years",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.aisvietnam.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Thu Thiem Campus Ages 1.5 to 18 Years",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.aisvietnam.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "The Council of International Schools (CIS)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[1].body": {
+      "source_url": "https://www.aisvietnam.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "the International Baccalaureate (IB) for the PYP and DP programmes",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[2].body": {
+      "source_url": "https://www.aisvietnam.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Cambridge Assessment Examinations' board in their accreditation",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "admissions.open_days[0]": {
+      "source_url": "https://www.aisvietnam.com/visit-us/open-mornings",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Date: Every Friday Time: 9am",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.aisvietnam.com/visit-us/open-mornings",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Email: info@aisvietnam.com",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

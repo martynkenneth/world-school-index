@@ -1,0 +1,21 @@
+{
+  "id": "vn-ho-chi-minh-city-european-international-school-ho-chi-minh-city",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/european-international-school-ho-chi-minh-city/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/european-international-school-ho-chi-minh-city.json",
+  "claims": [
+    { "path": "name", "value": "European International School Ho Chi Minh City", "source_url": "https://www.eishcmc.com/enquire-now", "retrieved_date": "2026-07-28", "evidence": "European International School Ho Chi Minh City" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.eishcmc.com/enquire-now", "retrieved_date": "2026-07-28", "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.eishcmc.com/enquire-now", "retrieved_date": "2026-07-28", "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam" },
+    { "path": "location.address", "value": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam", "source_url": "https://www.eishcmc.com/enquire-now", "retrieved_date": "2026-07-28", "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam" },
+    { "path": "school_type", "value": "private", "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "EIS is a boutique, international private school" },
+    { "path": "curricula[0]", "value": "International Baccalaureate", "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "providing the International Baccalaureate (IB) curriculum to children aged 2 to 18-years-old" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "children aged 2 to 18-years-old" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "children aged 2 to 18-years-old" },
+    { "path": "accreditations[0].body", "value": "International Baccalaureate Organisation", "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "The International Baccalaureate Organisation (IBO)" },
+    { "path": "accreditations[1].body", "value": "Council of International Schools", "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "The Council of International Schools (CIS)" },
+    { "path": "accreditations[2].body", "value": "Accrediting Commission for Schools", "source_url": "https://www.eishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "The Accrediting Commission for Schools (ACS WASC)" },
+    { "path": "contact.phone", "value": "(+84 28) 7300 7257", "source_url": "https://www.eishcmc.com/enquire-now", "retrieved_date": "2026-07-28", "evidence": "Tel: (+84 28) 7300 7257" },
+    { "path": "contact.email", "value": "info@eishcmc.com", "source_url": "https://www.eishcmc.com/enquire-now", "retrieved_date": "2026-07-28", "evidence": "Email: info@eishcmc.com" }
+  ]
+}

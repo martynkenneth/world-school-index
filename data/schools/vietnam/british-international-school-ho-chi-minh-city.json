@@ -1,0 +1,180 @@
+{
+  "id": "vn-ho-chi-minh-city-british-international-school-ho-chi-minh-city",
+  "name": "British International School Ho Chi Minh City",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "IGCSE",
+    "IBDP"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "Federation of British International Schools in Asia",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "International Baccalaureate",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 (0) 28 3636 0055",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "British International School Ho Chi Minh City",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "British International School Ho Chi Minh City (BIS HCMC) is the leading school in Vietnam.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "British International School Ho Chi Minh City (BIS HCMC) is the leading school in Vietnam.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "97% of our IGCSE students got at least 5 A*-C grades",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "In 2025, our average IBDP score was 36.3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Early Years Ages 2-5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Sixth Form Ages 16-18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "member of the Federation of British International Schools in Asia (FOBISIA)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[1].body": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "a designated International Baccalaureate World School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Early Years & Infant Campus: +84 (0) 28 3636 0055",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 5,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

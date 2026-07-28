@@ -1,0 +1,132 @@
+{
+  "id": "vn-ho-chi-minh-city-lycee-francais-international-marguerite-duras",
+  "name": "Lycée Français International Marguerite Duras",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh Ville",
+    "district": null,
+    "address": "260, route N° 11 – Long Binh – Ho Chi Minh Ville – Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 (028) 37 25 22 08",
+    "email": "sec.direction@lfiduras.com"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://lfiduras.com/index.php/contacts/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Lycée Français International Marguerite Duras",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://lfiduras.com/index.php/contacts/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Ho Chi Minh Ville – Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://lfiduras.com/index.php/contacts/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Ho Chi Minh Ville – Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://lfiduras.com/index.php/contacts/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "260, route N° 11 – Long Binh – Ho Chi Minh Ville – Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://lfiduras.com/index.php/contacts/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Téléphone : +84 (028) 37 25 22 08",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://lfiduras.com/index.php/contacts/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Secrétariat de Direction : sec.direction@lfiduras.com",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 3,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

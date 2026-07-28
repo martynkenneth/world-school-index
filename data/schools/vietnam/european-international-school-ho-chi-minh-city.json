@@ -1,0 +1,209 @@
+{
+  "id": "vn-ho-chi-minh-city-european-international-school-ho-chi-minh-city",
+  "name": "European International School Ho Chi Minh City",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": "private",
+  "curricula": [
+    "International Baccalaureate"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "International Baccalaureate Organisation",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "Council of International Schools",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "Accrediting Commission for Schools",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "(+84 28) 7300 7257",
+    "email": "info@eishcmc.com"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.eishcmc.com/enquire-now",
+      "retrieved_date": "2026-07-28",
+      "evidence": "European International School Ho Chi Minh City",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.eishcmc.com/enquire-now",
+      "retrieved_date": "2026-07-28",
+      "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.eishcmc.com/enquire-now",
+      "retrieved_date": "2026-07-28",
+      "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.eishcmc.com/enquire-now",
+      "retrieved_date": "2026-07-28",
+      "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "school_type": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "EIS is a boutique, international private school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "providing the International Baccalaureate (IB) curriculum to children aged 2 to 18-years-old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "children aged 2 to 18-years-old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "children aged 2 to 18-years-old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "The International Baccalaureate Organisation (IBO)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[1].body": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "The Council of International Schools (CIS)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[2].body": {
+      "source_url": "https://www.eishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "The Accrediting Commission for Schools (ACS WASC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.eishcmc.com/enquire-now",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Tel: (+84 28) 7300 7257",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.eishcmc.com/enquire-now",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Email: info@eishcmc.com",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

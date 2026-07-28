@@ -1,0 +1,150 @@
+{
+  "id": "vn-ho-chi-minh-city-international-school-ho-chi-minh-city",
+  "name": "International School Ho Chi Minh City",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "IB Diploma"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 (28) 3898 9100",
+    "email": "admissions@ishcmc.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "International School Ho Chi Minh City (ISHCMC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "ISHCMC | International School Ho Chi Minh City | Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "International School Ho Chi Minh City (ISHCMC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Ho Chi Minh City’s first and leading IB Diploma school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "full IB World School for children aged 2–18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "full IB World School for children aged 2–18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Contact +84 (28) 3898 9100",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.ishcmc.com/",
+      "retrieved_date": "2026-07-28",
+      "evidence": "admissions@ishcmc.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

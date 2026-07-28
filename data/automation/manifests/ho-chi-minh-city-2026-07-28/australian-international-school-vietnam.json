@@ -1,0 +1,20 @@
+{
+  "id": "vn-ho-chi-minh-city-australian-international-school-vietnam",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/australian-international-school-vietnam/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/australian-international-school-vietnam.json",
+  "claims": [
+    { "path": "name", "value": "Australian International School Saigon", "source_url": "https://www.aisvietnam.com/", "retrieved_date": "2026-07-28", "evidence": "At Australian International School Saigon (AIS)" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.aisvietnam.com/visit-us/open-mornings", "retrieved_date": "2026-07-28", "evidence": "264 Mai Chi Tho Street, Binh Trung Ward, Ho Chi Minh City, Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.aisvietnam.com/visit-us/open-mornings", "retrieved_date": "2026-07-28", "evidence": "264 Mai Chi Tho Street, Binh Trung Ward, Ho Chi Minh City, Vietnam" },
+    { "path": "curricula[0]", "value": "International Baccalaureate", "source_url": "https://www.aisvietnam.com/visit-us/open-mornings", "retrieved_date": "2026-07-28", "evidence": "A diverse curriculum featuring International Baccalaureate (IB) and Cambridge programmes" },
+    { "path": "curricula[1]", "value": "Cambridge", "source_url": "https://www.aisvietnam.com/visit-us/open-mornings", "retrieved_date": "2026-07-28", "evidence": "A diverse curriculum featuring International Baccalaureate (IB) and Cambridge programmes" },
+    { "path": "age_range.min", "value": 1.5, "source_url": "https://www.aisvietnam.com/", "retrieved_date": "2026-07-28", "evidence": "Thu Thiem Campus Ages 1.5 to 18 Years" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.aisvietnam.com/", "retrieved_date": "2026-07-28", "evidence": "Thu Thiem Campus Ages 1.5 to 18 Years" },
+    { "path": "accreditations[0].body", "value": "Council of International Schools", "source_url": "https://www.aisvietnam.com/", "retrieved_date": "2026-07-28", "evidence": "The Council of International Schools (CIS)" },
+    { "path": "accreditations[1].body", "value": "International Baccalaureate", "source_url": "https://www.aisvietnam.com/", "retrieved_date": "2026-07-28", "evidence": "the International Baccalaureate (IB) for the PYP and DP programmes" },
+    { "path": "accreditations[2].body", "value": "Cambridge Assessment Examinations", "source_url": "https://www.aisvietnam.com/", "retrieved_date": "2026-07-28", "evidence": "Cambridge Assessment Examinations' board in their accreditation" },
+    { "path": "admissions.open_days[0]", "value": "Every Friday", "source_url": "https://www.aisvietnam.com/visit-us/open-mornings", "retrieved_date": "2026-07-28", "evidence": "Date: Every Friday Time: 9am" },
+    { "path": "contact.email", "value": "info@aisvietnam.com", "source_url": "https://www.aisvietnam.com/visit-us/open-mornings", "retrieved_date": "2026-07-28", "evidence": "Email: info@aisvietnam.com" }
+  ]
+}

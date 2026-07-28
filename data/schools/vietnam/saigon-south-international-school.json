@@ -1,0 +1,142 @@
+{
+  "id": "vn-ho-chi-minh-city-saigon-south-international-school",
+  "name": "Saigon South International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "North American standards"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "(84-28) 3 622 0870",
+    "email": "info@ssis.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Saigon South International School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
+      "retrieved_date": "2026-07-28",
+      "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
+      "retrieved_date": "2026-07-28",
+      "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
+      "retrieved_date": "2026-07-28",
+      "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.ssis.edu.vn/academics/teaching-and-learning",
+      "retrieved_date": "2026-07-28",
+      "evidence": "Based on North American standards, our curriculum challenges students",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
+      "retrieved_date": "2026-07-28",
+      "evidence": "School Phone Number: (84-28) 3 622 0870",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
+      "retrieved_date": "2026-07-28",
+      "evidence": "E info@ssis.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-07-28"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vn-ho-chi-minh-city-ishcmc-american-academy",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/ishcmc-american-academy/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/ishcmc-american-academy.json",
+  "claims": [
+    { "path": "name", "value": "International School Ho Chi Minh City – American Academy", "source_url": "https://www.aavn.edu.vn/admissions/", "retrieved_date": "2026-07-28", "evidence": "International School Ho Chi Minh City – American Academy" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.aavn.edu.vn/eal-program/", "retrieved_date": "2026-07-28", "evidence": "American curriculum secondary school in Ho Chi Minh City" },
+    { "path": "location.address", "value": "16 Vo Truong Toan St., An Khanh, HCMC", "source_url": "https://www.aavn.edu.vn/admissions/", "retrieved_date": "2026-07-28", "evidence": "16 Vo Truong Toan St., An Khanh, HCMC" },
+    { "path": "curricula[0]", "value": "American curriculum", "source_url": "https://www.aavn.edu.vn/eal-program/", "retrieved_date": "2026-07-28", "evidence": "a leading American curriculum secondary school in Ho Chi Minh City" },
+    { "path": "age_range.min", "value": 11, "source_url": "https://www.aavn.edu.vn/eal-program/", "retrieved_date": "2026-07-28", "evidence": "students aged 11 to 18 years old" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.aavn.edu.vn/eal-program/", "retrieved_date": "2026-07-28", "evidence": "students aged 11 to 18 years old" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://www.aavn.edu.vn/eal-program/", "retrieved_date": "2026-07-28", "evidence": "majority of subjects across our curriculum are taught in English" },
+    { "path": "contact.phone", "value": "(84-28) 3898 9098", "source_url": "https://www.aavn.edu.vn/admissions/", "retrieved_date": "2026-07-28", "evidence": "PHONE : (84-28) 3898 9098" },
+    { "path": "contact.email", "value": "admissions@aavn.edu.vn", "source_url": "https://www.aavn.edu.vn/admissions/", "retrieved_date": "2026-07-28", "evidence": "EMAIL : admissions@aavn.edu.vn" }
+  ]
+}

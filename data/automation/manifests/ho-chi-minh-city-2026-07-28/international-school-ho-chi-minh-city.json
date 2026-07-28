@@ -1,0 +1,16 @@
+{
+  "id": "vn-ho-chi-minh-city-international-school-ho-chi-minh-city",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/international-school-ho-chi-minh-city/2026-07-28.fetch.json",
+  "output": "data/schools/vietnam/international-school-ho-chi-minh-city.json",
+  "claims": [
+    { "path": "name", "value": "International School Ho Chi Minh City", "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "International School Ho Chi Minh City (ISHCMC)" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "ISHCMC | International School Ho Chi Minh City | Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "International School Ho Chi Minh City (ISHCMC)" },
+    { "path": "curricula[0]", "value": "IB Diploma", "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "Ho Chi Minh City’s first and leading IB Diploma school" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "full IB World School for children aged 2–18" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "full IB World School for children aged 2–18" },
+    { "path": "contact.phone", "value": "+84 (28) 3898 9100", "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "Contact +84 (28) 3898 9100" },
+    { "path": "contact.email", "value": "admissions@ishcmc.edu.vn", "source_url": "https://www.ishcmc.com/", "retrieved_date": "2026-07-28", "evidence": "admissions@ishcmc.edu.vn" }
+  ]
+}
