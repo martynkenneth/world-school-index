@@ -1,0 +1,20 @@
+{
+  "id": "vn-ho-chi-minh-city-the-american-school-ho-chi-minh-city",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/the-american-school-ho-chi-minh-city/2026-07-29.fetch.json",
+  "output": "data/schools/vietnam/the-american-school-ho-chi-minh-city.json",
+  "claims": [
+    { "path": "name", "value": "The American School", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "Trường Quốc tế TAS - The American School" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.tas.edu.vn/about/about-tas", "retrieved_date": "2026-07-29", "evidence": "Executive Principal at the American School in Ho Chi Minh City, Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.tas.edu.vn/about/about-tas", "retrieved_date": "2026-07-29", "evidence": "Executive Principal at the American School in Ho Chi Minh City, Vietnam" },
+    { "path": "location.address", "value": "06 Song Hanh Road, HCM - Long Thanh - Dau Giay Freeway, Binh Trung Ward, HCMC, Vietnam", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "06 Song Hanh Road, HCM - Long Thanh - Dau Giay Freeway, Binh Trung Ward, HCMC, Vietnam" },
+    { "path": "curricula[0]", "value": "American educational models", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "The American School fosters the growth of the whole child in a multicultural environment aligned with American educational models." },
+    { "path": "curricula[1]", "value": "IB Primary Years Programme (PYP)", "source_url": "https://www.tas.edu.vn/about/school-profile-achievements", "retrieved_date": "2026-07-29", "evidence": "The American School (TAS) is an IB Primary Years Programme (PYP) Authorized School" },
+    { "path": "year_groups[0]", "value": "Pre-Nursery", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "offers outstanding facilities for students from Pre-Nursery to Grade 12" },
+    { "path": "year_groups[1]", "value": "Grade 12", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "offers outstanding facilities for students from Pre-Nursery to Grade 12" },
+    { "path": "accreditations[0].body", "value": "Western Association of Schools and Colleges", "source_url": "https://www.tas.edu.vn/about/school-profile-achievements", "retrieved_date": "2026-07-29", "evidence": "Western Association of Schools and Colleges The American School is a WASC Accredited School" },
+    { "path": "accreditations[0].status", "value": "WASC Accredited School", "source_url": "https://www.tas.edu.vn/about/school-profile-achievements", "retrieved_date": "2026-07-29", "evidence": "The American School is a WASC Accredited School (from Early Childhood to High School)." },
+    { "path": "contact.phone", "value": "028 3519 2223", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "028 3519 2223" },
+    { "path": "contact.email", "value": "admissions@mytas.edu.vn", "source_url": "https://www.tas.edu.vn/", "retrieved_date": "2026-07-29", "evidence": "admissions@mytas.edu.vn" }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "vn-ho-chi-minh-city-abc-international-school-ho-chi-minh-city",
+  "name": "The ABC International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": 1995,
+  "school_type": null,
+  "curricula": [
+    "National Curriculum of England",
+    "IGCSEs",
+    "International AS/A Levels"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "Cambridge International Examinations Board",
+      "status": "Accredited",
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 (0)28 7308 1828",
+    "email": "office@theabcis.com"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Established in 1995, The ABC International School is a dynamic, multi-national, non-denominational day school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "#152-158, Street No. 1, KDC Trung Son, Binh Hung Commune, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "#152-158, Street No. 1, KDC Trung Son, Binh Hung Commune, Ho Chi Minh City, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Established in 1995, The ABC International School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Following the National Curriculum of England , our programme is delivered entirely in English",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "We offer globally recognised examinations, including IGCSEs and International AS/A Levels from Cambridge examination board.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "We offer globally recognised examinations, including IGCSEs and International AS/A Levels from Cambridge examination board.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "English-speaking students aged 2-18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "English-speaking students aged 2-18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.theabcis.com/about-us/accreditations-and-affiliations/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Accredited by the Cambridge International Examinations Board (CIE) to deliver both the curricula and examinations",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].status": {
+      "source_url": "https://www.theabcis.com/about-us/accreditations-and-affiliations/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Accredited by the Cambridge International Examinations Board (CIE)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "our programme is delivered entirely in English",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Phone: +84 (0)28 7308 1828",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.theabcis.com/about-us/",
+      "retrieved_date": "2026-07-29",
+      "evidence": "Email: office@theabcis.com",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-07-29"
+}

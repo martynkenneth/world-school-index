@@ -154,3 +154,21 @@ test("does not label a partial composite location as evidence-backed", async () 
   assert.match(html, /Ho Chi Minh City, Vietnam[\s\S]*Evidence capture pending/);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
+
+test("renders the completed Ho Chi Minh City provisional collection without indexing thin profiles", async () => {
+  const [abcResponse, tasResponse] = await Promise.all([
+    render("/schools/abc-international-school-ho-chi-minh-city"),
+    render("/schools/the-american-school-ho-chi-minh-city"),
+  ]);
+  const [abcHtml, tasHtml] = await Promise.all([abcResponse.text(), tasResponse.text()]);
+
+  assert.match(abcHtml, /6\/12/);
+  assert.match(abcHtml, /Evidence-backed/);
+  assert.match(abcHtml, /name="robots" content="noindex,\s*follow"/);
+  assert.match(abcHtml, /application\/ld\+json/);
+
+  assert.match(tasHtml, /5\/12/);
+  assert.match(tasHtml, /Evidence-backed/);
+  assert.match(tasHtml, /name="robots" content="noindex,\s*follow"/);
+  assert.match(tasHtml, /application\/ld\+json/);
+});

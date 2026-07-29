@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-28",
+  "updated_at": "2026-07-29",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -136,9 +136,9 @@
       "country": "Vietnam",
       "city": "Ho Chi Minh City",
       "city_slug": "ho-chi-minh-city",
-      "status": "in_progress",
+      "status": "complete",
       "schools_discovered": 12,
-      "schools_processed": 10,
+      "schools_processed": 12,
       "school_ids": [
         "school:vn:apu-american-international-school-ho-chi-minh-city",
         "school:vn:australian-international-school-vietnam",
@@ -149,7 +149,9 @@
         "school:vn:ishcmc-american-academy",
         "school:vn:lycee-francais-international-marguerite-duras",
         "school:vn:renaissance-international-school-saigon",
-        "school:vn:saigon-south-international-school"
+        "school:vn:saigon-south-international-school",
+        "school:vn:abc-international-school-ho-chi-minh-city",
+        "school:vn:the-american-school-ho-chi-minh-city"
       ],
       "school_results": [
         { "school_id": "school:vn:apu-american-international-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 2, "indexable": false, "unresolved_fields": ["location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
@@ -161,7 +163,9 @@
         { "school_id": "school:vn:ishcmc-american-academy", "result": "provisional_profile_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"] },
         { "school_id": "school:vn:lycee-francais-international-marguerite-duras", "result": "provisional_profile_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
         { "school_id": "school:vn:renaissance-international-school-saigon", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:vn:saigon-south-international-school", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
+        { "school_id": "school:vn:saigon-south-international-school", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:abc-international-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["location.address", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:the-american-school-ho-chi-minh-city", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
       ],
       "source_urls": [
         "https://apu.edu.vn/apu-in-ho-chi-minh-city",
@@ -181,14 +185,19 @@
         "https://renaissance.edu.vn/secondary-school/",
         "https://renaissance.edu.vn/curriculum/",
         "https://www.ssis.edu.vn/parent-portal/contacts",
-        "https://www.ssis.edu.vn/academics/teaching-and-learning"
+        "https://www.ssis.edu.vn/academics/teaching-and-learning",
+        "https://www.theabcis.com/about-us/",
+        "https://www.theabcis.com/about-us/accreditations-and-affiliations/",
+        "https://www.tas.edu.vn/",
+        "https://www.tas.edu.vn/about/about-tas",
+        "https://www.tas.edu.vn/about/school-profile-achievements"
       ],
-      "last_run_date": "2026-07-28",
+      "last_run_date": "2026-07-29",
       "unresolved_conflicts": [],
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
-      "next_action": "Process the remaining two queued schools in Ho Chi Minh City: The ABC International School and The American School; then mark the city complete if discovery confirms no additional schools."
+      "next_action": "Begin Da Nang, Vietnam, using the existing coverage roadmap; retain the ABCIS multi-campus address issue in the manual verification queue."
     }
   ]
 }

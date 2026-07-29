@@ -1,0 +1,22 @@
+{
+  "id": "vn-ho-chi-minh-city-abc-international-school-ho-chi-minh-city",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/abc-international-school-ho-chi-minh-city/2026-07-29.fetch.json",
+  "output": "data/schools/vietnam/abc-international-school-ho-chi-minh-city.json",
+  "claims": [
+    { "path": "name", "value": "The ABC International School", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "Established in 1995, The ABC International School is a dynamic, multi-national, non-denominational day school" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "#152-158, Street No. 1, KDC Trung Son, Binh Hung Commune, Ho Chi Minh City, Vietnam" },
+    { "path": "location.city", "value": "Ho Chi Minh City", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "#152-158, Street No. 1, KDC Trung Son, Binh Hung Commune, Ho Chi Minh City, Vietnam" },
+    { "path": "founded", "value": 1995, "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "Established in 1995, The ABC International School" },
+    { "path": "curricula[0]", "value": "National Curriculum of England", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "Following the National Curriculum of England , our programme is delivered entirely in English" },
+    { "path": "curricula[1]", "value": "IGCSEs", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "We offer globally recognised examinations, including IGCSEs and International AS/A Levels from Cambridge examination board." },
+    { "path": "curricula[2]", "value": "International AS/A Levels", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "We offer globally recognised examinations, including IGCSEs and International AS/A Levels from Cambridge examination board." },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "English-speaking students aged 2-18" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "English-speaking students aged 2-18" },
+    { "path": "accreditations[0].body", "value": "Cambridge International Examinations Board", "source_url": "https://www.theabcis.com/about-us/accreditations-and-affiliations/", "retrieved_date": "2026-07-29", "evidence": "Accredited by the Cambridge International Examinations Board (CIE) to deliver both the curricula and examinations" },
+    { "path": "accreditations[0].status", "value": "Accredited", "source_url": "https://www.theabcis.com/about-us/accreditations-and-affiliations/", "retrieved_date": "2026-07-29", "evidence": "Accredited by the Cambridge International Examinations Board (CIE)" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "our programme is delivered entirely in English" },
+    { "path": "contact.phone", "value": "+84 (0)28 7308 1828", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "Phone: +84 (0)28 7308 1828" },
+    { "path": "contact.email", "value": "office@theabcis.com", "source_url": "https://www.theabcis.com/about-us/", "retrieved_date": "2026-07-29", "evidence": "Email: office@theabcis.com" }
+  ]
+}

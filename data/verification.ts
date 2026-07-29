@@ -15,6 +15,8 @@ import ishcmcAmericanAcademy from "./schools/vietnam/ishcmc-american-academy.jso
 import lfiDuras from "./schools/vietnam/lycee-francais-international-marguerite-duras.json";
 import renaissanceSaigon from "./schools/vietnam/renaissance-international-school-saigon.json";
 import ssis from "./schools/vietnam/saigon-south-international-school.json";
+import abcInternationalSchool from "./schools/vietnam/abc-international-school-ho-chi-minh-city.json";
+import theAmericanSchool from "./schools/vietnam/the-american-school-ho-chi-minh-city.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -51,6 +53,8 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "lycee-francais-international-marguerite-duras": lfiDuras as StrictSchoolRecord,
   "renaissance-international-school-saigon": renaissanceSaigon as StrictSchoolRecord,
   "saigon-south-international-school": ssis as StrictSchoolRecord,
+  "abc-international-school-ho-chi-minh-city": abcInternationalSchool as StrictSchoolRecord,
+  "the-american-school-ho-chi-minh-city": theAmericanSchool as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {
