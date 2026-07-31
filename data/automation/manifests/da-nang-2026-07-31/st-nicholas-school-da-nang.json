@@ -1,0 +1,19 @@
+{
+  "id": "vn-da-nang-st-nicholas-school-da-nang",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/st-nicholas-school-da-nang/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/st-nicholas-school-da-nang.json",
+  "claims": [
+    { "path": "name", "value": "St. Nicholas School", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "St. Nicholas School is a K–12 institution in Da Nang" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "A2-15, Zone E, Tran Nam Trung Street, Hoa Xuan, Da Nang, Vietnam" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "St. Nicholas School is a K–12 institution in Da Nang" },
+    { "path": "location.address", "value": "A2-15, Zone E, Tran Nam Trung Street, Hoa Xuan, Da Nang, Vietnam", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "A2-15, Zone E, Tran Nam Trung Street, Hoa Xuan, Da Nang, Vietnam" },
+    { "path": "curricula[0]", "value": "Common Core Standards (USA)", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "curriculum based on the Common Core Standards (USA)" },
+    { "path": "curricula[1]", "value": "Florida Virtual School (FLVS)", "source_url": "https://sns.edu.vn/en/academic-programs/international-program", "retrieved_date": "2026-07-31", "evidence": "follow the Florida Virtual School (FLVS) program" },
+    { "path": "curricula[2]", "value": "Mizzou Academy", "source_url": "https://sns.edu.vn/en/academic-programs/international-program", "retrieved_date": "2026-07-31", "evidence": "the program of Mizzou Academy" },
+    { "path": "year_groups[0]", "value": "Grade 1", "source_url": "https://sns.edu.vn/en/academic-programs/international-program", "retrieved_date": "2026-07-31", "evidence": "For students from Grade 1 to Grade 12" },
+    { "path": "year_groups[1]", "value": "Grade 12", "source_url": "https://sns.edu.vn/en/academic-programs/international-program", "retrieved_date": "2026-07-31", "evidence": "For students from Grade 1 to Grade 12" },
+    { "path": "contact.phone", "value": "(+84) 931 972 972", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "Hotline: (+84) 931 972 972" },
+    { "path": "contact.email", "value": "admissions1@sns.edu.vn", "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy", "retrieved_date": "2026-07-31", "evidence": "Email: admissions1@sns.edu.vn" }
+  ]
+}

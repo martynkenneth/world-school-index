@@ -1,0 +1,20 @@
+{
+  "id": "vn-da-nang-apu-american-international-school-da-nang",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/apu-american-international-school-da-nang/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/apu-american-international-school-da-nang.json",
+  "claims": [
+    { "path": "name", "value": "APU American International School", "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "APU expanded to open the APU American International School in Da Nang City in 2015" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "economic development of Vietnam" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "APU American International School in Da Nang City" },
+    { "path": "location.address", "value": "299 Tran Dai Nghia, Hoa Hai Ward, Ngu Hanh Son District, Da Nang City, Vietnam", "source_url": "https://www.apu.edu.vn/da-nang", "retrieved_date": "2026-07-31", "evidence": "299 Tran Dai Nghia, Hoa Hai Ward, Ngu Hanh Son District, Da Nang City, Vietnam" },
+    { "path": "founded", "value": 2015, "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "APU American International School in Da Nang City in 2015" },
+    { "path": "curricula[0]", "value": "American Education", "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "Pathway to American Education" },
+    { "path": "year_groups[0]", "value": "K-5", "source_url": "https://www.apu.edu.vn/da-nang", "retrieved_date": "2026-07-31", "evidence": "Elementary (K-5)" },
+    { "path": "year_groups[1]", "value": "6-12", "source_url": "https://www.apu.edu.vn/da-nang", "retrieved_date": "2026-07-31", "evidence": "Middle School - High School (6-12)" },
+    { "path": "enrolment.total", "value": "more than 280 students", "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "APU Da Nang opened its doors to more than 280 students" },
+    { "path": "enrolment.nationalities_count", "value": "10 different nationalities", "source_url": "https://www.apu.edu.vn/about", "retrieved_date": "2026-07-31", "evidence": "more than 280 students, from 10 different nationalities" },
+    { "path": "contact.phone", "value": "(84-236) 3928 665 - 3928 667", "source_url": "https://www.apu.edu.vn/da-nang", "retrieved_date": "2026-07-31", "evidence": "(84-236) 3928 665 - 3928 667" },
+    { "path": "contact.email", "value": "info@apu.edu.vn", "source_url": "https://www.apu.edu.vn/da-nang", "retrieved_date": "2026-07-31", "evidence": "info@apu.edu.vn" }
+  ]
+}

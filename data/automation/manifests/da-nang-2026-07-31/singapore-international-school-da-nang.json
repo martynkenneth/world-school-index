@@ -1,0 +1,15 @@
+{
+  "id": "vn-da-nang-singapore-international-school-da-nang",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/singapore-international-school-da-nang/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/singapore-international-school-da-nang.json",
+  "claims": [
+    { "path": "name", "value": "Singapore International School @ Da Nang", "source_url": "https://danang.sis.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Singapore International School @ Da Nang" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://danang.sis.edu.vn/who-we-are/academic-team/", "retrieved_date": "2026-07-31", "evidence": "coastal city of Da Nang, Vietnam" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://danang.sis.edu.vn/who-we-are/academic-team/", "retrieved_date": "2026-07-31", "evidence": "coastal city of Da Nang, Vietnam" },
+    { "path": "location.address", "value": "SIS Building, Vung Trung 3 Street, Phu My An New Urban Area, Ngu Hanh Son Ward, Da Nang", "source_url": "https://danang.sis.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "SIS Building, Vung Trung 3 Street, Phu My An New Urban Area, Ngu Hanh Son Ward, Da Nang" },
+    { "path": "curricula[0]", "value": "Singapore and Cambridge curriculums", "source_url": "https://danang.sis.edu.vn/who-we-are/academic-team/", "retrieved_date": "2026-07-31", "evidence": "integrates the rigors of the Singapore and Cambridge curriculums" },
+    { "path": "contact.phone", "value": "+84 236 7301777", "source_url": "https://danang.sis.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "+84 236 7301777" },
+    { "path": "contact.email", "value": "enquiry@danang.sis.edu.vn", "source_url": "https://danang.sis.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "enquiry@danang.sis.edu.vn" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "vn-da-nang-odyssey-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/odyssey-international-school/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/odyssey-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Odyssey International School", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Welcome to Odyssey International School" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Odyssey International School | Da Nang, Vietnam" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Odyssey International School | Da Nang, Vietnam" },
+    { "path": "location.address", "value": "Lot A1, Urban Area 7B Sentosa City, Dien Ban Dong Ward, Da Nang City", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Lot A1, Urban Area 7B Sentosa City, Dien Ban Dong Ward, Da Nang City" },
+    { "path": "curricula[0]", "value": "International Baccalaureate (IB)", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "programmes of the International Baccalaureate (IB)" },
+    { "path": "age_range.min", "value": 3, "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Early Years Ages 3 - 6" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Secondary School Ages 11 -18" },
+    { "path": "year_groups[0]", "value": "Early Years", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Early Years Ages 3 - 6" },
+    { "path": "year_groups[1]", "value": "Secondary School", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Secondary School Ages 11 -18" },
+    { "path": "contact.phone", "value": "0235 3711 678", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "0235 3711 678" },
+    { "path": "contact.email", "value": "admissions@odyssey.edu.vn", "source_url": "https://www.odyssey.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "admissions@odyssey.edu.vn" }
+  ]
+}

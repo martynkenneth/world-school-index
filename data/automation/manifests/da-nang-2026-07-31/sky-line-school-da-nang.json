@@ -1,0 +1,18 @@
+{
+  "id": "vn-da-nang-sky-line-school-da-nang",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/sky-line-school-da-nang/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/sky-line-school-da-nang.json",
+  "claims": [
+    { "path": "name", "value": "HỆ THỐNG GIÁO DỤC SKY-LINE", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "HỆ THỐNG GIÁO DỤC SKY-LINE" },
+    { "path": "location.country", "value": "Việt Nam", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "những phòng học đầu tiên tại Việt Nam" },
+    { "path": "location.city", "value": "Đà Nẵng", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "Lô A2.4 Trần Đăng Ninh, phường Hòa Cường, Thành phố Đà Nẵng" },
+    { "path": "location.address", "value": "Lô A2.4 Trần Đăng Ninh, phường Hòa Cường, Thành phố Đà Nẵng", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "Lô A2.4 Trần Đăng Ninh, phường Hòa Cường, Thành phố Đà Nẵng" },
+    { "path": "curricula[0]", "value": "Tổ chức Giáo dục Quốc tế Cambridge", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "đơn vị thành viên của Tổ chức Giáo dục Quốc tế Cambridge với số hiệu VN258" },
+    { "path": "year_groups[0]", "value": "Mầm non", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "học sinh từ Mầm non đến THPT" },
+    { "path": "year_groups[1]", "value": "THPT", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "học sinh từ Mầm non đến THPT" },
+    { "path": "accreditations[0].body", "value": "Tổ chức Giáo dục Quốc tế Cambridge", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "đơn vị thành viên của Tổ chức Giáo dục Quốc tế Cambridge với số hiệu VN258" },
+    { "path": "accreditations[0].status", "value": "đơn vị thành viên", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "đơn vị thành viên của Tổ chức Giáo dục Quốc tế Cambridge" },
+    { "path": "contact.phone", "value": "083 777 3355", "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so", "retrieved_date": "2026-07-31", "evidence": "Hotline: 083 777 3355" }
+  ]
+}

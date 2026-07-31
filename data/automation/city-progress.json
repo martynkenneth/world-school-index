@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-29",
+  "updated_at": "2026-07-31",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -199,6 +199,66 @@
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
       "next_action": "Begin Da Nang, Vietnam, using the existing coverage roadmap; retain the ABCIS multi-campus address issue in the manual verification queue."
+    },
+    {
+      "country": "Vietnam",
+      "city": "Da Nang",
+      "city_slug": "da-nang",
+      "status": "complete",
+      "schools_discovered": 8,
+      "schools_processed": 8,
+      "school_ids": [
+        "school:vn:apu-american-international-school-da-nang",
+        "school:vn:singapore-international-school-da-nang",
+        "school:vn:st-nicholas-school-da-nang",
+        "school:vn:sakura-olympia-school-system",
+        "school:vn:uk-academy-da-nang",
+        "school:vn:sky-line-school-da-nang",
+        "school:vn:odyssey-international-school",
+        "school:vn:global-e-school-da-nang"
+      ],
+      "school_results": [
+        { "school_id": "school:vn:apu-american-international-school-da-nang", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:singapore-international-school-da-nang", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:st-nicholas-school-da-nang", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:sakura-olympia-school-system", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:uk-academy-da-nang", "result": "provisional_profile_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:sky-line-school-da-nang", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:odyssey-international-school", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:vn:global-e-school-da-nang", "result": "provisional_profile_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["location.country", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "admissions.open_days"] }
+      ],
+      "source_urls": [
+        "https://danang.edu.vn/c3tuthucmb",
+        "https://www.apu.edu.vn/about",
+        "https://www.apu.edu.vn/da-nang",
+        "https://danang.sis.edu.vn/",
+        "https://danang.sis.edu.vn/who-we-are/academic-team/",
+        "https://sns.edu.vn/en/about-us/sns-philosophy",
+        "https://sns.edu.vn/en/academic-programs/international-program",
+        "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
+        "https://sakuraolympia.edu.vn/en/programme/",
+        "https://sakuraolympia.edu.vn/en/news-events/achievements/olympia-school-officially-recognized-as-a-cambridge-international-school/",
+        "https://uka.edu.vn/en/",
+        "https://uka.edu.vn/en/education-program/",
+        "https://uka.edu.vn/office/uka-da-nang/",
+        "https://uka.edu.vn/lien-he/",
+        "https://tuyensinh.skylineschool.edu.vn/co-so",
+        "https://www.odyssey.edu.vn/",
+        "https://geschool.edu.vn/"
+      ],
+      "last_run_date": "2026-07-31",
+      "unresolved_conflicts": [],
+      "excluded_candidates": [
+        {
+          "name": "Asian School Project in Da Nang City",
+          "source_url": "https://www.asianschool.edu.vn/Danang/Default_en.aspx",
+          "reason": "The official source describes a project and does not confirm that a Da Nang campus is operating."
+        }
+      ],
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "sheet_claims_blocked": 0,
+      "next_action": "Begin Bangkok, Thailand; recheck the Asian School Da Nang project only after an official source confirms operations."
     }
   ]
 }

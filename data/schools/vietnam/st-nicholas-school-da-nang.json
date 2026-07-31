@@ -1,0 +1,179 @@
+{
+  "id": "vn-da-nang-st-nicholas-school-da-nang",
+  "name": "St. Nicholas School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Da Nang",
+    "district": null,
+    "address": "A2-15, Zone E, Tran Nam Trung Street, Hoa Xuan, Da Nang, Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Common Core Standards (USA)",
+    "Florida Virtual School (FLVS)",
+    "Mizzou Academy"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "Grade 1",
+    "Grade 12"
+  ],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "(+84) 931 972 972",
+    "email": "admissions1@sns.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "St. Nicholas School is a K–12 institution in Da Nang",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "A2-15, Zone E, Tran Nam Trung Street, Hoa Xuan, Da Nang, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "St. Nicholas School is a K–12 institution in Da Nang",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "A2-15, Zone E, Tran Nam Trung Street, Hoa Xuan, Da Nang, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "curriculum based on the Common Core Standards (USA)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
+      "retrieved_date": "2026-07-31",
+      "evidence": "follow the Florida Virtual School (FLVS) program",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
+      "retrieved_date": "2026-07-31",
+      "evidence": "the program of Mizzou Academy",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
+      "retrieved_date": "2026-07-31",
+      "evidence": "For students from Grade 1 to Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[1]": {
+      "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
+      "retrieved_date": "2026-07-31",
+      "evidence": "For students from Grade 1 to Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Hotline: (+84) 931 972 972",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Email: admissions1@sns.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-07-31"
+}

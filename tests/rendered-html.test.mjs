@@ -49,11 +49,11 @@ test("ships normalized entities in the public data export", async () => {
 
   const parsed = JSON.parse(dataExport);
   assert.equal(parsed.schemaVersion, "2.0");
-  assert.equal(parsed.recordCount, 22);
-  assert.equal(parsed.entities.schools.length, 22);
-  assert.equal(parsed.entities.campuses.length, 22);
-  assert.equal(parsed.entities.sources.length, 22);
-  assert.equal(parsed.entities.verifications.length, 22);
+  assert.equal(parsed.recordCount, 27);
+  assert.equal(parsed.entities.schools.length, 27);
+  assert.equal(parsed.entities.campuses.length, 27);
+  assert.equal(parsed.entities.sources.length, 27);
+  assert.equal(parsed.entities.verifications.length, 27);
   assert.ok(parsed.records.every((record) => !("summary" in record)));
   assert.match(layout, /World School Index/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
@@ -82,7 +82,7 @@ test("keeps the Vietnam country directory available", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /<title>International Schools in Vietnam/);
-  assert.match(html, /22/);
+  assert.match(html, /27/);
   assert.match(html, /href="\/data\/vietnam-schools\.json"/);
 });
 
@@ -171,4 +171,20 @@ test("renders the completed Ho Chi Minh City provisional collection without inde
   assert.match(tasHtml, /Evidence-backed/);
   assert.match(tasHtml, /name="robots" content="noindex,\s*follow"/);
   assert.match(tasHtml, /application\/ld\+json/);
+});
+
+test("renders the Da Nang provisional collection without indexing thin profiles", async () => {
+  const [apuResponse, odysseyResponse] = await Promise.all([
+    render("/schools/apu-american-international-school-da-nang"),
+    render("/schools/odyssey-international-school"),
+  ]);
+  const [apuHtml, odysseyHtml] = await Promise.all([apuResponse.text(), odysseyResponse.text()]);
+
+  assert.match(apuHtml, /5\/12/);
+  assert.match(apuHtml, /Evidence-backed/);
+  assert.match(apuHtml, /name="robots" content="noindex,\s*follow"/);
+
+  assert.match(odysseyHtml, /5\/12/);
+  assert.match(odysseyHtml, /Evidence-backed/);
+  assert.match(odysseyHtml, /name="robots" content="noindex,\s*follow"/);
 });

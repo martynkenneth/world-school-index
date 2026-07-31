@@ -1,0 +1,19 @@
+{
+  "id": "vn-da-nang-uk-academy-da-nang",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/uk-academy-da-nang/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/uk-academy-da-nang.json",
+  "claims": [
+    { "path": "name", "value": "UK Academy", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "UK Academy International Bilingual School" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://uka.edu.vn/en/education-program/", "retrieved_date": "2026-07-31", "evidence": "Ministry of Education and Training of Vietnam" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "Da Nang Campus - Da Nang" },
+    { "path": "location.address", "value": "K1/2 Ton That Dam, Ward Thanh Khe, Da Nang City", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "K1/2 Ton That Dam, Ward Thanh Khe, Da Nang City" },
+    { "path": "curricula[0]", "value": "Oxford International Curriculum (OIC)", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "Oxford International Curriculum (OIC)" },
+    { "path": "curricula[1]", "value": "IGCSE", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "IGCSE international high school education" },
+    { "path": "curricula[2]", "value": "A - Level", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "A - Level" },
+    { "path": "year_groups[0]", "value": "KINDERGARTEN", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "KINDERGARTEN" },
+    { "path": "year_groups[1]", "value": "HIGH SCHOOL", "source_url": "https://uka.edu.vn/en/", "retrieved_date": "2026-07-31", "evidence": "HIGH SCHOOL" },
+    { "path": "contact.phone", "value": "0236 7305 588", "source_url": "https://uka.edu.vn/office/uka-da-nang/", "retrieved_date": "2026-07-31", "evidence": "Số điện thoại: 0236 7305 588" },
+    { "path": "contact.email", "value": "danang@uka.edu.vn", "source_url": "https://uka.edu.vn/lien-he/", "retrieved_date": "2026-07-31", "evidence": "Email: danang@uka.edu.vn" }
+  ]
+}

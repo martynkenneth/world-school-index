@@ -1,0 +1,179 @@
+{
+  "id": "vn-da-nang-uk-academy-da-nang",
+  "name": "UK Academy",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Vietnam",
+    "city": "Da Nang",
+    "district": null,
+    "address": "K1/2 Ton That Dam, Ward Thanh Khe, Da Nang City",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Oxford International Curriculum (OIC)",
+    "IGCSE",
+    "A - Level"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "KINDERGARTEN",
+    "HIGH SCHOOL"
+  ],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "0236 7305 588",
+    "email": "danang@uka.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "UK Academy International Bilingual School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://uka.edu.vn/en/education-program/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Ministry of Education and Training of Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Da Nang Campus - Da Nang",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "K1/2 Ton That Dam, Ward Thanh Khe, Da Nang City",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Oxford International Curriculum (OIC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "IGCSE international high school education",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "A - Level",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "KINDERGARTEN",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[1]": {
+      "source_url": "https://uka.edu.vn/en/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "HIGH SCHOOL",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://uka.edu.vn/office/uka-da-nang/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Số điện thoại: 0236 7305 588",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://uka.edu.vn/lien-he/",
+      "retrieved_date": "2026-07-31",
+      "evidence": "Email: danang@uka.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-07-31"
+}

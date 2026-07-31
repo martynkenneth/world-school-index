@@ -1,0 +1,17 @@
+{
+  "id": "vn-da-nang-global-e-school-da-nang",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/global-e-school-da-nang/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/global-e-school-da-nang.json",
+  "claims": [
+    { "path": "name", "value": "Global E-School Danang", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Global E-School Danang" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "42A Vu Dinh Long, Son Tra District, Da Nang City" },
+    { "path": "location.address", "value": "42A Vu Dinh Long, Son Tra District, Da Nang City", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "42A Vu Dinh Long, Son Tra District, Da Nang City" },
+    { "path": "curricula[0]", "value": "American-based curriculum", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "modern American-based curriculum" },
+    { "path": "year_groups[0]", "value": "Preschool", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Preschool and Elementary students" },
+    { "path": "year_groups[1]", "value": "Elementary", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "Preschool and Elementary students" },
+    { "path": "contact.website", "value": "https://geschool.edu.vn/", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "https://geschool.edu.vn/" },
+    { "path": "contact.phone", "value": "0915 112 411", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "0915 112 411" },
+    { "path": "contact.email", "value": "admission@geschool.edu.vn", "source_url": "https://geschool.edu.vn/", "retrieved_date": "2026-07-31", "evidence": "admission@geschool.edu.vn" }
+  ]
+}

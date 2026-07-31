@@ -17,6 +17,14 @@ import renaissanceSaigon from "./schools/vietnam/renaissance-international-schoo
 import ssis from "./schools/vietnam/saigon-south-international-school.json";
 import abcInternationalSchool from "./schools/vietnam/abc-international-school-ho-chi-minh-city.json";
 import theAmericanSchool from "./schools/vietnam/the-american-school-ho-chi-minh-city.json";
+import apuDaNang from "./schools/vietnam/apu-american-international-school-da-nang.json";
+import globalESchoolDaNang from "./schools/vietnam/global-e-school-da-nang.json";
+import odysseyInternationalSchool from "./schools/vietnam/odyssey-international-school.json";
+import sakuraOlympia from "./schools/vietnam/sakura-olympia-school-system.json";
+import sisDaNang from "./schools/vietnam/singapore-international-school-da-nang.json";
+import skyLineDaNang from "./schools/vietnam/sky-line-school-da-nang.json";
+import stNicholasDaNang from "./schools/vietnam/st-nicholas-school-da-nang.json";
+import ukAcademyDaNang from "./schools/vietnam/uk-academy-da-nang.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -55,6 +63,14 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "saigon-south-international-school": ssis as StrictSchoolRecord,
   "abc-international-school-ho-chi-minh-city": abcInternationalSchool as StrictSchoolRecord,
   "the-american-school-ho-chi-minh-city": theAmericanSchool as StrictSchoolRecord,
+  "apu-american-international-school-da-nang": apuDaNang as StrictSchoolRecord,
+  "global-e-school-da-nang": globalESchoolDaNang as StrictSchoolRecord,
+  "odyssey-international-school": odysseyInternationalSchool as StrictSchoolRecord,
+  "sakura-olympia-school-system": sakuraOlympia as StrictSchoolRecord,
+  "singapore-international-school-da-nang": sisDaNang as StrictSchoolRecord,
+  "sky-line-school-da-nang": skyLineDaNang as StrictSchoolRecord,
+  "st-nicholas-school-da-nang": stNicholasDaNang as StrictSchoolRecord,
+  "uk-academy-da-nang": ukAcademyDaNang as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {

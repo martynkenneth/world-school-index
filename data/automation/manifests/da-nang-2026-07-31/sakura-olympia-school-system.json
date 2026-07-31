@@ -1,0 +1,19 @@
+{
+  "id": "vn-da-nang-sakura-olympia-school-system",
+  "status": "unverified",
+  "fetch_log": "data/raw/vietnam/sakura-olympia-school-system/2026-07-31.fetch.json",
+  "output": "data/schools/vietnam/sakura-olympia-school-system.json",
+  "claims": [
+    { "path": "name", "value": "Sakura Olympia School System", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "Sakura Olympia School System" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "rooted in Vietnam’s traditional values" },
+    { "path": "location.city", "value": "Da Nang", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "63 Le Van Long Street, Hai Chau District, Da Nang City" },
+    { "path": "location.address", "value": "63 Le Van Long Street, Hai Chau District, Da Nang City", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "63 Le Van Long Street, Hai Chau District, Da Nang City" },
+    { "path": "curricula[0]", "value": "CAMBRIDGE PRIMARY INTEGRATED PROGRAM", "source_url": "https://sakuraolympia.edu.vn/en/programme/", "retrieved_date": "2026-07-31", "evidence": "CAMBRIDGE PRIMARY INTEGRATED PROGRAM" },
+    { "path": "year_groups[0]", "value": "Sakura Kindergarten", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "Sakura Kindergarten is the place" },
+    { "path": "year_groups[1]", "value": "Olympia Primary, Middle, and High School", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "Olympia Primary, Middle, and High School" },
+    { "path": "accreditations[0].body", "value": "Cambridge International School System", "source_url": "https://sakuraolympia.edu.vn/en/news-events/achievements/olympia-school-officially-recognized-as-a-cambridge-international-school/", "retrieved_date": "2026-07-31", "evidence": "officially recognized as a member of the Cambridge International School System" },
+    { "path": "accreditations[0].status", "value": "officially recognized as a member", "source_url": "https://sakuraolympia.edu.vn/en/news-events/achievements/olympia-school-officially-recognized-as-a-cambridge-international-school/", "retrieved_date": "2026-07-31", "evidence": "officially recognized as a member of the Cambridge International School System" },
+    { "path": "contact.phone", "value": "0979. 53.55.57 - 0905. 56.57.58", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "Phone: 0979. 53.55.57 - 0905. 56.57.58" },
+    { "path": "contact.email", "value": "tuyensinh@sakuraolympia.edu.vn", "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/", "retrieved_date": "2026-07-31", "evidence": "Email: tuyensinh@sakuraolympia.edu.vn" }
+  ]
+}
