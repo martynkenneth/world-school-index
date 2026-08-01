@@ -1,0 +1,168 @@
+{
+  "id": "th-bangkok-basis-international-school-bangkok",
+  "name": "BASIS International School Bangkok",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "American K-12 curriculum"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": "30+ Nationalities",
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": "1:8 Teacher–Student Ratio",
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+66 (0)2 118-0427",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "BASIS International School Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Our campus is conveniently located in Bangkok, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Our campus is conveniently located in Bangkok, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "BASIS International School Bangkok offers an American K-12 curriculum from nursery through secondary",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "We welcome students from age 2 through 18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "We welcome students from age 2 through 18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "enrolment.nationalities_count": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "30+ Nationalities",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "staffing.teacher_student_ratio": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "1:8 Teacher–Student Ratio",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "English is the primary language of instruction.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://basis.ac.th/welcome-to-basis/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "calling us directly at +66 (0)2 118-0427",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-08-01"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "th-bangkok-brighton-college-bangkok",
+  "name": "Brighton College Bangkok",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "district": null,
+    "address": "8/8 Krungthep Kreetha Yaek 4 (Surao Yai), Krungthep Kreetha Soi 15, Hua Mak, Bang Kapi District, Bangkok, 10240",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+66 (2) 300 9600",
+    "email": "admissions@brightoncollege.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://brightoncollege.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Brighton College Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://brightoncollege.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Following a decade of success in Thailand with our school at Krungthep Kreetha",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://brightoncollege.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "we are delighted to now be opening a second school in Bangkok, Vibhavadi.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://brightoncollege.ac.th/krungthep-kreetha/contact-us",
+      "retrieved_date": "2026-08-01",
+      "evidence": "8/8 Krungthep Kreetha Yaek 4 (Surao Yai), Krungthep Kreetha Soi 15, Hua Mak, Bang Kapi District, Bangkok, 10240",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://brightoncollege.ac.th/krungthep-kreetha/contact-us",
+      "retrieved_date": "2026-08-01",
+      "evidence": "+66 (2) 300 9600",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://brightoncollege.ac.th/krungthep-kreetha/contact-us",
+      "retrieved_date": "2026-08-01",
+      "evidence": "admissions@brightoncollege.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 3,
+  "indexable": false,
+  "last_verified": "2026-08-01"
+}

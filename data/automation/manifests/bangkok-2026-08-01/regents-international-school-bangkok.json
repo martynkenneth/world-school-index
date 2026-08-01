@@ -1,0 +1,19 @@
+{
+  "id": "th-bangkok-regents-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/regents-international-school-bangkok/2026-08-01.fetch.json",
+  "output": "data/schools/thailand/regents-international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "Regent’s International School Bangkok", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Regent’s International School Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "The Leading British International School in Bangkok, Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "The Leading British International School in Bangkok, Thailand" },
+    { "path": "location.address", "value": "601/99 Pracha-Uthit Rd., Wangthonglang, Bangkok 10310", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "601/99 Pracha-Uthit Rd., Wangthonglang, Bangkok 10310" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "children aged from 2 to 18 from Thailand and abroad." },
+    { "path": "age_range.max", "value": 18, "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "children aged from 2 to 18 from Thailand and abroad." },
+    { "path": "curricula[0]", "value": "English National Curriculum", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "We are an English National Curriculum day and boarding international school" },
+    { "path": "curricula[1]", "value": "IGCSE", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "world-beating IGCSE and IB (International Baccalaureate) results" },
+    { "path": "curricula[2]", "value": "IB (International Baccalaureate)", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "world-beating IGCSE and IB (International Baccalaureate) results" },
+    { "path": "contact.phone", "value": "02 957 5777", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Tel: 02 957 5777" },
+    { "path": "contact.email", "value": "admissions-bkk@regents.ac.th", "source_url": "https://regents.ac.th/", "retrieved_date": "2026-08-01", "evidence": "admissions-bkk@regents.ac.th" }
+  ]
+}

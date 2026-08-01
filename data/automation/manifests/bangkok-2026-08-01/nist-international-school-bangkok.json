@@ -1,0 +1,20 @@
+{
+  "id": "th-bangkok-nist-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/nist-international-school-bangkok/2026-08-01.fetch.json",
+  "output": "data/schools/thailand/nist-international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "NIST International School", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "NIST International School" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "NIST International School in Bangkok, Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "NIST International School in Bangkok, Thailand" },
+    { "path": "location.address", "value": "36 Sukhumvit Soi 15, Sukhumvit Road, Klongtoey-nua Wattana, Bangkok", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "36 Sukhumvit Soi 15, Sukhumvit Road, Klongtoey-nua Wattana, Bangkok" },
+    { "path": "age_range.min", "value": 3, "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "students aged 3–19" },
+    { "path": "age_range.max", "value": 19, "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "students aged 3–19" },
+    { "path": "curricula[0]", "value": "full IB Continuum", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "grounded in the full IB Continuum" },
+    { "path": "accreditations[0].body", "value": "International Baccalaureate (IB)", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "authorised to offer the full International Baccalaureate (IB) Continuum." },
+    { "path": "accreditations[0].status", "value": "authorised", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "authorised to offer the full International Baccalaureate (IB) Continuum." },
+    { "path": "enrolment.nationalities_count", "value": "95+ Nationalities", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Community of 95+ Nationalities" },
+    { "path": "contact.phone", "value": "+66 (0)2 017 5888", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "+66 (0)2 017 5888" },
+    { "path": "contact.email", "value": "nist@nist.ac.th", "source_url": "https://www.nist.ac.th/", "retrieved_date": "2026-08-01", "evidence": "nist@nist.ac.th" }
+  ]
+}

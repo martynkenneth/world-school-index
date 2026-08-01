@@ -1,0 +1,17 @@
+{
+  "id": "th-bangkok-harrow-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/harrow-international-school-bangkok/2026-08-01.fetch.json",
+  "output": "data/schools/thailand/harrow-international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "Harrow International School Bangkok", "source_url": "https://www.harrowschool.ac.th/about-us/contact-us", "retrieved_date": "2026-08-01", "evidence": "Harrow International School Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.harrowschool.ac.th/about-us/contact-us", "retrieved_date": "2026-08-01", "evidence": "Don Mueang District, Bangkok, 10210 Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.harrowschool.ac.th/about-us/contact-us", "retrieved_date": "2026-08-01", "evidence": "Don Mueang District, Bangkok, 10210 Thailand" },
+    { "path": "location.address", "value": "45 Soi Kosumruamchai 14, Kosumruamchai Road, Don Mueang Subdistrict, Don Mueang District, Bangkok, 10210 Thailand", "source_url": "https://www.harrowschool.ac.th/about-us/contact-us", "retrieved_date": "2026-08-01", "evidence": "45 Soi Kosumruamchai 14, Kosumruamchai Road, Don Mueang Subdistrict, Don Mueang District, Bangkok, 10210 Thailand" },
+    { "path": "curricula[0]", "value": "IGCSE", "source_url": "https://www.harrowschool.ac.th/faqs", "retrieved_date": "2026-08-01", "evidence": "Students in the Senior School study for IGCSE, AS and A Level examinations." },
+    { "path": "curricula[1]", "value": "AS", "source_url": "https://www.harrowschool.ac.th/faqs", "retrieved_date": "2026-08-01", "evidence": "Students in the Senior School study for IGCSE, AS and A Level examinations." },
+    { "path": "curricula[2]", "value": "A Level", "source_url": "https://www.harrowschool.ac.th/faqs", "retrieved_date": "2026-08-01", "evidence": "Students in the Senior School study for IGCSE, AS and A Level examinations." },
+    { "path": "contact.phone", "value": "+66 2 503 7222", "source_url": "https://www.harrowschool.ac.th/about-us/contact-us", "retrieved_date": "2026-08-01", "evidence": "Telephone +66 2 503 7222" },
+    { "path": "contact.email", "value": "admissions@harrowschool.ac.th", "source_url": "https://www.harrowschool.ac.th/about-us/contact-us", "retrieved_date": "2026-08-01", "evidence": "admissions@harrowschool.ac.th" }
+  ]
+}

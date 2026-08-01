@@ -1,0 +1,14 @@
+{
+  "id": "th-bangkok-bangkok-patana-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/bangkok-patana-school/2026-08-01.fetch.json",
+  "output": "data/schools/thailand/bangkok-patana-school.json",
+  "claims": [
+    { "path": "name", "value": "Bangkok Patana School", "source_url": "https://www.patana.ac.th/contact-patana/", "retrieved_date": "2026-08-01", "evidence": "Bangkok Patana School" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.patana.ac.th/contact-patana/", "retrieved_date": "2026-08-01", "evidence": "Bangna Tai, Bangna, Bangkok 10260, Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.patana.ac.th/contact-patana/", "retrieved_date": "2026-08-01", "evidence": "Bangna Tai, Bangna, Bangkok 10260, Thailand" },
+    { "path": "location.address", "value": "643 La Salle Road (Sukhumvit 105), Bangna Tai, Bangna, Bangkok 10260, Thailand", "source_url": "https://www.patana.ac.th/contact-patana/", "retrieved_date": "2026-08-01", "evidence": "643 La Salle Road (Sukhumvit 105), Bangna Tai, Bangna, Bangkok 10260, Thailand" },
+    { "path": "contact.phone", "value": "+66 (0) 2785 2200", "source_url": "https://www.patana.ac.th/contact-patana/", "retrieved_date": "2026-08-01", "evidence": "Telephone : +66 (0) 2785 2200" },
+    { "path": "contact.email", "value": "reception@patana.ac.th", "source_url": "https://www.patana.ac.th/contact-patana/", "retrieved_date": "2026-08-01", "evidence": "Email: reception@patana.ac.th" }
+  ]
+}

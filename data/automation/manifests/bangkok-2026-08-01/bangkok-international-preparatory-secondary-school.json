@@ -1,0 +1,15 @@
+{
+  "id": "th-bangkok-bangkok-international-preparatory-secondary-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/bangkok-international-preparatory-secondary-school/2026-08-01.fetch.json",
+  "output": "data/schools/thailand/bangkok-international-preparatory-secondary-school.json",
+  "claims": [
+    { "path": "name", "value": "Bangkok International Preparatory & Secondary School", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Bangkok International Preparatory & Secondary School" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Join Thailand’s premier international Eco School." },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Bangkok International Preparatory & Secondary School" },
+    { "path": "location.address", "value": "77 Saeng Thip Alley, Phra Khanong Nuea, Watthana Bangkok, TH", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "77 Saeng Thip Alley, Phra Khanong Nuea, Watthana Bangkok, TH" },
+    { "path": "curricula[0]", "value": "English National Curriculum", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "Progress with a personalised English National Curriculum" },
+    { "path": "contact.phone", "value": "02 700 5858", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "02 700 5858" },
+    { "path": "contact.email", "value": "info@bkkprep.ac.th", "source_url": "https://www.bangkokprep.ac.th/", "retrieved_date": "2026-08-01", "evidence": "info@bkkprep.ac.th" }
+  ]
+}

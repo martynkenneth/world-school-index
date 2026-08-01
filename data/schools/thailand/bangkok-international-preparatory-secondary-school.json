@@ -1,0 +1,142 @@
+{
+  "id": "th-bangkok-bangkok-international-preparatory-secondary-school",
+  "name": "Bangkok International Preparatory & Secondary School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "district": null,
+    "address": "77 Saeng Thip Alley, Phra Khanong Nuea, Watthana Bangkok, TH",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "English National Curriculum"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "02 700 5858",
+    "email": "info@bkkprep.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Bangkok International Preparatory & Secondary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Join Thailand’s premier international Eco School.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Bangkok International Preparatory & Secondary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "77 Saeng Thip Alley, Phra Khanong Nuea, Watthana Bangkok, TH",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Progress with a personalised English National Curriculum",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "02 700 5858",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.bangkokprep.ac.th/",
+      "retrieved_date": "2026-08-01",
+      "evidence": "info@bkkprep.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-08-01"
+}

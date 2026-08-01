@@ -1,0 +1,167 @@
+{
+  "id": "th-bangkok-kings-college-international-school-bangkok",
+  "name": "King's College International School Bangkok",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "district": null,
+    "address": "727 Ratchadaphisek Road, Bang Phongphang, Yannawa, Bangkok 10120, Thailand",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "IGCSEs",
+    "A levels"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+66 (0) 2481 9955",
+    "email": "info@kingsbangkok.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/about/contact",
+      "retrieved_date": "2026-08-01",
+      "evidence": "King's College International School Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/about/contact",
+      "retrieved_date": "2026-08-01",
+      "evidence": "727 Ratchadaphisek Road, Bang Phongphang, Yannawa, Bangkok 10120, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/about/contact",
+      "retrieved_date": "2026-08-01",
+      "evidence": "727 Ratchadaphisek Road, Bang Phongphang, Yannawa, Bangkok 10120, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/about/contact",
+      "retrieved_date": "2026-08-01",
+      "evidence": "727 Ratchadaphisek Road, Bang Phongphang, Yannawa, Bangkok 10120, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/school-tour",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Applications for girls and boys aged 2–18 are now welcome.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/school-tour",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Applications for girls and boys aged 2–18 are now welcome.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/school-tour",
+      "retrieved_date": "2026-08-01",
+      "evidence": "all the way from the Early Years Foundation Stage to IGCSEs and A levels.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/school-tour",
+      "retrieved_date": "2026-08-01",
+      "evidence": "all the way from the Early Years Foundation Stage to IGCSEs and A levels.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/about/contact",
+      "retrieved_date": "2026-08-01",
+      "evidence": "+66 (0) 2481 9955",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.kingsbangkok.ac.th/en/about/contact",
+      "retrieved_date": "2026-08-01",
+      "evidence": "info@kingsbangkok.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 5,
+  "indexable": false,
+  "last_verified": "2026-08-01"
+}

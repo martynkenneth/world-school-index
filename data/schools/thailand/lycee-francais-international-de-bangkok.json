@@ -1,0 +1,148 @@
+{
+  "id": "th-bangkok-lycee-francais-international-de-bangkok",
+  "name": "Lycée français international de Bangkok",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thaïlande",
+    "city": "Bangkok",
+    "district": null,
+    "address": "498 Soi Ramkhamhaeng 39 (Thep Leela 1), Wangthonglang, Bangkok 10310",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": "1026",
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://www.lfib.ac.th/",
+    "admissions_url": null,
+    "phone": "00 66 2 934 8008",
+    "email": "administration@lfib.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Lycée français international de Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Bangkok , Thaïlande",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Bangkok , Thaïlande",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "498 Soi Ramkhamhaeng 39 (Thep Leela 1), Wangthonglang, Bangkok 10310",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "enrolment.total": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "élèves 1026",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.website": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Site web https://www.lfib.ac.th/",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "Contact 00 66 2 934 8008",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+      "retrieved_date": "2026-08-01",
+      "evidence": "administration@lfib.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 5,
+  "indexable": false,
+  "last_verified": "2026-08-01"
+}
