@@ -264,9 +264,9 @@
       "country": "Thailand",
       "city": "Bangkok",
       "city_slug": "bangkok",
-      "status": "in_progress",
+      "status": "complete",
       "schools_discovered": 15,
-      "schools_processed": 10,
+      "schools_processed": 15,
       "school_ids": [
         "school:th:bangkok-international-preparatory-secondary-school",
         "school:th:bangkok-patana-school",
@@ -277,7 +277,12 @@
         "school:th:kis-international-school-bangkok",
         "school:th:lycee-francais-international-de-bangkok",
         "school:th:nist-international-school-bangkok",
-        "school:th:regents-international-school-bangkok"
+        "school:th:regents-international-school-bangkok",
+        "school:th:ruamrudee-international-school",
+        "school:th:shrewsbury-international-school-bangkok",
+        "school:th:singapore-international-school-bangkok-pracha-uthit",
+        "school:th:st-andrews-international-school-bangkok",
+        "school:th:wellington-college-international-school-bangkok"
       ],
       "school_results": [
         { "school_id": "school:th:bangkok-international-preparatory-secondary-school", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
@@ -289,7 +294,12 @@
         { "school_id": "school:th:kis-international-school-bangkok", "result": "crawl_blocked_existing_provisional_retained", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
         { "school_id": "school:th:lycee-francais-international-de-bangkok", "result": "strict_provisional_record_added_from_authoritative_source", "completeness_score": 5, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "staffing.teacher_student_ratio", "languages.instruction", "admissions.open_days"] },
         { "school_id": "school:th:nist-international-school-bangkok", "result": "strict_provisional_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:th:regents-international-school-bangkok", "result": "strict_provisional_record_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
+        { "school_id": "school:th:regents-international-school-bangkok", "result": "strict_provisional_record_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:ruamrudee-international-school", "result": "strict_provisional_record_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:shrewsbury-international-school-bangkok", "result": "strict_provisional_record_added_multi_campus_address_unresolved", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:singapore-international-school-bangkok-pracha-uthit", "result": "crawl_blocked_existing_provisional_retained", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:st-andrews-international-school-bangkok", "result": "strict_provisional_record_added_multi_campus_address_unresolved", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "age_range", "accreditations", "fees.by_year_group", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:wellington-college-international-school-bangkok", "result": "strict_provisional_record_added_from_authoritative_source", "completeness_score": 2, "indexable": false, "unresolved_fields": ["location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
       ],
       "source_urls": [
         "https://www.bangkokprep.ac.th/",
@@ -306,19 +316,35 @@
         "https://lfib.ac.th/contact/",
         "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
         "https://www.nist.ac.th/",
-        "https://regents.ac.th/"
+        "https://regents.ac.th/",
+        "https://www.rism.ac.th/contact/",
+        "https://www.rism.ac.th/",
+        "https://www.shrewsbury.ac.th/",
+        "https://www.shrewsbury.ac.th/contact-us/",
+        "https://sisb.ac.th/singapore-international-school-pracha-uthit-campus/",
+        "https://sisb.ac.th/contact-us/",
+        "https://www.ibo.org/en/school/060665",
+        "https://www.nordangliaeducation.com/sta-bangkok/about-us",
+        "https://www.nordangliaeducation.com/sta-bangkok/contact-us",
+        "https://www.wellingtoncollege.ac.th/admissions/why-wellington-",
+        "https://www.wellingtoncollege.ac.th/contact",
+        "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/exhibitor-booking-form",
+        "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form"
       ],
-      "last_run_date": "2026-08-01",
+      "last_run_date": "2026-08-03",
       "unresolved_conflicts": [],
       "source_access_blocks": [
         { "school_id": "school:th:kis-international-school-bangkok", "source_url": "https://www.kis.ac.th/", "reason": "robots.txt returned HTTP 301; crawl was not permitted." },
         { "school_id": "school:th:kis-international-school-bangkok", "source_url": "https://www.ibo.org/school/001895/", "reason": "robots.txt returned HTTP 403; crawl was not permitted." },
-        { "school_id": "school:th:lycee-francais-international-de-bangkok", "source_url": "https://lfib.ac.th/contact/", "reason": "robots.txt returned HTTP 403; AEFE supplied permissible authoritative evidence." }
+        { "school_id": "school:th:lycee-francais-international-de-bangkok", "source_url": "https://lfib.ac.th/contact/", "reason": "robots.txt returned HTTP 403; AEFE supplied permissible authoritative evidence." },
+        { "school_id": "school:th:singapore-international-school-bangkok-pracha-uthit", "source_url": "https://sisb.ac.th/singapore-international-school-pracha-uthit-campus/", "reason": "robots.txt returned HTTP 403; crawl was not permitted." },
+        { "school_id": "school:th:singapore-international-school-bangkok-pracha-uthit", "source_url": "https://sisb.ac.th/contact-us/", "reason": "robots.txt returned HTTP 403; crawl was not permitted." },
+        { "school_id": "school:th:singapore-international-school-bangkok-pracha-uthit", "source_url": "https://www.ibo.org/en/school/060665", "reason": "robots.txt returned HTTP 403; crawl was not permitted." }
       ],
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
-      "next_action": "Continue Bangkok with Ruamrudee International School, then Shrewsbury, SISB Pracha Uthit, St Andrews Bangkok, and Wellington College Bangkok."
+      "next_action": "Begin Nonthaburi, Thailand, with International School Bangkok; retain SISB source access and the Shrewsbury/St Andrews multi-campus address questions in the manual verification queue."
     }
   ]
 }

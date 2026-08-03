@@ -1,0 +1,17 @@
+{
+  "id": "th-bangkok-shrewsbury-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/shrewsbury-international-school-bangkok/2026-08-03.fetch.json",
+  "output": "data/schools/thailand/shrewsbury-international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "Shrewsbury International School Bangkok", "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "Shrewsbury International School Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "Bang Kholaem, Bangkok 10120, Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "located in the heart of Bangkok" },
+    { "path": "curricula[0]", "value": "English National Curriculum", "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "education based on the English National Curriculum" },
+    { "path": "curricula[1]", "value": "IGCSE", "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "Our exceptional record of IGCSE and A-Level results" },
+    { "path": "curricula[2]", "value": "A-Level", "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "Our exceptional record of IGCSE and A-Level results" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "boys and girls aged 2 to 18" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.shrewsbury.ac.th/", "retrieved_date": "2026-08-03", "evidence": "boys and girls aged 2 to 18" },
+    { "path": "founded", "value": 2003, "source_url": "https://www.shrewsbury.ac.th/contact-us/", "retrieved_date": "2026-08-03", "evidence": "Shrewsbury Bangkok Riverside (opened in 2003)" }
+  ]
+}

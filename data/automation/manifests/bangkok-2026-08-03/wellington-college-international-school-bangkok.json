@@ -1,0 +1,11 @@
+{
+  "id": "th-bangkok-wellington-college-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/wellington-college-international-school-bangkok/2026-08-03.fetch.json",
+  "output": "data/schools/thailand/wellington-college-international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "Wellington College International School", "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/exhibitor-booking-form", "retrieved_date": "2026-08-03", "evidence": "Wellington College International School, Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form", "retrieved_date": "2026-08-03", "evidence": "Bangkok, Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form", "retrieved_date": "2026-08-03", "evidence": "Bangkok, Thailand" }
+  ]
+}

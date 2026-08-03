@@ -1,0 +1,108 @@
+{
+  "id": "th-bangkok-wellington-college-international-school-bangkok",
+  "name": "Wellington College International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Bangkok",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/exhibitor-booking-form",
+      "retrieved_date": "2026-08-03",
+      "evidence": "Wellington College International School, Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form",
+      "retrieved_date": "2026-08-03",
+      "evidence": "Bangkok, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form",
+      "retrieved_date": "2026-08-03",
+      "evidence": "Bangkok, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 2,
+  "indexable": false,
+  "last_verified": "2026-08-03"
+}

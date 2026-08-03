@@ -1,0 +1,19 @@
+{
+  "id": "th-bangkok-st-andrews-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/st-andrews-international-school-bangkok/2026-08-03.fetch.json",
+  "output": "data/schools/thailand/st-andrews-international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "St Andrews International School Bangkok", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "St Andrews International School Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "private international school in Bangkok, Thailand" },
+    { "path": "location.city", "value": "Bangkok", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "private international school in Bangkok, Thailand" },
+    { "path": "founded", "value": 1997, "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "Founded in 1997 on what is our current primary school campus" },
+    { "path": "school_type", "value": "private", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "private international school in Bangkok, Thailand" },
+    { "path": "curricula[0]", "value": "British curriculum pathways", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "Our students benefit from our highly respected British curriculum pathways" },
+    { "path": "curricula[1]", "value": "IGCSE", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "building up to IGCSE exams in Year 11" },
+    { "path": "curricula[2]", "value": "International Baccalaureate Diploma Programme (IBDP)", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "culminating with the International Baccalaureate Diploma Programme (IBDP) in Years 12 and 13" },
+    { "path": "enrolment.total", "value": "over 2,000", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "home to over 2,000 students from more than 60 countries" },
+    { "path": "enrolment.nationalities_count", "value": "more than 60", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us", "retrieved_date": "2026-08-03", "evidence": "home to over 2,000 students from more than 60 countries" },
+    { "path": "contact.email", "value": "admissions@standrews.ac.th", "source_url": "https://www.nordangliaeducation.com/sta-bangkok/contact-us", "retrieved_date": "2026-08-03", "evidence": "Admissions Email: admissions@standrews.ac.th" }
+  ]
+}
