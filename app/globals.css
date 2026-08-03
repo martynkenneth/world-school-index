@@ -180,7 +180,6 @@ nav a:hover { color: var(--forest-2); }
 .fact-table dd { margin: 0; font-weight: 600; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .fact-state { flex: 0 0 auto; padding: 5px 8px; border-radius: 999px; font-size: 9px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .fact-state.evidence-backed { color: #0b694c; background: #dff1e7; }
-.fact-state.pending { color: #765313; background: #fff3d7; }
 .fact-state.conflict { color: #8b2e2e; background: #f9dfdf; }
 .section-verification { display: flex; justify-content: flex-end; margin: -18px 0 12px; }
 .large-tags .tag { padding: 9px 12px; font-size: 13px; }

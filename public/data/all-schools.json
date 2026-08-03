@@ -216,7 +216,7 @@
         "slug": "sakura-olympia-school-system",
         "countryCode": "VN",
         "status": "operating",
-        "ownership": "Evidence capture pending"
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:vn:uk-academy-da-nang",
@@ -225,7 +225,7 @@
         "slug": "uk-academy-da-nang",
         "countryCode": "VN",
         "status": "operating",
-        "ownership": "Evidence capture pending"
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:vn:sky-line-school-da-nang",
@@ -234,7 +234,7 @@
         "slug": "sky-line-school-da-nang",
         "countryCode": "VN",
         "status": "operating",
-        "ownership": "Evidence capture pending"
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:vn:odyssey-international-school",
@@ -243,7 +243,7 @@
         "slug": "odyssey-international-school",
         "countryCode": "VN",
         "status": "operating",
-        "ownership": "Evidence capture pending"
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:vn:global-e-school-da-nang",
@@ -252,7 +252,7 @@
         "slug": "global-e-school-da-nang",
         "countryCode": "VN",
         "status": "operating",
-        "ownership": "Evidence capture pending"
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:th:international-school-bangkok",
@@ -4539,10 +4539,10 @@
       "curricula": [
         "CAMBRIDGE PRIMARY INTEGRATED PROGRAM"
       ],
-      "ageRange": "Evidence capture pending",
-      "language": "Evidence capture pending",
-      "schoolType": "Evidence capture pending",
-      "ownership": "Evidence capture pending",
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
       "accreditation": [
         "Cambridge International School System"
       ],
@@ -4566,9 +4566,9 @@
         "A - Level"
       ],
       "ageRange": "Kindergarten–High School",
-      "language": "Evidence capture pending",
+      "language": "Not published by the school",
       "schoolType": "International Bilingual School",
-      "ownership": "Evidence capture pending",
+      "ownership": "Not published by the school",
       "accreditation": [],
       "website": "https://uka.edu.vn/office/uka-da-nang/",
       "sourceUrl": "https://uka.edu.vn/office/uka-da-nang/",
@@ -4588,9 +4588,9 @@
         "Tổ chức Giáo dục Quốc tế Cambridge"
       ],
       "ageRange": "Mầm non–THPT",
-      "language": "Evidence capture pending",
-      "schoolType": "Evidence capture pending",
-      "ownership": "Evidence capture pending",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
       "accreditation": [
         "Tổ chức Giáo dục Quốc tế Cambridge"
       ],
@@ -4612,9 +4612,9 @@
         "International Baccalaureate (IB)"
       ],
       "ageRange": "3–18",
-      "language": "Evidence capture pending",
+      "language": "Not published by the school",
       "schoolType": "International School",
-      "ownership": "Evidence capture pending",
+      "ownership": "Not published by the school",
       "accreditation": [],
       "website": "https://www.odyssey.edu.vn/",
       "sourceUrl": "https://www.odyssey.edu.vn/",
@@ -4633,10 +4633,10 @@
       "curricula": [
         "American-based curriculum"
       ],
-      "ageRange": "Evidence capture pending",
-      "language": "Evidence capture pending",
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
       "schoolType": "Preschool and Elementary",
-      "ownership": "Evidence capture pending",
+      "ownership": "Not published by the school",
       "accreditation": [],
       "website": "https://geschool.edu.vn/",
       "sourceUrl": "https://geschool.edu.vn/",

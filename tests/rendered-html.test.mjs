@@ -106,7 +106,7 @@ test("renders the Thailand country directory and a Thailand school record", asyn
   assert.match(schoolHtml, /International School Bangkok/);
   assert.match(schoolHtml, /Nonthaburi[\s\S]*Thailand/);
   assert.match(schoolHtml, /Provisional school profile/);
-  assert.match(schoolHtml, /Evidence capture pending/);
+  assert.doesNotMatch(schoolHtml, /Evidence capture pending/i);
   assert.doesNotMatch(schoolHtml, /application\/ld\+json/);
   assert.match(schoolHtml, /name="robots" content="noindex,\s*follow"/);
 });
@@ -151,7 +151,17 @@ test("does not label a partial composite location as evidence-backed", async () 
   const html = await response.text();
 
   assert.match(html, /2\/12/);
-  assert.match(html, /Ho Chi Minh City, Vietnam[\s\S]*Evidence capture pending/);
+  assert.match(html, /Ho Chi Minh City, Vietnam/);
+  assert.doesNotMatch(html, /Evidence capture pending/i);
+  assert.match(html, /name="robots" content="noindex,\s*follow"/);
+});
+
+test("keeps pending evidence status private on thin provisional profiles", async () => {
+  const response = await render("/schools/sakura-olympia-school-system");
+  const html = await response.text();
+
+  assert.match(html, /Not published by the school/);
+  assert.doesNotMatch(html, /Evidence capture pending/i);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
 

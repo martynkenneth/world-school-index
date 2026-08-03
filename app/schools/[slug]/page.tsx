@@ -10,10 +10,11 @@ import {
 } from "@/data/verification";
 
 function FieldState({ state }: { state: FieldVerificationState }) {
+  if (state === "pending") return null;
+
   const labels = {
     "evidence-backed": "Evidence-backed",
     conflict: "Conflicting sources",
-    pending: "Evidence capture pending",
   };
   return <span className={`fact-state ${state}`}>{labels[state]}</span>;
 }
