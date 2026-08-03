@@ -28,6 +28,9 @@ import ukAcademyDaNang from "./schools/vietnam/uk-academy-da-nang.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
+  source_url: string;
+  retrieved_date: string;
+  evidence: string;
 };
 
 export type StrictSchoolRecord = {
@@ -40,6 +43,7 @@ export type StrictSchoolRecord = {
   languages: { instruction: string[] };
   school_type: string | null;
   founded: number | null;
+  admissions: { open_days: string[] };
   provenance: Record<string, ProvenanceEntry>;
 };
 

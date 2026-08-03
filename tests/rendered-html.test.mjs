@@ -125,6 +125,19 @@ test("publishes directory hubs and a clear data disclaimer", async () => {
   assert.match(disclaimerHtml, /Always confirm important details directly with the school/);
 });
 
+test("surfaces the source-backed Hanoi open-day answer on the existing city hub", async () => {
+  const response = await render("/cities/hanoi");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /What open day is published for a Hanoi international school\?/);
+  assert.match(html, /Open Day \(9 am, 4th August\) - Application Fee Waiver/);
+  assert.match(html, /Official open-day notice/);
+  assert.match(html, /Checked[\s\S]*Aug 3, 2026/);
+  assert.match(html, /href="\/schools\/british-international-school-hanoi"/);
+  assert.doesNotMatch(html, /Evidence capture pending/i);
+});
+
 test("shows evidence progress without indexing a below-gate strict record", async () => {
   const response = await render("/schools/united-nations-international-school-hanoi");
   const html = await response.text();

@@ -161,7 +161,7 @@
   },
   "admissions": {
     "open_days": [
-      "Open Day (9 am, 4th August)"
+      "Open Day (9 am, 4th August) - Application Fee Waiver"
     ],
     "application_deadline": null,
     "assessment_required": null,
@@ -624,8 +624,8 @@
       "candidates": []
     },
     "admissions.open_days[0]": {
-      "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us",
-      "retrieved_date": "2026-07-27",
+      "source_url": "https://www.nordangliaeducation.com/bis-hanoi/open-day",
+      "retrieved_date": "2026-08-03",
       "evidence": "Join us for our Open Day (9 am, 4th August) - Application Fee Waiver",
       "method": "published",
       "conflict": false,
@@ -650,5 +650,5 @@
   },
   "completeness_score": 10,
   "indexable": true,
-  "last_verified": "2026-07-27"
+  "last_verified": "2026-08-03"
 }

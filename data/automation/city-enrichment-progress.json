@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-03",
+  "selection_order": [
+    "Vietnam",
+    "Thailand",
+    "remaining covered regions"
+  ],
+  "cities": [
+    {
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "city_slug": "hanoi",
+      "last_enrichment_date": "2026-08-03",
+      "topics_attempted": [
+        "official open days and admissions notices"
+      ],
+      "sources_checked": [
+        {
+          "url": "https://www.nordangliaeducation.com/bis-hanoi/about-us",
+          "retrieved_date": "2026-08-03",
+          "result": "Open-day banner confirmed on the official school page."
+        },
+        {
+          "url": "https://www.nordangliaeducation.com/bis-hanoi/open-day",
+          "retrieved_date": "2026-08-03",
+          "result": "Dedicated official open-day page confirmed the same notice."
+        }
+      ],
+      "published_changes": [
+        "Added a question-led Hanoi city-hub answer for the BIS Hanoi open day, with an official citation, visible retrieval date, and school-record link.",
+        "Re-verified the existing strict open-day provenance on 2026-08-03."
+      ],
+      "unresolved_questions": [
+        "The official notice prints 4th August without a year; the directory preserves that literal wording and does not infer a year."
+      ],
+      "next_recommended_topic": "Current fee-publication availability across listed Hanoi profiles, computed only from strict records."
+    },
+    {
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "city_slug": "ho-chi-minh-city",
+      "last_enrichment_date": null,
+      "topics_attempted": [],
+      "sources_checked": [],
+      "published_changes": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "Current fee or scholarship publication from an official school source."
+    },
+    {
+      "country": "Vietnam",
+      "city": "Da Nang",
+      "city_slug": "da-nang",
+      "last_enrichment_date": null,
+      "topics_attempted": [],
+      "sources_checked": [],
+      "published_changes": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "Material campus or programme changes from official sources."
+    },
+    {
+      "country": "Thailand",
+      "city": "Bangkok",
+      "city_slug": "bangkok",
+      "last_enrichment_date": null,
+      "topics_attempted": [],
+      "sources_checked": [],
+      "published_changes": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "Current admissions deadlines or open days from an official school source."
+    }
+  ]
+}
