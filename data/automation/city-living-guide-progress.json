@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-04",
+  "topic_rotation": [
+    "living-in-the-city-orientation",
+    "culture-and-etiquette",
+    "hospitals-clinics-pharmacies-and-emergency-information",
+    "airports-arrival-and-public-transport",
+    "housing-areas-and-apartment-search",
+    "groceries-markets-malls-and-everyday-shopping",
+    "utilities-and-connectivity",
+    "family-recreation-and-practical-weekend-activities",
+    "language-and-local-service-basics"
+  ],
+  "cities": [
+    {
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "city_slug": "hanoi",
+      "completed_articles": [
+        {
+          "topic": "culture-and-etiquette",
+          "title": "Hanoi culture and etiquette for families",
+          "url": "/guides/vietnam/hanoi/culture-and-etiquette/",
+          "published_date": "2026-08-04",
+          "checked_date": "2026-08-04",
+          "recheck_date": "2026-11-04",
+          "official_sources": [
+            "https://dbndhanoi.gov.vn/bai-viet/Quy-tac-ung-xu-noi-cong-cong-tren-dia-ban-TP-Ha-No-76063970",
+            "https://sovhtt.hanoi.gov.vn/en/codes-of-conduct-contribute-to-building-elegant-and-civilized-hanoians/",
+            "https://vietnam.travel/things-to-do/how-travel-responsibly-vietnam",
+            "https://vietnam.travel/things-to-do/vietnamese-etiquette-travellers",
+            "https://hoangthanhthanglong.vn/en/visiting-regulations/"
+          ],
+          "unresolved_questions": []
+        }
+      ],
+      "unresolved_questions": [],
+      "next_recommended_topic": "hospitals-clinics-pharmacies-and-emergency-information"
+    },
+    {
+      "country": "Vietnam",
+      "city": "Ho Chi Minh City",
+      "city_slug": "ho-chi-minh-city",
+      "completed_articles": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "living-in-the-city-orientation"
+    },
+    {
+      "country": "Vietnam",
+      "city": "Da Nang",
+      "city_slug": "da-nang",
+      "completed_articles": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "living-in-the-city-orientation"
+    },
+    {
+      "country": "Thailand",
+      "city": "Bangkok",
+      "city_slug": "bangkok",
+      "completed_articles": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "living-in-the-city-orientation"
+    }
+  ]
+}

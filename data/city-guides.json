@@ -1,0 +1,264 @@
+[
+  {
+    "schema_version": "1.0",
+    "id": "vn-hanoi-culture-and-etiquette",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "city": "Hanoi",
+    "city_slug": "hanoi",
+    "topic": "culture-and-etiquette",
+    "title": "Hanoi culture and etiquette for families",
+    "description": "A source-checked guide to respectful behaviour in Hanoi homes, religious sites, shared spaces, meals, and family visits.",
+    "canonical_path": "/guides/vietnam/hanoi/culture-and-etiquette/",
+    "published_date": "2026-08-04",
+    "checked_date": "2026-08-04",
+    "recheck_date": "2026-11-04",
+    "sitemap": {
+      "include": true,
+      "change_frequency": "monthly",
+      "priority": 0.7
+    },
+    "direct_answer": {
+      "text": "Families do not need to memorise a single social script for Hanoi. The dependable baseline is to respect shared spaces, follow posted rules, dress appropriately at religious sites, remove shoes when entering a home, and ask before photographing people.",
+      "source_ids": [
+        "hanoi-public-code",
+        "vietnam-tourism-responsible",
+        "vietnam-tourism-etiquette"
+      ]
+    },
+    "key_facts": [
+      {
+        "label": "Public spaces",
+        "answer": "Use polite speech and suitable dress, keep noise down, and protect shared surroundings.",
+        "source_ids": ["hanoi-public-code"]
+      },
+      {
+        "label": "Religious sites",
+        "answer": "Cover shoulders and legs, remove hats, and follow the venue's instructions.",
+        "source_ids": ["vietnam-tourism-responsible"]
+      },
+      {
+        "label": "Private homes",
+        "answer": "Remove shoes at the entrance and do not block or leave items in front of an altar.",
+        "source_ids": ["vietnam-tourism-responsible"]
+      },
+      {
+        "label": "Photographs",
+        "answer": "Ask before photographing a person; check each venue's separate recording rules.",
+        "source_ids": ["vietnam-tourism-etiquette", "thang-long-regulations"]
+      },
+      {
+        "label": "Hosted meals",
+        "answer": "Shared dishes are common; pass dishes with the right hand or both hands.",
+        "source_ids": ["vietnam-tourism-etiquette"]
+      }
+    ],
+    "sections": [
+      {
+        "id": "public-spaces",
+        "heading": "Start with Hanoi's public-space code",
+        "paragraphs": [
+          {
+            "text": "Hanoi's published code applies to people who work, live, visit, or study in the city's public places. Its useful everyday baseline is courtesy: respect shared space, speak politely, dress for the setting, help people who may need priority, and protect the environment.",
+            "source_ids": ["hanoi-public-code"]
+          },
+          {
+            "text": "The city's culture department reported in 2024 that the public-place code continued to be promoted through local agencies and community programmes. Treat it as active civic guidance, not a historic tourism list.",
+            "source_ids": ["hanoi-code-current"]
+          }
+        ],
+        "items": [
+          {
+            "text": "Keep voices at a considerate level and avoid creating disorder in shared places.",
+            "source_ids": ["hanoi-public-code"]
+          },
+          {
+            "text": "Make room for older people, pregnant people, disabled people, and children when they need assistance.",
+            "source_ids": ["hanoi-public-code"]
+          },
+          {
+            "text": "Use bins and leave parks, gardens, monuments, trees, and flowers undamaged.",
+            "source_ids": ["hanoi-public-code"]
+          }
+        ]
+      },
+      {
+        "id": "homes-and-altars",
+        "heading": "Entering a home or a place with an altar",
+        "paragraphs": [
+          {
+            "text": "Vietnam's national tourism authority advises visitors to remove their shoes when entering a home. It also notes that homes and businesses may contain an altar and asks visitors not to block it or leave objects in front of it.",
+            "source_ids": ["vietnam-tourism-responsible"]
+          },
+          {
+            "text": "For children, a simple routine works: pause at the doorway, look for shoes already left outside, and wait for the host's direction. If a household does something differently, follow the host rather than treating a general guide as a rigid rule.",
+            "source_ids": ["vietnam-tourism-responsible"]
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": "religious-and-heritage-sites",
+        "heading": "Religious and heritage sites set their own rules",
+        "paragraphs": [
+          {
+            "text": "National tourism guidance says visitors to temples and pagodas should cover their legs and shoulders and remove their hats. Carrying a light layer for adults and children avoids an unnecessary change of plan.",
+            "source_ids": ["vietnam-tourism-responsible"]
+          },
+          {
+            "text": "Venue rules take precedence. The Imperial Citadel of Thang Long, for example, publishes requirements to dress neatly, protect the site and artefacts, keep the environment clean, and obtain management permission for visual recordings or films.",
+            "source_ids": ["thang-long-regulations"]
+          }
+        ],
+        "items": [
+          {
+            "text": "Read the sign at the entrance even if your family has visited another temple or museum in Hanoi.",
+            "source_ids": ["thang-long-regulations"]
+          },
+          {
+            "text": "Do not let children climb monuments, trees, barriers, or displays unless the venue explicitly permits it.",
+            "source_ids": ["hanoi-public-code", "thang-long-regulations"]
+          }
+        ]
+      },
+      {
+        "id": "photos-and-privacy",
+        "heading": "Ask before photographing people",
+        "paragraphs": [
+          {
+            "text": "The national tourism authority explicitly advises asking before photographing a person. That is a clear family rule for markets, neighbourhood events, homes, and school-community occasions: a visible scene is not automatic consent.",
+            "source_ids": ["vietnam-tourism-etiquette"]
+          },
+          {
+            "text": "A venue may also restrict photography or filming independently of personal consent. Check posted rules and ask staff before using a tripod, recording a performance, or arranging a formal shoot.",
+            "source_ids": ["thang-long-regulations"]
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": "shared-meals",
+        "heading": "Keep hosted meals simple and observant",
+        "paragraphs": [
+          {
+            "text": "Vietnam Tourism describes many meals as shared dishes served with individual rice bowls and chopsticks. Its etiquette guidance recommends passing dishes with the right hand or both hands.",
+            "source_ids": ["vietnam-tourism-etiquette"]
+          },
+          {
+            "text": "Families can avoid turning dinner into a test of rules: let the host begin, watch how serving dishes are handled, help younger children take modest portions, and politely ask when unsure.",
+            "source_ids": ["vietnam-tourism-etiquette"]
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": "avoid-stereotypes",
+        "heading": "Use guidance without stereotyping",
+        "paragraphs": [
+          {
+            "text": "These sources describe public guidance and common visitor practices, not the behaviour of every Hanoi resident or household. Customs vary by family, generation, venue, and occasion. A host's request or a posted rule is more useful than a sweeping claim about what everyone does.",
+            "source_ids": ["hanoi-public-code", "vietnam-tourism-etiquette"]
+          }
+        ],
+        "items": []
+      }
+    ],
+    "family_section": {
+      "heading": "For families comparing schools",
+      "paragraphs": [
+        "Use a school visit to ask how the school teaches Vietnamese language and culture, how names and titles are used in parent communication, and what dress is expected for cultural or religious visits.",
+        "Before photographing classrooms, performances, or other children, ask the school about consent and safeguarding rules. School policy may be stricter than the general visitor guidance in this article."
+      ],
+      "checklist": [
+        "What forms of address do teachers and parent-facing staff prefer?",
+        "How are local festivals and cultural visits explained to new families?",
+        "What is the photography policy at assemblies, performances, and class events?",
+        "Are families told in advance when a visit requires covered shoulders or legs?"
+      ]
+    },
+    "internal_links": [
+      {
+        "label": "Hanoi city hub",
+        "href": "/cities/hanoi",
+        "purpose": "city-hub"
+      },
+      {
+        "label": "Vietnam country hub",
+        "href": "/countries/vietnam",
+        "purpose": "country-hub"
+      },
+      {
+        "label": "Browse Vietnam school records",
+        "href": "/countries/vietnam#directory-heading",
+        "purpose": "school-directory"
+      }
+    ],
+    "sources": [
+      {
+        "id": "hanoi-public-code",
+        "publisher": "Hanoi People's Council",
+        "title": "Code of Conduct in Public Places in Hanoi",
+        "url": "https://dbndhanoi.gov.vn/bai-viet/Quy-tac-ung-xu-noi-cong-cong-tren-dia-ban-TP-Ha-No-76063970",
+        "source_type": "municipal-government",
+        "retrieved_date": "2026-08-04",
+        "evidence": [
+          "tôn trọng không gian chung của cộng đồng; ứng xử lịch thiệp, thân thiện, nhã nhặn, đúng mực",
+          "đối tượng áp dụng là các tổ chức và cá nhân làm việc, sinh sống, công tác, tham quan, học tập",
+          "nói to, gây ồn ào, mất trật tự",
+          "quan tâm, nhường nhịn, giúp đỡ người khuyết tật, phụ nữ có thai, người già, trẻ em"
+        ]
+      },
+      {
+        "id": "hanoi-code-current",
+        "publisher": "Hanoi Department of Culture and Sports",
+        "title": "Codes of Conduct Contribute to Building Elegant and Civilized Hanoians",
+        "url": "https://sovhtt.hanoi.gov.vn/en/codes-of-conduct-contribute-to-building-elegant-and-civilized-hanoians/",
+        "source_type": "municipal-government",
+        "retrieved_date": "2026-08-04",
+        "evidence": [
+          "the city has issued two Codes of Conduct (the Code of Conduct in Public Places across the city",
+          "The city has simultaneously launched a plan to intensify efforts in promoting, disseminating, and educating on cultural conduct"
+        ]
+      },
+      {
+        "id": "vietnam-tourism-responsible",
+        "publisher": "Viet Nam National Authority of Tourism",
+        "title": "How to travel responsibly in Vietnam",
+        "url": "https://vietnam.travel/things-to-do/how-travel-responsibly-vietnam",
+        "source_type": "national-tourism-authority",
+        "retrieved_date": "2026-08-04",
+        "evidence": [
+          "When entering someone’s home, don't forget to take off your shoes!",
+          "make sure your legs and shoulders are covered and your hat is off",
+          "Take care not to block or leave things in front of the altar"
+        ]
+      },
+      {
+        "id": "vietnam-tourism-etiquette",
+        "publisher": "Viet Nam National Authority of Tourism",
+        "title": "Vietnamese etiquette for travellers",
+        "url": "https://vietnam.travel/things-to-do/vietnamese-etiquette-travellers",
+        "source_type": "national-tourism-authority",
+        "retrieved_date": "2026-08-04",
+        "evidence": [
+          "respect their privacy and always ask before you lift up your camera",
+          "Most meals are laid out as an assortment of shared dishes, with small rice bowls and chopsticks for each diner.",
+          "Pass dishes at the table with both hands or your right hand"
+        ]
+      },
+      {
+        "id": "thang-long-regulations",
+        "publisher": "Thang Long–Hanoi Heritage Conservation Centre",
+        "title": "Visiting regulations",
+        "url": "https://hoangthanhthanglong.vn/en/visiting-regulations/",
+        "source_type": "official-heritage-venue",
+        "retrieved_date": "2026-08-04",
+        "evidence": [
+          "Dress neatly and politely.",
+          "Protect the site and the artifacts and keep the environment clean.",
+          "wish to make visual recordings or films within the site must first get the permission from the management board"
+        ]
+      }
+    ]
+  }
+]

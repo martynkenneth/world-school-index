@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { validateCityGuideData, validateCityGuideRecord } from "../scripts/lib/city-guide.ts";
 import {
   assertValidSchoolRecord,
   createEmptySchoolRecord,
@@ -114,4 +115,22 @@ test("keeps the Hanoi worked example below the index gate when official sources 
   assert.equal(record.provenance["enrolment.total"].method, "conflict");
   assert.equal(record.provenance["enrolment.total"].candidates.length, 2);
   assert.equal(record.provenance["enrolment.nationalities_count"].candidates.length, 3);
+});
+
+test("validates the city-guide ledger, citations, and evidence limits", async () => {
+  const result = await validateCityGuideData();
+  assert.deepEqual(result, { guideCount: 1, sourceCount: 5 });
+});
+
+test("rejects missing guide citations and evidence over 25 words", async () => {
+  const guides = JSON.parse(await readFile(
+    new URL("../data/city-guides.json", import.meta.url),
+    "utf8",
+  ));
+  const guide = structuredClone(guides[0]);
+  guide.direct_answer.source_ids.push("missing-source");
+  guide.sources[0].evidence[0] = Array.from({ length: 26 }, (_, index) => `word${index}`).join(" ");
+  const errors = await validateCityGuideRecord(guide);
+  assert.ok(errors.some((error) => error.includes("missing-source")));
+  assert.ok(errors.some((error) => error.includes("maximum is 25")));
 });

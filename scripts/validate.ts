@@ -1,5 +1,6 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import { validateCityGuideData } from "./lib/city-guide.ts";
 import { validateSchoolRecord, type SchoolRecord } from "./lib/school-record.ts";
 
 async function jsonFiles(directory: string): Promise<string[]> {
@@ -45,6 +46,8 @@ export async function validateDirectory(directory = path.resolve("data", "school
     throw new Error(`Data validation failed:\n${failures.join("\n")}`);
   }
   console.log(`Validated ${files.length} school record(s); ${indexableCount} passed the index gate.`);
+  const guideResult = await validateCityGuideData();
+  console.log(`Validated ${guideResult.guideCount} city guide(s) and ${guideResult.sourceCount} official source(s).`);
 }
 
 if (process.argv.includes("--run")) {
