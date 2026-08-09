@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-03",
+  "updated_at": "2026-08-05",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -40,12 +40,30 @@
       "country": "Vietnam",
       "city": "Ho Chi Minh City",
       "city_slug": "ho-chi-minh-city",
-      "last_enrichment_date": null,
-      "topics_attempted": [],
-      "sources_checked": [],
-      "published_changes": [],
-      "unresolved_questions": [],
-      "next_recommended_topic": "Current fee or scholarship publication from an official school source."
+      "last_enrichment_date": "2026-08-05",
+      "topics_attempted": [
+        "current fee publication"
+      ],
+      "sources_checked": [
+        {
+          "url": "https://www.nordangliaeducation.com/bis-hcmc/admissions/tuition-fees",
+          "retrieved_date": "2026-08-05",
+          "result": "Official page confirmed a 2026-2027 fee publication, but its detailed values were PDF-only and were not imported."
+        },
+        {
+          "url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+          "retrieved_date": "2026-08-05",
+          "result": "Official HTML published the 2026-2027 tuition schedule, currency, six tuition bands, and payment discounts."
+        }
+      ],
+      "published_changes": [
+        "Added six 2026-2027 SSIS tuition bands, VND currency, academic year, and official payment discounts to the strict school record.",
+        "Added a question-led Ho Chi Minh City hub answer with the listed-profile scope, official citation, visible retrieval date, and internal school link."
+      ],
+      "unresolved_questions": [
+        "The SSIS page offers installment and discounted full-payment amounts; the strict tuition rows preserve the 100% installment-plan totals and keep fee_basis null."
+      ],
+      "next_recommended_topic": "Current scholarship publication or admissions deadline from an official school source."
     },
     {
       "country": "Vietnam",

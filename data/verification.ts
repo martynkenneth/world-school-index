@@ -25,6 +25,15 @@ import sisDaNang from "./schools/vietnam/singapore-international-school-da-nang.
 import skyLineDaNang from "./schools/vietnam/sky-line-school-da-nang.json";
 import stNicholasDaNang from "./schools/vietnam/st-nicholas-school-da-nang.json";
 import ukAcademyDaNang from "./schools/vietnam/uk-academy-da-nang.json";
+import denlaBritishSchool from "./schools/thailand/denla-british-school.json";
+import hamptonChaengwattana from "./schools/thailand/hampton-international-school-chaengwattana.json";
+import internationalChristianSchoolNonthaburi from "./schools/thailand/international-christian-school-nonthaburi.json";
+import internationalSchoolBangkok from "./schools/thailand/international-school-bangkok.json";
+import knightsbridgeHouse from "./schools/thailand/knightsbridge-house-international-school-thailand.json";
+import myisInternationalSchool from "./schools/thailand/myis-international-school.json";
+import newAmericanChineseInternationalSchool from "./schools/thailand/new-american-chinese-international-school.json";
+import risRatchapruek from "./schools/thailand/ruamrudee-international-school-ratchapruek.json";
+import stAndrewsSamakee from "./schools/thailand/st-andrews-samakee-international-school.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -44,6 +53,12 @@ export type StrictSchoolRecord = {
   school_type: string | null;
   founded: number | null;
   admissions: { open_days: string[] };
+  fees: {
+    published: boolean;
+    currency: string | null;
+    academic_year: string | null;
+    by_year_group: Array<{ label: string; tuition: string | null }>;
+  };
   provenance: Record<string, ProvenanceEntry>;
 };
 
@@ -75,6 +90,15 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "sky-line-school-da-nang": skyLineDaNang as StrictSchoolRecord,
   "st-nicholas-school-da-nang": stNicholasDaNang as StrictSchoolRecord,
   "uk-academy-da-nang": ukAcademyDaNang as StrictSchoolRecord,
+  "denla-british-school": denlaBritishSchool as StrictSchoolRecord,
+  "hampton-international-school-chaengwattana": hamptonChaengwattana as StrictSchoolRecord,
+  "international-christian-school-nonthaburi": internationalChristianSchoolNonthaburi as StrictSchoolRecord,
+  "international-school-bangkok": internationalSchoolBangkok as StrictSchoolRecord,
+  "knightsbridge-house-international-school-thailand": knightsbridgeHouse as StrictSchoolRecord,
+  "myis-international-school": myisInternationalSchool as StrictSchoolRecord,
+  "new-american-chinese-international-school": newAmericanChineseInternationalSchool as StrictSchoolRecord,
+  "ruamrudee-international-school-ratchapruek": risRatchapruek as StrictSchoolRecord,
+  "st-andrews-samakee-international-school": stAndrewsSamakee as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {

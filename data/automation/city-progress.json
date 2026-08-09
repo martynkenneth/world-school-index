@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-01",
+  "updated_at": "2026-08-09",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -345,6 +345,72 @@
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
       "next_action": "Begin Nonthaburi, Thailand, with International School Bangkok; retain SISB source access and the Shrewsbury/St Andrews multi-campus address questions in the manual verification queue."
+    },
+    {
+      "country": "Thailand",
+      "city": "Nonthaburi",
+      "city_slug": "nonthaburi",
+      "status": "complete",
+      "schools_discovered": 11,
+      "schools_processed": 11,
+      "school_ids": [
+        "school:th:international-school-bangkok",
+        "school:th:international-christian-school-nonthaburi",
+        "school:th:knightsbridge-house-international-school-thailand",
+        "school:th:singapore-international-school-nonthaburi",
+        "school:th:dlts-international-school",
+        "school:th:ruamrudee-international-school-ratchapruek",
+        "school:th:st-andrews-samakee-international-school",
+        "school:th:denla-british-school",
+        "school:th:myis-international-school",
+        "school:th:hampton-international-school-chaengwattana",
+        "school:th:new-american-chinese-international-school"
+      ],
+      "school_results": [
+        { "school_id": "school:th:international-school-bangkok", "result": "strict_provisional_record_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:international-christian-school-nonthaburi", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:knightsbridge-house-international-school-thailand", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:singapore-international-school-nonthaburi", "result": "crawl_blocked_provisional_profile_added", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:dlts-international-school", "result": "crawl_blocked_provisional_profile_added", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:ruamrudee-international-school-ratchapruek", "result": "strict_provisional_record_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:st-andrews-samakee-international-school", "result": "strict_provisional_record_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:denla-british-school", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:myis-international-school", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:hampton-international-school-chaengwattana", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:new-american-chinese-international-school", "result": "strict_provisional_record_added_with_conflict", "completeness_score": 6, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "admissions.open_days"] }
+      ],
+      "source_urls": [
+        "https://www.isb.ac.th/admissions/contact-the-team",
+        "https://icsn.ac.th/about-icsn/",
+        "https://kbh.ac.th/",
+        "https://sisb.ac.th/",
+        "https://www.dltsschool.com/contact",
+        "https://www.risr.ac.th/contact_us/",
+        "https://www.standrews-samakee.com/contact-us",
+        "https://www.dbsbangkok.ac.th/contact/",
+        "https://magicyears.ac.th/",
+        "https://hamptonschool.ac.th/",
+        "https://www.nac-school.com/",
+        "https://www.nac-school.com/faq",
+        "https://icsn.ac.th/nac-program/"
+      ],
+      "last_run_date": "2026-08-09",
+      "unresolved_conflicts": [
+        {
+          "school_id": "school:th:new-american-chinese-international-school",
+          "topic": "entity relationship and opening grade range",
+          "details": "The NAC site describes a distinct private school launching with Grades 5–8; the official ICSN page describes an international programme within ICSN for Grades 6–8. The public profile remains provisional and omits the disputed grade range."
+        }
+      ],
+      "source_access_blocks": [
+        { "school_id": "school:th:singapore-international-school-nonthaburi", "source_url": "https://sisb.ac.th/", "reason": "robots.txt returned HTTP 403; crawl was not permitted." },
+        { "school_id": "school:th:dlts-international-school", "source_url": "https://www.dltsschool.com/contact", "reason": "robots.txt returned HTTP 522; crawl was not permitted." }
+      ],
+      "pending_candidates": [],
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "sheet_claims_blocked": 0,
+      "next_action": "Begin Samut Prakan, Thailand, using the existing provisional coverage and an official-source candidate inventory; retain the NAC entity and grade-range conflict for human review."
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "th-nonthaburi-knightsbridge-house-international-school-thailand",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/knightsbridge-house-international-school-thailand/2026-08-05.fetch.json",
+  "output": "data/schools/thailand/knightsbridge-house-international-school-thailand.json",
+  "claims": [
+    { "path": "name", "value": "Knightsbridge House", "source_url": "https://kbh.ac.th/", "retrieved_date": "2026-08-05", "evidence": "Knightsbridge House (KBH), one of the fastest growing international schools from Singapore" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://kbh.ac.th/", "retrieved_date": "2026-08-05", "evidence": "established its first school campus in Nonthaburi, Thailand in Aug 2025" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://kbh.ac.th/", "retrieved_date": "2026-08-05", "evidence": "established its first school campus in Nonthaburi, Thailand in Aug 2025" },
+    { "path": "location.address", "value": "94 / 9 Sukha Pracha San 3, Bang Phut Sub-district, Pak Kret District, Nonthaburi 11120", "source_url": "https://kbh.ac.th/", "retrieved_date": "2026-08-05", "evidence": "94 / 9 Sukha Pracha San 3, Bang Phut Sub-district, Pak Kret District, Nonthaburi 11120" },
+    { "path": "curricula[0]", "value": "UK Cambridge Curriculum", "source_url": "https://kbh.ac.th/", "retrieved_date": "2026-08-05", "evidence": "We deliver the UK Cambridge Curriculum" }
+  ]
+}

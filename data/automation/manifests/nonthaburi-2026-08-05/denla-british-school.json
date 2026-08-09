@@ -1,0 +1,13 @@
+{
+  "id": "th-nonthaburi-denla-british-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/denla-british-school/2026-08-05.fetch.json",
+  "output": "data/schools/thailand/denla-british-school.json",
+  "claims": [
+    { "path": "name", "value": "Denla British School", "source_url": "https://www.dbsbangkok.ac.th/contact/", "retrieved_date": "2026-08-05", "evidence": "Welcome to Denla British School Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.dbsbangkok.ac.th/contact/", "retrieved_date": "2026-08-05", "evidence": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://www.dbsbangkok.ac.th/contact/", "retrieved_date": "2026-08-05", "evidence": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand" },
+    { "path": "location.address", "value": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand", "source_url": "https://www.dbsbangkok.ac.th/contact/", "retrieved_date": "2026-08-05", "evidence": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand" },
+    { "path": "curricula[0]", "value": "Enhanced British Curriculum", "source_url": "https://www.dbsbangkok.ac.th/contact/", "retrieved_date": "2026-08-05", "evidence": "DBS offers world-class facilities and an Enhanced British Curriculum" }
+  ]
+}

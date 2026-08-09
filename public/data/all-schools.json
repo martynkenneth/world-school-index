@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "generatedOn": "2026-08-03",
-  "recordCount": 55,
+  "generatedOn": "2026-08-09",
+  "recordCount": 65,
   "entities": {
     "schools": [
       {
@@ -263,6 +263,96 @@
         "status": "operating",
         "ownership": "Not-for-profit",
         "founded": 1951
+      },
+      {
+        "id": "school:th:international-christian-school-nonthaburi",
+        "canonicalName": "International Christian School Nonthaburi",
+        "shortName": "ICSN",
+        "slug": "international-christian-school-nonthaburi",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:knightsbridge-house-international-school-thailand",
+        "canonicalName": "Knightsbridge House",
+        "shortName": "KBH Nonthaburi",
+        "slug": "knightsbridge-house-international-school-thailand",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:singapore-international-school-nonthaburi",
+        "canonicalName": "SISB Nonthaburi Campus",
+        "shortName": "SISB Nonthaburi",
+        "slug": "singapore-international-school-nonthaburi",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:dlts-international-school",
+        "canonicalName": "DLTS International School",
+        "shortName": "DLTS",
+        "slug": "dlts-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:ruamrudee-international-school-ratchapruek",
+        "canonicalName": "Ruamrudee International School Ratchapruek Campus",
+        "shortName": "RIS Ratchapruek",
+        "slug": "ruamrudee-international-school-ratchapruek",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:st-andrews-samakee-international-school",
+        "canonicalName": "St. Andrews Samakee International School",
+        "shortName": "St. Andrews Samakee",
+        "slug": "st-andrews-samakee-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:denla-british-school",
+        "canonicalName": "Denla British School",
+        "shortName": "DBS",
+        "slug": "denla-british-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:myis-international-school",
+        "canonicalName": "MYIS International School",
+        "shortName": "MYIS",
+        "slug": "myis-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:hampton-international-school-chaengwattana",
+        "canonicalName": "Hampton International School – Chaengwattana",
+        "shortName": "Hampton Chaengwattana",
+        "slug": "hampton-international-school-chaengwattana",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:new-american-chinese-international-school",
+        "canonicalName": "New American Chinese International School",
+        "shortName": "NAC",
+        "slug": "new-american-chinese-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:th:nist-international-school-bangkok",
@@ -811,6 +901,106 @@
         "citySlug": "nonthaburi",
         "region": "Bangkok Metropolitan Region",
         "campusType": "day"
+      },
+      {
+        "id": "campus:th:international-christian-school-nonthaburi:main",
+        "schoolId": "school:th:international-christian-school-nonthaburi",
+        "name": "ICSN main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:knightsbridge-house-international-school-thailand:main",
+        "schoolId": "school:th:knightsbridge-house-international-school-thailand",
+        "name": "KBH Nonthaburi main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:singapore-international-school-nonthaburi:main",
+        "schoolId": "school:th:singapore-international-school-nonthaburi",
+        "name": "SISB Nonthaburi main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:dlts-international-school:main",
+        "schoolId": "school:th:dlts-international-school",
+        "name": "DLTS main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:ruamrudee-international-school-ratchapruek:main",
+        "schoolId": "school:th:ruamrudee-international-school-ratchapruek",
+        "name": "RIS Ratchapruek main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:st-andrews-samakee-international-school:main",
+        "schoolId": "school:th:st-andrews-samakee-international-school",
+        "name": "St. Andrews Samakee main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:denla-british-school:main",
+        "schoolId": "school:th:denla-british-school",
+        "name": "DBS main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:myis-international-school:main",
+        "schoolId": "school:th:myis-international-school",
+        "name": "MYIS main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:hampton-international-school-chaengwattana:main",
+        "schoolId": "school:th:hampton-international-school-chaengwattana",
+        "name": "Hampton Chaengwattana main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:new-american-chinese-international-school:main",
+        "schoolId": "school:th:new-american-chinese-international-school",
+        "name": "NAC main campus",
+        "countryCode": "TH",
+        "city": "Nonthaburi",
+        "citySlug": "nonthaburi",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
       },
       {
         "id": "campus:th:nist-international-school-bangkok:main",
@@ -1552,6 +1742,111 @@
         "campusId": "campus:th:international-school-bangkok:main",
         "programme": "IB Diploma",
         "sourceId": "source:th:international-school-bangkok:official"
+      },
+      {
+        "id": "programme:th:international-christian-school-nonthaburi:1",
+        "schoolId": "school:th:international-christian-school-nonthaburi",
+        "campusId": "campus:th:international-christian-school-nonthaburi:main",
+        "programme": "American Education Reaches Out (AERO)",
+        "sourceId": "source:th:international-christian-school-nonthaburi:official"
+      },
+      {
+        "id": "programme:th:knightsbridge-house-international-school-thailand:1",
+        "schoolId": "school:th:knightsbridge-house-international-school-thailand",
+        "campusId": "campus:th:knightsbridge-house-international-school-thailand:main",
+        "programme": "UK Cambridge Curriculum",
+        "sourceId": "source:th:knightsbridge-house-international-school-thailand:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-nonthaburi:1",
+        "schoolId": "school:th:singapore-international-school-nonthaburi",
+        "campusId": "campus:th:singapore-international-school-nonthaburi:main",
+        "programme": "Not published by the school",
+        "sourceId": "source:th:singapore-international-school-nonthaburi:official"
+      },
+      {
+        "id": "programme:th:dlts-international-school:1",
+        "schoolId": "school:th:dlts-international-school",
+        "campusId": "campus:th:dlts-international-school:main",
+        "programme": "American",
+        "sourceId": "source:th:dlts-international-school:official"
+      },
+      {
+        "id": "programme:th:dlts-international-school:2",
+        "schoolId": "school:th:dlts-international-school",
+        "campusId": "campus:th:dlts-international-school:main",
+        "programme": "IB PYP",
+        "sourceId": "source:th:dlts-international-school:official"
+      },
+      {
+        "id": "programme:th:dlts-international-school:3",
+        "schoolId": "school:th:dlts-international-school",
+        "campusId": "campus:th:dlts-international-school:main",
+        "programme": "IB MYP",
+        "sourceId": "source:th:dlts-international-school:official"
+      },
+      {
+        "id": "programme:th:ruamrudee-international-school-ratchapruek:1",
+        "schoolId": "school:th:ruamrudee-international-school-ratchapruek",
+        "campusId": "campus:th:ruamrudee-international-school-ratchapruek:main",
+        "programme": "Not published by the school",
+        "sourceId": "source:th:ruamrudee-international-school-ratchapruek:official"
+      },
+      {
+        "id": "programme:th:st-andrews-samakee-international-school:1",
+        "schoolId": "school:th:st-andrews-samakee-international-school",
+        "campusId": "campus:th:st-andrews-samakee-international-school:main",
+        "programme": "Not published by the school",
+        "sourceId": "source:th:st-andrews-samakee-international-school:official"
+      },
+      {
+        "id": "programme:th:denla-british-school:1",
+        "schoolId": "school:th:denla-british-school",
+        "campusId": "campus:th:denla-british-school:main",
+        "programme": "Enhanced British Curriculum",
+        "sourceId": "source:th:denla-british-school:official"
+      },
+      {
+        "id": "programme:th:myis-international-school:1",
+        "schoolId": "school:th:myis-international-school",
+        "campusId": "campus:th:myis-international-school:main",
+        "programme": "American curriculum",
+        "sourceId": "source:th:myis-international-school:official"
+      },
+      {
+        "id": "programme:th:myis-international-school:2",
+        "schoolId": "school:th:myis-international-school",
+        "campusId": "campus:th:myis-international-school:main",
+        "programme": "IB framework",
+        "sourceId": "source:th:myis-international-school:official"
+      },
+      {
+        "id": "programme:th:hampton-international-school-chaengwattana:1",
+        "schoolId": "school:th:hampton-international-school-chaengwattana",
+        "campusId": "campus:th:hampton-international-school-chaengwattana:main",
+        "programme": "British national curriculum",
+        "sourceId": "source:th:hampton-international-school-chaengwattana:official"
+      },
+      {
+        "id": "programme:th:new-american-chinese-international-school:1",
+        "schoolId": "school:th:new-american-chinese-international-school",
+        "campusId": "campus:th:new-american-chinese-international-school:main",
+        "programme": "Common Core (CCSS)",
+        "sourceId": "source:th:new-american-chinese-international-school:official"
+      },
+      {
+        "id": "programme:th:new-american-chinese-international-school:2",
+        "schoolId": "school:th:new-american-chinese-international-school",
+        "campusId": "campus:th:new-american-chinese-international-school:main",
+        "programme": "Next Generation Science Standards (NGSS)",
+        "sourceId": "source:th:new-american-chinese-international-school:official"
+      },
+      {
+        "id": "programme:th:new-american-chinese-international-school:3",
+        "schoolId": "school:th:new-american-chinese-international-school",
+        "campusId": "campus:th:new-american-chinese-international-school:main",
+        "programme": "Advanced Placement (AP)",
+        "sourceId": "source:th:new-american-chinese-international-school:official"
       },
       {
         "id": "programme:th:nist-international-school-bangkok:1",
@@ -3049,6 +3344,156 @@
         ]
       },
       {
+        "id": "source:th:international-christian-school-nonthaburi:official",
+        "schoolId": "school:th:international-christian-school-nonthaburi",
+        "type": "official-school",
+        "publisher": "International Christian School Nonthaburi",
+        "url": "https://icsn.ac.th/about-icsn/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:knightsbridge-house-international-school-thailand:official",
+        "schoolId": "school:th:knightsbridge-house-international-school-thailand",
+        "type": "official-school",
+        "publisher": "Knightsbridge House",
+        "url": "https://kbh.ac.th/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:singapore-international-school-nonthaburi:official",
+        "schoolId": "school:th:singapore-international-school-nonthaburi",
+        "type": "official-school",
+        "publisher": "SISB Nonthaburi Campus",
+        "url": "https://sisb.ac.th/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:dlts-international-school:official",
+        "schoolId": "school:th:dlts-international-school",
+        "type": "official-school",
+        "publisher": "DLTS International School",
+        "url": "https://www.dltsschool.com/contact",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:ruamrudee-international-school-ratchapruek:official",
+        "schoolId": "school:th:ruamrudee-international-school-ratchapruek",
+        "type": "official-school",
+        "publisher": "Ruamrudee International School Ratchapruek Campus",
+        "url": "https://www.risr.ac.th/contact_us/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:st-andrews-samakee-international-school:official",
+        "schoolId": "school:th:st-andrews-samakee-international-school",
+        "type": "official-school",
+        "publisher": "St. Andrews Samakee International School",
+        "url": "https://www.standrews-samakee.com/contact-us",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:denla-british-school:official",
+        "schoolId": "school:th:denla-british-school",
+        "type": "official-school",
+        "publisher": "Denla British School",
+        "url": "https://www.dbsbangkok.ac.th/contact/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:myis-international-school:official",
+        "schoolId": "school:th:myis-international-school",
+        "type": "official-school",
+        "publisher": "MYIS International School",
+        "url": "https://magicyears.ac.th/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:hampton-international-school-chaengwattana:official",
+        "schoolId": "school:th:hampton-international-school-chaengwattana",
+        "type": "official-school",
+        "publisher": "Hampton International School – Chaengwattana",
+        "url": "https://hamptonschool.ac.th/",
+        "observedOn": "2026-08-05",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:new-american-chinese-international-school:official",
+        "schoolId": "school:th:new-american-chinese-international-school",
+        "type": "official-school",
+        "publisher": "New American Chinese International School",
+        "url": "https://www.nac-school.com/",
+        "observedOn": "2026-08-09",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
         "id": "source:th:nist-international-school-bangkok:official",
         "schoolId": "school:th:nist-international-school-bangkok",
         "type": "official-school",
@@ -3705,6 +4150,96 @@
         "verifiedOn": "2026-07-23",
         "sourceIds": [
           "source:th:international-school-bangkok:official"
+        ]
+      },
+      {
+        "id": "verification:th:international-christian-school-nonthaburi:2026-08-05",
+        "schoolId": "school:th:international-christian-school-nonthaburi",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:international-christian-school-nonthaburi:official"
+        ]
+      },
+      {
+        "id": "verification:th:knightsbridge-house-international-school-thailand:2026-08-05",
+        "schoolId": "school:th:knightsbridge-house-international-school-thailand",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:knightsbridge-house-international-school-thailand:official"
+        ]
+      },
+      {
+        "id": "verification:th:singapore-international-school-nonthaburi:2026-08-05",
+        "schoolId": "school:th:singapore-international-school-nonthaburi",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:singapore-international-school-nonthaburi:official"
+        ]
+      },
+      {
+        "id": "verification:th:dlts-international-school:2026-08-05",
+        "schoolId": "school:th:dlts-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:dlts-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:ruamrudee-international-school-ratchapruek:2026-08-05",
+        "schoolId": "school:th:ruamrudee-international-school-ratchapruek",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:ruamrudee-international-school-ratchapruek:official"
+        ]
+      },
+      {
+        "id": "verification:th:st-andrews-samakee-international-school:2026-08-05",
+        "schoolId": "school:th:st-andrews-samakee-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:st-andrews-samakee-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:denla-british-school:2026-08-05",
+        "schoolId": "school:th:denla-british-school",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:denla-british-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:myis-international-school:2026-08-05",
+        "schoolId": "school:th:myis-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:myis-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:hampton-international-school-chaengwattana:2026-08-05",
+        "schoolId": "school:th:hampton-international-school-chaengwattana",
+        "level": "core",
+        "verifiedOn": "2026-08-05",
+        "sourceIds": [
+          "source:th:hampton-international-school-chaengwattana:official"
+        ]
+      },
+      {
+        "id": "verification:th:new-american-chinese-international-school:2026-08-09",
+        "schoolId": "school:th:new-american-chinese-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-09",
+        "sourceIds": [
+          "source:th:new-american-chinese-international-school:official"
         ]
       },
       {
@@ -4671,6 +5206,241 @@
       "verifiedOn": "2026-07-23",
       "founded": 1951,
       "featured": true
+    },
+    {
+      "name": "International Christian School Nonthaburi",
+      "shortName": "ICSN",
+      "slug": "international-christian-school-nonthaburi",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American Education Reaches Out (AERO)"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://icsn.ac.th/",
+      "sourceUrl": "https://icsn.ac.th/about-icsn/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "Knightsbridge House",
+      "shortName": "KBH Nonthaburi",
+      "slug": "knightsbridge-house-international-school-thailand",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "UK Cambridge Curriculum"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://kbh.ac.th/",
+      "sourceUrl": "https://kbh.ac.th/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "SISB Nonthaburi Campus",
+      "shortName": "SISB Nonthaburi",
+      "slug": "singapore-international-school-nonthaburi",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "Not published by the school"
+      ],
+      "ageRange": "2–18",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://sisb.ac.th/",
+      "sourceUrl": "https://sisb.ac.th/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "DLTS International School",
+      "shortName": "DLTS",
+      "slug": "dlts-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American",
+        "IB PYP",
+        "IB MYP"
+      ],
+      "ageRange": "Toddler–Grade 9",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.dltsschool.com/",
+      "sourceUrl": "https://www.dltsschool.com/contact",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "Ruamrudee International School Ratchapruek Campus",
+      "shortName": "RIS Ratchapruek",
+      "slug": "ruamrudee-international-school-ratchapruek",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "Not published by the school"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.risr.ac.th/",
+      "sourceUrl": "https://www.risr.ac.th/contact_us/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "St. Andrews Samakee International School",
+      "shortName": "St. Andrews Samakee",
+      "slug": "st-andrews-samakee-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "Not published by the school"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.standrews-samakee.com/",
+      "sourceUrl": "https://www.standrews-samakee.com/contact-us",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "Denla British School",
+      "shortName": "DBS",
+      "slug": "denla-british-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "Enhanced British Curriculum"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.dbsbangkok.ac.th/",
+      "sourceUrl": "https://www.dbsbangkok.ac.th/contact/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "MYIS International School",
+      "shortName": "MYIS",
+      "slug": "myis-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American curriculum",
+        "IB framework"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://magicyears.ac.th/",
+      "sourceUrl": "https://magicyears.ac.th/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "Hampton International School – Chaengwattana",
+      "shortName": "Hampton Chaengwattana",
+      "slug": "hampton-international-school-chaengwattana",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "British national curriculum"
+      ],
+      "ageRange": "18 months–6 years",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://hamptonschool.ac.th/",
+      "sourceUrl": "https://hamptonschool.ac.th/",
+      "verifiedOn": "2026-08-05",
+      "indexable": false
+    },
+    {
+      "name": "New American Chinese International School",
+      "shortName": "NAC",
+      "slug": "new-american-chinese-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Nonthaburi",
+      "citySlug": "nonthaburi",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "Common Core (CCSS)",
+        "Next Generation Science Standards (NGSS)",
+        "Advanced Placement (AP)"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "English, Chinese (Mandarin), and Thai",
+      "schoolType": "Private international school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.nac-school.com/",
+      "sourceUrl": "https://www.nac-school.com/",
+      "verifiedOn": "2026-08-09",
+      "indexable": false
     },
     {
       "name": "NIST International School",

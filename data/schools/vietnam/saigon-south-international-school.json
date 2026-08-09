@@ -23,11 +23,36 @@
   "year_groups": [],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026-2027",
     "fee_basis": null,
-    "by_year_group": [],
+    "by_year_group": [
+      {
+        "label": "EC 3-4",
+        "tuition": "530,192,000"
+      },
+      {
+        "label": "Kindergarten",
+        "tuition": "603,200,000"
+      },
+      {
+        "label": "Grade 1-5",
+        "tuition": "730,808,000"
+      },
+      {
+        "label": "Grade 6-8",
+        "tuition": "782,687,000"
+      },
+      {
+        "label": "Grade 9-10",
+        "tuition": "832,426,000"
+      },
+      {
+        "label": "Grade 11-12",
+        "tuition": "924,546,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -36,8 +61,8 @@
       "lunch": null,
       "uniform": null
     },
-    "sibling_discount": null,
-    "early_payment_discount": null
+    "sibling_discount": "20%",
+    "early_payment_discount": "6%"
   },
   "enrolment": {
     "total": null,
@@ -119,6 +144,134 @@
       "conflict": false,
       "candidates": []
     },
+    "fees.currency": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Fee listed in Vietnamese Dong (VND)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Tuition Schedule 2026-2027",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "EC 3-4 530,192,000 498,380,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "EC 3-4 530,192,000 498,380,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Kindergarten 603,200,000 567,008,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Kindergarten 603,200,000 567,008,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 1-5 730,808,000 686,960,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 1-5 730,808,000 686,960,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 6-8 782,687,000 735,726,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 6-8 782,687,000 735,726,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 9-10 832,426,000 782,481,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 9-10 832,426,000 782,481,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 11-12 924,546,000 869,073,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Grade 11-12 924,546,000 869,073,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.sibling_discount": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "A 20% discount will be applied to tuition for the 3rd and subsequent child(ren) of the same family attending SSIS.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.early_payment_discount": {
+      "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Payment in full by June 25, 2026. A 6% discount applies.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
     "contact.phone": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
       "retrieved_date": "2026-07-28",
@@ -136,7 +289,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-08-05"
 }

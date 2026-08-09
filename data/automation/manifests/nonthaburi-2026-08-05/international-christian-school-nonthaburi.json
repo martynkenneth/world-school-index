@@ -1,0 +1,13 @@
+{
+  "id": "th-nonthaburi-international-christian-school-nonthaburi",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/international-christian-school-nonthaburi/2026-08-05.fetch.json",
+  "output": "data/schools/thailand/international-christian-school-nonthaburi.json",
+  "claims": [
+    { "path": "name", "value": "International Christian School Nonthaburi", "source_url": "https://icsn.ac.th/about-icsn/", "retrieved_date": "2026-08-05", "evidence": "At International Christian School Nonthaburi (ICSN), we consider our role in students’ lives a great privilege" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://icsn.ac.th/about-icsn/", "retrieved_date": "2026-08-05", "evidence": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://icsn.ac.th/about-icsn/", "retrieved_date": "2026-08-05", "evidence": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000" },
+    { "path": "location.address", "value": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000", "source_url": "https://icsn.ac.th/about-icsn/", "retrieved_date": "2026-08-05", "evidence": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000" },
+    { "path": "curricula[0]", "value": "American Education Reaches Out (AERO)", "source_url": "https://icsn.ac.th/about-icsn/", "retrieved_date": "2026-08-05", "evidence": "education based on standards set forth by American Education Reaches Out (AERO)" }
+  ]
+}

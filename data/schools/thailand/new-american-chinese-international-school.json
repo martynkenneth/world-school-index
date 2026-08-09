@@ -1,0 +1,204 @@
+{
+  "id": "th-nonthaburi-new-american-chinese-international-school",
+  "name": "New American Chinese International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Nonthaburi",
+    "district": null,
+    "address": "145/1 Thanon Pracharat, Talat Kwan, Mueang Nonthaburi District, Nonthaburi 11000",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": "private",
+  "curricula": [
+    "Common Core (CCSS)",
+    "Next Generation Science Standards (NGSS)",
+    "Advanced Placement (AP)"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English",
+      "Chinese (Mandarin)",
+      "Thai"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://www.nac-school.com",
+    "admissions_url": null,
+    "phone": "08 6320 1454",
+    "email": "nac@icsn.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "New American Chinese International School · Nonthaburi, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "New American Chinese International School · Nonthaburi, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "New American Chinese International School · Nonthaburi, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "145/1 Thanon Pracharat, Talat Kwan, Mueang Nonthaburi District, Nonthaburi 11000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "school_type": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "NAC is a private international school in Nonthaburi, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "NAC follows American academic standards: Common Core (CCSS) for English and Maths",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "Next Generation Science Standards (NGSS) for Science",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "In High School, students can take Advanced Placement (AP) courses, recognised worldwide.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[1]": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[2]": {
+      "source_url": "https://www.nac-school.com/faq",
+      "retrieved_date": "2026-08-09",
+      "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.website": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "\"url\":\"https://www.nac-school.com\",\"name\":\"New American Chinese International School\"",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "08 6320 1454",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.nac-school.com/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "nac@icsn.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-08-09"
+}

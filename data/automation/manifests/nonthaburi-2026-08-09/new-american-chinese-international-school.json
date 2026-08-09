@@ -1,0 +1,38 @@
+{
+  "id": "th-nonthaburi-new-american-chinese-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/new-american-chinese-international-school/2026-08-09.fetch.json",
+  "output": "data/schools/thailand/new-american-chinese-international-school.json",
+  "claims": [
+    { "path": "name", "value": "New American Chinese International School", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "New American Chinese International School · Nonthaburi, Thailand" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "New American Chinese International School · Nonthaburi, Thailand" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "New American Chinese International School · Nonthaburi, Thailand" },
+    { "path": "location.address", "value": "145/1 Thanon Pracharat, Talat Kwan, Mueang Nonthaburi District, Nonthaburi 11000", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "145/1 Thanon Pracharat, Talat Kwan, Mueang Nonthaburi District, Nonthaburi 11000" },
+    { "path": "school_type", "value": "private", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "NAC is a private international school in Nonthaburi, Thailand" },
+    { "path": "curricula[0]", "value": "Common Core (CCSS)", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "NAC follows American academic standards: Common Core (CCSS) for English and Maths" },
+    { "path": "curricula[1]", "value": "Next Generation Science Standards (NGSS)", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "Next Generation Science Standards (NGSS) for Science" },
+    { "path": "curricula[2]", "value": "Advanced Placement (AP)", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "In High School, students can take Advanced Placement (AP) courses, recognised worldwide." },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai" },
+    { "path": "languages.instruction[1]", "value": "Chinese (Mandarin)", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai" },
+    { "path": "languages.instruction[2]", "value": "Thai", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai" },
+    { "path": "contact.website", "value": "https://www.nac-school.com", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "\"url\":\"https://www.nac-school.com\",\"name\":\"New American Chinese International School\"" },
+    { "path": "contact.phone", "value": "08 6320 1454", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "08 6320 1454" },
+    { "path": "contact.email", "value": "nac@icsn.ac.th", "source_url": "https://www.nac-school.com/", "retrieved_date": "2026-08-09", "evidence": "nac@icsn.ac.th" }
+  ],
+  "unresolved_conflicts": [
+    {
+      "topic": "entity relationship and opening grade range",
+      "candidates": [
+        { "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "NAC is its own distinct school, with its own curriculum, frameworks, uniform, and admissions" },
+        { "source_url": "https://icsn.ac.th/nac-program/", "retrieved_date": "2026-08-09", "evidence": "NAC is a program within the same campus — with its own programme, leadership, and identity." }
+      ]
+    },
+    {
+      "topic": "opening grade range",
+      "candidates": [
+        { "value": "Grades 5–8", "source_url": "https://www.nac-school.com/faq", "retrieved_date": "2026-08-09", "evidence": "NAC launches in Academic Year 2026–2027 with Grades 5–8 (Middle School)" },
+        { "value": "Grades 6–8", "source_url": "https://icsn.ac.th/nac-program/", "retrieved_date": "2026-08-09", "evidence": "NAC is a future-focused, trilingual international program for Grades 6–8" }
+      ]
+    }
+  ]
+}

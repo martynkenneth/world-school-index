@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-08-09",
   "topic_rotation": [
     "living-in-the-city-orientation",
     "culture-and-etiquette",
@@ -58,6 +58,14 @@
       "country": "Thailand",
       "city": "Bangkok",
       "city_slug": "bangkok",
+      "completed_articles": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "living-in-the-city-orientation"
+    },
+    {
+      "country": "Thailand",
+      "city": "Nonthaburi",
+      "city_slug": "nonthaburi",
       "completed_articles": [],
       "unresolved_questions": [],
       "next_recommended_topic": "living-in-the-city-orientation"

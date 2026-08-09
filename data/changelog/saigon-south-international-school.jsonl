@@ -1,0 +1,7 @@
+{"date":"2026-08-05","field":"fees.published","old_value":false,"new_value":true}
+{"date":"2026-08-05","field":"fees.currency","old_value":null,"new_value":"VND"}
+{"date":"2026-08-05","field":"fees.academic_year","old_value":null,"new_value":"2026-2027"}
+{"date":"2026-08-05","field":"fees.by_year_group","old_value":[],"new_value":[{"label":"EC 3-4","tuition":"530,192,000"},{"label":"Kindergarten","tuition":"603,200,000"},{"label":"Grade 1-5","tuition":"730,808,000"},{"label":"Grade 6-8","tuition":"782,687,000"},{"label":"Grade 9-10","tuition":"832,426,000"},{"label":"Grade 11-12","tuition":"924,546,000"}]}
+{"date":"2026-08-05","field":"fees.sibling_discount","old_value":null,"new_value":"20%"}
+{"date":"2026-08-05","field":"fees.early_payment_discount","old_value":null,"new_value":"6%"}
+{"date":"2026-08-05","field":"completeness_score","old_value":4,"new_value":5}

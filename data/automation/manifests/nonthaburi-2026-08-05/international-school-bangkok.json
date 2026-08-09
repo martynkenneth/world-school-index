@@ -1,0 +1,12 @@
+{
+  "id": "th-nonthaburi-international-school-bangkok",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/international-school-bangkok/2026-08-05.fetch.json",
+  "output": "data/schools/thailand/international-school-bangkok.json",
+  "claims": [
+    { "path": "name", "value": "International School Bangkok", "source_url": "https://www.isb.ac.th/admissions/contact-the-team", "retrieved_date": "2026-08-05", "evidence": "Office of Admissions - International School Bangkok" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.isb.ac.th/admissions/contact-the-team", "retrieved_date": "2026-08-05", "evidence": "Amphur Pakkret, Nonthaburi 11120, Thailand" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://www.isb.ac.th/admissions/contact-the-team", "retrieved_date": "2026-08-05", "evidence": "Amphur Pakkret, Nonthaburi 11120, Thailand" },
+    { "path": "location.address", "value": "39/7 Soi Nichada Thani, Samakee Road, Amphur Pakkret, Nonthaburi 11120, Thailand", "source_url": "https://www.isb.ac.th/admissions/contact-the-team", "retrieved_date": "2026-08-05", "evidence": "39/7 Soi Nichada Thani, Samakee Road, Amphur Pakkret, Nonthaburi 11120, Thailand" }
+  ]
+}

@@ -70,11 +70,11 @@ test("ships the first source-checked Thailand collection", async () => {
   );
   const parsed = JSON.parse(dataExport);
   assert.equal(parsed.schemaVersion, "2.0");
-  assert.equal(parsed.recordCount, 28);
-  assert.equal(parsed.entities.schools.length, 28);
-  assert.equal(parsed.entities.campuses.length, 28);
-  assert.equal(parsed.entities.sources.length, 28);
-  assert.equal(parsed.entities.verifications.length, 28);
+  assert.equal(parsed.recordCount, 38);
+  assert.equal(parsed.entities.schools.length, 38);
+  assert.equal(parsed.entities.campuses.length, 38);
+  assert.equal(parsed.entities.sources.length, 38);
+  assert.equal(parsed.entities.verifications.length, 38);
 });
 
 test("keeps the Vietnam country directory available", async () => {
@@ -86,17 +86,21 @@ test("keeps the Vietnam country directory available", async () => {
   assert.match(html, /href="\/data\/vietnam-schools\.json"/);
 });
 
-test("renders the Thailand country directory and a Thailand school record", async () => {
-  const [countryResponse, schoolResponse] = await Promise.all([
+test("renders the Thailand country directory and Thailand school records", async () => {
+  const [countryResponse, schoolResponse, blockedSchoolResponse, conflictingSchoolResponse] = await Promise.all([
     render("/countries/thailand"),
     render("/schools/international-school-bangkok"),
+    render("/schools/singapore-international-school-nonthaburi"),
+    render("/schools/new-american-chinese-international-school"),
   ]);
   assert.equal(countryResponse.status, 200);
   assert.equal(schoolResponse.status, 200);
+  assert.equal(blockedSchoolResponse.status, 200);
+  assert.equal(conflictingSchoolResponse.status, 200);
 
   const countryHtml = await countryResponse.text();
   assert.match(countryHtml, /<title>International Schools in Thailand/);
-  assert.match(countryHtml, /28/);
+  assert.match(countryHtml, /38/);
   assert.match(countryHtml, /href="\/data\/thailand-schools\.json"/);
   assert.match(countryHtml, /Bangkok/);
   assert.match(countryHtml, /Chiang Mai/);
@@ -107,8 +111,19 @@ test("renders the Thailand country directory and a Thailand school record", asyn
   assert.match(schoolHtml, /Nonthaburi[\s\S]*Thailand/);
   assert.match(schoolHtml, /Provisional school profile/);
   assert.doesNotMatch(schoolHtml, /Evidence capture pending/i);
-  assert.doesNotMatch(schoolHtml, /application\/ld\+json/);
+  assert.match(schoolHtml, /application\/ld\+json/);
   assert.match(schoolHtml, /name="robots" content="noindex,\s*follow"/);
+
+  const blockedSchoolHtml = await blockedSchoolResponse.text();
+  assert.match(blockedSchoolHtml, /SISB Nonthaburi Campus/);
+  assert.doesNotMatch(blockedSchoolHtml, /application\/ld\+json/);
+  assert.match(blockedSchoolHtml, /name="robots" content="noindex,\s*follow"/);
+
+  const conflictingSchoolHtml = await conflictingSchoolResponse.text();
+  assert.match(conflictingSchoolHtml, /New American Chinese International School/);
+  assert.match(conflictingSchoolHtml, /Provisional school profile/);
+  assert.match(conflictingSchoolHtml, /name="robots" content="noindex,\s*follow"/);
+  assert.doesNotMatch(conflictingSchoolHtml, /Grades 5–8|Grades 6–8/);
 });
 
 test("publishes directory hubs and a clear data disclaimer", async () => {
@@ -135,6 +150,20 @@ test("surfaces the source-backed Hanoi open-day answer on the existing city hub"
   assert.match(html, /Official open-day notice/);
   assert.match(html, /Checked[\s\S]*Aug 3, 2026/);
   assert.match(html, /href="\/schools\/british-international-school-hanoi"/);
+  assert.doesNotMatch(html, /Evidence capture pending/i);
+});
+
+test("surfaces the source-backed Ho Chi Minh City fee answer on the existing city hub", async () => {
+  const response = await render("/cities/ho-chi-minh-city");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Which listed Ho Chi Minh City school publishes 2026–27 fees\?/);
+  assert.match(html, /listed profiles has a verified 2026-2027 tuition schedule/);
+  assert.match(html, /530,192,000[\s\S]*EC 3-4[\s\S]*924,546,000[\s\S]*Grade 11-12/);
+  assert.match(html, /Official 2026-2027 fee schedule/);
+  assert.match(html, /Checked[\s\S]*Aug 5, 2026/);
+  assert.match(html, /href="\/schools\/saigon-south-international-school"/);
   assert.doesNotMatch(html, /Evidence capture pending/i);
 });
 

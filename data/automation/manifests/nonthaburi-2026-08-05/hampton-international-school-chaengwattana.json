@@ -1,0 +1,13 @@
+{
+  "id": "th-nonthaburi-hampton-international-school-chaengwattana",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/hampton-international-school-chaengwattana/2026-08-05.fetch.json",
+  "output": "data/schools/thailand/hampton-international-school-chaengwattana.json",
+  "claims": [
+    { "path": "name", "value": "Hampton International School", "source_url": "https://hamptonschool.ac.th/", "retrieved_date": "2026-08-05", "evidence": "Hampton International School is a family-owned school" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://hamptonschool.ac.th/", "retrieved_date": "2026-08-05", "evidence": "in Bangkok, Thailand" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://hamptonschool.ac.th/", "retrieved_date": "2026-08-05", "evidence": "Pakkred, Nonthaburi 11120" },
+    { "path": "location.address", "value": "51/8 Mooban Sarawanville Chaengwattana Soi 28 Pakkred, Nonthaburi 11120", "source_url": "https://hamptonschool.ac.th/", "retrieved_date": "2026-08-05", "evidence": "51/8 Mooban Sarawanville Chaengwattana Soi 28 Pakkred, Nonthaburi 11120" },
+    { "path": "curricula[0]", "value": "British national curriculum", "source_url": "https://hamptonschool.ac.th/", "retrieved_date": "2026-08-05", "evidence": "educates children through the British national curriculum" }
+  ]
+}

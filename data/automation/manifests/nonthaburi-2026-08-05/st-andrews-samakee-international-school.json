@@ -1,0 +1,11 @@
+{
+  "id": "th-nonthaburi-st-andrews-samakee-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/st-andrews-samakee-international-school/2026-08-05.fetch.json",
+  "output": "data/schools/thailand/st-andrews-samakee-international-school.json",
+  "claims": [
+    { "path": "name", "value": "St. Andrews Samakee International School", "source_url": "https://www.standrews-samakee.com/contact-us", "retrieved_date": "2026-08-05", "evidence": "St. Andrews Samakee International School" },
+    { "path": "location.city", "value": "Nonthaburi", "source_url": "https://www.standrews-samakee.com/contact-us", "retrieved_date": "2026-08-05", "evidence": "Location: 43 Soi Tiwanond 48, Tiwanond Rd., Nonthaburi" },
+    { "path": "location.address", "value": "43 Soi Tiwanond 48, Tiwanond Rd., Nonthaburi", "source_url": "https://www.standrews-samakee.com/contact-us", "retrieved_date": "2026-08-05", "evidence": "Location: 43 Soi Tiwanond 48, Tiwanond Rd., Nonthaburi" }
+  ]
+}

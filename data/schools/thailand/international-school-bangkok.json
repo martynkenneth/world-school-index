@@ -1,0 +1,116 @@
+{
+  "id": "th-nonthaburi-international-school-bangkok",
+  "name": "International School Bangkok",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Nonthaburi",
+    "district": null,
+    "address": "39/7 Soi Nichada Thani, Samakee Road, Amphur Pakkret, Nonthaburi 11120, Thailand",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Office of Admissions - International School Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Amphur Pakkret, Nonthaburi 11120, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
+      "retrieved_date": "2026-08-05",
+      "evidence": "Amphur Pakkret, Nonthaburi 11120, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
+      "retrieved_date": "2026-08-05",
+      "evidence": "39/7 Soi Nichada Thani, Samakee Road, Amphur Pakkret, Nonthaburi 11120, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 3,
+  "indexable": false,
+  "last_verified": "2026-08-05"
+}

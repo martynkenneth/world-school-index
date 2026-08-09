@@ -35,6 +35,27 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
         });
       })
     : [];
+  const feePublications = city === "ho-chi-minh-city"
+    ? citySchools.flatMap((school) => {
+        const record = getStrictRecord(school.slug);
+        const academicYearProvenance = record?.provenance["fees.academic_year"];
+        const currencyProvenance = record?.provenance["fees.currency"];
+        const feeRows = record?.fees.by_year_group ?? [];
+        const rowsAreVerified = feeRows.every((_, index) => {
+          const labelProvenance = record?.provenance[`fees.by_year_group[${index}].label`];
+          const tuitionProvenance = record?.provenance[`fees.by_year_group[${index}].tuition`];
+          return labelProvenance && tuitionProvenance && !labelProvenance.conflict && !tuitionProvenance.conflict;
+        });
+
+        return record?.fees.published && record.fees.academic_year && record.fees.currency
+          && feeRows.length > 0 && rowsAreVerified
+          && academicYearProvenance && currencyProvenance
+          && !academicYearProvenance.conflict && !currencyProvenance.conflict
+          ? [{ school, fees: record.fees, provenance: academicYearProvenance }]
+          : [];
+      })
+    : [];
+  const currentFeePublication = feePublications[0];
 
   return (
     <main>
@@ -64,6 +85,28 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
             </div>
             <small>
               This count covers listed profiles, not every school in Hanoi. Confirm event availability directly with the school.
+            </small>
+          </aside>
+        )}
+        {currentFeePublication && (
+          <aside className="city-answer" aria-labelledby="hcmc-fees-answer">
+            <span className="eyebrow">Fees update</span>
+            <h2 id="hcmc-fees-answer">Which listed Ho Chi Minh City school publishes 2026–27 fees?</h2>
+            <p>
+              <strong>One of the {citySchools.length} listed profiles has a verified 2026-2027 tuition schedule.</strong>{" "}
+              <Link href={`/schools/${currentFeePublication.school.slug}`}>{currentFeePublication.school.name}</Link>{" "}
+              lists {currentFeePublication.fees.by_year_group.length} tuition bands in {currentFeePublication.fees.currency},
+              from {currentFeePublication.fees.by_year_group[0].tuition} for {currentFeePublication.fees.by_year_group[0].label}
+              {" "}to {currentFeePublication.fees.by_year_group.at(-1)?.tuition} for {currentFeePublication.fees.by_year_group.at(-1)?.label}.
+            </p>
+            <div className="city-answer-links">
+              <a href={currentFeePublication.provenance.source_url} target="_blank" rel="noreferrer">
+                Official 2026-2027 fee schedule ↗
+              </a>
+              <span>Checked {formatVerifiedDate(currentFeePublication.provenance.retrieved_date)}</span>
+            </div>
+            <small>
+              This count covers listed profiles, not every school in Ho Chi Minh City. Confirm fees and payment terms directly with the school.
             </small>
           </aside>
         )}
