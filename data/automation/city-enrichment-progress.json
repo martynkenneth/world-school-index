@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-09",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -69,12 +69,25 @@
       "country": "Vietnam",
       "city": "Da Nang",
       "city_slug": "da-nang",
-      "last_enrichment_date": null,
-      "topics_attempted": [],
-      "sources_checked": [],
-      "published_changes": [],
-      "unresolved_questions": [],
-      "next_recommended_topic": "Material campus or programme changes from official sources."
+      "last_enrichment_date": "2026-08-09",
+      "topics_attempted": [
+        "material programme changes"
+      ],
+      "sources_checked": [
+        {
+          "url": "https://www.sakuraolympia.edu.vn/en/news-events/news/educational-information-and-knowledge/understanding-popular-international-education-programs/",
+          "retrieved_date": "2026-08-09",
+          "result": "Official school page confirms the Enhanced Dual-Diploma Preparatory Program for Grades 9–10 from the 2025–2026 school year."
+        }
+      ],
+      "published_changes": [
+        "Added the current Grades 9–10 Enhanced Dual-Diploma Preparatory Program to the Sakura Olympia strict record with field-level provenance.",
+        "Added a question-led Da Nang city-hub answer with listed-profile scope, official citation, visible retrieval date, and internal school link."
+      ],
+      "unresolved_questions": [
+        "The same official page dates the Integrated Dual-Diploma Program for Grades 11–12 from 2027–2028, so it remains excluded from current curricula."
+      ],
+      "next_recommended_topic": "Current fee or scholarship publication from an official Da Nang school source."
     },
     {
       "country": "Thailand",

@@ -167,6 +167,21 @@ test("surfaces the source-backed Ho Chi Minh City fee answer on the existing cit
   assert.doesNotMatch(html, /Evidence capture pending/i);
 });
 
+test("surfaces the source-backed Da Nang programme answer on the existing city hub", async () => {
+  const response = await render("/cities/da-nang");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /What programme change is published for a listed Da Nang school\?/);
+  assert.match(html, /Enhanced Dual-Diploma Preparatory Program/);
+  assert.match(html, /Grades 9–10 \(from the 2025–2026 school year\)/);
+  assert.match(html, /Official programme pathway/);
+  assert.match(html, /Checked[\s\S]*Aug 9, 2026/);
+  assert.match(html, /href="\/schools\/sakura-olympia-school-system"/);
+  assert.match(html, /listed profiles, not every school in Da Nang/);
+  assert.doesNotMatch(html, /Evidence capture pending/i);
+});
+
 test("shows evidence progress without indexing a below-gate strict record", async () => {
   const response = await render("/schools/united-nations-international-school-hanoi");
   const html = await response.text();

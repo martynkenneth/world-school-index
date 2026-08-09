@@ -14,7 +14,8 @@
   "founded": null,
   "school_type": null,
   "curricula": [
-    "CAMBRIDGE PRIMARY INTEGRATED PROGRAM"
+    "CAMBRIDGE PRIMARY INTEGRATED PROGRAM",
+    "Enhanced Dual-Diploma Preparatory Program"
   ],
   "age_range": {
     "min": null,
@@ -22,7 +23,8 @@
   },
   "year_groups": [
     "Sakura Kindergarten",
-    "Olympia Primary, Middle, and High School"
+    "Olympia Primary, Middle, and High School",
+    "Grades 9–10 (from the 2025–2026 school year)"
   ],
   "accreditations": [
     {
@@ -129,6 +131,14 @@
       "conflict": false,
       "candidates": []
     },
+    "curricula[1]": {
+      "source_url": "https://www.sakuraolympia.edu.vn/en/news-events/news/educational-information-and-knowledge/understanding-popular-international-education-programs/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "Grades 9–10 (from the 2025–2026 school year): Enhanced Dual-Diploma Preparatory Program",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
     "year_groups[0]": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
       "retrieved_date": "2026-07-31",
@@ -141,6 +151,14 @@
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
       "retrieved_date": "2026-07-31",
       "evidence": "Olympia Primary, Middle, and High School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[2]": {
+      "source_url": "https://www.sakuraolympia.edu.vn/en/news-events/news/educational-information-and-knowledge/understanding-popular-international-education-programs/",
+      "retrieved_date": "2026-08-09",
+      "evidence": "Grades 9–10 (from the 2025–2026 school year): Enhanced Dual-Diploma Preparatory Program",
       "method": "published",
       "conflict": false,
       "candidates": []
@@ -180,5 +198,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-31"
+  "last_verified": "2026-08-09"
 }

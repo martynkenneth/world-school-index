@@ -56,6 +56,26 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
       })
     : [];
   const currentFeePublication = feePublications[0];
+  const programmeChanges = city === "da-nang"
+    ? citySchools.flatMap((school) => {
+        const record = getStrictRecord(school.slug);
+        return (record?.curricula ?? []).flatMap((programme, index) => {
+          const programmeProvenance = record?.provenance[`curricula[${index}]`];
+          const yearGroup = record?.year_groups.find((value) => value.startsWith("Grades 9–10"));
+          const yearGroupIndex = yearGroup ? record?.year_groups.indexOf(yearGroup) : -1;
+          const yearGroupProvenance = yearGroupIndex >= 0
+            ? record?.provenance[`year_groups[${yearGroupIndex}]`]
+            : undefined;
+
+          return programme === "Enhanced Dual-Diploma Preparatory Program"
+            && programmeProvenance && yearGroup && yearGroupProvenance
+            && !programmeProvenance.conflict && !yearGroupProvenance.conflict
+            ? [{ school, programme, yearGroup, provenance: programmeProvenance }]
+            : [];
+        });
+      })
+    : [];
+  const currentProgrammeChange = programmeChanges[0];
 
   return (
     <main>
@@ -107,6 +127,26 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
             </div>
             <small>
               This count covers listed profiles, not every school in Ho Chi Minh City. Confirm fees and payment terms directly with the school.
+            </small>
+          </aside>
+        )}
+        {currentProgrammeChange && (
+          <aside className="city-answer" aria-labelledby="da-nang-programme-answer">
+            <span className="eyebrow">Programme update</span>
+            <h2 id="da-nang-programme-answer">What programme change is published for a listed Da Nang school?</h2>
+            <p>
+              <strong>One of the {citySchools.length} listed profiles has a verified programme addition.</strong>{" "}
+              <Link href={`/schools/${currentProgrammeChange.school.slug}`}>{currentProgrammeChange.school.name}</Link>{" "}
+              publishes “{currentProgrammeChange.programme}” for {currentProgrammeChange.yearGroup}.
+            </p>
+            <div className="city-answer-links">
+              <a href={currentProgrammeChange.provenance.source_url} target="_blank" rel="noreferrer">
+                Official programme pathway ↗
+              </a>
+              <span>Checked {formatVerifiedDate(currentProgrammeChange.provenance.retrieved_date)}</span>
+            </div>
+            <small>
+              This answer covers listed profiles, not every school in Da Nang. Confirm current programme availability directly with the school.
             </small>
           </aside>
         )}
