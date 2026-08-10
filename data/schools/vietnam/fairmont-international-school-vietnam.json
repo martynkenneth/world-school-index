@@ -1,7 +1,9 @@
 {
   "id": "vn-hanoi-fairmont-international-school-vietnam",
   "name": "Fairmont International School Vietnam",
-  "former_names": [],
+  "former_names": [
+    "Hanoi Toronto School"
+  ],
   "status": "active",
   "location": {
     "country": "Vietnam",
@@ -89,6 +91,14 @@
       "retrieved_date": "2026-08-10",
       "evidence": "Fairmont International School Vietnam A PreK to Grade 12 international school in Hanoi",
       "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "former_names[0]": {
+      "source_url": "https://internationalschoolspartnership.com/school/southeast-asia/vietnam/hanoi-toronto-school/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Hanoi Toronto School",
+      "method": "manual",
       "conflict": false,
       "candidates": []
     },

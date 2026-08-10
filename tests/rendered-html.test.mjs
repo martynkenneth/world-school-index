@@ -157,7 +157,7 @@ test("surfaces the source-backed Hanoi open-day answer on the existing city hub"
   assert.match(html, /The International School @ ParkCity Hanoi/);
   assert.match(html, /True North International School/);
   assert.match(html, /Reigate Grammar School Vietnam/);
-  assert.match(html, /Fairmont International School Vietnam/);
+  assert.match(html, /Fairmont International School \(Formerly Hanoi Toronto School\)/);
   assert.match(html, /Singapore International School @ Ciputra/);
   assert.match(html, /Singapore International School @ Van Phuc/);
   assert.match(html, /Singapore International School @ Gamuda Gardens/);

@@ -251,7 +251,7 @@ const vietnamSchools: School[] = [
     indexable: false,
   },
   {
-    name: "Fairmont International School Vietnam",
+    name: "Fairmont International School (Formerly Hanoi Toronto School)",
     shortName: "FISV",
     slug: "fairmont-international-school-vietnam",
     country: "Vietnam",

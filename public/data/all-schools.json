@@ -98,7 +98,7 @@
       },
       {
         "id": "school:vn:fairmont-international-school-vietnam",
-        "canonicalName": "Fairmont International School Vietnam",
+        "canonicalName": "Fairmont International School (Formerly Hanoi Toronto School)",
         "shortName": "FISV",
         "slug": "fairmont-international-school-vietnam",
         "countryCode": "VN",
@@ -3361,7 +3361,7 @@
         "id": "source:vn:fairmont-international-school-vietnam:official",
         "schoolId": "school:vn:fairmont-international-school-vietnam",
         "type": "official-school",
-        "publisher": "Fairmont International School Vietnam",
+        "publisher": "Fairmont International School (Formerly Hanoi Toronto School)",
         "url": "https://www.fairmontschools.edu.vn/landing/fisv",
         "observedOn": "2026-08-10",
         "supports": [
@@ -5246,7 +5246,7 @@
       "indexable": false
     },
     {
-      "name": "Fairmont International School Vietnam",
+      "name": "Fairmont International School (Formerly Hanoi Toronto School)",
       "shortName": "FISV",
       "slug": "fairmont-international-school-vietnam",
       "country": "Vietnam",
