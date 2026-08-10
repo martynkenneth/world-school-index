@@ -99,6 +99,17 @@
       "published_changes": [],
       "unresolved_questions": [],
       "next_recommended_topic": "Current admissions deadlines or open days from an official school source."
+    },
+    {
+      "country": "Thailand",
+      "city": "Nonthaburi",
+      "city_slug": "nonthaburi",
+      "last_enrichment_date": null,
+      "topics_attempted": [],
+      "sources_checked": [],
+      "published_changes": [],
+      "unresolved_questions": [],
+      "next_recommended_topic": "Current fee publication or accreditation status from an official school or authoritative body."
     }
   ]
 }
