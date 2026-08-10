@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { listPublishedParentPerspectives } from "@/db/parent-perspectives";
 import { formatVerifiedDate, getSchool, getSchoolsByCity } from "@/data/schools";
+import { PARENT_RELATIONSHIPS, PARENT_TOPICS } from "@/lib/parent-perspectives";
 import {
   getFieldVerificationState,
   getStrictRecord,
@@ -19,6 +21,13 @@ function FieldState({ state }: { state: FieldVerificationState }) {
   return <span className={`fact-state ${state}`}>{labels[state]}</span>;
 }
 
+const perspectiveMessages: Record<string, string> = {
+  submitted: "Thank you. Your perspective is pending moderation and is not public yet.",
+  invalid: "Please check every field and write between 80 and 1,200 characters.",
+  "rate-limited": "This email has reached the daily submission limit. Please try again tomorrow.",
+  unavailable: "Submissions are temporarily unavailable. Please try again later.",
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const school = getSchool(slug);
@@ -31,8 +40,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-export default async function SchoolPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default async function SchoolPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ parent_perspective?: string | string[] }>;
+}) {
+  const [{ slug }, query] = await Promise.all([params, searchParams]);
   const school = getSchool(slug);
   if (!school) notFound();
   const verification = getVerificationSummary(slug);
@@ -53,6 +68,8 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
     ? strictRecord.accreditations.map((item) => item.body)
     : school.accreditation;
   const founded = strictRecord?.founded ?? school.founded;
+  const parentPerspectives = await listPublishedParentPerspectives(slug);
+  const perspectiveState = typeof query.parent_perspective === "string" ? query.parent_perspective : "";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -117,6 +134,91 @@ export default async function SchoolPage({ params }: { params: Promise<{ slug: s
             ) : (
               <p className="muted">No external accreditation has yet been recorded in this seed entry.</p>
             )}
+          </div>
+          <div className="record-section parent-perspectives" id="parent-perspectives">
+            <span className="eyebrow">Parent perspectives</span>
+            <h2>What have parents shared?</h2>
+            <div className="parent-perspective-notice">
+              <strong>Parent-submitted, moderated, and not independently verified.</strong>
+              <p>These perspectives are separate from official-source facts and never affect completeness scores, indexing, or school schema.</p>
+            </div>
+            {perspectiveMessages[perspectiveState] && (
+              <p className={`form-status ${perspectiveState === "submitted" ? "success" : "error"}`} role="status">
+                {perspectiveMessages[perspectiveState]}
+              </p>
+            )}
+            {parentPerspectives.length > 0 ? (
+              <div className="parent-perspective-list">
+                {parentPerspectives.map((perspective) => (
+                  <article className="parent-perspective-card" key={perspective.id}>
+                    <div className="parent-perspective-meta">
+                      <strong>{perspective.relationship}</strong>
+                      <span>{perspective.yearGroup}</span>
+                      <span>{perspective.attendancePeriod}</span>
+                    </div>
+                    <blockquote>{perspective.comment}</blockquote>
+                    <div className="tag-row">
+                      {perspective.topics.map((topic) => <span className="tag" key={topic}>{topic}</span>)}
+                    </div>
+                    <small>Published after moderation · Submitted {perspective.createdAt.toLocaleDateString("en-GB", { month: "short", year: "numeric" })}</small>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className="parent-perspective-empty">
+                <strong>No parent perspectives have been published yet.</strong>
+                <p>Be the first to share specific, practical information for families considering this school.</p>
+              </div>
+            )}
+            <details className="parent-submit">
+              <summary>Share a parent perspective</summary>
+              <form action="/api/parent-perspectives" method="post" className="parent-perspective-form">
+                <input type="hidden" name="schoolSlug" value={school.slug} />
+                <div className="form-grid">
+                  <label>
+                    Relationship to the school
+                    <select name="relationship" required defaultValue="">
+                      <option value="" disabled>Select one</option>
+                      {PARENT_RELATIONSHIPS.map((relationship) => <option value={relationship} key={relationship}>{relationship}</option>)}
+                    </select>
+                  </label>
+                  <label>
+                    Child&apos;s year group
+                    <input name="yearGroup" minLength={2} maxLength={40} required placeholder="For example: Year 5" />
+                  </label>
+                  <label>
+                    Attendance period
+                    <input name="attendancePeriod" minLength={4} maxLength={50} required placeholder="For example: 2024–2026" />
+                  </label>
+                  <label>
+                    Email for moderation only
+                    <input name="parentEmail" type="email" autoComplete="email" maxLength={254} required placeholder="you@example.com" />
+                    <small>Never displayed publicly.</small>
+                  </label>
+                </div>
+                <fieldset>
+                  <legend>Choose one to three practical topics</legend>
+                  <div className="topic-options">
+                    {PARENT_TOPICS.map((topic) => (
+                      <label key={topic}><input type="checkbox" name="topics" value={topic} /> <span>{topic}</span></label>
+                    ))}
+                  </div>
+                </fieldset>
+                <label>
+                  Your perspective
+                  <textarea name="comment" minLength={80} maxLength={1200} rows={7} required placeholder="Share specific practical information. Do not name children or individual staff members." />
+                  <small>80–1,200 characters. Submissions naming private individuals, making unsupported allegations, or containing promotional copy will not be published.</small>
+                </label>
+                <label className="consent-row">
+                  <input type="checkbox" name="consentToPublish" required />
+                  <span>I confirm this is my genuine experience and consent to publication after moderation.</span>
+                </label>
+                <div className="website-field" aria-hidden="true">
+                  <label>Website<input name="website" tabIndex={-1} autoComplete="off" /></label>
+                </div>
+                <button className="button primary" type="submit">Send for moderation</button>
+              </form>
+            </details>
           </div>
           {nearby.length > 0 && (
             <div className="record-section">

@@ -15,7 +15,7 @@
     "data:validate": "node --experimental-strip-types scripts/validate.ts --run",
     "data:export": "node --experimental-strip-types scripts/export-data.mjs",
     "test": "npm run build && npm run test:unit",
-    "test:unit": "node --experimental-strip-types --test tests/data-pipeline.test.mjs tests/rendered-html.test.mjs tests/city-guide-rendered.test.mjs",
+    "test:unit": "node --experimental-strip-types --test tests/data-pipeline.test.mjs tests/rendered-html.test.mjs tests/city-guide-rendered.test.mjs tests/parent-perspectives.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .netlify",
     "db:generate": "drizzle-kit generate"
   },

@@ -38,6 +38,13 @@ export default function DisclaimerPage() {
           and a school&apos;s current information differ, rely on the school&apos;s current published or
           confirmed information. Corrections are reviewed before publication.
         </p>
+        <h2>How to interpret parent perspectives</h2>
+        <p>
+          Parent perspectives are user-submitted experiences, not school facts and not independently
+          verified claims. They are moderated for privacy, relevance, and safety before publication,
+          but they may still be subjective, incomplete, or outdated. They never affect evidence scores,
+          indexing eligibility, rankings, or official school data.
+        </p>
         <div className="method-cta">
           <Link className="button primary" href="/about">See the verification method</Link>
         </div>

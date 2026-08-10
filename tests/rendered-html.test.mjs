@@ -222,6 +222,20 @@ test("keeps pending evidence status private on thin provisional profiles", async
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
 
+test("adds a moderated parent-perspective submission path to every school profile", async () => {
+  const response = await render("/schools/sakura-olympia-school-system");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Parent perspectives/);
+  assert.match(html, /Parent-submitted, moderated, and not independently verified/);
+  assert.match(html, /No parent perspectives have been published yet/);
+  assert.match(html, /action="\/api\/parent-perspectives"/);
+  assert.match(html, /Email for moderation only/);
+  assert.match(html, /never affect completeness scores, indexing, or school schema/);
+  assert.doesNotMatch(html, /aggregateRating|Review/);
+});
+
 test("renders the completed Ho Chi Minh City provisional collection without indexing thin profiles", async () => {
   const [abcResponse, tasResponse] = await Promise.all([
     render("/schools/abc-international-school-ho-chi-minh-city"),

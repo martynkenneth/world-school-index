@@ -48,6 +48,7 @@ export type StrictSchoolRecord = {
   last_verified: string;
   age_range: { min: number | null; max: number | null };
   curricula: string[];
+  year_groups: string[];
   accreditations: Array<{ body: string }>;
   languages: { instruction: string[] };
   school_type: string | null;

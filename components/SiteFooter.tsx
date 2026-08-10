@@ -19,6 +19,7 @@ export function SiteFooter() {
             <Link href="/about">How records are verified</Link>
             <Link href="/disclaimer">Data disclaimer</Link>
             <Link href="/about/crawler">Crawler policy</Link>
+            <Link href="/parent-perspectives/moderate">Moderate perspectives</Link>
           </div>
         </div>
       </div>
