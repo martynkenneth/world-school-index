@@ -1,6 +1,6 @@
 import guideData from "./city-guides.json";
 
-export const SITE_URL = "https://world-school-index-vietnam.martynkenneth.chatgpt.site";
+export const SITE_URL = "https://worldschoolindex.com";
 
 export type GuideSource = {
   id: string;

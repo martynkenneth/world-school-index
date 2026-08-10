@@ -50,6 +50,7 @@ test("publishes the source-checked Ho Chi Minh City orientation guide", async ()
   assert.match(html, /Sources checked[\s\S]*Aug 10, 2026/);
   assert.match(html, /Ho Chi Minh City Tourism Promotion Center/);
   assert.match(html, /"@type":"Article"/);
+  assert.match(html, /"mainEntityOfPage":"https:\/\/worldschoolindex\.com\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\/"/);
   assert.match(html, /"@type":"BreadcrumbList"/);
   assert.doesNotMatch(html, /"@type":"FAQPage"/);
 });
@@ -71,5 +72,6 @@ test("includes the guide in the sitemap without exposing below-gate schools", as
   assert.match(response.headers.get("content-type") ?? "", /xml/i);
   assert.match(xml, /guides\/vietnam\/hanoi\/culture-and-etiquette\//);
   assert.match(xml, /guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\//);
+  assert.match(xml, /https:\/\/worldschoolindex\.com\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\//);
   assert.doesNotMatch(xml, /schools\/united-nations-international-school-hanoi/);
 });

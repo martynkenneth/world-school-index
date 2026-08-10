@@ -5,6 +5,7 @@ import {
   cityGuides,
   getCityGuide,
   guideUrl,
+  SITE_URL,
   type CityGuide,
 } from "@/data/guides";
 import { formatVerifiedDate } from "@/data/schools";
@@ -76,7 +77,7 @@ export default async function GuidePage({ params }: { params: GuideParams }) {
     dateModified: guide.checked_date,
     mainEntityOfPage: canonicalUrl,
     author: { "@type": "Organization", name: "World School Index" },
-    publisher: { "@type": "Organization", name: "World School Index", url: "https://world-school-index-vietnam.martynkenneth.chatgpt.site/" },
+    publisher: { "@type": "Organization", name: "World School Index", url: `${SITE_URL}/` },
     about: { "@type": "Place", name: `${guide.city}, ${guide.country}` },
     citation: guide.sources.map((source) => source.url),
   };
@@ -84,9 +85,9 @@ export default async function GuidePage({ params }: { params: GuideParams }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "World", item: "https://world-school-index-vietnam.martynkenneth.chatgpt.site/" },
-      { "@type": "ListItem", position: 2, name: guide.country, item: `https://world-school-index-vietnam.martynkenneth.chatgpt.site/countries/${guide.country_slug}` },
-      { "@type": "ListItem", position: 3, name: guide.city, item: `https://world-school-index-vietnam.martynkenneth.chatgpt.site/cities/${guide.city_slug}` },
+      { "@type": "ListItem", position: 1, name: "World", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: guide.country, item: `${SITE_URL}/countries/${guide.country_slug}` },
+      { "@type": "ListItem", position: 3, name: guide.city, item: `${SITE_URL}/cities/${guide.city_slug}` },
       { "@type": "ListItem", position: 4, name: guide.title, item: canonicalUrl },
     ],
   };
