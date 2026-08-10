@@ -59,6 +59,14 @@ export default async function GuidePage({ params }: { params: GuideParams }) {
   if (!guide) notFound();
 
   const canonicalUrl = guideUrl(guide);
+  const isCultureGuide = guide.topic === "culture-and-etiquette";
+  const topicLabel = isCultureGuide ? "Culture and etiquette" : "Living in the city";
+  const directAnswerQuestion = isCultureGuide
+    ? `What etiquette should a family know before living in ${guide.city}?`
+    : `What should a family know before living in ${guide.city}?`;
+  const keyFactsHeading = isCultureGuide
+    ? `${guide.city} etiquette: key facts`
+    : `Living in ${guide.city}: key facts`;
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -102,7 +110,7 @@ export default async function GuidePage({ params }: { params: GuideParams }) {
             <Link href={`/cities/${guide.city_slug}`}>{guide.city}</Link><span>/</span>
             <span>Living guide</span>
           </div>
-          <span className="eyebrow light">City living guide · Culture and etiquette</span>
+          <span className="eyebrow light">City living guide · {topicLabel}</span>
           <h1>{guide.title}</h1>
           <p>{guide.description}</p>
           <div className="guide-dates">
@@ -117,16 +125,16 @@ export default async function GuidePage({ params }: { params: GuideParams }) {
         <div className="guide-content">
           <section className="direct-answer" aria-labelledby="direct-answer-heading">
             <span className="eyebrow">Direct answer</span>
-            <h2 id="direct-answer-heading">What etiquette should a family know before living in Hanoi?</h2>
+            <h2 id="direct-answer-heading">{directAnswerQuestion}</h2>
             <p>{guide.direct_answer.text}</p>
             <Citations guide={guide} sourceIds={guide.direct_answer.source_ids} />
           </section>
 
           <section className="guide-section" aria-labelledby="key-facts-heading">
-            <h2 id="key-facts-heading">Hanoi etiquette: key facts</h2>
+            <h2 id="key-facts-heading">{keyFactsHeading}</h2>
             <div className="guide-table-wrap">
               <table className="guide-table">
-                <thead><tr><th scope="col">Situation</th><th scope="col">Practical baseline</th><th scope="col">Official source</th></tr></thead>
+                <thead><tr><th scope="col">{isCultureGuide ? "Situation" : "Planning point"}</th><th scope="col">Practical baseline</th><th scope="col">Official source</th></tr></thead>
                 <tbody>
                   {guide.key_facts.map((fact) => (
                     <tr key={fact.label}>
@@ -183,13 +191,13 @@ export default async function GuidePage({ params }: { params: GuideParams }) {
 
           <aside className="guide-recheck">
             <strong>Reconfirm changeable details</strong>
-            <p>Venue policies and public guidance can change. Check the linked official source before a visit; this guide is scheduled for review by {formatVerifiedDate(guide.recheck_date)}.</p>
+            <p>Official arrangements and practical details can change. Check the linked official sources before acting; this guide is scheduled for review by {formatVerifiedDate(guide.recheck_date)}.</p>
           </aside>
         </div>
 
         <aside className="guide-nav" aria-label="Related directory pages">
           <span className="eyebrow">Continue comparing</span>
-          <h2>Hanoi school planning</h2>
+          <h2>{guide.city} school planning</h2>
           <nav>
             {guide.internal_links.map((link) => (
               <Link href={link.href} key={link.purpose}>{link.label}<span>→</span></Link>

@@ -260,5 +260,256 @@
         ]
       }
     ]
+  },
+  {
+    "schema_version": "1.0",
+    "id": "vn-ho-chi-minh-city-living-in-the-city-orientation",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "city": "Ho Chi Minh City",
+    "city_slug": "ho-chi-minh-city",
+    "topic": "living-in-the-city-orientation",
+    "title": "Living in Ho Chi Minh City with children: a practical orientation",
+    "description": "A source-checked family orientation to current addresses, school-day planning, seasonal weather, and official city service channels.",
+    "canonical_path": "/guides/vietnam/ho-chi-minh-city/living-in-the-city-orientation/",
+    "published_date": "2026-08-10",
+    "checked_date": "2026-08-10",
+    "recheck_date": "2026-11-10",
+    "sitemap": {
+      "include": true,
+      "change_frequency": "monthly",
+      "priority": 0.7
+    },
+    "direct_answer": {
+      "text": "Start with the exact school campus and its current ward-level address, then test the whole school-day routine from any home you are considering. Ho Chi Minh City's administrative footprint and local names changed in July 2025, while the official tourism guidance describes a hot climate with distinct rainy and dry periods.",
+      "source_ids": [
+        "hcmc-two-level-government",
+        "hcmc-current-local-units",
+        "hcmc-tourism-weather"
+      ]
+    },
+    "key_facts": [
+      {
+        "label": "City footprint",
+        "answer": "Since 1 July 2025, the new city has included the former Ho Chi Minh City, Bình Dương, and Bà Rịa–Vũng Tàu.",
+        "source_ids": ["hcmc-two-level-government"]
+      },
+      {
+        "label": "Local government",
+        "answer": "The city uses a two-level model and has no district-level administration between the city and ward, commune, or special zone.",
+        "source_ids": ["hcmc-two-level-government"]
+      },
+      {
+        "label": "Current local units",
+        "answer": "The official 2025 arrangement lists 168 units: 113 wards, 54 communes, and one special zone.",
+        "source_ids": ["hcmc-current-local-units"]
+      },
+      {
+        "label": "Seasonal planning",
+        "answer": "Official tourism guidance describes May to November as hot, humid, and rainy, and December to April as hot and sunny.",
+        "source_ids": ["hcmc-tourism-weather"]
+      },
+      {
+        "label": "Infrastructure reports",
+        "answer": "The city's 1022 system accepts reports about local infrastructure issues by phone and digital channels.",
+        "source_ids": ["hcmc-1022"]
+      }
+    ],
+    "sections": [
+      {
+        "id": "start-with-current-addresses",
+        "heading": "Start with current addresses, not district shorthand",
+        "paragraphs": [
+          {
+            "text": "On 1 July 2025, the new Ho Chi Minh City began operating after the former city merged with Bình Dương and Bà Rịa–Vũng Tàu. The same change ended district-level administration and introduced a two-level local-government model.",
+            "source_ids": ["hcmc-two-level-government"]
+          },
+          {
+            "text": "The official ward arrangement now contains 168 ward-level units. Because schools, landlords, maps, and older documents may not all update at the same pace, ask for the current ward or commune, the street address, and a location pin; keep an old district or province name only as a secondary search clue.",
+            "source_ids": ["hcmc-current-local-units"]
+          }
+        ],
+        "items": [
+          {
+            "text": "Ask each school to confirm the address and map pin for the specific campus your child would attend.",
+            "source_ids": ["hcmc-current-local-units"]
+          },
+          {
+            "text": "Do not treat two places as close merely because both addresses now end with Ho Chi Minh City.",
+            "source_ids": ["hcmc-two-level-government"]
+          },
+          {
+            "text": "Use the official list of new units when an old ward or district name conflicts with a current document.",
+            "source_ids": ["hcmc-current-local-units"]
+          }
+        ]
+      },
+      {
+        "id": "build-a-school-day-map",
+        "heading": "Build a school-day map before choosing a home",
+        "paragraphs": [
+          {
+            "text": "The enlarged city label covers places that were previously in three different provincial-level administrations. For a useful comparison, put the exact campus, each possible home, caregivers' workplaces, and one everyday errand on the same map before shortlisting an area.",
+            "source_ids": ["hcmc-two-level-government"]
+          },
+          {
+            "text": "Then test the journey in both directions at the times your family would actually travel. Record the route and date rather than relying on a single generic travel-time estimate, and repeat the check for every campus used by the school.",
+            "source_ids": ["hcmc-two-level-government"]
+          }
+        ],
+        "items": [
+          {
+            "text": "Confirm which campus serves your child's year group before comparing neighbourhoods.",
+            "source_ids": ["hcmc-two-level-government"]
+          },
+          {
+            "text": "Ask where the school bus actually stops and whether the route is confirmed for the coming term.",
+            "source_ids": ["hcmc-two-level-government"]
+          },
+          {
+            "text": "Keep a second plan for collection when weather or a schedule change disrupts the normal routine.",
+            "source_ids": ["hcmc-tourism-weather"]
+          }
+        ]
+      },
+      {
+        "id": "plan-for-heat-and-rain",
+        "heading": "Plan routines for heat and seasonal rain",
+        "paragraphs": [
+          {
+            "text": "Ho Chi Minh City's official tourism site describes consistently warm conditions. Its seasonal summary marks May to November as hot, humid, and rainy, and December to April as hot, sunny, and generally clearer.",
+            "source_ids": ["hcmc-tourism-weather"]
+          },
+          {
+            "text": "Use that as a planning baseline rather than a daily forecast. When comparing homes and schools, ask about sheltered arrival, where wet footwear or clothes can be stored, drinking-water access, shaded waiting space, and the backup procedure for outdoor activities.",
+            "source_ids": ["hcmc-tourism-weather"]
+          }
+        ],
+        "items": [
+          {
+            "text": "Keep lightweight rain protection in each regular school bag during the wetter months.",
+            "source_ids": ["hcmc-tourism-weather"]
+          },
+          {
+            "text": "Check the official daily forecast before school events instead of assuming the seasonal pattern predicts a particular day.",
+            "source_ids": ["hcmc-tourism-weather"]
+          },
+          {
+            "text": "Ask how classrooms, buses, playgrounds, and pickup areas manage hot or wet conditions.",
+            "source_ids": ["hcmc-tourism-weather"]
+          }
+        ]
+      },
+      {
+        "id": "save-official-local-channels",
+        "heading": "Save the official local channels you may need",
+        "paragraphs": [
+          {
+            "text": "The city describes 1022 as its system for receiving reports about technical infrastructure incidents, including transport, drainage, trees, electricity, telecommunications, and public transport. The official channel accepts calls and also lists digital reporting options.",
+            "source_ids": ["hcmc-1022"]
+          },
+          {
+            "text": "Save 1022 and its official web channel after arrival, but treat it as an infrastructure-reporting service, not as a substitute for police, fire, ambulance, or school emergency procedures. Those emergency details belong in a separate, freshly verified plan.",
+            "source_ids": ["hcmc-1022"]
+          }
+        ],
+        "items": [
+          {
+            "text": "Photograph and record the exact location of an infrastructure problem before submitting a report when it is safe to do so.",
+            "source_ids": ["hcmc-1022"]
+          },
+          {
+            "text": "Ask your building and school which contact should be used first for a problem on private property.",
+            "source_ids": ["hcmc-1022"]
+          },
+          {
+            "text": "Recheck the official 1022 page after administrative or service-channel changes.",
+            "source_ids": ["hcmc-1022"]
+          }
+        ]
+      }
+    ],
+    "family_section": {
+      "heading": "For families comparing schools",
+      "paragraphs": [
+        "Compare the whole weekday system, not only the school profile. The correct campus, current address, realistic route, weather plan, transport backup, and collection arrangements can materially change whether a school works for your family.",
+        "Keep location questions separate from academic comparisons. A school may be a strong curricular match while its campus or confirmed bus route is impractical for the homes you are considering."
+      ],
+      "checklist": [
+        "Which exact campus would each child attend in the coming academic year?",
+        "What is that campus's current ward-level address and official location pin?",
+        "Which bus stops and routes are confirmed for the next term, and when may they change?",
+        "How does arrival, dismissal, and outdoor activity change during heavy rain or very hot weather?",
+        "Who may collect a child when the usual transport plan fails?"
+      ]
+    },
+    "internal_links": [
+      {
+        "label": "Ho Chi Minh City school hub",
+        "href": "/cities/ho-chi-minh-city",
+        "purpose": "city-hub"
+      },
+      {
+        "label": "Vietnam country hub",
+        "href": "/countries/vietnam",
+        "purpose": "country-hub"
+      },
+      {
+        "label": "Browse Vietnam school records",
+        "href": "/countries/vietnam#directory-heading",
+        "purpose": "school-directory"
+      }
+    ],
+    "sources": [
+      {
+        "id": "hcmc-two-level-government",
+        "publisher": "Government News",
+        "title": "Ho Chi Minh City wards and communes prepare for the two-level local-government model",
+        "url": "https://tphcm.chinhphu.vn/cac-phuong-xa-san-sang-van-hanh-mo-hinh-chinh-quyen-dia-phuong-2-cap-101250629141918878.htm",
+        "source_type": "national-government",
+        "retrieved_date": "2026-08-10",
+        "evidence": [
+          "Từ ngày 1/7/2025, TPHCM (mới) sau khi sắp xếp TPHCM với tỉnh Bình Dương và tỉnh Bà Rịa - Vũng Tàu",
+          "sáp nhập đơn vị hành chính cấp tỉnh, cấp xã, kết thúc hoạt động đơn vị hành chính cấp huyện"
+        ]
+      },
+      {
+        "id": "hcmc-current-local-units",
+        "publisher": "Government News",
+        "title": "Official list of 168 wards, communes, and the special zone after reorganisation",
+        "url": "https://tphcm.chinhphu.vn/danh-sach-chinh-thuc-168-phuong-xa-cua-tphcm-sau-sap-xep-101250617000144317.htm",
+        "source_type": "national-government",
+        "retrieved_date": "2026-08-10",
+        "evidence": [
+          "Sau khi sắp xếp, TPHCM có 168 đơn vị hành chính cấp xã, gồm 113 phường, 54 xã và 1 đặc khu.",
+          "thành phường mới có tên gọi là phường Sài Gòn"
+        ]
+      },
+      {
+        "id": "hcmc-tourism-weather",
+        "publisher": "Ho Chi Minh City Tourism Promotion Center",
+        "title": "Essential information: weather and climate",
+        "url": "https://visithcmc.net/en/page/thong-tin-can-biet",
+        "source_type": "municipal-government",
+        "retrieved_date": "2026-08-10",
+        "evidence": [
+          "May to November: sporadic rainfall, hot, humid",
+          "December to April: clear skies, hot, sunny",
+          "Southern Vietnam and Ho Chi Minh city have consistent temperatures year-round."
+        ]
+      },
+      {
+        "id": "hcmc-1022",
+        "publisher": "Ho Chi Minh City Party Committee",
+        "title": "Expansion of the city's technical-infrastructure reporting system",
+        "url": "https://www.hcmcpv.org.vn/tin-tuc/nang-cap-mo-rong-he-thong-tiep-nhan-thong-tin-su-c-1491841518",
+        "source_type": "municipal-government",
+        "retrieved_date": "2026-08-10",
+        "evidence": [
+          "Hệ thống 1022 - Tổng đài tiếp nhận thông tin sự cố hạ tầng kỹ thuật trên địa bàn TP",
+          "hệ thống còn cho phép người dân phản ánh bằng các hình thức tiện ích khác, gồm: nhắn tin; gửi thư điện tử"
+        ]
+      }
+    ]
   }
 ]

@@ -38,6 +38,31 @@ test("links the Hanoi city hub back to its living guide", async () => {
   assert.match(html, /href="\/guides\/vietnam\/hanoi\/culture-and-etiquette\/"/);
 });
 
+test("publishes the source-checked Ho Chi Minh City orientation guide", async () => {
+  const response = await render("/guides/vietnam/ho-chi-minh-city/living-in-the-city-orientation");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /<title>Living in Ho Chi Minh City with children/);
+  assert.match(html, /rel="canonical" href="http:\/\/localhost(?::3001)?\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\/"/);
+  assert.match(html, /What should a family know before living in Ho Chi Minh City\?/);
+  assert.match(html, /For families comparing schools/);
+  assert.match(html, /Sources checked[\s\S]*Aug 10, 2026/);
+  assert.match(html, /Ho Chi Minh City Tourism Promotion Center/);
+  assert.match(html, /"@type":"Article"/);
+  assert.match(html, /"@type":"BreadcrumbList"/);
+  assert.doesNotMatch(html, /"@type":"FAQPage"/);
+});
+
+test("links the Ho Chi Minh City hub back to its orientation guide", async () => {
+  const response = await render("/cities/ho-chi-minh-city");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Living in Ho Chi Minh City with children/);
+  assert.match(html, /href="\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\/"/);
+});
+
 test("includes the guide in the sitemap without exposing below-gate schools", async () => {
   const response = await render("/sitemap.xml");
   const xml = await response.text();
@@ -45,5 +70,6 @@ test("includes the guide in the sitemap without exposing below-gate schools", as
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /xml/i);
   assert.match(xml, /guides\/vietnam\/hanoi\/culture-and-etiquette\//);
+  assert.match(xml, /guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\//);
   assert.doesNotMatch(xml, /schools\/united-nations-international-school-hanoi/);
 });

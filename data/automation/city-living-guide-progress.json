@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-10",
   "topic_rotation": [
     "living-in-the-city-orientation",
     "culture-and-etiquette",
@@ -42,9 +42,25 @@
       "country": "Vietnam",
       "city": "Ho Chi Minh City",
       "city_slug": "ho-chi-minh-city",
-      "completed_articles": [],
+      "completed_articles": [
+        {
+          "topic": "living-in-the-city-orientation",
+          "title": "Living in Ho Chi Minh City with children: a practical orientation",
+          "url": "/guides/vietnam/ho-chi-minh-city/living-in-the-city-orientation/",
+          "published_date": "2026-08-10",
+          "checked_date": "2026-08-10",
+          "recheck_date": "2026-11-10",
+          "official_sources": [
+            "https://tphcm.chinhphu.vn/cac-phuong-xa-san-sang-van-hanh-mo-hinh-chinh-quyen-dia-phuong-2-cap-101250629141918878.htm",
+            "https://tphcm.chinhphu.vn/danh-sach-chinh-thuc-168-phuong-xa-cua-tphcm-sau-sap-xep-101250617000144317.htm",
+            "https://visithcmc.net/en/page/thong-tin-can-biet",
+            "https://www.hcmcpv.org.vn/tin-tuc/nang-cap-mo-rong-he-thong-tiep-nhan-thong-tin-su-c-1491841518"
+          ],
+          "unresolved_questions": []
+        }
+      ],
       "unresolved_questions": [],
-      "next_recommended_topic": "living-in-the-city-orientation"
+      "next_recommended_topic": "culture-and-etiquette"
     },
     {
       "country": "Vietnam",
