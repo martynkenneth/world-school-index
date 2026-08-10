@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "generatedOn": "2026-08-10",
-  "recordCount": 65,
+  "recordCount": 74,
   "entities": {
     "schools": [
       {
@@ -49,6 +49,88 @@
         "countryCode": "VN",
         "status": "operating",
         "ownership": "Independent"
+      },
+      {
+        "id": "school:vn:dwight-school-hanoi",
+        "canonicalName": "Dwight School Hanoi",
+        "shortName": "Dwight Hanoi",
+        "slug": "dwight-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 2024
+      },
+      {
+        "id": "school:vn:westlink-international-school-hanoi",
+        "canonicalName": "Westlink International School",
+        "shortName": "Westlink",
+        "slug": "westlink-international-school-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:international-school-parkcity-hanoi",
+        "canonicalName": "The International School @ ParkCity Hanoi",
+        "shortName": "ISPH",
+        "slug": "international-school-parkcity-hanoi",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:true-north-international-school",
+        "canonicalName": "True North International School",
+        "shortName": "True North",
+        "slug": "true-north-international-school",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:reigate-grammar-school-vietnam",
+        "canonicalName": "Reigate Grammar School Vietnam",
+        "shortName": "RGS Vietnam",
+        "slug": "reigate-grammar-school-vietnam",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:fairmont-international-school-vietnam",
+        "canonicalName": "Fairmont International School Vietnam",
+        "shortName": "FISV",
+        "slug": "fairmont-international-school-vietnam",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:singapore-international-school-ciputra",
+        "canonicalName": "Singapore International School @ Ciputra",
+        "shortName": "SIS Ciputra",
+        "slug": "singapore-international-school-ciputra",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:singapore-international-school-van-phuc",
+        "canonicalName": "Singapore International School @ Van Phuc",
+        "shortName": "SIS Van Phuc",
+        "slug": "singapore-international-school-van-phuc",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:vn:singapore-international-school-gamuda-gardens",
+        "canonicalName": "Singapore International School @ Gamuda Gardens",
+        "shortName": "SIS Gamuda",
+        "slug": "singapore-international-school-gamuda-gardens",
+        "countryCode": "VN",
+        "status": "operating",
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:vn:international-school-ho-chi-minh-city",
@@ -671,6 +753,96 @@
         "citySlug": "hanoi",
         "region": "Northern Vietnam",
         "campusType": "day"
+      },
+      {
+        "id": "campus:vn:dwight-school-hanoi:main",
+        "schoolId": "school:vn:dwight-school-hanoi",
+        "name": "Dwight Hanoi main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:westlink-international-school-hanoi:main",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "name": "Westlink main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:international-school-parkcity-hanoi:main",
+        "schoolId": "school:vn:international-school-parkcity-hanoi",
+        "name": "ISPH main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:true-north-international-school:main",
+        "schoolId": "school:vn:true-north-international-school",
+        "name": "True North main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:reigate-grammar-school-vietnam:main",
+        "schoolId": "school:vn:reigate-grammar-school-vietnam",
+        "name": "RGS Vietnam main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:fairmont-international-school-vietnam:main",
+        "schoolId": "school:vn:fairmont-international-school-vietnam",
+        "name": "FISV main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:singapore-international-school-ciputra:main",
+        "schoolId": "school:vn:singapore-international-school-ciputra",
+        "name": "SIS Ciputra main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:singapore-international-school-van-phuc:main",
+        "schoolId": "school:vn:singapore-international-school-van-phuc",
+        "name": "SIS Van Phuc main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:vn:singapore-international-school-gamuda-gardens:main",
+        "schoolId": "school:vn:singapore-international-school-gamuda-gardens",
+        "name": "SIS Gamuda main campus",
+        "countryCode": "VN",
+        "city": "Hanoi",
+        "citySlug": "hanoi",
+        "region": "Northern Vietnam",
+        "campusType": "unknown"
       },
       {
         "id": "campus:vn:international-school-ho-chi-minh-city:main",
@@ -1371,6 +1543,118 @@
         "campusId": "campus:vn:hanoi-international-school:main",
         "programme": "IB Diploma",
         "sourceId": "source:vn:hanoi-international-school:official"
+      },
+      {
+        "id": "programme:vn:dwight-school-hanoi:1",
+        "schoolId": "school:vn:dwight-school-hanoi",
+        "campusId": "campus:vn:dwight-school-hanoi:main",
+        "programme": "International Baccalaureate",
+        "sourceId": "source:vn:dwight-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:westlink-international-school-hanoi:1",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "campusId": "campus:vn:westlink-international-school-hanoi:main",
+        "programme": "IB Primary Years Programme",
+        "sourceId": "source:vn:westlink-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:westlink-international-school-hanoi:2",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "campusId": "campus:vn:westlink-international-school-hanoi:main",
+        "programme": "IB Middle Years Programme",
+        "sourceId": "source:vn:westlink-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:westlink-international-school-hanoi:3",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "campusId": "campus:vn:westlink-international-school-hanoi:main",
+        "programme": "IB Diploma Programme",
+        "sourceId": "source:vn:westlink-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:westlink-international-school-hanoi:4",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "campusId": "campus:vn:westlink-international-school-hanoi:main",
+        "programme": "Bilingual Middle Years Programme",
+        "sourceId": "source:vn:westlink-international-school-hanoi:official"
+      },
+      {
+        "id": "programme:vn:international-school-parkcity-hanoi:1",
+        "schoolId": "school:vn:international-school-parkcity-hanoi",
+        "campusId": "campus:vn:international-school-parkcity-hanoi:main",
+        "programme": "UK curriculum",
+        "sourceId": "source:vn:international-school-parkcity-hanoi:official"
+      },
+      {
+        "id": "programme:vn:international-school-parkcity-hanoi:2",
+        "schoolId": "school:vn:international-school-parkcity-hanoi",
+        "campusId": "campus:vn:international-school-parkcity-hanoi:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:vn:international-school-parkcity-hanoi:official"
+      },
+      {
+        "id": "programme:vn:international-school-parkcity-hanoi:3",
+        "schoolId": "school:vn:international-school-parkcity-hanoi",
+        "campusId": "campus:vn:international-school-parkcity-hanoi:main",
+        "programme": "A-Level",
+        "sourceId": "source:vn:international-school-parkcity-hanoi:official"
+      },
+      {
+        "id": "programme:vn:true-north-international-school:1",
+        "schoolId": "school:vn:true-north-international-school",
+        "campusId": "campus:vn:true-north-international-school:main",
+        "programme": "Common Core State Standards",
+        "sourceId": "source:vn:true-north-international-school:official"
+      },
+      {
+        "id": "programme:vn:reigate-grammar-school-vietnam:1",
+        "schoolId": "school:vn:reigate-grammar-school-vietnam",
+        "campusId": "campus:vn:reigate-grammar-school-vietnam:main",
+        "programme": "IBDP",
+        "sourceId": "source:vn:reigate-grammar-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:fairmont-international-school-vietnam:1",
+        "schoolId": "school:vn:fairmont-international-school-vietnam",
+        "campusId": "campus:vn:fairmont-international-school-vietnam:main",
+        "programme": "U.S. Common Core",
+        "sourceId": "source:vn:fairmont-international-school-vietnam:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-ciputra:1",
+        "schoolId": "school:vn:singapore-international-school-ciputra",
+        "campusId": "campus:vn:singapore-international-school-ciputra:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:singapore-international-school-ciputra:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-ciputra:2",
+        "schoolId": "school:vn:singapore-international-school-ciputra",
+        "campusId": "campus:vn:singapore-international-school-ciputra:main",
+        "programme": "Singapore",
+        "sourceId": "source:vn:singapore-international-school-ciputra:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-van-phuc:1",
+        "schoolId": "school:vn:singapore-international-school-van-phuc",
+        "campusId": "campus:vn:singapore-international-school-van-phuc:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:singapore-international-school-van-phuc:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-van-phuc:2",
+        "schoolId": "school:vn:singapore-international-school-van-phuc",
+        "campusId": "campus:vn:singapore-international-school-van-phuc:main",
+        "programme": "Singapore",
+        "sourceId": "source:vn:singapore-international-school-van-phuc:official"
+      },
+      {
+        "id": "programme:vn:singapore-international-school-gamuda-gardens:1",
+        "schoolId": "school:vn:singapore-international-school-gamuda-gardens",
+        "campusId": "campus:vn:singapore-international-school-gamuda-gardens:main",
+        "programme": "Cambridge",
+        "sourceId": "source:vn:singapore-international-school-gamuda-gardens:official"
       },
       {
         "id": "programme:vn:international-school-ho-chi-minh-city:1",
@@ -2999,6 +3283,141 @@
         ]
       },
       {
+        "id": "source:vn:dwight-school-hanoi:official",
+        "schoolId": "school:vn:dwight-school-hanoi",
+        "type": "official-school",
+        "publisher": "Dwight School Hanoi",
+        "url": "https://www.dwight.edu/schools/hanoi",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:westlink-international-school-hanoi:official",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "type": "official-school",
+        "publisher": "Westlink International School",
+        "url": "https://www.westlink.edu.vn/",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:international-school-parkcity-hanoi:official",
+        "schoolId": "school:vn:international-school-parkcity-hanoi",
+        "type": "official-school",
+        "publisher": "The International School @ ParkCity Hanoi",
+        "url": "https://isph.edu.vn/",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:true-north-international-school:official",
+        "schoolId": "school:vn:true-north-international-school",
+        "type": "official-school",
+        "publisher": "True North International School",
+        "url": "https://truenorth.edu.vn/en/our-school",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:reigate-grammar-school-vietnam:official",
+        "schoolId": "school:vn:reigate-grammar-school-vietnam",
+        "type": "official-school",
+        "publisher": "Reigate Grammar School Vietnam",
+        "url": "https://reigategrammar.edu.vn/",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:fairmont-international-school-vietnam:official",
+        "schoolId": "school:vn:fairmont-international-school-vietnam",
+        "type": "official-school",
+        "publisher": "Fairmont International School Vietnam",
+        "url": "https://www.fairmontschools.edu.vn/landing/fisv",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:singapore-international-school-ciputra:official",
+        "schoolId": "school:vn:singapore-international-school-ciputra",
+        "type": "official-school",
+        "publisher": "Singapore International School @ Ciputra",
+        "url": "https://ciputra.sis.edu.vn/",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:singapore-international-school-van-phuc:official",
+        "schoolId": "school:vn:singapore-international-school-van-phuc",
+        "type": "official-school",
+        "publisher": "Singapore International School @ Van Phuc",
+        "url": "https://vanphuc.sis.edu.vn/",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:vn:singapore-international-school-gamuda-gardens:official",
+        "schoolId": "school:vn:singapore-international-school-gamuda-gardens",
+        "type": "official-school",
+        "publisher": "Singapore International School @ Gamuda Gardens",
+        "url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+        "observedOn": "2026-08-10",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
         "id": "source:vn:international-school-ho-chi-minh-city:official",
         "schoolId": "school:vn:international-school-ho-chi-minh-city",
         "type": "official-school",
@@ -3946,6 +4365,87 @@
         ]
       },
       {
+        "id": "verification:vn:dwight-school-hanoi:2026-08-10",
+        "schoolId": "school:vn:dwight-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:dwight-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:westlink-international-school-hanoi:2026-08-10",
+        "schoolId": "school:vn:westlink-international-school-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:westlink-international-school-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:international-school-parkcity-hanoi:2026-08-10",
+        "schoolId": "school:vn:international-school-parkcity-hanoi",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:international-school-parkcity-hanoi:official"
+        ]
+      },
+      {
+        "id": "verification:vn:true-north-international-school:2026-08-10",
+        "schoolId": "school:vn:true-north-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:true-north-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:vn:reigate-grammar-school-vietnam:2026-08-10",
+        "schoolId": "school:vn:reigate-grammar-school-vietnam",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:reigate-grammar-school-vietnam:official"
+        ]
+      },
+      {
+        "id": "verification:vn:fairmont-international-school-vietnam:2026-08-10",
+        "schoolId": "school:vn:fairmont-international-school-vietnam",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:fairmont-international-school-vietnam:official"
+        ]
+      },
+      {
+        "id": "verification:vn:singapore-international-school-ciputra:2026-08-10",
+        "schoolId": "school:vn:singapore-international-school-ciputra",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:singapore-international-school-ciputra:official"
+        ]
+      },
+      {
+        "id": "verification:vn:singapore-international-school-van-phuc:2026-08-10",
+        "schoolId": "school:vn:singapore-international-school-van-phuc",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:singapore-international-school-van-phuc:official"
+        ]
+      },
+      {
+        "id": "verification:vn:singapore-international-school-gamuda-gardens:2026-08-10",
+        "schoolId": "school:vn:singapore-international-school-gamuda-gardens",
+        "level": "core",
+        "verifiedOn": "2026-08-10",
+        "sourceIds": [
+          "source:vn:singapore-international-school-gamuda-gardens:official"
+        ]
+      },
+      {
         "id": "verification:vn:international-school-ho-chi-minh-city:2026-07-22",
         "schoolId": "school:vn:international-school-ho-chi-minh-city",
         "level": "core",
@@ -4623,6 +5123,221 @@
       "website": "https://www.hisvietnam.com/",
       "sourceUrl": "https://www.hisvietnam.com/",
       "verifiedOn": "2026-07-22"
+    },
+    {
+      "name": "Dwight School Hanoi",
+      "shortName": "Dwight Hanoi",
+      "slug": "dwight-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "International Baccalaureate"
+      ],
+      "ageRange": "Preschool–Grade 12",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.dwight.edu/schools/hanoi",
+      "sourceUrl": "https://www.dwight.edu/schools/hanoi",
+      "verifiedOn": "2026-08-10",
+      "founded": 2024,
+      "indexable": false
+    },
+    {
+      "name": "Westlink International School",
+      "shortName": "Westlink",
+      "slug": "westlink-international-school-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "IB Primary Years Programme",
+        "IB Middle Years Programme",
+        "IB Diploma Programme",
+        "Bilingual Middle Years Programme"
+      ],
+      "ageRange": "4–17",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.westlink.edu.vn/",
+      "sourceUrl": "https://www.westlink.edu.vn/",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "The International School @ ParkCity Hanoi",
+      "shortName": "ISPH",
+      "slug": "international-school-parkcity-hanoi",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "UK curriculum",
+        "Cambridge IGCSE",
+        "A-Level"
+      ],
+      "ageRange": "3–18",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://isph.edu.vn/",
+      "sourceUrl": "https://isph.edu.vn/",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "True North International School",
+      "shortName": "True North",
+      "slug": "true-north-international-school",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "Common Core State Standards"
+      ],
+      "ageRange": "Preschool–High School",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://truenorth.edu.vn/",
+      "sourceUrl": "https://truenorth.edu.vn/en/our-school",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "Reigate Grammar School Vietnam",
+      "shortName": "RGS Vietnam",
+      "slug": "reigate-grammar-school-vietnam",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "IBDP"
+      ],
+      "ageRange": "3–18",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://reigategrammar.edu.vn/",
+      "sourceUrl": "https://reigategrammar.edu.vn/",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "Fairmont International School Vietnam",
+      "shortName": "FISV",
+      "slug": "fairmont-international-school-vietnam",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "U.S. Common Core"
+      ],
+      "ageRange": "PreK–Grade 12",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "sourceUrl": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "Singapore International School @ Ciputra",
+      "shortName": "SIS Ciputra",
+      "slug": "singapore-international-school-ciputra",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "Cambridge",
+        "Singapore"
+      ],
+      "ageRange": "kindergarten to high school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://ciputra.sis.edu.vn/",
+      "sourceUrl": "https://ciputra.sis.edu.vn/",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "Singapore International School @ Van Phuc",
+      "shortName": "SIS Van Phuc",
+      "slug": "singapore-international-school-van-phuc",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "Cambridge",
+        "Singapore"
+      ],
+      "ageRange": "kindergarten to high school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://vanphuc.sis.edu.vn/",
+      "sourceUrl": "https://vanphuc.sis.edu.vn/",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
+    },
+    {
+      "name": "Singapore International School @ Gamuda Gardens",
+      "shortName": "SIS Gamuda",
+      "slug": "singapore-international-school-gamuda-gardens",
+      "country": "Vietnam",
+      "countrySlug": "vietnam",
+      "countryCode": "VN",
+      "city": "Hanoi",
+      "citySlug": "hanoi",
+      "region": "Northern Vietnam",
+      "curricula": [
+        "Cambridge"
+      ],
+      "ageRange": "Pre-Nursery–Year 12",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://gamudagardens.sis.edu.vn/",
+      "sourceUrl": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "verifiedOn": "2026-08-10",
+      "indexable": false
     },
     {
       "name": "International School Ho Chi Minh City",

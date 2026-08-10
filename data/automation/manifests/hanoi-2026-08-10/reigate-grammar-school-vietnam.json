@@ -1,0 +1,17 @@
+{
+  "id": "vn-hanoi-reigate-grammar-school-vietnam",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/reigate-grammar-school-vietnam/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/reigate-grammar-school-vietnam.json",
+  "claims": [
+    { "path": "name", "value": "Reigate Grammar School Vietnam", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Reigate Grammar School Vietnam is a not-for-profit international school" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Dinh Cong Ward, Hanoi, Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "within the dynamic culture of the city of Hanoi, for pupils aged 3-18" },
+    { "path": "location.address", "value": "No 6-7 Nguyen Cong Thai Street Dai Kim - Dinh Cong New Urban Area, Dinh Cong Ward, Hanoi, Vietnam", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "No 6-7 Nguyen Cong Thai Street Dai Kim - Dinh Cong New Urban Area, Dinh Cong Ward, Hanoi, Vietnam" },
+    { "path": "curricula[0]", "value": "IBDP", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Year 12 IBDP Academic Showcase" },
+    { "path": "age_range.min", "value": 3, "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "for pupils aged 3-18" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "for pupils aged 3-18" },
+    { "path": "contact.phone", "value": "+84 (0) 2435 409 183", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "+84 (0) 2435 409 183" },
+    { "path": "contact.email", "value": "inquiry@reigategrammar.edu.vn", "source_url": "https://reigategrammar.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "inquiry@reigategrammar.edu.vn" }
+  ]
+}

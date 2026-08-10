@@ -1,0 +1,158 @@
+{
+  "id": "vn-hanoi-reigate-grammar-school-vietnam",
+  "name": "Reigate Grammar School Vietnam",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "district": null,
+    "address": "No 6-7 Nguyen Cong Thai Street Dai Kim - Dinh Cong New Urban Area, Dinh Cong Ward, Hanoi, Vietnam",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "IBDP"
+  ],
+  "age_range": {
+    "min": 3,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 (0) 2435 409 183",
+    "email": "inquiry@reigategrammar.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Reigate Grammar School Vietnam is a not-for-profit international school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Dinh Cong Ward, Hanoi, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "within the dynamic culture of the city of Hanoi, for pupils aged 3-18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "No 6-7 Nguyen Cong Thai Street Dai Kim - Dinh Cong New Urban Area, Dinh Cong Ward, Hanoi, Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Year 12 IBDP Academic Showcase",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "for pupils aged 3-18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "for pupils aged 3-18",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "+84 (0) 2435 409 183",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://reigategrammar.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "inquiry@reigategrammar.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 5,
+  "indexable": false,
+  "last_verified": "2026-08-10"
+}

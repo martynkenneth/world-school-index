@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-10",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -11,9 +11,10 @@
       "country": "Vietnam",
       "city": "Hanoi",
       "city_slug": "hanoi",
-      "last_enrichment_date": "2026-08-03",
+      "last_enrichment_date": "2026-08-10",
       "topics_attempted": [
-        "official open days and admissions notices"
+        "official open days and admissions notices",
+        "Hanoi coverage discovery and strict provisional profiles"
       ],
       "sources_checked": [
         {
@@ -25,16 +26,75 @@
           "url": "https://www.nordangliaeducation.com/bis-hanoi/open-day",
           "retrieved_date": "2026-08-03",
           "result": "Dedicated official open-day page confirmed the same notice."
+        },
+        {
+          "url": "https://www.dwight.edu/schools/hanoi",
+          "retrieved_date": "2026-08-10",
+          "result": "Official school page confirmed Dwight School Hanoi and its Hanoi location."
+        },
+        {
+          "url": "https://www.westlink.edu.vn/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official school page confirmed Westlink International School and published programme and age-coverage facts."
+        },
+        {
+          "url": "https://isph.edu.vn/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official school page confirmed The International School @ ParkCity Hanoi and published programme facts."
+        },
+        {
+          "url": "https://truenorth.edu.vn/en/our-school",
+          "retrieved_date": "2026-08-10",
+          "result": "Official school page confirmed True North International School in Hanoi."
+        },
+        {
+          "url": "https://reigategrammar.edu.vn/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official school page confirmed Reigate Grammar School Vietnam and an IBDP programme reference."
+        },
+        {
+          "url": "https://www.ibo.org/en/school/049483",
+          "retrieved_date": "2026-08-10",
+          "result": "Authoritative IB profile was not imported because robots access returned HTTP 403; accreditation remains unresolved."
+        },
+        {
+          "url": "https://www.fairmontschools.edu.vn/landing/fisv",
+          "retrieved_date": "2026-08-10",
+          "result": "Official school page confirmed the current Fairmont International School Vietnam identity and Hanoi location."
+        },
+        {
+          "url": "https://ciputra.sis.edu.vn/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official campus page confirmed the Singapore International School @ Ciputra campus and published age coverage."
+        },
+        {
+          "url": "https://vanphuc.sis.edu.vn/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official campus page confirmed the Singapore International School @ Van Phuc campus and published age coverage."
+        },
+        {
+          "url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official campus page confirmed the Singapore International School @ Gamuda Gardens campus and age coverage."
+        },
+        {
+          "url": "https://sis.edu.vn/",
+          "retrieved_date": "2026-08-10",
+          "result": "Official network page confirmed Cambridge programme wording used for the Gamuda Gardens provisional record."
         }
       ],
       "published_changes": [
         "Added a question-led Hanoi city-hub answer for the BIS Hanoi open day, with an official citation, visible retrieval date, and school-record link.",
-        "Re-verified the existing strict open-day provenance on 2026-08-03."
+        "Re-verified the existing strict open-day provenance on 2026-08-03.",
+        "Expanded the listed Hanoi collection from 7 to 16 official-source-linked profiles.",
+        "Added nine strict provisional records with field-level provenance; all remain noindex below the 8/12 gate."
       ],
       "unresolved_questions": [
-        "The official notice prints 4th August without a year; the directory preserves that literal wording and does not infer a year."
+        "The official notice prints 4th August without a year; the directory preserves that literal wording and does not infer a year.",
+        "Fairmont's former-name continuity still requires a citable official source before records can be merged or redirected.",
+        "The wider Hanoi bilingual and embassy-school universe remains separately scoped and was not inferred from third-party directories."
       ],
-      "next_recommended_topic": "Current fee-publication availability across listed Hanoi profiles, computed only from strict records."
+      "next_recommended_topic": "Accreditation and current fee verification for the nine new provisional Hanoi profiles."
     },
     {
       "country": "Vietnam",

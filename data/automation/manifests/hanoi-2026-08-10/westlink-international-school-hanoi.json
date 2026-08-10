@@ -1,0 +1,20 @@
+{
+  "id": "vn-hanoi-westlink-international-school-hanoi",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/westlink-international-school-hanoi/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/westlink-international-school-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "Westlink International School", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Welcome to Westlink International School, Hanoi, Vietnam" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Welcome to Westlink International School, Hanoi, Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Welcome to Westlink International School, Hanoi, Vietnam" },
+    { "path": "location.address", "value": "Nguyen Huu Lieu, Tay Ho Tay urban area, Xuan Dinh Ward, Hanoi", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Nguyen Huu Lieu, Tay Ho Tay urban area, Xuan Dinh Ward, Hanoi" },
+    { "path": "curricula[0]", "value": "IB Primary Years Programme", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "IB Primary Years Programme Ages 6 - 10" },
+    { "path": "curricula[1]", "value": "IB Middle Years Programme", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "IB Middle Years Programme Ages 11 - 15" },
+    { "path": "curricula[2]", "value": "IB Diploma Programme", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "IB Diploma Programme Age 16 - 17" },
+    { "path": "curricula[3]", "value": "Bilingual Middle Years Programme", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Bilingual Middle Years Programme Ages 11 - 14" },
+    { "path": "age_range.min", "value": 4, "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Early Years Ages 4 - 5" },
+    { "path": "age_range.max", "value": 17, "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "IB Diploma Programme Age 16 - 17" },
+    { "path": "contact.phone", "value": "(+84) 865 777 900", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "(+84) 865 777 900" },
+    { "path": "contact.email", "value": "info@westlink.edu.vn", "source_url": "https://www.westlink.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "info@westlink.edu.vn" }
+  ]
+}

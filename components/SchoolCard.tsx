@@ -13,8 +13,8 @@ export function SchoolCard({ school }: { school: School }) {
         </span>
         <span className={`verified-pill ${verification.hasStrictRecord ? "reviewed" : "provisional"}`}>
           {verification.hasStrictRecord
-            ? `Evidence review ${verification.completenessScore}/12`
-            : "Provisional profile"}
+            ? "Official sources checked"
+            : "Official source linked"}
         </span>
       </div>
       <p className="location-line">

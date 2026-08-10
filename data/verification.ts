@@ -5,6 +5,15 @@ import hanoiInternationalSchool from "./schools/vietnam/hanoi-international-scho
 import lfayHanoi from "./schools/vietnam/lycee-francais-alexandre-yersin-hanoi.json";
 import stPaulHanoi from "./schools/vietnam/st-paul-american-school-hanoi.json";
 import unisHanoi from "./schools/vietnam/united-nations-international-school-hanoi.json";
+import dwightHanoi from "./schools/vietnam/dwight-school-hanoi.json";
+import fairmontVietnam from "./schools/vietnam/fairmont-international-school-vietnam.json";
+import isphHanoi from "./schools/vietnam/international-school-parkcity-hanoi.json";
+import reigateVietnam from "./schools/vietnam/reigate-grammar-school-vietnam.json";
+import sisCiputra from "./schools/vietnam/singapore-international-school-ciputra.json";
+import sisGamudaGardens from "./schools/vietnam/singapore-international-school-gamuda-gardens.json";
+import sisVanPhuc from "./schools/vietnam/singapore-international-school-van-phuc.json";
+import trueNorthHanoi from "./schools/vietnam/true-north-international-school.json";
+import westlinkHanoi from "./schools/vietnam/westlink-international-school-hanoi.json";
 import apuHcmc from "./schools/vietnam/apu-american-international-school-ho-chi-minh-city.json";
 import aisVietnam from "./schools/vietnam/australian-international-school-vietnam.json";
 import bisHcmc from "./schools/vietnam/british-international-school-ho-chi-minh-city.json";
@@ -71,6 +80,15 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "lycee-francais-alexandre-yersin-hanoi": lfayHanoi as StrictSchoolRecord,
   "st-paul-american-school-hanoi": stPaulHanoi as StrictSchoolRecord,
   "united-nations-international-school-hanoi": unisHanoi as StrictSchoolRecord,
+  "dwight-school-hanoi": dwightHanoi as StrictSchoolRecord,
+  "fairmont-international-school-vietnam": fairmontVietnam as StrictSchoolRecord,
+  "international-school-parkcity-hanoi": isphHanoi as StrictSchoolRecord,
+  "reigate-grammar-school-vietnam": reigateVietnam as StrictSchoolRecord,
+  "singapore-international-school-ciputra": sisCiputra as StrictSchoolRecord,
+  "singapore-international-school-gamuda-gardens": sisGamudaGardens as StrictSchoolRecord,
+  "singapore-international-school-van-phuc": sisVanPhuc as StrictSchoolRecord,
+  "true-north-international-school": trueNorthHanoi as StrictSchoolRecord,
+  "westlink-international-school-hanoi": westlinkHanoi as StrictSchoolRecord,
   "apu-american-international-school-ho-chi-minh-city": apuHcmc as StrictSchoolRecord,
   "australian-international-school-vietnam": aisVietnam as StrictSchoolRecord,
   "british-international-school-ho-chi-minh-city": bisHcmc as StrictSchoolRecord,

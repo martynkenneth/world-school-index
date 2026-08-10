@@ -1,0 +1,24 @@
+{
+  "id": "vn-hanoi-international-school-parkcity-hanoi",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/international-school-parkcity-hanoi/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/international-school-parkcity-hanoi.json",
+  "claims": [
+    { "path": "name", "value": "The International School @ ParkCity Hanoi", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Home - The International School @ ParkCity Hanoi (ISPH)" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Parkcity Hanoi, Le Trong Tan Road, Duong Noi Ward, Hanoi, Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Parkcity Hanoi, Le Trong Tan Road, Duong Noi Ward, Hanoi, Vietnam" },
+    { "path": "location.address", "value": "Parkcity Hanoi, Le Trong Tan Road, Duong Noi Ward, Hanoi, Vietnam", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Parkcity Hanoi, Le Trong Tan Road, Duong Noi Ward, Hanoi, Vietnam" },
+    { "path": "curricula[0]", "value": "UK curriculum", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Based on the UK curriculum and including the internationally recognised Cambridge IGCSE and A-Level qualifications" },
+    { "path": "curricula[1]", "value": "Cambridge IGCSE", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Based on the UK curriculum and including the internationally recognised Cambridge IGCSE and A-Level qualifications" },
+    { "path": "curricula[2]", "value": "A-Level", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Based on the UK curriculum and including the internationally recognised Cambridge IGCSE and A-Level qualifications" },
+    { "path": "age_range.min", "value": 3, "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Age Range 3-18" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Age Range 3-18" },
+    { "path": "staffing.teacher_student_ratio", "value": "11:1", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Student to Teacher Ratio 11:1" },
+    { "path": "languages.offered[0]", "value": "English", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Languages Taught English Vietnamese Mandarin Spanish" },
+    { "path": "languages.offered[1]", "value": "Vietnamese", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Languages Taught English Vietnamese Mandarin Spanish" },
+    { "path": "languages.offered[2]", "value": "Mandarin", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Languages Taught English Vietnamese Mandarin Spanish" },
+    { "path": "languages.offered[3]", "value": "Spanish", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Languages Taught English Vietnamese Mandarin Spanish" },
+    { "path": "contact.phone", "value": "+84 2 456 789 000", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "+84 2 456 789 000" },
+    { "path": "contact.email", "value": "info@isph.edu.vn", "source_url": "https://isph.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "info@isph.edu.vn" }
+  ]
+}

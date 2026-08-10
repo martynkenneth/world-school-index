@@ -1,0 +1,144 @@
+{
+  "id": "vn-hanoi-dwight-school-hanoi",
+  "name": "Dwight School Hanoi",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "district": null,
+    "address": "The Manor Central Park",
+    "lat": null,
+    "lng": null
+  },
+  "founded": 2024,
+  "school_type": null,
+  "curricula": [
+    "International Baccalaureate"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "Preschool through Grade 12"
+  ],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Dwight School Hanoi opened its doors in 2024",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "redefine international education in Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Dwight School Hanoi opened its doors in 2024",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Location: The Manor Central Park",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Dwight School Hanoi opened its doors in 2024",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Curriculum: International Baccalaureate",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://www.dwight.edu/schools/hanoi",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Grades: Preschool through Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-08-10"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "vn-hanoi-true-north-international-school",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/true-north-international-school/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/true-north-international-school.json",
+  "claims": [
+    { "path": "name", "value": "True North International School", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "True North International School (TNIS) is an international school in Vietnam" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "True North International School (TNIS) is an international school in Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "Originating from Hanoi, the \"True North\" of Vietnam" },
+    { "path": "location.address", "value": "TH-03, Mo Lao, Ha Dong, Hanoi", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "TH-03, Mo Lao, Ha Dong, Hanoi" },
+    { "path": "curricula[0]", "value": "Common Core State Standards", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "Common Core State Standards" },
+    { "path": "year_groups[0]", "value": "Preschool (5 years old)", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "Preschool (5 years old), Elementary, Middle School, and High School" },
+    { "path": "year_groups[1]", "value": "Elementary", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "Preschool (5 years old), Elementary, Middle School, and High School" },
+    { "path": "year_groups[2]", "value": "Middle School", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "Preschool (5 years old), Elementary, Middle School, and High School" },
+    { "path": "year_groups[3]", "value": "High School", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "Preschool (5 years old), Elementary, Middle School, and High School" },
+    { "path": "contact.phone", "value": "024 7304 3768", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "024 7304 3768" },
+    { "path": "contact.email", "value": "info@truenorth.edu.vn", "source_url": "https://truenorth.edu.vn/en/our-school", "retrieved_date": "2026-08-10", "evidence": "info@truenorth.edu.vn" }
+  ]
+}

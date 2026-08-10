@@ -49,11 +49,11 @@ test("ships normalized entities in the public data export", async () => {
 
   const parsed = JSON.parse(dataExport);
   assert.equal(parsed.schemaVersion, "2.0");
-  assert.equal(parsed.recordCount, 27);
-  assert.equal(parsed.entities.schools.length, 27);
-  assert.equal(parsed.entities.campuses.length, 27);
-  assert.equal(parsed.entities.sources.length, 27);
-  assert.equal(parsed.entities.verifications.length, 27);
+  assert.equal(parsed.recordCount, 36);
+  assert.equal(parsed.entities.schools.length, 36);
+  assert.equal(parsed.entities.campuses.length, 36);
+  assert.equal(parsed.entities.sources.length, 36);
+  assert.equal(parsed.entities.verifications.length, 36);
   assert.ok(parsed.records.every((record) => !("summary" in record)));
   assert.match(layout, /World School Index/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
@@ -82,7 +82,7 @@ test("keeps the Vietnam country directory available", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /<title>International Schools in Vietnam/);
-  assert.match(html, /27/);
+  assert.match(html, /36/);
   assert.match(html, /href="\/data\/vietnam-schools\.json"/);
 });
 
@@ -109,9 +109,10 @@ test("renders the Thailand country directory and Thailand school records", async
   const schoolHtml = await schoolResponse.text();
   assert.match(schoolHtml, /International School Bangkok/);
   assert.match(schoolHtml, /Nonthaburi[\s\S]*Thailand/);
-  assert.match(schoolHtml, /Provisional school profile/);
+  assert.match(schoolHtml, /School profile/);
+  assert.match(schoolHtml, /Official sources checked/);
   assert.doesNotMatch(schoolHtml, /Evidence capture pending/i);
-  assert.match(schoolHtml, /application\/ld\+json/);
+  assert.doesNotMatch(schoolHtml, /application\/ld\+json/);
   assert.match(schoolHtml, /name="robots" content="noindex,\s*follow"/);
 
   const blockedSchoolHtml = await blockedSchoolResponse.text();
@@ -121,7 +122,7 @@ test("renders the Thailand country directory and Thailand school records", async
 
   const conflictingSchoolHtml = await conflictingSchoolResponse.text();
   assert.match(conflictingSchoolHtml, /New American Chinese International School/);
-  assert.match(conflictingSchoolHtml, /Provisional school profile/);
+  assert.match(conflictingSchoolHtml, /School profile/);
   assert.match(conflictingSchoolHtml, /name="robots" content="noindex,\s*follow"/);
   assert.doesNotMatch(conflictingSchoolHtml, /Grades 5–8|Grades 6–8/);
 });
@@ -150,7 +151,34 @@ test("surfaces the source-backed Hanoi open-day answer on the existing city hub"
   assert.match(html, /Official open-day notice/);
   assert.match(html, /Checked[\s\S]*Aug 3, 2026/);
   assert.match(html, /href="\/schools\/british-international-school-hanoi"/);
+  assert.match(html, /16[\s\S]*official-source-linked profiles/);
+  assert.match(html, /Dwight School Hanoi/);
+  assert.match(html, /Westlink International School/);
+  assert.match(html, /The International School @ ParkCity Hanoi/);
+  assert.match(html, /True North International School/);
+  assert.match(html, /Reigate Grammar School Vietnam/);
+  assert.match(html, /Fairmont International School Vietnam/);
+  assert.match(html, /Singapore International School @ Ciputra/);
+  assert.match(html, /Singapore International School @ Van Phuc/);
+  assert.match(html, /Singapore International School @ Gamuda Gardens/);
   assert.doesNotMatch(html, /Evidence capture pending/i);
+});
+
+test("keeps new Hanoi profiles noindex and out of school schema until the evidence gate is met", async () => {
+  const [response, indexedResponse] = await Promise.all([
+    render("/schools/dwight-school-hanoi"),
+    render("/schools/british-international-school-hanoi"),
+  ]);
+  const [html, indexedHtml] = await Promise.all([response.text(), indexedResponse.text()]);
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Dwight School Hanoi/);
+  assert.match(html, /Official sources checked/);
+  assert.match(html, /name="robots" content="noindex,\s*follow"/);
+  assert.doesNotMatch(html, /application\/ld\+json/);
+  assert.doesNotMatch(html, /Evidence review|\b4\/12\b/);
+  assert.match(indexedHtml, /application\/ld\+json/);
+  assert.match(indexedHtml, /name="robots" content="index,\s*follow"/);
 });
 
 test("surfaces the source-backed Ho Chi Minh City fee answer on the existing city hub", async () => {
@@ -182,14 +210,15 @@ test("surfaces the source-backed Da Nang programme answer on the existing city h
   assert.doesNotMatch(html, /Evidence capture pending/i);
 });
 
-test("shows evidence progress without indexing a below-gate strict record", async () => {
+test("shows evidence-backed facts without exposing internal review progress", async () => {
   const response = await render("/schools/united-nations-international-school-hanoi");
   const html = await response.text();
 
-  assert.match(html, /7\/12/);
+  assert.match(html, /Official sources checked/);
   assert.match(html, /Evidence-backed/);
   assert.match(html, /Open conflicts[\s\S]*2/);
-  assert.match(html, /application\/ld\+json/);
+  assert.doesNotMatch(html, /application\/ld\+json/);
+  assert.doesNotMatch(html, /Evidence review|\b7\/12\b/);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
 
@@ -197,9 +226,10 @@ test("renders a strict provisional Ho Chi Minh City profile without indexing it"
   const response = await render("/schools/european-international-school-ho-chi-minh-city");
   const html = await response.text();
 
-  assert.match(html, /6\/12/);
+  assert.match(html, /Official sources checked/);
   assert.match(html, /Evidence-backed/);
-  assert.match(html, /application\/ld\+json/);
+  assert.doesNotMatch(html, /application\/ld\+json/);
+  assert.doesNotMatch(html, /Evidence review|\b6\/12\b/);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
 
@@ -207,8 +237,9 @@ test("does not label a partial composite location as evidence-backed", async () 
   const response = await render("/schools/apu-american-international-school-ho-chi-minh-city");
   const html = await response.text();
 
-  assert.match(html, /2\/12/);
+  assert.match(html, /Official sources checked/);
   assert.match(html, /Ho Chi Minh City, Vietnam/);
+  assert.doesNotMatch(html, /Evidence review|\b2\/12\b/);
   assert.doesNotMatch(html, /Evidence capture pending/i);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
 });
@@ -243,15 +274,17 @@ test("renders the completed Ho Chi Minh City provisional collection without inde
   ]);
   const [abcHtml, tasHtml] = await Promise.all([abcResponse.text(), tasResponse.text()]);
 
-  assert.match(abcHtml, /6\/12/);
+  assert.match(abcHtml, /Official sources checked/);
   assert.match(abcHtml, /Evidence-backed/);
   assert.match(abcHtml, /name="robots" content="noindex,\s*follow"/);
-  assert.match(abcHtml, /application\/ld\+json/);
+  assert.doesNotMatch(abcHtml, /application\/ld\+json/);
+  assert.doesNotMatch(abcHtml, /Evidence review|\b6\/12\b/);
 
-  assert.match(tasHtml, /5\/12/);
+  assert.match(tasHtml, /Official sources checked/);
   assert.match(tasHtml, /Evidence-backed/);
   assert.match(tasHtml, /name="robots" content="noindex,\s*follow"/);
-  assert.match(tasHtml, /application\/ld\+json/);
+  assert.doesNotMatch(tasHtml, /application\/ld\+json/);
+  assert.doesNotMatch(tasHtml, /Evidence review|\b5\/12\b/);
 });
 
 test("renders the Da Nang provisional collection without indexing thin profiles", async () => {
@@ -261,11 +294,13 @@ test("renders the Da Nang provisional collection without indexing thin profiles"
   ]);
   const [apuHtml, odysseyHtml] = await Promise.all([apuResponse.text(), odysseyResponse.text()]);
 
-  assert.match(apuHtml, /5\/12/);
+  assert.match(apuHtml, /Official sources checked/);
   assert.match(apuHtml, /Evidence-backed/);
   assert.match(apuHtml, /name="robots" content="noindex,\s*follow"/);
+  assert.doesNotMatch(apuHtml, /Evidence review|\b5\/12\b/);
 
-  assert.match(odysseyHtml, /5\/12/);
+  assert.match(odysseyHtml, /Official sources checked/);
   assert.match(odysseyHtml, /Evidence-backed/);
   assert.match(odysseyHtml, /name="robots" content="noindex,\s*follow"/);
+  assert.doesNotMatch(odysseyHtml, /Evidence review|\b5\/12\b/);
 });

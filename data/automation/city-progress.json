@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-10",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -13,8 +13,8 @@
       "city": "Hanoi",
       "city_slug": "hanoi",
       "status": "complete",
-      "schools_discovered": 7,
-      "schools_processed": 7,
+      "schools_discovered": 16,
+      "schools_processed": 16,
       "school_ids": [
         "school:vn:british-international-school-hanoi",
         "school:vn:british-vietnamese-international-school-hanoi",
@@ -22,7 +22,16 @@
         "school:vn:hanoi-international-school",
         "school:vn:lycee-francais-alexandre-yersin-hanoi",
         "school:vn:st-paul-american-school-hanoi",
-        "school:vn:united-nations-international-school-hanoi"
+        "school:vn:united-nations-international-school-hanoi",
+        "school:vn:dwight-school-hanoi",
+        "school:vn:westlink-international-school-hanoi",
+        "school:vn:international-school-parkcity-hanoi",
+        "school:vn:true-north-international-school",
+        "school:vn:reigate-grammar-school-vietnam",
+        "school:vn:fairmont-international-school-vietnam",
+        "school:vn:singapore-international-school-ciputra",
+        "school:vn:singapore-international-school-van-phuc",
+        "school:vn:singapore-international-school-gamuda-gardens"
       ],
       "school_results": [
         {
@@ -73,6 +82,69 @@
           "completeness_score": 7,
           "indexable": false,
           "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days", "enrolment.nationalities_count"]
+        },
+        {
+          "school_id": "school:vn:dwight-school-hanoi",
+          "result": "strict_provisional_profile_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:westlink-international-school-hanoi",
+          "result": "strict_provisional_profile_added",
+          "completeness_score": 5,
+          "indexable": false,
+          "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:international-school-parkcity-hanoi",
+          "result": "strict_provisional_profile_added",
+          "completeness_score": 6,
+          "indexable": false,
+          "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:true-north-international-school",
+          "result": "strict_provisional_profile_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:reigate-grammar-school-vietnam",
+          "result": "strict_provisional_profile_added_with_blocked_ib_check",
+          "completeness_score": 5,
+          "indexable": false,
+          "unresolved_fields": ["accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:fairmont-international-school-vietnam",
+          "result": "strict_provisional_profile_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": ["location.address", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:singapore-international-school-ciputra",
+          "result": "strict_provisional_campus_profile_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:singapore-international-school-van-phuc",
+          "result": "strict_provisional_campus_profile_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
+        },
+        {
+          "school_id": "school:vn:singapore-international-school-gamuda-gardens",
+          "result": "strict_provisional_campus_profile_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"]
         }
       ],
       "source_urls": [
@@ -108,9 +180,20 @@
         "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
         "https://www.unishanoi.org/admissions/how-to-apply",
         "https://www.unishanoi.org/admissions/tuition-fees",
-        "https://www.unishanoi.org/admissions/frequently-asked-questions"
+        "https://www.unishanoi.org/admissions/frequently-asked-questions",
+        "https://www.dwight.edu/schools/hanoi",
+        "https://www.westlink.edu.vn/",
+        "https://isph.edu.vn/",
+        "https://truenorth.edu.vn/en/our-school",
+        "https://reigategrammar.edu.vn/",
+        "https://www.ibo.org/en/school/049483",
+        "https://www.fairmontschools.edu.vn/landing/fisv",
+        "https://ciputra.sis.edu.vn/",
+        "https://vanphuc.sis.edu.vn/",
+        "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+        "https://sis.edu.vn/"
       ],
-      "last_run_date": "2026-07-27",
+      "last_run_date": "2026-08-10",
       "unresolved_conflicts": [
         {
           "school_id": "school:vn:lycee-francais-alexandre-yersin-hanoi",
@@ -130,7 +213,7 @@
       ],
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
-      "next_action": "Begin Ho Chi Minh City; keep Hanoi thin records plus LFAY and UNIS conflicts in the manual verification queue."
+      "next_action": "Verify the nine new Hanoi profiles' accreditation, fee, language-of-instruction, and website fields; resolve Fairmont's former-name continuity without creating a duplicate."
     },
     {
       "country": "Vietnam",

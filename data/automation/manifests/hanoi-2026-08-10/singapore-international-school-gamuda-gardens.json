@@ -1,0 +1,15 @@
+{
+  "id": "vn-hanoi-singapore-international-school-gamuda-gardens",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/singapore-international-school-gamuda-gardens/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/singapore-international-school-gamuda-gardens.json",
+  "claims": [
+    { "path": "name", "value": "Singapore International School @ Gamuda Gardens", "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/", "retrieved_date": "2026-08-10", "evidence": "Singapore International School @ Gamuda Gardens" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/", "retrieved_date": "2026-08-10", "evidence": "situated in the district of Hoang Mai on the western side of Hanoi" },
+    { "path": "location.address", "value": "Gamuda Gardens 2 Road, Gamuda Gardens New Urban Area, Hoang Mai Ward, Ha Noi", "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/", "retrieved_date": "2026-08-10", "evidence": "Gamuda Gardens 2 Road, Gamuda Gardens New Urban Area, Hoang Mai Ward, Ha Noi" },
+    { "path": "curricula[0]", "value": "Cambridge", "source_url": "https://sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Home of Cambridge Top In The World Award-Winning Students" },
+    { "path": "year_groups[0]", "value": "Pre-Nursery to Year 12", "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/", "retrieved_date": "2026-08-10", "evidence": "designed to cater to students from Pre-Nursery to Year 12" },
+    { "path": "contact.phone", "value": "+8424 7304 1777", "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/", "retrieved_date": "2026-08-10", "evidence": "+8424 7304 1777" },
+    { "path": "contact.email", "value": "enquiry@gamudagardens.sis.edu.vn", "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/", "retrieved_date": "2026-08-10", "evidence": "enquiry@gamudagardens.sis.edu.vn" }
+  ]
+}

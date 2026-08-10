@@ -80,7 +80,7 @@ export default async function SchoolPage({
 
   return (
     <main>
-      {verification.hasStrictRecord && (
+      {verification.indexable && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       )}
       <section className="school-hero">
@@ -88,16 +88,15 @@ export default async function SchoolPage({
           <div className="breadcrumbs"><Link href="/">World</Link><span>/</span><Link href={`/countries/${school.countrySlug}`}>{school.country}</Link><span>/</span><Link href={`/cities/${school.citySlug}`}>{school.city}</Link></div>
           <div className="school-title-grid">
             <div>
-              <span className="eyebrow light">Provisional school profile</span>
+              <span className="eyebrow light">School profile</span>
               <h1>{school.name}</h1>
               <p>
-                {school.city}, {school.country}. Published from an official school source;
-                field-level evidence review is in progress.
+                {school.city}, {school.country}. Facts shown below are linked to official sources.
               </p>
             </div>
             <div className="record-seal">
-              <span>{verification.hasStrictRecord ? `${verification.completenessScore}/12` : school.countryCode}</span>
-              <strong>{verification.hasStrictRecord ? "Evidence review" : "Provisional profile"}</strong>
+              <span>{school.countryCode}</span>
+              <strong>{verification.hasStrictRecord ? "Official sources checked" : "Official source linked"}</strong>
               <small>
                 {verification.lastVerified
                   ? `Evidence checked ${formatVerifiedDate(verification.lastVerified)}`
@@ -132,7 +131,7 @@ export default async function SchoolPage({
                 <div className="accreditation-list">{accreditation.map((item) => <span key={item}>{item}</span>)}</div>
               </>
             ) : (
-              <p className="muted">No external accreditation has yet been recorded in this seed entry.</p>
+              <p className="muted">No external accreditation is shown in the cited sources for this profile.</p>
             )}
           </div>
           <div className="record-section parent-perspectives" id="parent-perspectives">

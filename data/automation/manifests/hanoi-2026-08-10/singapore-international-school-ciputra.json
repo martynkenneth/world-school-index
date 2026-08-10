@@ -1,0 +1,16 @@
+{
+  "id": "vn-hanoi-singapore-international-school-ciputra",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/singapore-international-school-ciputra/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/singapore-international-school-ciputra.json",
+  "claims": [
+    { "path": "name", "value": "Singapore International School @ Ciputra", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Singapore International School @ Ciputra" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Discover how our Premier International School in Hanoi" },
+    { "path": "location.address", "value": "Block C3 (NT III B) Ciputra Hanoi International City, Phu Thuong Ward, Ha Noi", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Block C3 (NT III B) Ciputra Hanoi International City, Phu Thuong Ward, Ha Noi" },
+    { "path": "curricula[0]", "value": "Cambridge", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Global Curriculum partnering the best of Cambridge and Singapore curricular" },
+    { "path": "curricula[1]", "value": "Singapore", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "Global Curriculum partnering the best of Cambridge and Singapore curricular" },
+    { "path": "year_groups[0]", "value": "kindergarten to high school", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "for kindergarten to high school students" },
+    { "path": "contact.phone", "value": "+ 84 24 7304 3777", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "+ 84 24 7304 3777" },
+    { "path": "contact.email", "value": "enquiry@ciputra.sis.edu.vn", "source_url": "https://ciputra.sis.edu.vn/", "retrieved_date": "2026-08-10", "evidence": "enquiry@ciputra.sis.edu.vn" }
+  ]
+}

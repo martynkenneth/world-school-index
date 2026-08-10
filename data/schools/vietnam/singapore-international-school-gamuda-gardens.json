@@ -1,0 +1,144 @@
+{
+  "id": "vn-hanoi-singapore-international-school-gamuda-gardens",
+  "name": "Singapore International School @ Gamuda Gardens",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": null,
+    "city": "Hanoi",
+    "district": null,
+    "address": "Gamuda Gardens 2 Road, Gamuda Gardens New Urban Area, Hoang Mai Ward, Ha Noi",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Cambridge"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "Pre-Nursery to Year 12"
+  ],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+8424 7304 1777",
+    "email": "enquiry@gamudagardens.sis.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Singapore International School @ Gamuda Gardens",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "situated in the district of Hoang Mai on the western side of Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Gamuda Gardens 2 Road, Gamuda Gardens New Urban Area, Hoang Mai Ward, Ha Noi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Home of Cambridge Top In The World Award-Winning Students",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "designed to cater to students from Pre-Nursery to Year 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "+8424 7304 1777",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://gamudagardens.sis.edu.vn/who-we-are/our-campus/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "enquiry@gamudagardens.sis.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-08-10"
+}

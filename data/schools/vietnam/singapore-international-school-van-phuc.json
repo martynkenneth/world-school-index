@@ -1,0 +1,153 @@
+{
+  "id": "vn-hanoi-singapore-international-school-van-phuc",
+  "name": "Singapore International School @ Van Phuc",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": null,
+    "city": "Hanoi",
+    "district": null,
+    "address": "2D Van Phuc Diplomatic Compound, 46 Van Bao, Ngoc Ha Ward, Ha Noi",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Cambridge",
+    "Singapore"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "kindergarten to high school"
+  ],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "+84 24 7304 2777",
+    "email": "enquiry@vanphuc.sis.edu.vn"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Singapore International School @ Van Phuc",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Discover how our Premier International School in Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "2D Van Phuc Diplomatic Compound, 46 Van Bao, Ngoc Ha Ward, Ha Noi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Global Curriculum partnering the best of Cambridge and Singapore curricular",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Global Curriculum partnering the best of Cambridge and Singapore curricular",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "for kindergarten to high school students",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "+84 24 7304 2777",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://vanphuc.sis.edu.vn/",
+      "retrieved_date": "2026-08-10",
+      "evidence": "enquiry@vanphuc.sis.edu.vn",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-08-10"
+}

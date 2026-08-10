@@ -1,0 +1,147 @@
+{
+  "id": "vn-hanoi-fairmont-international-school-vietnam",
+  "name": "Fairmont International School Vietnam",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "U.S. Common Core"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "PreK to Grade 12"
+  ],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [
+      "English",
+      "Vietnamese"
+    ],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Fairmont International School Vietnam A PreK to Grade 12 international school in Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "Fairmont International School Vietnam",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "A PreK to Grade 12 international school in Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "U.S. Common Core–aligned curriculum Our academic framework follows the U.S. Common Core",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "A PreK to Grade 12 international school in Hanoi",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.offered[0]": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "programs that build English and Vietnamese language skills",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.offered[1]": {
+      "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+      "retrieved_date": "2026-08-10",
+      "evidence": "programs that build English and Vietnamese language skills",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 3,
+  "indexable": false,
+  "last_verified": "2026-08-10"
+}

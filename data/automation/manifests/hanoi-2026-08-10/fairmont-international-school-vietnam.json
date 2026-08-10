@@ -1,0 +1,15 @@
+{
+  "id": "vn-hanoi-fairmont-international-school-vietnam",
+  "status": "active",
+  "fetch_log": "data/raw/vietnam/fairmont-international-school-vietnam/2026-08-10.fetch.json",
+  "output": "data/schools/vietnam/fairmont-international-school-vietnam.json",
+  "claims": [
+    { "path": "name", "value": "Fairmont International School Vietnam", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "Fairmont International School Vietnam A PreK to Grade 12 international school in Hanoi" },
+    { "path": "location.country", "value": "Vietnam", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "Fairmont International School Vietnam" },
+    { "path": "location.city", "value": "Hanoi", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "A PreK to Grade 12 international school in Hanoi" },
+    { "path": "curricula[0]", "value": "U.S. Common Core", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "U.S. Common Core–aligned curriculum Our academic framework follows the U.S. Common Core" },
+    { "path": "year_groups[0]", "value": "PreK to Grade 12", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "A PreK to Grade 12 international school in Hanoi" },
+    { "path": "languages.offered[0]", "value": "English", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "programs that build English and Vietnamese language skills" },
+    { "path": "languages.offered[1]", "value": "Vietnamese", "source_url": "https://www.fairmontschools.edu.vn/landing/fisv", "retrieved_date": "2026-08-10", "evidence": "programs that build English and Vietnamese language skills" }
+  ]
+}
