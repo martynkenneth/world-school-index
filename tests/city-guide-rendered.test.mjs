@@ -64,6 +64,32 @@ test("links the Ho Chi Minh City hub back to its orientation guide", async () =>
   assert.match(html, /href="\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\/"/);
 });
 
+test("publishes the source-checked Da Nang orientation guide", async () => {
+  const response = await render("/guides/vietnam/da-nang/living-in-the-city-orientation");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /<title>Living in Da Nang with children/);
+  assert.match(html, /rel="canonical" href="http:\/\/localhost(?::3001)?\/guides\/vietnam\/da-nang\/living-in-the-city-orientation\/"/);
+  assert.match(html, /What should a family know before living in Da Nang\?/);
+  assert.match(html, /For families comparing schools/);
+  assert.match(html, /Sources checked[\s\S]*Aug 16, 2026/);
+  assert.match(html, /Da Nang Tourism Promotion Center/);
+  assert.match(html, /"@type":"Article"/);
+  assert.match(html, /"mainEntityOfPage":"https:\/\/worldschoolindex\.com\/guides\/vietnam\/da-nang\/living-in-the-city-orientation\/"/);
+  assert.match(html, /"@type":"BreadcrumbList"/);
+  assert.doesNotMatch(html, /"@type":"FAQPage"/);
+});
+
+test("links the Da Nang city hub back to its orientation guide", async () => {
+  const response = await render("/cities/da-nang");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Living in Da Nang with children/);
+  assert.match(html, /href="\/guides\/vietnam\/da-nang\/living-in-the-city-orientation\/"/);
+});
+
 test("includes the guide in the sitemap without exposing below-gate schools", async () => {
   const response = await render("/sitemap.xml");
   const xml = await response.text();
@@ -72,6 +98,8 @@ test("includes the guide in the sitemap without exposing below-gate schools", as
   assert.match(response.headers.get("content-type") ?? "", /xml/i);
   assert.match(xml, /guides\/vietnam\/hanoi\/culture-and-etiquette\//);
   assert.match(xml, /guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\//);
+  assert.match(xml, /guides\/vietnam\/da-nang\/living-in-the-city-orientation\//);
   assert.match(xml, /https:\/\/worldschoolindex\.com\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\//);
+  assert.match(xml, /https:\/\/worldschoolindex\.com\/guides\/vietnam\/da-nang\/living-in-the-city-orientation\//);
   assert.doesNotMatch(xml, /schools\/united-nations-international-school-hanoi/);
 });

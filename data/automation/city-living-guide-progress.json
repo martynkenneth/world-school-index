@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-16",
   "topic_rotation": [
     "living-in-the-city-orientation",
     "culture-and-etiquette",
@@ -66,9 +66,24 @@
       "country": "Vietnam",
       "city": "Da Nang",
       "city_slug": "da-nang",
-      "completed_articles": [],
+      "completed_articles": [
+        {
+          "topic": "living-in-the-city-orientation",
+          "title": "Living in Da Nang with children: a practical orientation",
+          "url": "/guides/vietnam/da-nang/living-in-the-city-orientation/",
+          "published_date": "2026-08-16",
+          "checked_date": "2026-08-16",
+          "recheck_date": "2026-11-16",
+          "official_sources": [
+            "https://baochinhphu.vn/le-cong-bo-nghi-quyet-thanh-lap-tp-da-nang-chi-dinh-nhan-su-chu-chot-10225063011010517.htm",
+            "https://danangfantasticity.com/en/da-nang-weather-and-seasonal-experiences",
+            "https://vietan.danang.gov.vn/chuyen-doi-so/da-nang-trien-khai-kenh-zalo-tong-dai-1022-tang-cuong-tuong-tac-giua-chinh-quyen-va-nguoi-dan-333320"
+          ],
+          "unresolved_questions": []
+        }
+      ],
       "unresolved_questions": [],
-      "next_recommended_topic": "living-in-the-city-orientation"
+      "next_recommended_topic": "culture-and-etiquette"
     },
     {
       "country": "Thailand",

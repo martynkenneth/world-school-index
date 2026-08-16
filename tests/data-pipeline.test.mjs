@@ -119,7 +119,7 @@ test("keeps the Hanoi worked example below the index gate when official sources 
 
 test("validates the city-guide ledger, citations, and evidence limits", async () => {
   const result = await validateCityGuideData();
-  assert.deepEqual(result, { guideCount: 2, sourceCount: 9 });
+  assert.deepEqual(result, { guideCount: 3, sourceCount: 12 });
 });
 
 test("rejects missing guide citations and evidence over 25 words", async () => {

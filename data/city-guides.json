@@ -511,5 +511,333 @@
         ]
       }
     ]
+  },
+  {
+    "schema_version": "1.0",
+    "id": "vn-da-nang-living-in-the-city-orientation",
+    "country": "Vietnam",
+    "country_slug": "vietnam",
+    "city": "Da Nang",
+    "city_slug": "da-nang",
+    "topic": "living-in-the-city-orientation",
+    "title": "Living in Da Nang with children: a practical orientation",
+    "description": "A source-checked family orientation to Da Nang's current footprint, address checks, school-day planning, seasonal weather, and city-service channels.",
+    "canonical_path": "/guides/vietnam/da-nang/living-in-the-city-orientation/",
+    "published_date": "2026-08-16",
+    "checked_date": "2026-08-16",
+    "recheck_date": "2026-11-16",
+    "sitemap": {
+      "include": true,
+      "change_frequency": "monthly",
+      "priority": 0.7
+    },
+    "direct_answer": {
+      "text": "Start with the exact school campus and its current ward or commune, then test the complete weekday routine from any home you are considering. The Da Nang name now covers the former Da Nang and Quang Nam, while current official tourism guidance places the dry season around March to August and the rainy season around September to December.",
+      "source_ids": [
+        "da-nang-reorganisation",
+        "da-nang-seasonal-weather"
+      ]
+    },
+    "key_facts": [
+      {
+        "label": "Current city footprint",
+        "answer": "The new Da Nang combines the former Da Nang and Quang Nam and covers 11,859.59 square kilometres.",
+        "source_ids": [
+          "da-nang-reorganisation"
+        ]
+      },
+      {
+        "label": "Current local units",
+        "answer": "The official 2025 arrangement has 94 ward-level units: 23 wards, 70 communes, and the Hoang Sa special zone.",
+        "source_ids": [
+          "da-nang-reorganisation"
+        ]
+      },
+      {
+        "label": "Dry-season baseline",
+        "answer": "The municipal tourism portal describes the dry season as running from around March to August.",
+        "source_ids": [
+          "da-nang-seasonal-weather"
+        ]
+      },
+      {
+        "label": "Rainy-season baseline",
+        "answer": "The same official guidance places the rainy season approximately from September to December.",
+        "source_ids": [
+          "da-nang-seasonal-weather"
+        ]
+      },
+      {
+        "label": "City reports and information",
+        "answer": "Da Nang's official 1022 Zalo channel accepts reports and lets users track their handling.",
+        "source_ids": [
+          "da-nang-1022-zalo"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "understand-the-current-city-label",
+        "heading": "Understand what the current city label covers",
+        "paragraphs": [
+          {
+            "text": "In June 2025, the former Da Nang and Quang Nam were reorganised into a new city named Da Nang. The official announcement records a total area of 11,859.59 square kilometres and a population of 3,065,628 at the time of the arrangement.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "That larger administrative label is not a useful proxy for a daily journey. When comparing schools or homes, work from the specific campus, current local unit, street address, and map pin rather than assuming that two Da Nang addresses are close.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "text": "Ask each school which exact campus would serve your child's year group in the coming academic year.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Use the current address and a confirmed map pin; retain an older district or province name only as a secondary search clue.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Do not infer proximity from the shared city name, especially when comparing places that were previously in different provincial-level administrations.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "verify-current-addresses",
+        "heading": "Verify the current ward or commune on every shortlist",
+        "paragraphs": [
+          {
+            "text": "The reorganisation created 94 local units: 23 wards, 70 communes, and one special zone. Schools, landlords, maps, and older documents may show names from different administrative periods, so confirm the current ward or commune directly before signing or submitting forms.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Keep the address exactly as supplied by the responsible school, landlord, or public office. If two versions conflict, ask the issuer which one belongs on the document instead of combining old and new address elements yourself.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "text": "Save the address in Vietnamese as well as any translated version provided to you.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Confirm which ward or commune is responsible when a local administrative task requires an office visit.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Recheck address details when renewing a lease, changing campuses, or completing a new official form.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "map-the-complete-school-day",
+        "heading": "Map the complete school day before choosing a home",
+        "paragraphs": [
+          {
+            "text": "The official city area is broad enough that a city-only comparison hides the route that matters. Put the precise campus, each possible home, caregivers' workplaces, and one routine errand on the same map before shortlisting an area.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Test the journey in both directions at the times your family would travel, and record the route and date. Repeat the check for every campus or collection point rather than reusing one generic travel-time estimate.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "text": "Ask where a school bus actually stops and whether that stop is confirmed for the coming term.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Check how the plan changes if siblings attend different campuses or finish at different times.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          },
+          {
+            "text": "Keep a collection backup that does not depend on one adult, one vehicle, or one route.",
+            "source_ids": [
+              "da-nang-reorganisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "plan-for-seasonal-weather",
+        "heading": "Plan school routines around seasonal weather",
+        "paragraphs": [
+          {
+            "text": "Da Nang's municipal tourism portal describes the dry season as running from around March to August and the rainy season approximately from September to December. It also recommends carrying a compact umbrella or lightweight raincoat during the rainy season.",
+            "source_ids": [
+              "da-nang-seasonal-weather"
+            ]
+          },
+          {
+            "text": "Use those months as a planning baseline, not a daily forecast. When visiting homes and schools, check sheltered arrival, storage for wet items, drinking-water access, shaded waiting areas, and the backup procedure for outdoor activities.",
+            "source_ids": [
+              "da-nang-seasonal-weather"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "text": "Keep compact rain protection with the school items used during the wetter months.",
+            "source_ids": [
+              "da-nang-seasonal-weather"
+            ]
+          },
+          {
+            "text": "Check a current official forecast before school events instead of treating a seasonal range as a day-specific prediction.",
+            "source_ids": [
+              "da-nang-seasonal-weather"
+            ]
+          },
+          {
+            "text": "Ask how pickup, buses, and outdoor activities change when rain affects the normal plan.",
+            "source_ids": [
+              "da-nang-seasonal-weather"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "save-the-official-1022-channel",
+        "heading": "Save the official 1022 city channel",
+        "paragraphs": [
+          {
+            "text": "Da Nang describes the Zalo account named 'Tổng đài 1022 Đà Nẵng' as an official information channel. It accepts reports and suggestions about fields including urban infrastructure and the environment, and lets people track how a report is handled.",
+            "source_ids": [
+              "da-nang-1022-zalo"
+            ]
+          },
+          {
+            "text": "Follow the official account after arrival and use the linked municipal page to verify it. Treat the channel as a city information and reporting service, not as a replacement for the police, fire, ambulance, building, or school emergency procedures your family separately confirms.",
+            "source_ids": [
+              "da-nang-1022-zalo"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "text": "Record the exact location and a clear description before submitting a city report when it is safe to do so.",
+            "source_ids": [
+              "da-nang-1022-zalo"
+            ]
+          },
+          {
+            "text": "Ask the school or building manager which contact should be used first for a problem on private property.",
+            "source_ids": [
+              "da-nang-1022-zalo"
+            ]
+          },
+          {
+            "text": "Reconfirm the official account and available functions if the city updates its digital-service channels.",
+            "source_ids": [
+              "da-nang-1022-zalo"
+            ]
+          }
+        ]
+      }
+    ],
+    "family_section": {
+      "heading": "For families comparing schools",
+      "paragraphs": [
+        "Compare the whole weekday system, not only a school profile. The exact campus, current address, realistic route, weather plan, and collection backup can materially change whether a school works for your family.",
+        "Keep location questions separate from academic comparisons. A school may suit your curriculum priorities while its campus or confirmed transport plan is impractical for the homes you are considering."
+      ],
+      "checklist": [
+        "Which exact campus would each child attend in the coming academic year?",
+        "What is that campus's current ward or commune, street address, and official location pin?",
+        "Which bus stops and routes are confirmed for the next term, and when can they change?",
+        "How do arrival, dismissal, and outdoor activities change during sustained rain or hot weather?",
+        "Who may collect a child when the usual transport plan fails?"
+      ]
+    },
+    "internal_links": [
+      {
+        "label": "Da Nang school hub",
+        "href": "/cities/da-nang",
+        "purpose": "city-hub"
+      },
+      {
+        "label": "Vietnam country hub",
+        "href": "/countries/vietnam",
+        "purpose": "country-hub"
+      },
+      {
+        "label": "Browse Vietnam school records",
+        "href": "/countries/vietnam#directory-heading",
+        "purpose": "school-directory"
+      }
+    ],
+    "sources": [
+      {
+        "id": "da-nang-reorganisation",
+        "publisher": "Government News",
+        "title": "Announcement establishing the new Da Nang and its local units",
+        "url": "https://baochinhphu.vn/le-cong-bo-nghi-quyet-thanh-lap-tp-da-nang-chi-dinh-nhan-su-chu-chot-10225063011010517.htm",
+        "source_type": "national-government",
+        "retrieved_date": "2026-08-16",
+        "evidence": [
+          "TP. Đà Nẵng và tỉnh Quảng Nam thành thành phố mới có tên gọi là TP. Đà Nẵng.",
+          "Sau khi sắp xếp, TP. Đà Nẵng có diện tích tự nhiên 11.859,59km2, quy mô dân số 3.065.628 người",
+          "với 94 đơn vị hành chính cấp xã, gồm 23 phường, 70 xã và 1 đặc khu Hoàng Sa."
+        ]
+      },
+      {
+        "id": "da-nang-seasonal-weather",
+        "publisher": "Da Nang Tourism Promotion Center",
+        "title": "Da Nang weather and seasonal experiences",
+        "url": "https://danangfantasticity.com/en/da-nang-weather-and-seasonal-experiences",
+        "source_type": "municipal-government",
+        "retrieved_date": "2026-08-16",
+        "evidence": [
+          "From around March to August, Da Nang enters its dry season",
+          "From approximately September to December, Da Nang enters its rainy season.",
+          "Always carry a compact umbrella or lightweight raincoat when traveling in Central Vietnam during the rainy season."
+        ]
+      },
+      {
+        "id": "da-nang-1022-zalo",
+        "publisher": "Viet An Commune People's Committee, Da Nang",
+        "title": "Da Nang launches the official 1022 Zalo channel",
+        "url": "https://vietan.danang.gov.vn/chuyen-doi-so/da-nang-trien-khai-kenh-zalo-tong-dai-1022-tang-cuong-tuong-tac-giua-chinh-quyen-va-nguoi-dan-333320",
+        "source_type": "municipal-government",
+        "retrieved_date": "2026-08-16",
+        "evidence": [
+          "Kênh OA Zalo “Tổng đài 1022 Đà Nẵng” là kênh thông tin chính thức",
+          "cho phép người dân gửi phản ánh, kiến nghị liên quan đến các lĩnh vực như hạ tầng đô thị, môi trường",
+          "người dân có thể tra cứu thông tin, theo dõi tiến độ xử lý phản ánh"
+        ]
+      }
+    ]
   }
 ]
