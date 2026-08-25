@@ -195,6 +195,21 @@ test("surfaces the source-backed Ho Chi Minh City fee answer on the existing cit
   assert.doesNotMatch(html, /Evidence capture pending/i);
 });
 
+test("surfaces the source-backed Bangkok fee answer on the existing city hub", async () => {
+  const response = await render("/cities/bangkok");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Which listed Bangkok school publishes 2026–27 fees\?/);
+  assert.match(html, /listed profiles has a verified 2026–27 annual tuition schedule/);
+  assert.match(html, /384,800[\s\S]*Pre-Nursery[\s\S]*771,200[\s\S]*Year 13/);
+  assert.match(html, /Official 2026–27 fee schedule/);
+  assert.match(html, /Checked[\s\S]*Aug 25, 2026/);
+  assert.match(html, /href="\/schools\/bangkok-international-preparatory-secondary-school"/);
+  assert.match(html, /listed profiles, not every school in Bangkok/);
+  assert.doesNotMatch(html, /Evidence capture pending/i);
+});
+
 test("surfaces the source-backed Da Nang programme answer on the existing city hub", async () => {
   const response = await render("/cities/da-nang");
   const html = await response.text();

@@ -34,6 +34,7 @@ import sisDaNang from "./schools/vietnam/singapore-international-school-da-nang.
 import skyLineDaNang from "./schools/vietnam/sky-line-school-da-nang.json";
 import stNicholasDaNang from "./schools/vietnam/st-nicholas-school-da-nang.json";
 import ukAcademyDaNang from "./schools/vietnam/uk-academy-da-nang.json";
+import bangkokPrep from "./schools/thailand/bangkok-international-preparatory-secondary-school.json";
 import denlaBritishSchool from "./schools/thailand/denla-british-school.json";
 import hamptonChaengwattana from "./schools/thailand/hampton-international-school-chaengwattana.json";
 import internationalChristianSchoolNonthaburi from "./schools/thailand/international-christian-school-nonthaburi.json";
@@ -109,6 +110,7 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "sky-line-school-da-nang": skyLineDaNang as StrictSchoolRecord,
   "st-nicholas-school-da-nang": stNicholasDaNang as StrictSchoolRecord,
   "uk-academy-da-nang": ukAcademyDaNang as StrictSchoolRecord,
+  "bangkok-international-preparatory-secondary-school": bangkokPrep as StrictSchoolRecord,
   "denla-british-school": denlaBritishSchool as StrictSchoolRecord,
   "hampton-international-school-chaengwattana": hamptonChaengwattana as StrictSchoolRecord,
   "international-christian-school-nonthaburi": internationalChristianSchoolNonthaburi as StrictSchoolRecord,

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-25",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -163,12 +163,25 @@
       "country": "Thailand",
       "city": "Bangkok",
       "city_slug": "bangkok",
-      "last_enrichment_date": null,
-      "topics_attempted": [],
-      "sources_checked": [],
-      "published_changes": [],
-      "unresolved_questions": [],
-      "next_recommended_topic": "Current admissions deadlines or open days from an official school source."
+      "last_enrichment_date": "2026-08-25",
+      "topics_attempted": [
+        "current fee publication"
+      ],
+      "sources_checked": [
+        {
+          "url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+          "retrieved_date": "2026-08-25",
+          "result": "Official HTML published the 2026–27 annual tuition schedule, THB currency, ten tuition bands, and two payment discounts."
+        }
+      ],
+      "published_changes": [
+        "Added ten 2026–27 Bangkok Prep annual tuition bands, THB currency, academic year, annual fee basis, and official payment discounts to the strict school record.",
+        "Added a question-led Bangkok city-hub answer with listed-profile scope, official citation, visible retrieval date, and internal school link."
+      ],
+      "unresolved_questions": [
+        "The official page prints both period and annual amounts; the strict tuition rows preserve only the explicitly labelled annual fees and record fee_basis as year."
+      ],
+      "next_recommended_topic": "Current admissions deadline or dated open day from an official Bangkok school source."
     },
     {
       "country": "Thailand",

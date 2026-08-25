@@ -1,0 +1,8 @@
+{"date":"2026-08-25","field":"fees.published","old_value":false,"new_value":true}
+{"date":"2026-08-25","field":"fees.currency","old_value":null,"new_value":"THB"}
+{"date":"2026-08-25","field":"fees.academic_year","old_value":null,"new_value":"2026 – 27"}
+{"date":"2026-08-25","field":"fees.fee_basis","old_value":null,"new_value":"year"}
+{"date":"2026-08-25","field":"fees.by_year_group","old_value":[],"new_value":[{"label":"Pre-Nursery","tuition":"384,800"},{"label":"Nursery","tuition":"595,600"},{"label":"Reception","tuition":"629,800"},{"label":"Year 1 - 2","tuition":"706,400"},{"label":"Year 3 - 4","tuition":"733,100"},{"label":"Year 5 - 6","tuition":"749,500"},{"label":"Year 7 - 9","tuition":"790,800"},{"label":"Year 10 - 11","tuition":"846,500"},{"label":"Year 12","tuition":"862,200"},{"label":"Year 13","tuition":"771,200"}]}
+{"date":"2026-08-25","field":"fees.sibling_discount","old_value":null,"new_value":"5%"}
+{"date":"2026-08-25","field":"fees.early_payment_discount","old_value":null,"new_value":"2% discount on Period 2 fees"}
+{"date":"2026-08-25","field":"completeness_score","old_value":4,"new_value":5}

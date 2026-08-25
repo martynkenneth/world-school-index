@@ -35,7 +35,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
         });
       })
     : [];
-  const feePublications = city === "ho-chi-minh-city"
+  const feePublications = ["ho-chi-minh-city", "bangkok"].includes(city)
     ? citySchools.flatMap((school) => {
         const record = getStrictRecord(school.slug);
         const academicYearProvenance = record?.provenance["fees.academic_year"];
@@ -108,7 +108,7 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
             </small>
           </aside>
         )}
-        {currentFeePublication && (
+        {currentFeePublication && city === "ho-chi-minh-city" && (
           <aside className="city-answer" aria-labelledby="hcmc-fees-answer">
             <span className="eyebrow">Fees update</span>
             <h2 id="hcmc-fees-answer">Which listed Ho Chi Minh City school publishes 2026–27 fees?</h2>
@@ -127,6 +127,28 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
             </div>
             <small>
               This count covers listed profiles, not every school in Ho Chi Minh City. Confirm fees and payment terms directly with the school.
+            </small>
+          </aside>
+        )}
+        {currentFeePublication && city === "bangkok" && (
+          <aside className="city-answer" aria-labelledby="bangkok-fees-answer">
+            <span className="eyebrow">Fees update</span>
+            <h2 id="bangkok-fees-answer">Which listed Bangkok school publishes 2026–27 fees?</h2>
+            <p>
+              <strong>One of the {citySchools.length} listed profiles has a verified 2026–27 annual tuition schedule.</strong>{" "}
+              <Link href={`/schools/${currentFeePublication.school.slug}`}>{currentFeePublication.school.name}</Link>{" "}
+              lists {currentFeePublication.fees.by_year_group.length} annual tuition bands in {currentFeePublication.fees.currency},
+              from {currentFeePublication.fees.by_year_group[0].tuition} for {currentFeePublication.fees.by_year_group[0].label}
+              {" "}to {currentFeePublication.fees.by_year_group.at(-1)?.tuition} for {currentFeePublication.fees.by_year_group.at(-1)?.label}.
+            </p>
+            <div className="city-answer-links">
+              <a href={currentFeePublication.provenance.source_url} target="_blank" rel="noreferrer">
+                Official 2026–27 fee schedule ↗
+              </a>
+              <span>Checked {formatVerifiedDate(currentFeePublication.provenance.retrieved_date)}</span>
+            </div>
+            <small>
+              This count covers listed profiles, not every school in Bangkok. Confirm fees and payment terms directly with the school.
             </small>
           </aside>
         )}

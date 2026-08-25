@@ -23,11 +23,52 @@
   "year_groups": [],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "published": true,
+    "currency": "THB",
+    "academic_year": "2026 – 27",
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "label": "Pre-Nursery",
+        "tuition": "384,800"
+      },
+      {
+        "label": "Nursery",
+        "tuition": "595,600"
+      },
+      {
+        "label": "Reception",
+        "tuition": "629,800"
+      },
+      {
+        "label": "Year 1 - 2",
+        "tuition": "706,400"
+      },
+      {
+        "label": "Year 3 - 4",
+        "tuition": "733,100"
+      },
+      {
+        "label": "Year 5 - 6",
+        "tuition": "749,500"
+      },
+      {
+        "label": "Year 7 - 9",
+        "tuition": "790,800"
+      },
+      {
+        "label": "Year 10 - 11",
+        "tuition": "846,500"
+      },
+      {
+        "label": "Year 12",
+        "tuition": "862,200"
+      },
+      {
+        "label": "Year 13",
+        "tuition": "771,200"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -36,8 +77,8 @@
       "lunch": null,
       "uniform": null
     },
-    "sibling_discount": null,
-    "early_payment_discount": null
+    "sibling_discount": "5%",
+    "early_payment_discount": "2% discount on Period 2 fees"
   },
   "enrolment": {
     "total": null,
@@ -119,6 +160,206 @@
       "conflict": false,
       "candidates": []
     },
+    "fees.currency": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Annual fee (Aug 2026 - Jun 2027) Full day 192,400 THB 384,800 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Tuition fees for 2026 – 27",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "contact the Finance Office for a full year invoice with the discount already included",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Pre-Nursery Attendance type Full day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Full day 192,400 THB 384,800 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Nursery 297,800 THB 595,600 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Nursery 297,800 THB 595,600 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Reception 314,900 THB 629,800 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Reception 314,900 THB 629,800 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 1 - 2 353,200 THB 706,400 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 1 - 2 353,200 THB 706,400 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 3 - 4 366,550 THB 733,100 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 3 - 4 366,550 THB 733,100 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 5 - 6 374,750 THB 749,500 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 5 - 6 374,750 THB 749,500 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 7 - 9 395,400 THB 790,800 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 7 - 9 395,400 THB 790,800 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 10 - 11 423,250 THB 846,500 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 10 - 11 423,250 THB 846,500 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 12 431,100 THB 862,200 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 12 431,100 THB 862,200 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 13 385,600 THB 771,200 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "Year 13 385,600 THB 771,200 THB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.sibling_discount": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "a 5% discount is applied to the school fees for the second and each additional younger child",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.early_payment_discount": {
+      "source_url": "https://www.bangkokprep.ac.th/admissions/tuition-fees",
+      "retrieved_date": "2026-08-25",
+      "evidence": "pay the full annual school fees in advance enjoy a 2% discount on Period 2 fees",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
     "contact.phone": {
       "source_url": "https://www.bangkokprep.ac.th/",
       "retrieved_date": "2026-08-01",
@@ -136,7 +377,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-08-25"
 }
