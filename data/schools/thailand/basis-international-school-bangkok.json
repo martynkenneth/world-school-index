@@ -83,7 +83,7 @@
   "provenance": {
     "name": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "BASIS International School Bangkok",
       "method": "published",
       "conflict": false,
@@ -91,7 +91,7 @@
     },
     "location.country": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Our campus is conveniently located in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.city": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Our campus is conveniently located in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "curricula[0]": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "BASIS International School Bangkok offers an American K-12 curriculum from nursery through secondary",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "age_range.min": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "We welcome students from age 2 through 18",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "age_range.max": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "We welcome students from age 2 through 18",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "enrolment.nationalities_count": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "30+ Nationalities",
       "method": "published",
       "conflict": false,
@@ -139,7 +139,7 @@
     },
     "staffing.teacher_student_ratio": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "1:8 Teacher–Student Ratio",
       "method": "published",
       "conflict": false,
@@ -147,7 +147,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "English is the primary language of instruction.",
       "method": "published",
       "conflict": false,
@@ -155,7 +155,7 @@
     },
     "contact.phone": {
       "source_url": "https://basis.ac.th/welcome-to-basis/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "calling us directly at +66 (0)2 118-0427",
       "method": "published",
       "conflict": false,
@@ -164,5 +164,5 @@
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-09-17"
 }

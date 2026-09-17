@@ -93,7 +93,7 @@
   "provenance": {
     "name": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Sakura Olympia School System",
       "method": "published",
       "conflict": false,
@@ -101,7 +101,7 @@
     },
     "location.country": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "rooted in Vietnam’s traditional values",
       "method": "published",
       "conflict": false,
@@ -109,7 +109,7 @@
     },
     "location.city": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "63 Le Van Long Street, Hai Chau District, Da Nang City",
       "method": "published",
       "conflict": false,
@@ -117,7 +117,7 @@
     },
     "location.address": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "63 Le Van Long Street, Hai Chau District, Da Nang City",
       "method": "published",
       "conflict": false,
@@ -125,7 +125,7 @@
     },
     "curricula[0]": {
       "source_url": "https://sakuraolympia.edu.vn/en/programme/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "CAMBRIDGE PRIMARY INTEGRATED PROGRAM",
       "method": "published",
       "conflict": false,
@@ -133,7 +133,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.sakuraolympia.edu.vn/en/news-events/news/educational-information-and-knowledge/understanding-popular-international-education-programs/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grades 9–10 (from the 2025–2026 school year): Enhanced Dual-Diploma Preparatory Program",
       "method": "published",
       "conflict": false,
@@ -141,7 +141,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Sakura Kindergarten is the place",
       "method": "published",
       "conflict": false,
@@ -149,7 +149,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Olympia Primary, Middle, and High School",
       "method": "published",
       "conflict": false,
@@ -157,7 +157,7 @@
     },
     "year_groups[2]": {
       "source_url": "https://www.sakuraolympia.edu.vn/en/news-events/news/educational-information-and-knowledge/understanding-popular-international-education-programs/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grades 9–10 (from the 2025–2026 school year): Enhanced Dual-Diploma Preparatory Program",
       "method": "published",
       "conflict": false,
@@ -165,7 +165,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://sakuraolympia.edu.vn/en/news-events/achievements/olympia-school-officially-recognized-as-a-cambridge-international-school/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "officially recognized as a member of the Cambridge International School System",
       "method": "published",
       "conflict": false,
@@ -173,7 +173,7 @@
     },
     "accreditations[0].status": {
       "source_url": "https://sakuraolympia.edu.vn/en/news-events/achievements/olympia-school-officially-recognized-as-a-cambridge-international-school/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "officially recognized as a member of the Cambridge International School System",
       "method": "published",
       "conflict": false,
@@ -181,7 +181,7 @@
     },
     "contact.phone": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Phone: 0979. 53.55.57 - 0905. 56.57.58",
       "method": "published",
       "conflict": false,
@@ -189,7 +189,7 @@
     },
     "contact.email": {
       "source_url": "https://sakuraolympia.edu.vn/en/about-us/general-introduction/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Email: tuyensinh@sakuraolympia.edu.vn",
       "method": "published",
       "conflict": false,
@@ -198,5 +198,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-08-09"
+  "last_verified": "2026-09-17"
 }

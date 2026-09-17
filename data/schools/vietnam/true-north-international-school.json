@@ -86,7 +86,7 @@
   "provenance": {
     "name": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "True North International School (TNIS) is an international school in Vietnam",
       "method": "published",
       "conflict": false,
@@ -94,7 +94,7 @@
     },
     "location.country": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "True North International School (TNIS) is an international school in Vietnam",
       "method": "published",
       "conflict": false,
@@ -102,7 +102,7 @@
     },
     "location.city": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Originating from Hanoi, the \"True North\" of Vietnam",
       "method": "published",
       "conflict": false,
@@ -110,7 +110,7 @@
     },
     "location.address": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "TH-03, Mo Lao, Ha Dong, Hanoi",
       "method": "published",
       "conflict": false,
@@ -118,7 +118,7 @@
     },
     "curricula[0]": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Common Core State Standards",
       "method": "published",
       "conflict": false,
@@ -126,7 +126,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Preschool (5 years old), Elementary, Middle School, and High School",
       "method": "published",
       "conflict": false,
@@ -134,7 +134,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Preschool (5 years old), Elementary, Middle School, and High School",
       "method": "published",
       "conflict": false,
@@ -142,7 +142,7 @@
     },
     "year_groups[2]": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Preschool (5 years old), Elementary, Middle School, and High School",
       "method": "published",
       "conflict": false,
@@ -150,7 +150,7 @@
     },
     "year_groups[3]": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Preschool (5 years old), Elementary, Middle School, and High School",
       "method": "published",
       "conflict": false,
@@ -158,7 +158,7 @@
     },
     "contact.phone": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "024 7304 3768",
       "method": "published",
       "conflict": false,
@@ -166,7 +166,7 @@
     },
     "contact.email": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "info@truenorth.edu.vn",
       "method": "published",
       "conflict": false,
@@ -175,5 +175,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-10"
+  "last_verified": "2026-09-17"
 }

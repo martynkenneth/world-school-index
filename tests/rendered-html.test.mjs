@@ -25,6 +25,19 @@ async function render(pathname = "/") {
   );
 }
 
+async function checkedLabel(country, slug) {
+  const record = JSON.parse(await readFile(
+    new URL(`../data/schools/${country}/${slug}.json`, import.meta.url),
+    "utf8",
+  ));
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(`${record.last_verified}T00:00:00Z`));
+}
+
 test("server-renders the global coverage roadmap", async () => {
   const response = await render();
   assert.equal(response.status, 200);
@@ -184,13 +197,14 @@ test("keeps new Hanoi profiles noindex and out of school schema until the eviden
 test("surfaces the source-backed Ho Chi Minh City fee answer on the existing city hub", async () => {
   const response = await render("/cities/ho-chi-minh-city");
   const html = await response.text();
+  const checked = await checkedLabel("vietnam", "saigon-south-international-school");
 
   assert.equal(response.status, 200);
   assert.match(html, /Which listed Ho Chi Minh City school publishes 2026–27 fees\?/);
   assert.match(html, /listed profiles has a verified 2026-2027 tuition schedule/);
   assert.match(html, /530,192,000[\s\S]*EC 3-4[\s\S]*924,546,000[\s\S]*Grade 11-12/);
   assert.match(html, /Official 2026-2027 fee schedule/);
-  assert.match(html, /Checked[\s\S]*Aug 5, 2026/);
+  assert.match(html, new RegExp(`Checked[\\s\\S]*${checked}`));
   assert.match(html, /href="\/schools\/saigon-south-international-school"/);
   assert.doesNotMatch(html, /Evidence capture pending/i);
 });
@@ -198,13 +212,14 @@ test("surfaces the source-backed Ho Chi Minh City fee answer on the existing cit
 test("surfaces the source-backed Bangkok fee answer on the existing city hub", async () => {
   const response = await render("/cities/bangkok");
   const html = await response.text();
+  const checked = await checkedLabel("thailand", "bangkok-international-preparatory-secondary-school");
 
   assert.equal(response.status, 200);
   assert.match(html, /Which listed Bangkok school publishes 2026–27 fees\?/);
   assert.match(html, /listed profiles has a verified 2026–27 annual tuition schedule/);
   assert.match(html, /384,800[\s\S]*Pre-Nursery[\s\S]*771,200[\s\S]*Year 13/);
   assert.match(html, /Official 2026–27 fee schedule/);
-  assert.match(html, /Checked[\s\S]*Aug 25, 2026/);
+  assert.match(html, new RegExp(`Checked[\\s\\S]*${checked}`));
   assert.match(html, /href="\/schools\/bangkok-international-preparatory-secondary-school"/);
   assert.match(html, /listed profiles, not every school in Bangkok/);
   assert.doesNotMatch(html, /Evidence capture pending/i);
@@ -213,13 +228,14 @@ test("surfaces the source-backed Bangkok fee answer on the existing city hub", a
 test("surfaces the source-backed Da Nang programme answer on the existing city hub", async () => {
   const response = await render("/cities/da-nang");
   const html = await response.text();
+  const checked = await checkedLabel("vietnam", "sakura-olympia-school-system");
 
   assert.equal(response.status, 200);
   assert.match(html, /What programme change is published for a listed Da Nang school\?/);
   assert.match(html, /Enhanced Dual-Diploma Preparatory Program/);
   assert.match(html, /Grades 9–10 \(from the 2025–2026 school year\)/);
   assert.match(html, /Official programme pathway/);
-  assert.match(html, /Checked[\s\S]*Aug 9, 2026/);
+  assert.match(html, new RegExp(`Checked[\\s\\S]*${checked}`));
   assert.match(html, /href="\/schools\/sakura-olympia-school-system"/);
   assert.match(html, /listed profiles, not every school in Da Nang/);
   assert.doesNotMatch(html, /Evidence capture pending/i);

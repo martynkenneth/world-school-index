@@ -84,7 +84,7 @@
   "provenance": {
     "name": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Singapore International School @ Ciputra",
       "method": "published",
       "conflict": false,
@@ -92,7 +92,7 @@
     },
     "location.city": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Discover how our Premier International School in Hanoi",
       "method": "published",
       "conflict": false,
@@ -100,7 +100,7 @@
     },
     "location.address": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Block C3 (NT III B) Ciputra Hanoi International City, Phu Thuong Ward, Ha Noi",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "curricula[0]": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Global Curriculum partnering the best of Cambridge and Singapore curricular",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "curricula[1]": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Global Curriculum partnering the best of Cambridge and Singapore curricular",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "for kindergarten to high school students",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "contact.phone": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "+ 84 24 7304 3777",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "contact.email": {
       "source_url": "https://ciputra.sis.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "enquiry@ciputra.sis.edu.vn",
       "method": "published",
       "conflict": false,
@@ -149,5 +149,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-10"
+  "last_verified": "2026-09-17"
 }

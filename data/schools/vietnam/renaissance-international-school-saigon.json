@@ -84,7 +84,7 @@
   "provenance": {
     "name": {
       "source_url": "https://renaissance.edu.vn/secondary-school/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Renaissance International School Saigon",
       "method": "published",
       "conflict": false,
@@ -92,7 +92,7 @@
     },
     "location.city": {
       "source_url": "https://renaissance.edu.vn/secondary-school/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "74 Nguyen Thi Thap, Tan Thuan Ward, HCMC",
       "method": "published",
       "conflict": false,
@@ -100,7 +100,7 @@
     },
     "location.address": {
       "source_url": "https://renaissance.edu.vn/secondary-school/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "74 Nguyen Thi Thap, Tan Thuan Ward, HCMC",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "curricula[0]": {
       "source_url": "https://renaissance.edu.vn/curriculum/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "The Primary Years Programme",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "curricula[1]": {
       "source_url": "https://renaissance.edu.vn/secondary-school/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Middle Years Programme",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "curricula[2]": {
       "source_url": "https://renaissance.edu.vn/curriculum/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Cambridge IGCSE Programme",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "curricula[3]": {
       "source_url": "https://renaissance.edu.vn/secondary-school/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "full IB Diploma",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "age_range.min": {
       "source_url": "https://renaissance.edu.vn/curriculum/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "For students aged 2 to 11",
       "method": "published",
       "conflict": false,
@@ -148,7 +148,7 @@
     },
     "contact.phone": {
       "source_url": "https://renaissance.edu.vn/secondary-school/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Phone 028 3773 3171",
       "method": "published",
       "conflict": false,
@@ -157,5 +157,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

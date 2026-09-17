@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://icsn.ac.th/about-icsn/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "At International Christian School Nonthaburi (ICSN), we consider our role in students’ lives a great privilege",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://icsn.ac.th/about-icsn/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://icsn.ac.th/about-icsn/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "location.address": {
       "source_url": "https://icsn.ac.th/about-icsn/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "145/1 Pracharat Road Moo 6, Nonthaburi, Thailand 11000",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "curricula[0]": {
       "source_url": "https://icsn.ac.th/about-icsn/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "education based on standards set forth by American Education Reaches Out (AERO)",
       "method": "published",
       "conflict": false,
@@ -122,5 +122,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

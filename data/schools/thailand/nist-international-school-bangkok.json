@@ -88,7 +88,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "NIST International School",
       "method": "published",
       "conflict": false,
@@ -96,7 +96,7 @@
     },
     "location.country": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "NIST International School in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -104,7 +104,7 @@
     },
     "location.city": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "NIST International School in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -112,7 +112,7 @@
     },
     "location.address": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "36 Sukhumvit Soi 15, Sukhumvit Road, Klongtoey-nua Wattana, Bangkok",
       "method": "published",
       "conflict": false,
@@ -120,7 +120,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "students aged 3–19",
       "method": "published",
       "conflict": false,
@@ -128,7 +128,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "students aged 3–19",
       "method": "published",
       "conflict": false,
@@ -136,7 +136,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "grounded in the full IB Continuum",
       "method": "published",
       "conflict": false,
@@ -144,7 +144,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "authorised to offer the full International Baccalaureate (IB) Continuum.",
       "method": "published",
       "conflict": false,
@@ -152,7 +152,7 @@
     },
     "accreditations[0].status": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "authorised to offer the full International Baccalaureate (IB) Continuum.",
       "method": "published",
       "conflict": false,
@@ -160,7 +160,7 @@
     },
     "enrolment.nationalities_count": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Community of 95+ Nationalities",
       "method": "published",
       "conflict": false,
@@ -168,7 +168,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "+66 (0)2 017 5888",
       "method": "published",
       "conflict": false,
@@ -176,7 +176,7 @@
     },
     "contact.email": {
       "source_url": "https://www.nist.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "nist@nist.ac.th",
       "method": "published",
       "conflict": false,
@@ -185,5 +185,5 @@
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-09-17"
 }

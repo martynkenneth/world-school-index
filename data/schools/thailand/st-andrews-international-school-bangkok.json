@@ -83,7 +83,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "St Andrews International School Bangkok",
       "method": "published",
       "conflict": false,
@@ -91,7 +91,7 @@
     },
     "location.country": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "private international school in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.city": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "private international school in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "founded": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "Founded in 1997 on what is our current primary school campus",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "school_type": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "private international school in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "Our students benefit from our highly respected British curriculum pathways",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "building up to IGCSE exams in Year 11",
       "method": "published",
       "conflict": false,
@@ -139,7 +139,7 @@
     },
     "curricula[2]": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "culminating with the International Baccalaureate Diploma Programme (IBDP) in Years 12 and 13",
       "method": "published",
       "conflict": false,
@@ -147,7 +147,7 @@
     },
     "enrolment.total": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "home to over 2,000 students from more than 60 countries",
       "method": "published",
       "conflict": false,
@@ -155,7 +155,7 @@
     },
     "enrolment.nationalities_count": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/about-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "home to over 2,000 students from more than 60 countries",
       "method": "published",
       "conflict": false,
@@ -163,7 +163,7 @@
     },
     "contact.email": {
       "source_url": "https://www.nordangliaeducation.com/sta-bangkok/contact-us",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "Admissions Email: admissions@standrews.ac.th",
       "method": "published",
       "conflict": false,
@@ -172,5 +172,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-03"
+  "last_verified": "2026-09-17"
 }

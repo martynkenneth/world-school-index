@@ -86,7 +86,7 @@
   "provenance": {
     "name": {
       "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "St. Nicholas School is a K–12 institution in Da Nang",
       "method": "published",
       "conflict": false,
@@ -102,7 +102,7 @@
     },
     "location.city": {
       "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "St. Nicholas School is a K–12 institution in Da Nang",
       "method": "published",
       "conflict": false,
@@ -118,7 +118,7 @@
     },
     "curricula[0]": {
       "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "curriculum based on the Common Core Standards (USA)",
       "method": "published",
       "conflict": false,
@@ -126,7 +126,7 @@
     },
     "curricula[1]": {
       "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "follow the Florida Virtual School (FLVS) program",
       "method": "published",
       "conflict": false,
@@ -134,7 +134,7 @@
     },
     "curricula[2]": {
       "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "the program of Mizzou Academy",
       "method": "published",
       "conflict": false,
@@ -142,7 +142,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "For students from Grade 1 to Grade 12",
       "method": "published",
       "conflict": false,
@@ -150,7 +150,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://sns.edu.vn/en/academic-programs/international-program",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "For students from Grade 1 to Grade 12",
       "method": "published",
       "conflict": false,
@@ -158,7 +158,7 @@
     },
     "contact.phone": {
       "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hotline: (+84) 931 972 972",
       "method": "published",
       "conflict": false,
@@ -166,7 +166,7 @@
     },
     "contact.email": {
       "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Email: admissions1@sns.edu.vn",
       "method": "published",
       "conflict": false,
@@ -175,5 +175,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-07-31"
+  "last_verified": "2026-09-17"
 }

@@ -91,7 +91,7 @@
   "provenance": {
     "name": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "HỆ THỐNG GIÁO DỤC SKY-LINE",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.country": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "những phòng học đầu tiên tại Việt Nam",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "location.city": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Lô A2.4 Trần Đăng Ninh, phường Hòa Cường, Thành phố Đà Nẵng",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "location.address": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Lô A2.4 Trần Đăng Ninh, phường Hòa Cường, Thành phố Đà Nẵng",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "curricula[0]": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "đơn vị thành viên của Tổ chức Giáo dục Quốc tế Cambridge với số hiệu VN258",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "học sinh từ Mầm non đến THPT",
       "method": "published",
       "conflict": false,
@@ -139,7 +139,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "học sinh từ Mầm non đến THPT",
       "method": "published",
       "conflict": false,
@@ -147,7 +147,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "đơn vị thành viên của Tổ chức Giáo dục Quốc tế Cambridge với số hiệu VN258",
       "method": "published",
       "conflict": false,
@@ -155,7 +155,7 @@
     },
     "accreditations[0].status": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "đơn vị thành viên của Tổ chức Giáo dục Quốc tế Cambridge",
       "method": "published",
       "conflict": false,
@@ -163,7 +163,7 @@
     },
     "contact.phone": {
       "source_url": "https://tuyensinh.skylineschool.edu.vn/co-so",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hotline: 083 777 3355",
       "method": "published",
       "conflict": false,
@@ -172,5 +172,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-31"
+  "last_verified": "2026-09-17"
 }

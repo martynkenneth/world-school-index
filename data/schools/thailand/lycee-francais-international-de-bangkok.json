@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Lycée français international de Bangkok",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.country": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangkok , Thaïlande",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.city": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangkok , Thaïlande",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.address": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "498 Soi Ramkhamhaeng 39 (Thep Leela 1), Wangthonglang, Bangkok 10310",
       "method": "published",
       "conflict": false,
@@ -119,7 +119,7 @@
     },
     "contact.website": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Site web https://www.lfib.ac.th/",
       "method": "published",
       "conflict": false,
@@ -135,7 +135,7 @@
     },
     "contact.email": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "administration@lfib.ac.th",
       "method": "published",
       "conflict": false,
@@ -144,5 +144,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-09-17"
 }

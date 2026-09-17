@@ -100,7 +100,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.eishcmc.com/enquire-now",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "European International School Ho Chi Minh City",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "location.country": {
       "source_url": "https://www.eishcmc.com/enquire-now",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "location.city": {
       "source_url": "https://www.eishcmc.com/enquire-now",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "location.address": {
       "source_url": "https://www.eishcmc.com/enquire-now",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "730F-730G-730K Le Van Mien Street, An Khanh Ward, Ho Chi Minh City, Vietnam",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "school_type": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "EIS is a boutique, international private school",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "providing the International Baccalaureate (IB) curriculum to children aged 2 to 18-years-old",
       "method": "published",
       "conflict": false,
@@ -148,7 +148,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "children aged 2 to 18-years-old",
       "method": "published",
       "conflict": false,
@@ -156,7 +156,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "children aged 2 to 18-years-old",
       "method": "published",
       "conflict": false,
@@ -164,7 +164,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "The International Baccalaureate Organisation (IBO)",
       "method": "published",
       "conflict": false,
@@ -172,7 +172,7 @@
     },
     "accreditations[1].body": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "The Council of International Schools (CIS)",
       "method": "published",
       "conflict": false,
@@ -180,7 +180,7 @@
     },
     "accreditations[2].body": {
       "source_url": "https://www.eishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "The Accrediting Commission for Schools (ACS WASC)",
       "method": "published",
       "conflict": false,
@@ -188,7 +188,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.eishcmc.com/enquire-now",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Tel: (+84 28) 7300 7257",
       "method": "published",
       "conflict": false,
@@ -196,7 +196,7 @@
     },
     "contact.email": {
       "source_url": "https://www.eishcmc.com/enquire-now",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Email: info@eishcmc.com",
       "method": "published",
       "conflict": false,
@@ -205,5 +205,5 @@
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

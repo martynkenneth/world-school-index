@@ -107,7 +107,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "United Nations International School of Hanoi",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "location.country": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "G9 Ciputra | Phu Thuong | Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "location.city": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "G9 Ciputra | Phu Thuong | Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "location.address": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "G9 Ciputra | Phu Thuong | Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -139,7 +139,7 @@
     },
     "founded": {
       "source_url": "https://www.unishanoi.org/about/welcome-from-the-head-of-school",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "The school has come a long way from its opening day in 1988",
       "method": "published",
       "conflict": false,
@@ -147,7 +147,7 @@
     },
     "school_type": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "an independent, non-profit co-educational English-language day school",
       "method": "published",
       "conflict": false,
@@ -155,7 +155,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.unishanoi.org/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Students in Early Years 3 to Grade 5 follow the Primary Years Programme (PYP)",
       "method": "published",
       "conflict": false,
@@ -163,7 +163,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.unishanoi.org/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "students in Grades 6-10 follow the Middle Years Programme (MYP)",
       "method": "published",
       "conflict": false,
@@ -171,7 +171,7 @@
     },
     "curricula[2]": {
       "source_url": "https://www.unishanoi.org/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "students in Grades 11 to 12 undertake the IB Diploma Programme",
       "method": "published",
       "conflict": false,
@@ -179,7 +179,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "The 1162 students from Early Years (age 3) to Grade 12 (age 19)",
       "method": "published",
       "conflict": false,
@@ -187,7 +187,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "The 1162 students from Early Years (age 3) to Grade 12 (age 19)",
       "method": "published",
       "conflict": false,
@@ -195,7 +195,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "The 1162 students from Early Years (age 3) to Grade 12 (age 19)",
       "method": "published",
       "conflict": false,
@@ -203,7 +203,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "The 1162 students from Early Years (age 3) to Grade 12 (age 19)",
       "method": "published",
       "conflict": false,
@@ -211,7 +211,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "accredited by the Council of International Schools",
       "method": "published",
       "conflict": false,
@@ -219,7 +219,7 @@
     },
     "accreditations[1].body": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "the Western Association of Schools and Colleges",
       "method": "published",
       "conflict": false,
@@ -227,7 +227,7 @@
     },
     "accreditations[2].body": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "the International Baccalaureate Organisation",
       "method": "published",
       "conflict": false,
@@ -235,7 +235,7 @@
     },
     "fees.currency": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Application fee of USD 600 per student",
       "method": "published",
       "conflict": false,
@@ -243,7 +243,7 @@
     },
     "fees.academic_year": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "in the 2026-2027 academic year",
       "method": "published",
       "conflict": false,
@@ -251,7 +251,7 @@
     },
     "fees.fee_basis": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "in the 2026-2027 academic year",
       "method": "published",
       "conflict": false,
@@ -259,7 +259,7 @@
     },
     "fees.additional.application": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Application fee of USD 600 per student",
       "method": "published",
       "conflict": false,
@@ -267,7 +267,7 @@
     },
     "fees.additional.enrolment": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Enrollment fee of USD 1,750 per student",
       "method": "published",
       "conflict": false,
@@ -275,7 +275,7 @@
     },
     "fees.additional.bus": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "School Bus Fee: USD 1,100 per year",
       "method": "published",
       "conflict": false,
@@ -283,7 +283,7 @@
     },
     "fees.sibling_discount": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "ten percent (10%) discount on tuition fees for the third child",
       "method": "published",
       "conflict": false,
@@ -291,7 +291,7 @@
     },
     "fees.early_payment_discount": {
       "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "An additional 1% Early Bird Discount applies",
       "method": "published",
       "conflict": false,
@@ -299,7 +299,7 @@
     },
     "enrolment.total": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "The 1162 students from Early Years",
       "method": "conflict",
       "conflict": true,
@@ -307,20 +307,20 @@
         {
           "value": "1162",
           "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-          "retrieved_date": "2026-07-27",
+          "retrieved_date": "2026-09-17",
           "evidence": "The 1162 students from Early Years"
         },
         {
           "value": "over 1100",
           "source_url": "https://www.unishanoi.org/about/welcome-from-the-head-of-school",
-          "retrieved_date": "2026-07-27",
+          "retrieved_date": "2026-09-17",
           "evidence": "serving over 1100 students from over sixty nations"
         }
       ]
     },
     "enrolment.nationalities_count": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "63 Nationalities represented at UNIS Hanoi",
       "method": "conflict",
       "conflict": true,
@@ -328,26 +328,26 @@
         {
           "value": "63",
           "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-          "retrieved_date": "2026-07-27",
+          "retrieved_date": "2026-09-17",
           "evidence": "63 Nationalities represented at UNIS Hanoi"
         },
         {
           "value": "65+",
           "source_url": "https://www.unishanoi.org/",
-          "retrieved_date": "2026-07-27",
+          "retrieved_date": "2026-09-17",
           "evidence": "65+ nationalities represented"
         },
         {
           "value": "over sixty",
           "source_url": "https://www.unishanoi.org/about/welcome-from-the-head-of-school",
-          "retrieved_date": "2026-07-27",
+          "retrieved_date": "2026-09-17",
           "evidence": "serving over 1100 students from over sixty nations"
         }
       ]
     },
     "languages.instruction[0]": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "UNIS Hanoi is a not-for-profit coeducational English-language day school",
       "method": "published",
       "conflict": false,
@@ -355,7 +355,7 @@
     },
     "outcomes.ib_average": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "UNIS Hanoi Average Score 32 World Average Score 30",
       "method": "published",
       "conflict": false,
@@ -363,7 +363,7 @@
     },
     "outcomes.ib_year": {
       "source_url": "https://www.unishanoi.org/academics/secondary/university-destinations-2024/high-school-profile",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "IB Results 2024",
       "method": "published",
       "conflict": false,
@@ -371,7 +371,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "(84 24) 7300 4500",
       "method": "published",
       "conflict": false,
@@ -379,7 +379,7 @@
     },
     "contact.email": {
       "source_url": "https://www.unishanoi.org/about",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "info@unishanoi.org",
       "method": "published",
       "conflict": false,
@@ -388,5 +388,5 @@
   },
   "completeness_score": 7,
   "indexable": false,
-  "last_verified": "2026-07-27"
+  "last_verified": "2026-09-17"
 }

@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://hamptonschool.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hampton International School is a family-owned school",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://hamptonschool.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "in Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://hamptonschool.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Pakkred, Nonthaburi 11120",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "location.address": {
       "source_url": "https://hamptonschool.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "51/8 Mooban Sarawanville Chaengwattana Soi 28 Pakkred, Nonthaburi 11120",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "curricula[0]": {
       "source_url": "https://hamptonschool.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "educates children through the British national curriculum",
       "method": "published",
       "conflict": false,
@@ -122,5 +122,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

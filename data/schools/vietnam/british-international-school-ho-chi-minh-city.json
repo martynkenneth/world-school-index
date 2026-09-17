@@ -95,7 +95,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "British International School Ho Chi Minh City",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.country": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "British International School Ho Chi Minh City (BIS HCMC) is the leading school in Vietnam.",
       "method": "published",
       "conflict": false,
@@ -111,7 +111,7 @@
     },
     "location.city": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "British International School Ho Chi Minh City (BIS HCMC) is the leading school in Vietnam.",
       "method": "published",
       "conflict": false,
@@ -119,7 +119,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "97% of our IGCSE students got at least 5 A*-C grades",
       "method": "published",
       "conflict": false,
@@ -127,7 +127,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "In 2025, our average IBDP score was 36.3",
       "method": "published",
       "conflict": false,
@@ -135,7 +135,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Early Years Ages 2-5",
       "method": "published",
       "conflict": false,
@@ -143,7 +143,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Sixth Form Ages 16-18",
       "method": "published",
       "conflict": false,
@@ -151,7 +151,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "member of the Federation of British International Schools in Asia (FOBISIA)",
       "method": "published",
       "conflict": false,
@@ -159,7 +159,7 @@
     },
     "accreditations[1].body": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "a designated International Baccalaureate World School",
       "method": "published",
       "conflict": false,
@@ -167,7 +167,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.nordangliaeducation.com/bis-hcmc",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Early Years & Infant Campus: +84 (0) 28 3636 0055",
       "method": "published",
       "conflict": false,
@@ -176,5 +176,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

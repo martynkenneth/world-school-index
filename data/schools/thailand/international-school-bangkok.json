@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Office of Admissions - International School Bangkok",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.country": {
       "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Amphur Pakkret, Nonthaburi 11120, Thailand",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.city": {
       "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Amphur Pakkret, Nonthaburi 11120, Thailand",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.address": {
       "source_url": "https://www.isb.ac.th/admissions/contact-the-team",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "39/7 Soi Nichada Thani, Samakee Road, Amphur Pakkret, Nonthaburi 11120, Thailand",
       "method": "published",
       "conflict": false,
@@ -112,5 +112,5 @@
   },
   "completeness_score": 3,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

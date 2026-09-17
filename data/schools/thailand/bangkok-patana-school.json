@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.patana.ac.th/contact-patana/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangkok Patana School",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.country": {
       "source_url": "https://www.patana.ac.th/contact-patana/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangna Tai, Bangna, Bangkok 10260, Thailand",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.city": {
       "source_url": "https://www.patana.ac.th/contact-patana/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangna Tai, Bangna, Bangkok 10260, Thailand",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.address": {
       "source_url": "https://www.patana.ac.th/contact-patana/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "643 La Salle Road (Sukhumvit 105), Bangna Tai, Bangna, Bangkok 10260, Thailand",
       "method": "published",
       "conflict": false,
@@ -111,7 +111,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.patana.ac.th/contact-patana/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Telephone : +66 (0) 2785 2200",
       "method": "published",
       "conflict": false,
@@ -119,7 +119,7 @@
     },
     "contact.email": {
       "source_url": "https://www.patana.ac.th/contact-patana/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Email: reception@patana.ac.th",
       "method": "published",
       "conflict": false,
@@ -128,5 +128,5 @@
   },
   "completeness_score": 3,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-09-17"
 }

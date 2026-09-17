@@ -91,7 +91,7 @@
   "provenance": {
     "name": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Le Lycée Français Alexandre Yersin",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.country": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hanoï (Vietnam)",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "location.city": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "ville de Hanoï (Vietnam)",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "location.address": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
       "method": "conflict",
       "conflict": true,
@@ -123,7 +123,7 @@
         {
           "value": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam",
           "source_url": "https://lfay.com.vn/etablissement/",
-          "retrieved_date": "2026-07-27",
+          "retrieved_date": "2026-09-17",
           "evidence": "Số 44 phố Gia Thượng, Phường Bồ Đề Hà Nội Vietnam"
         },
         {
@@ -136,7 +136,7 @@
     },
     "founded": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "a vu le jour en 1982",
       "method": "published",
       "conflict": false,
@@ -144,7 +144,7 @@
     },
     "curricula[0]": {
       "source_url": "https://lfay.com.vn/pedagogie/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "prépare en deux ans les lycéens au baccalauréat général",
       "method": "published",
       "conflict": false,
@@ -152,7 +152,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "scolarisés de la PS à la terminale",
       "method": "published",
       "conflict": false,
@@ -160,7 +160,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "scolarisés de la PS à la terminale",
       "method": "published",
       "conflict": false,
@@ -168,7 +168,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Agence pour l’enseignement français à l’étranger ( AEFE )",
       "method": "published",
       "conflict": false,
@@ -184,7 +184,7 @@
     },
     "contact.website": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Site web https://lfay.com.vn/",
       "method": "published",
       "conflict": false,
@@ -192,7 +192,7 @@
     },
     "contact.phone": {
       "source_url": "https://lfay.com.vn/etablissement/",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Tél. : + 84 (0)24 38 436 779",
       "method": "published",
       "conflict": false,
@@ -200,7 +200,7 @@
     },
     "contact.email": {
       "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "secretariat@lfay.com.vn",
       "method": "published",
       "conflict": false,
@@ -209,5 +209,5 @@
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-07-27"
+  "last_verified": "2026-09-17"
 }

@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/exhibitor-booking-form",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "Wellington College International School, Bangkok",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.country": {
       "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.city": {
       "source_url": "https://www.cobis.org.uk/professional-learning/all-courses-and-conferences/administration/conference-for-marketing-development-and-admissions-staff/delegate-information-form",
-      "retrieved_date": "2026-08-03",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bangkok, Thailand",
       "method": "published",
       "conflict": false,
@@ -104,5 +104,5 @@
   },
   "completeness_score": 2,
   "indexable": false,
-  "last_verified": "2026-08-03"
+  "last_verified": "2026-09-17"
 }

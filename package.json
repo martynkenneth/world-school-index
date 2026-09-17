@@ -12,6 +12,7 @@
     "start": "vinext start",
     "data:fetch": "node --experimental-strip-types scripts/fetch.ts",
     "data:extract": "node --experimental-strip-types scripts/extract.ts",
+    "data:reverify-all": "node --experimental-strip-types scripts/reverify-all.ts",
     "data:validate": "node --experimental-strip-types scripts/validate.ts --run",
     "data:export": "node --experimental-strip-types scripts/export-data.mjs",
     "test": "npm run build && npm run test:unit",

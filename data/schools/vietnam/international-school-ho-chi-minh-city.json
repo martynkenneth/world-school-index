@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "International School Ho Chi Minh City (ISHCMC)",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "ISHCMC | International School Ho Chi Minh City | Vietnam",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "International School Ho Chi Minh City (ISHCMC)",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Ho Chi Minh City’s first and leading IB Diploma school",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "full IB World School for children aged 2–18",
       "method": "published",
       "conflict": false,
@@ -121,7 +121,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "full IB World School for children aged 2–18",
       "method": "published",
       "conflict": false,
@@ -129,7 +129,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Contact +84 (28) 3898 9100",
       "method": "published",
       "conflict": false,
@@ -137,7 +137,7 @@
     },
     "contact.email": {
       "source_url": "https://www.ishcmc.com/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "admissions@ishcmc.edu.vn",
       "method": "published",
       "conflict": false,
@@ -146,5 +146,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

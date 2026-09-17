@@ -177,7 +177,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "British International School Hanoi",
       "method": "published",
       "conflict": false,
@@ -185,7 +185,7 @@
     },
     "location.country": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hanoi 100000 Vietnam",
       "method": "published",
       "conflict": false,
@@ -193,7 +193,7 @@
     },
     "location.city": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Phuc Loi Ward Hanoi 100000 Vietnam",
       "method": "published",
       "conflict": false,
@@ -201,7 +201,7 @@
     },
     "location.district": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Phuc Loi Ward Hanoi 100000 Vietnam",
       "method": "published",
       "conflict": false,
@@ -209,7 +209,7 @@
     },
     "location.address": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hoa Lan Road, Vinhomes Riverside Phuc Loi Ward Hanoi 100000 Vietnam",
       "method": "published",
       "conflict": false,
@@ -217,7 +217,7 @@
     },
     "founded": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "provided an exceptional education to students from across the world since August 2012",
       "method": "published",
       "conflict": false,
@@ -225,7 +225,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Early Years Foundation Stage (EYFS)",
       "method": "published",
       "conflict": false,
@@ -233,7 +233,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "English National Curriculum and International Primary Curriculum",
       "method": "published",
       "conflict": false,
@@ -241,7 +241,7 @@
     },
     "curricula[2]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "English National Curriculum and International Primary Curriculum",
       "method": "published",
       "conflict": false,
@@ -249,7 +249,7 @@
     },
     "curricula[3]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Culminating in IGCSE exams",
       "method": "published",
       "conflict": false,
@@ -257,7 +257,7 @@
     },
     "curricula[4]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "International Baccalaureate Diploma Programme (IBDP)",
       "method": "published",
       "conflict": false,
@@ -265,7 +265,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "students aged from 2 to 18 years old",
       "method": "published",
       "conflict": false,
@@ -273,7 +273,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/about-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "students aged from 2 to 18 years old",
       "method": "published",
       "conflict": false,
@@ -281,7 +281,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/parent-essentials/accreditations",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "full accreditation status with the Council of International Schools",
       "method": "published",
       "conflict": false,
@@ -289,7 +289,7 @@
     },
     "accreditations[1].body": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/parent-essentials/accreditations",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Western Association of Schools and Colleges (WASC)",
       "method": "published",
       "conflict": false,
@@ -297,7 +297,7 @@
     },
     "accreditations[2].body": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/parent-essentials/accreditations",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "authorised by the International Baccalaureate Organization ( IBO )",
       "method": "published",
       "conflict": false,
@@ -305,7 +305,7 @@
     },
     "fees.currency": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "All fees are in Vietnamese Dong (VND).",
       "method": "published",
       "conflict": false,
@@ -313,7 +313,7 @@
     },
     "fees.academic_year": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "BIS Hanoi’s fees for the 2026-27 academic year are detailed below.",
       "method": "published",
       "conflict": false,
@@ -321,7 +321,7 @@
     },
     "fees.fee_basis": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "BIS Hanoi’s fees for the 2026-27 academic year are detailed below.",
       "method": "published",
       "conflict": false,
@@ -329,7 +329,7 @@
     },
     "fees.by_year_group[0].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F1 - Full Day 343,100,000",
       "method": "published",
       "conflict": false,
@@ -337,7 +337,7 @@
     },
     "fees.by_year_group[0].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F1 - Full Day 343,100,000",
       "method": "published",
       "conflict": false,
@@ -345,7 +345,7 @@
     },
     "fees.by_year_group[1].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F1 - Half Day 253,600,000",
       "method": "published",
       "conflict": false,
@@ -353,7 +353,7 @@
     },
     "fees.by_year_group[1].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F1 - Half Day 253,600,000",
       "method": "published",
       "conflict": false,
@@ -361,7 +361,7 @@
     },
     "fees.by_year_group[2].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F2 - Full Day 360,900,000",
       "method": "published",
       "conflict": false,
@@ -369,7 +369,7 @@
     },
     "fees.by_year_group[2].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F2 - Full Day 360,900,000",
       "method": "published",
       "conflict": false,
@@ -377,7 +377,7 @@
     },
     "fees.by_year_group[3].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F3 - Full Day 510,800,000",
       "method": "published",
       "conflict": false,
@@ -385,7 +385,7 @@
     },
     "fees.by_year_group[3].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "F3 - Full Day 510,800,000",
       "method": "published",
       "conflict": false,
@@ -393,7 +393,7 @@
     },
     "fees.by_year_group[4].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 01 657,600,000",
       "method": "published",
       "conflict": false,
@@ -401,7 +401,7 @@
     },
     "fees.by_year_group[4].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 01 657,600,000",
       "method": "published",
       "conflict": false,
@@ -409,7 +409,7 @@
     },
     "fees.by_year_group[5].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 02 715,500,000",
       "method": "published",
       "conflict": false,
@@ -417,7 +417,7 @@
     },
     "fees.by_year_group[5].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 02 715,500,000",
       "method": "published",
       "conflict": false,
@@ -425,7 +425,7 @@
     },
     "fees.by_year_group[6].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 03 715,500,000",
       "method": "published",
       "conflict": false,
@@ -433,7 +433,7 @@
     },
     "fees.by_year_group[6].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 03 715,500,000",
       "method": "published",
       "conflict": false,
@@ -441,7 +441,7 @@
     },
     "fees.by_year_group[7].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 04 715,500,000",
       "method": "published",
       "conflict": false,
@@ -449,7 +449,7 @@
     },
     "fees.by_year_group[7].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 04 715,500,000",
       "method": "published",
       "conflict": false,
@@ -457,7 +457,7 @@
     },
     "fees.by_year_group[8].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 05 734,600,000",
       "method": "published",
       "conflict": false,
@@ -465,7 +465,7 @@
     },
     "fees.by_year_group[8].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 05 734,600,000",
       "method": "published",
       "conflict": false,
@@ -473,7 +473,7 @@
     },
     "fees.by_year_group[9].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 06 734,600,000",
       "method": "published",
       "conflict": false,
@@ -481,7 +481,7 @@
     },
     "fees.by_year_group[9].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 06 734,600,000",
       "method": "published",
       "conflict": false,
@@ -489,7 +489,7 @@
     },
     "fees.by_year_group[10].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 07 846,800,000",
       "method": "published",
       "conflict": false,
@@ -497,7 +497,7 @@
     },
     "fees.by_year_group[10].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 07 846,800,000",
       "method": "published",
       "conflict": false,
@@ -505,7 +505,7 @@
     },
     "fees.by_year_group[11].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 08 846,800,000",
       "method": "published",
       "conflict": false,
@@ -513,7 +513,7 @@
     },
     "fees.by_year_group[11].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 08 846,800,000",
       "method": "published",
       "conflict": false,
@@ -521,7 +521,7 @@
     },
     "fees.by_year_group[12].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 09 846,800,000",
       "method": "published",
       "conflict": false,
@@ -529,7 +529,7 @@
     },
     "fees.by_year_group[12].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 09 846,800,000",
       "method": "published",
       "conflict": false,
@@ -537,7 +537,7 @@
     },
     "fees.by_year_group[13].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 10 893,200,000",
       "method": "published",
       "conflict": false,
@@ -545,7 +545,7 @@
     },
     "fees.by_year_group[13].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 10 893,200,000",
       "method": "published",
       "conflict": false,
@@ -553,7 +553,7 @@
     },
     "fees.by_year_group[14].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 11 893,200,000",
       "method": "published",
       "conflict": false,
@@ -561,7 +561,7 @@
     },
     "fees.by_year_group[14].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 11 893,200,000",
       "method": "published",
       "conflict": false,
@@ -569,7 +569,7 @@
     },
     "fees.by_year_group[15].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 12 970,200,000",
       "method": "published",
       "conflict": false,
@@ -577,7 +577,7 @@
     },
     "fees.by_year_group[15].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 12 970,200,000",
       "method": "published",
       "conflict": false,
@@ -585,7 +585,7 @@
     },
     "fees.by_year_group[16].label": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 13 970,200,000",
       "method": "published",
       "conflict": false,
@@ -593,7 +593,7 @@
     },
     "fees.by_year_group[16].tuition": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 13 970,200,000",
       "method": "published",
       "conflict": false,
@@ -601,7 +601,7 @@
     },
     "fees.additional.application": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/admissions/tuition-fees",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Application Fee of 4,500,000 VND per child",
       "method": "published",
       "conflict": false,
@@ -609,7 +609,7 @@
     },
     "staffing.teacher_student_ratio": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Teacher to student ratio 1:12",
       "method": "published",
       "conflict": false,
@@ -617,7 +617,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/academic-excellence",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "English National Curriculum",
       "method": "published",
       "conflict": false,
@@ -633,7 +633,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "General Enquiries +84 24 3946 0435",
       "method": "published",
       "conflict": false,
@@ -641,7 +641,7 @@
     },
     "contact.email": {
       "source_url": "https://www.nordangliaeducation.com/bis-hanoi/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Email: bishanoi@bishanoi.com",
       "method": "published",
       "conflict": false,
@@ -650,5 +650,5 @@
   },
   "completeness_score": 10,
   "indexable": true,
-  "last_verified": "2026-08-03"
+  "last_verified": "2026-09-17"
 }

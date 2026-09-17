@@ -87,7 +87,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.nac-school.com/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "New American Chinese International School · Nonthaburi, Thailand",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.country": {
       "source_url": "https://www.nac-school.com/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "New American Chinese International School · Nonthaburi, Thailand",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.city": {
       "source_url": "https://www.nac-school.com/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "New American Chinese International School · Nonthaburi, Thailand",
       "method": "published",
       "conflict": false,
@@ -111,7 +111,7 @@
     },
     "location.address": {
       "source_url": "https://www.nac-school.com/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "145/1 Thanon Pracharat, Talat Kwan, Mueang Nonthaburi District, Nonthaburi 11000",
       "method": "published",
       "conflict": false,
@@ -135,7 +135,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.nac-school.com/faq",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "Next Generation Science Standards (NGSS) for Science",
       "method": "published",
       "conflict": false,
@@ -151,7 +151,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://www.nac-school.com/faq",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai",
       "method": "published",
       "conflict": false,
@@ -159,7 +159,7 @@
     },
     "languages.instruction[1]": {
       "source_url": "https://www.nac-school.com/faq",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai",
       "method": "published",
       "conflict": false,
@@ -167,7 +167,7 @@
     },
     "languages.instruction[2]": {
       "source_url": "https://www.nac-school.com/faq",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "teaching in three languages every day: English, Chinese (Mandarin), and Thai",
       "method": "published",
       "conflict": false,
@@ -183,7 +183,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.nac-school.com/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "08 6320 1454",
       "method": "published",
       "conflict": false,
@@ -191,7 +191,7 @@
     },
     "contact.email": {
       "source_url": "https://www.nac-school.com/",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-09-17",
       "evidence": "nac@icsn.ac.th",
       "method": "published",
       "conflict": false,
@@ -200,5 +200,5 @@
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-08-09"
+  "last_verified": "2026-09-17"
 }

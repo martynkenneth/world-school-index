@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Reigate Grammar School Vietnam is a not-for-profit international school",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Dinh Cong Ward, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "within the dynamic culture of the city of Hanoi, for pupils aged 3-18",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "location.address": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "No 6-7 Nguyen Cong Thai Street Dai Kim - Dinh Cong New Urban Area, Dinh Cong Ward, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "curricula[0]": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Year 12 IBDP Academic Showcase",
       "method": "published",
       "conflict": false,
@@ -121,7 +121,7 @@
     },
     "age_range.min": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "for pupils aged 3-18",
       "method": "published",
       "conflict": false,
@@ -129,7 +129,7 @@
     },
     "age_range.max": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "for pupils aged 3-18",
       "method": "published",
       "conflict": false,
@@ -137,7 +137,7 @@
     },
     "contact.phone": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "+84 (0) 2435 409 183",
       "method": "published",
       "conflict": false,
@@ -145,7 +145,7 @@
     },
     "contact.email": {
       "source_url": "https://reigategrammar.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "inquiry@reigategrammar.edu.vn",
       "method": "published",
       "conflict": false,
@@ -154,5 +154,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-08-10"
+  "last_verified": "2026-09-17"
 }

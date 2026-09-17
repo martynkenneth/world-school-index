@@ -83,7 +83,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.aavn.edu.vn/admissions/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "International School Ho Chi Minh City – American Academy",
       "method": "published",
       "conflict": false,
@@ -91,7 +91,7 @@
     },
     "location.city": {
       "source_url": "https://www.aavn.edu.vn/eal-program/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "American curriculum secondary school in Ho Chi Minh City",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.address": {
       "source_url": "https://www.aavn.edu.vn/admissions/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "16 Vo Truong Toan St., An Khanh, HCMC",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.aavn.edu.vn/eal-program/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "a leading American curriculum secondary school in Ho Chi Minh City",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.aavn.edu.vn/eal-program/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "students aged 11 to 18 years old",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.aavn.edu.vn/eal-program/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "students aged 11 to 18 years old",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://www.aavn.edu.vn/eal-program/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "majority of subjects across our curriculum are taught in English",
       "method": "published",
       "conflict": false,
@@ -139,7 +139,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.aavn.edu.vn/admissions/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "PHONE : (84-28) 3898 9098",
       "method": "published",
       "conflict": false,
@@ -147,7 +147,7 @@
     },
     "contact.email": {
       "source_url": "https://www.aavn.edu.vn/admissions/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "EMAIL : admissions@aavn.edu.vn",
       "method": "published",
       "conflict": false,
@@ -156,5 +156,5 @@
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

@@ -82,7 +82,7 @@
   "provenance": {
     "name": {
       "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "APU AMERICAN INTERNATIONAL SCHOOLS",
       "method": "published",
       "conflict": false,
@@ -90,7 +90,7 @@
     },
     "location.city": {
       "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "501 Lac Long Quan Street, Hoa Binh Ward, Ho Chi Minh City",
       "method": "published",
       "conflict": false,
@@ -98,7 +98,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Elementary (K-5)",
       "method": "published",
       "conflict": false,
@@ -106,7 +106,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Middle School - High School (6-12)",
       "method": "published",
       "conflict": false,
@@ -114,7 +114,7 @@
     },
     "contact.email": {
       "source_url": "https://apu.edu.vn/apu-in-ho-chi-minh-city",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "INTERNATIONAL PROGRAM info@apu.edu.vn",
       "method": "published",
       "conflict": false,
@@ -123,5 +123,5 @@
   },
   "completeness_score": 2,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

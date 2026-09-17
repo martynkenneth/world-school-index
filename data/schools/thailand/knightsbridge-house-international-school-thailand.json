@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://kbh.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Knightsbridge House (KBH), one of the fastest growing international schools from Singapore",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://kbh.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "established its first school campus in Nonthaburi, Thailand in Aug 2025",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://kbh.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "established its first school campus in Nonthaburi, Thailand in Aug 2025",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "location.address": {
       "source_url": "https://kbh.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "94 / 9 Sukha Pracha San 3, Bang Phut Sub-district, Pak Kret District, Nonthaburi 11120",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "curricula[0]": {
       "source_url": "https://kbh.ac.th/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "We deliver the UK Cambridge Curriculum",
       "method": "published",
       "conflict": false,
@@ -122,5 +122,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

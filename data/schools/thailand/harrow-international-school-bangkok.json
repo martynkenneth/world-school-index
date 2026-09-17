@@ -83,7 +83,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.harrowschool.ac.th/about-us/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Harrow International School Bangkok",
       "method": "published",
       "conflict": false,
@@ -91,7 +91,7 @@
     },
     "location.country": {
       "source_url": "https://www.harrowschool.ac.th/about-us/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Don Mueang District, Bangkok, 10210 Thailand",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.city": {
       "source_url": "https://www.harrowschool.ac.th/about-us/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Don Mueang District, Bangkok, 10210 Thailand",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "location.address": {
       "source_url": "https://www.harrowschool.ac.th/about-us/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "45 Soi Kosumruamchai 14, Kosumruamchai Road, Don Mueang Subdistrict, Don Mueang District, Bangkok, 10210 Thailand",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.harrowschool.ac.th/faqs",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Students in the Senior School study for IGCSE, AS and A Level examinations.",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.harrowschool.ac.th/faqs",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Students in the Senior School study for IGCSE, AS and A Level examinations.",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "curricula[2]": {
       "source_url": "https://www.harrowschool.ac.th/faqs",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Students in the Senior School study for IGCSE, AS and A Level examinations.",
       "method": "published",
       "conflict": false,
@@ -139,7 +139,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.harrowschool.ac.th/about-us/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Telephone +66 2 503 7222",
       "method": "published",
       "conflict": false,
@@ -147,7 +147,7 @@
     },
     "contact.email": {
       "source_url": "https://www.harrowschool.ac.th/about-us/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "admissions@harrowschool.ac.th",
       "method": "published",
       "conflict": false,
@@ -156,5 +156,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-09-17"
 }

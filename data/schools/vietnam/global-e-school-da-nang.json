@@ -84,7 +84,7 @@
   "provenance": {
     "name": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Global E-School Danang",
       "method": "published",
       "conflict": false,
@@ -92,7 +92,7 @@
     },
     "location.city": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "42A Vu Dinh Long, Son Tra District, Da Nang City",
       "method": "published",
       "conflict": false,
@@ -100,7 +100,7 @@
     },
     "location.address": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "42A Vu Dinh Long, Son Tra District, Da Nang City",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "curricula[0]": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "modern American-based curriculum",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Preschool and Elementary students",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Preschool and Elementary students",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "contact.website": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "https://geschool.edu.vn/",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "contact.phone": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "0915 112 411",
       "method": "published",
       "conflict": false,
@@ -148,7 +148,7 @@
     },
     "contact.email": {
       "source_url": "https://geschool.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "admission@geschool.edu.vn",
       "method": "published",
       "conflict": false,
@@ -157,5 +157,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-31"
+  "last_verified": "2026-09-17"
 }

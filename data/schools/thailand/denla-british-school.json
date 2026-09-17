@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.dbsbangkok.ac.th/contact/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Welcome to Denla British School Bangkok",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://www.dbsbangkok.ac.th/contact/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://www.dbsbangkok.ac.th/contact/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "location.address": {
       "source_url": "https://www.dbsbangkok.ac.th/contact/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "58 Moo 2 Ratchapruek Road Om Kret, Pak Kret, Nonthaburi 11120 Thailand",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.dbsbangkok.ac.th/contact/",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "DBS offers world-class facilities and an Enhanced British Curriculum",
       "method": "published",
       "conflict": false,
@@ -122,5 +122,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

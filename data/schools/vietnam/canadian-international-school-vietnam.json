@@ -81,7 +81,7 @@
   "provenance": {
     "name": {
       "source_url": "https://cis.edu.vn/vi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "The Canadian International School (CIS)",
       "method": "published",
       "conflict": false,
@@ -89,7 +89,7 @@
     },
     "location.country": {
       "source_url": "https://cis.edu.vn/vi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "The Canadian International School - CIS (Vietnam)",
       "method": "published",
       "conflict": false,
@@ -97,7 +97,7 @@
     },
     "location.city": {
       "source_url": "https://cis.edu.vn/vi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "07 Đường Số 23, Phường Tân Mỹ, TP. Hồ Chí Minh",
       "method": "published",
       "conflict": false,
@@ -105,7 +105,7 @@
     },
     "location.address": {
       "source_url": "https://cis.edu.vn/vi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "07 Đường Số 23, Phường Tân Mỹ, TP. Hồ Chí Minh",
       "method": "published",
       "conflict": false,
@@ -113,7 +113,7 @@
     },
     "curricula[0]": {
       "source_url": "https://cis.edu.vn/vi/tuyen-sinh/cau-hoi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "chương tr&igrave;nh của Ontario (Canada) đầu ti&ecirc;n tại Việt Nam.",
       "method": "published",
       "conflict": false,
@@ -121,7 +121,7 @@
     },
     "contact.phone": {
       "source_url": "https://cis.edu.vn/vi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "1900 255 636",
       "method": "published",
       "conflict": false,
@@ -129,7 +129,7 @@
     },
     "contact.email": {
       "source_url": "https://cis.edu.vn/vi",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "enquiry@cis.edu.vn",
       "method": "published",
       "conflict": false,
@@ -138,5 +138,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

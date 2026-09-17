@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://brightoncollege.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Brighton College Bangkok",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.country": {
       "source_url": "https://brightoncollege.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "Following a decade of success in Thailand with our school at Krungthep Kreetha",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.city": {
       "source_url": "https://brightoncollege.ac.th/",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "we are delighted to now be opening a second school in Bangkok, Vibhavadi.",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.address": {
       "source_url": "https://brightoncollege.ac.th/krungthep-kreetha/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "8/8 Krungthep Kreetha Yaek 4 (Surao Yai), Krungthep Kreetha Soi 15, Hua Mak, Bang Kapi District, Bangkok, 10240",
       "method": "published",
       "conflict": false,
@@ -111,7 +111,7 @@
     },
     "contact.phone": {
       "source_url": "https://brightoncollege.ac.th/krungthep-kreetha/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "+66 (2) 300 9600",
       "method": "published",
       "conflict": false,
@@ -119,7 +119,7 @@
     },
     "contact.email": {
       "source_url": "https://brightoncollege.ac.th/krungthep-kreetha/contact-us",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-09-17",
       "evidence": "admissions@brightoncollege.ac.th",
       "method": "published",
       "conflict": false,
@@ -128,5 +128,5 @@
   },
   "completeness_score": 3,
   "indexable": false,
-  "last_verified": "2026-08-01"
+  "last_verified": "2026-09-17"
 }

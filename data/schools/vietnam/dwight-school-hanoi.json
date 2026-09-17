@@ -83,7 +83,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Dwight School Hanoi opened its doors in 2024",
       "method": "published",
       "conflict": false,
@@ -91,7 +91,7 @@
     },
     "location.country": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "redefine international education in Vietnam",
       "method": "published",
       "conflict": false,
@@ -99,7 +99,7 @@
     },
     "location.city": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Dwight School Hanoi opened its doors in 2024",
       "method": "published",
       "conflict": false,
@@ -107,7 +107,7 @@
     },
     "location.address": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Location: The Manor Central Park",
       "method": "published",
       "conflict": false,
@@ -115,7 +115,7 @@
     },
     "founded": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Dwight School Hanoi opened its doors in 2024",
       "method": "published",
       "conflict": false,
@@ -123,7 +123,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Curriculum: International Baccalaureate",
       "method": "published",
       "conflict": false,
@@ -131,7 +131,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://www.dwight.edu/schools/hanoi",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grades: Preschool through Grade 12",
       "method": "published",
       "conflict": false,
@@ -140,5 +140,5 @@
   },
   "completeness_score": 4,
   "indexable": false,
-  "last_verified": "2026-08-10"
+  "last_verified": "2026-09-17"
 }

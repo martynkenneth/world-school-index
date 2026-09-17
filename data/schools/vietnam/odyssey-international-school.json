@@ -84,7 +84,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Welcome to Odyssey International School",
       "method": "published",
       "conflict": false,
@@ -92,7 +92,7 @@
     },
     "location.country": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Odyssey International School | Da Nang, Vietnam",
       "method": "published",
       "conflict": false,
@@ -100,7 +100,7 @@
     },
     "location.city": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Odyssey International School | Da Nang, Vietnam",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "location.address": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Lot A1, Urban Area 7B Sentosa City, Dien Ban Dong Ward, Da Nang City",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "programmes of the International Baccalaureate (IB)",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Early Years Ages 3 - 6",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Secondary School Ages 11 -18",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Early Years Ages 3 - 6",
       "method": "published",
       "conflict": false,
@@ -148,7 +148,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Secondary School Ages 11 -18",
       "method": "published",
       "conflict": false,
@@ -156,7 +156,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "0235 3711 678",
       "method": "published",
       "conflict": false,
@@ -164,7 +164,7 @@
     },
     "contact.email": {
       "source_url": "https://www.odyssey.edu.vn/",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "admissions@odyssey.edu.vn",
       "method": "published",
       "conflict": false,
@@ -173,5 +173,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-31"
+  "last_verified": "2026-09-17"
 }

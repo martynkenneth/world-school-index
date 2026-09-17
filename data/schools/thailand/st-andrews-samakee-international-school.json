@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.standrews-samakee.com/contact-us",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "St. Andrews Samakee International School",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.city": {
       "source_url": "https://www.standrews-samakee.com/contact-us",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Location: 43 Soi Tiwanond 48, Tiwanond Rd., Nonthaburi",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.address": {
       "source_url": "https://www.standrews-samakee.com/contact-us",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Location: 43 Soi Tiwanond 48, Tiwanond Rd., Nonthaburi",
       "method": "published",
       "conflict": false,
@@ -104,5 +104,5 @@
   },
   "completeness_score": 3,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

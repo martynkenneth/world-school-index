@@ -106,7 +106,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Saigon South International School",
       "method": "published",
       "conflict": false,
@@ -114,7 +114,7 @@
     },
     "location.country": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
       "method": "published",
       "conflict": false,
@@ -122,7 +122,7 @@
     },
     "location.city": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
       "method": "published",
       "conflict": false,
@@ -130,7 +130,7 @@
     },
     "location.address": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "78 Nguyen Duc Canh Tan Hung Ward, Ho Chi Minh City , Vietnam",
       "method": "published",
       "conflict": false,
@@ -138,7 +138,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.ssis.edu.vn/academics/teaching-and-learning",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Based on North American standards, our curriculum challenges students",
       "method": "published",
       "conflict": false,
@@ -154,7 +154,7 @@
     },
     "fees.academic_year": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Tuition Schedule 2026-2027",
       "method": "published",
       "conflict": false,
@@ -162,7 +162,7 @@
     },
     "fees.by_year_group[0].label": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "EC 3-4 530,192,000 498,380,000",
       "method": "published",
       "conflict": false,
@@ -170,7 +170,7 @@
     },
     "fees.by_year_group[0].tuition": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "EC 3-4 530,192,000 498,380,000",
       "method": "published",
       "conflict": false,
@@ -178,7 +178,7 @@
     },
     "fees.by_year_group[1].label": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Kindergarten 603,200,000 567,008,000",
       "method": "published",
       "conflict": false,
@@ -186,7 +186,7 @@
     },
     "fees.by_year_group[1].tuition": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Kindergarten 603,200,000 567,008,000",
       "method": "published",
       "conflict": false,
@@ -194,7 +194,7 @@
     },
     "fees.by_year_group[2].label": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 1-5 730,808,000 686,960,000",
       "method": "published",
       "conflict": false,
@@ -202,7 +202,7 @@
     },
     "fees.by_year_group[2].tuition": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 1-5 730,808,000 686,960,000",
       "method": "published",
       "conflict": false,
@@ -210,7 +210,7 @@
     },
     "fees.by_year_group[3].label": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 6-8 782,687,000 735,726,000",
       "method": "published",
       "conflict": false,
@@ -218,7 +218,7 @@
     },
     "fees.by_year_group[3].tuition": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 6-8 782,687,000 735,726,000",
       "method": "published",
       "conflict": false,
@@ -226,7 +226,7 @@
     },
     "fees.by_year_group[4].label": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 9-10 832,426,000 782,481,000",
       "method": "published",
       "conflict": false,
@@ -234,7 +234,7 @@
     },
     "fees.by_year_group[4].tuition": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 9-10 832,426,000 782,481,000",
       "method": "published",
       "conflict": false,
@@ -242,7 +242,7 @@
     },
     "fees.by_year_group[5].label": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 11-12 924,546,000 869,073,000",
       "method": "published",
       "conflict": false,
@@ -250,7 +250,7 @@
     },
     "fees.by_year_group[5].tuition": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Grade 11-12 924,546,000 869,073,000",
       "method": "published",
       "conflict": false,
@@ -258,7 +258,7 @@
     },
     "fees.sibling_discount": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "A 20% discount will be applied to tuition for the 3rd and subsequent child(ren) of the same family attending SSIS.",
       "method": "published",
       "conflict": false,
@@ -266,7 +266,7 @@
     },
     "fees.early_payment_discount": {
       "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-17",
       "evidence": "Payment in full by June 25, 2026. A 6% discount applies.",
       "method": "published",
       "conflict": false,
@@ -274,7 +274,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "School Phone Number: (84-28) 3 622 0870",
       "method": "published",
       "conflict": false,
@@ -282,7 +282,7 @@
     },
     "contact.email": {
       "source_url": "https://www.ssis.edu.vn/parent-portal/contacts",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "E info@ssis.edu.vn",
       "method": "published",
       "conflict": false,
@@ -291,5 +291,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-08-05"
+  "last_verified": "2026-09-17"
 }

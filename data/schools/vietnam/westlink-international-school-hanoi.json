@@ -84,7 +84,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Welcome to Westlink International School, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -92,7 +92,7 @@
     },
     "location.country": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Welcome to Westlink International School, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -100,7 +100,7 @@
     },
     "location.city": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Welcome to Westlink International School, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "location.address": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Nguyen Huu Lieu, Tay Ho Tay urban area, Xuan Dinh Ward, Hanoi",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "IB Primary Years Programme Ages 6 - 10",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "IB Middle Years Programme Ages 11 - 15",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "curricula[2]": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "IB Diploma Programme Age 16 - 17",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "curricula[3]": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Bilingual Middle Years Programme Ages 11 - 14",
       "method": "published",
       "conflict": false,
@@ -148,7 +148,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "Early Years Ages 4 - 5",
       "method": "published",
       "conflict": false,
@@ -156,7 +156,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "IB Diploma Programme Age 16 - 17",
       "method": "published",
       "conflict": false,
@@ -164,7 +164,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "(+84) 865 777 900",
       "method": "published",
       "conflict": false,
@@ -172,7 +172,7 @@
     },
     "contact.email": {
       "source_url": "https://www.westlink.edu.vn/",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-17",
       "evidence": "info@westlink.edu.vn",
       "method": "published",
       "conflict": false,
@@ -181,5 +181,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-08-10"
+  "last_verified": "2026-09-17"
 }

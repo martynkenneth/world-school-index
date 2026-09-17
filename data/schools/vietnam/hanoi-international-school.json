@@ -92,7 +92,7 @@
   "provenance": {
     "name": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Hanoi International School",
       "method": "published",
       "conflict": false,
@@ -100,7 +100,7 @@
     },
     "location.country": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "48 Lieu Giai St., Cong Vi, Ba Dinh, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -108,7 +108,7 @@
     },
     "location.city": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "48 Lieu Giai St., Cong Vi, Ba Dinh, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -116,7 +116,7 @@
     },
     "location.district": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "48 Lieu Giai St., Cong Vi, Ba Dinh, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -124,7 +124,7 @@
     },
     "location.address": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "48 Lieu Giai St., Cong Vi, Ba Dinh, Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "curricula[0]": {
       "source_url": "https://www.hisvietnam.com/admissions/admisions-faq",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "includes Primary Years Programme (PYP), Middle Years Programme (MYP)",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "curricula[1]": {
       "source_url": "https://www.hisvietnam.com/admissions/admisions-faq",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "includes Primary Years Programme (PYP), Middle Years Programme (MYP)",
       "method": "published",
       "conflict": false,
@@ -148,7 +148,7 @@
     },
     "curricula[2]": {
       "source_url": "https://www.hisvietnam.com/admissions/admisions-faq",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Diploma Programme (DP) Grades 11 and 12",
       "method": "published",
       "conflict": false,
@@ -156,7 +156,7 @@
     },
     "age_range.min": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "providing education for students aged 4 to 18 in Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -164,7 +164,7 @@
     },
     "age_range.max": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "providing education for students aged 4 to 18 in Hanoi, Vietnam",
       "method": "published",
       "conflict": false,
@@ -172,7 +172,7 @@
     },
     "accreditations[0].body": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "International Baccalaureate&reg; (IB) World School",
       "method": "published",
       "conflict": false,
@@ -180,7 +180,7 @@
     },
     "languages.instruction[0]": {
       "source_url": "https://www.hisvietnam.com/admissions/scholarships-202627",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "with a 100% English-language curriculum",
       "method": "published",
       "conflict": false,
@@ -188,7 +188,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Tel: (84 24) 3832 8140",
       "method": "published",
       "conflict": false,
@@ -196,7 +196,7 @@
     },
     "contact.email": {
       "source_url": "https://www.hisvietnam.com/home-clone/about/contact-us",
-      "retrieved_date": "2026-07-27",
+      "retrieved_date": "2026-09-17",
       "evidence": "Email: mainoffice@hisvietnam.com",
       "method": "published",
       "conflict": false,
@@ -205,5 +205,5 @@
   },
   "completeness_score": 7,
   "indexable": false,
-  "last_verified": "2026-07-27"
+  "last_verified": "2026-09-17"
 }

@@ -108,7 +108,7 @@
     },
     "location.address": {
       "source_url": "https://www.apu.edu.vn/da-nang",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "299 Tran Dai Nghia, Hoa Hai Ward, Ngu Hanh Son District, Da Nang City, Vietnam",
       "method": "published",
       "conflict": false,
@@ -132,7 +132,7 @@
     },
     "year_groups[0]": {
       "source_url": "https://www.apu.edu.vn/da-nang",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Elementary (K-5)",
       "method": "published",
       "conflict": false,
@@ -140,7 +140,7 @@
     },
     "year_groups[1]": {
       "source_url": "https://www.apu.edu.vn/da-nang",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "Middle School - High School (6-12)",
       "method": "published",
       "conflict": false,
@@ -164,7 +164,7 @@
     },
     "contact.phone": {
       "source_url": "https://www.apu.edu.vn/da-nang",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "(84-236) 3928 665 - 3928 667",
       "method": "published",
       "conflict": false,
@@ -172,7 +172,7 @@
     },
     "contact.email": {
       "source_url": "https://www.apu.edu.vn/da-nang",
-      "retrieved_date": "2026-07-31",
+      "retrieved_date": "2026-09-17",
       "evidence": "info@apu.edu.vn",
       "method": "published",
       "conflict": false,
@@ -181,5 +181,5 @@
   },
   "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-07-31"
+  "last_verified": "2026-09-17"
 }

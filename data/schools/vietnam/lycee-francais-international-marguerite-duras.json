@@ -79,7 +79,7 @@
   "provenance": {
     "name": {
       "source_url": "https://lfiduras.com/index.php/contacts/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Lycée Français International Marguerite Duras",
       "method": "published",
       "conflict": false,
@@ -87,7 +87,7 @@
     },
     "location.country": {
       "source_url": "https://lfiduras.com/index.php/contacts/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Ho Chi Minh Ville – Vietnam",
       "method": "published",
       "conflict": false,
@@ -95,7 +95,7 @@
     },
     "location.city": {
       "source_url": "https://lfiduras.com/index.php/contacts/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Ho Chi Minh Ville – Vietnam",
       "method": "published",
       "conflict": false,
@@ -103,7 +103,7 @@
     },
     "location.address": {
       "source_url": "https://lfiduras.com/index.php/contacts/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "260, route N° 11 – Long Binh – Ho Chi Minh Ville – Vietnam",
       "method": "published",
       "conflict": false,
@@ -111,7 +111,7 @@
     },
     "contact.phone": {
       "source_url": "https://lfiduras.com/index.php/contacts/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Téléphone : +84 (028) 37 25 22 08",
       "method": "published",
       "conflict": false,
@@ -119,7 +119,7 @@
     },
     "contact.email": {
       "source_url": "https://lfiduras.com/index.php/contacts/",
-      "retrieved_date": "2026-07-28",
+      "retrieved_date": "2026-09-17",
       "evidence": "Secrétariat de Direction : sec.direction@lfiduras.com",
       "method": "published",
       "conflict": false,
@@ -128,5 +128,5 @@
   },
   "completeness_score": 3,
   "indexable": false,
-  "last_verified": "2026-07-28"
+  "last_verified": "2026-09-17"
 }

@@ -1,0 +1,1052 @@
+{
+  "schema_version": "1.0",
+  "retrieved_date": "2026-09-17",
+  "schools_checked": 58,
+  "sources_checked": 110,
+  "sources_fetched": 107,
+  "fields_refreshed": 661,
+  "candidates_refreshed": 6,
+  "schools_with_issues": 15,
+  "results": [
+    {
+      "id": "th-bangkok-bangkok-international-preparatory-secondary-school",
+      "country": "thailand",
+      "slug": "bangkok-international-preparatory-secondary-school",
+      "previous_last_verified": "2026-09-17",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 31,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "location.address",
+          "source_url": "https://www.bangkokprep.ac.th/",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "th-bangkok-bangkok-patana-school",
+      "country": "thailand",
+      "slug": "bangkok-patana-school",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 6,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-basis-international-school-bangkok",
+      "country": "thailand",
+      "slug": "basis-international-school-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 10,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-brighton-college-bangkok",
+      "country": "thailand",
+      "slug": "brighton-college-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 6,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-nonthaburi-denla-british-school",
+      "country": "thailand",
+      "slug": "denla-british-school",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 5,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-nonthaburi-hampton-international-school-chaengwattana",
+      "country": "thailand",
+      "slug": "hampton-international-school-chaengwattana",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 5,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-harrow-international-school-bangkok",
+      "country": "thailand",
+      "slug": "harrow-international-school-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-nonthaburi-international-christian-school-nonthaburi",
+      "country": "thailand",
+      "slug": "international-christian-school-nonthaburi",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 5,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-nonthaburi-international-school-bangkok",
+      "country": "thailand",
+      "slug": "international-school-bangkok",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 4,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-kings-college-international-school-bangkok",
+      "country": "thailand",
+      "slug": "kings-college-international-school-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 10,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-nonthaburi-knightsbridge-house-international-school-thailand",
+      "country": "thailand",
+      "slug": "knightsbridge-house-international-school-thailand",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 5,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-lycee-francais-international-de-bangkok",
+      "country": "thailand",
+      "slug": "lycee-francais-international-de-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 6,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "enrolment.total",
+          "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "contact.phone",
+          "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-international-de-bangkok",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "th-nonthaburi-myis-international-school",
+      "country": "thailand",
+      "slug": "myis-international-school",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-08-05",
+      "sources_checked": 1,
+      "sources_fetched": 0,
+      "fields_refreshed": 0,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "name",
+          "source_url": "https://magicyears.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "location.country",
+          "source_url": "https://magicyears.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "location.city",
+          "source_url": "https://magicyears.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "location.address",
+          "source_url": "https://magicyears.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "curricula[0]",
+          "source_url": "https://magicyears.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "curricula[1]",
+          "source_url": "https://magicyears.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        }
+      ]
+    },
+    {
+      "id": "th-nonthaburi-new-american-chinese-international-school",
+      "country": "thailand",
+      "slug": "new-american-chinese-international-school",
+      "previous_last_verified": "2026-08-09",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 10,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "school_type",
+          "source_url": "https://www.nac-school.com/faq",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "curricula[0]",
+          "source_url": "https://www.nac-school.com/faq",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "curricula[2]",
+          "source_url": "https://www.nac-school.com/faq",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "contact.website",
+          "source_url": "https://www.nac-school.com/",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "th-bangkok-nist-international-school-bangkok",
+      "country": "thailand",
+      "slug": "nist-international-school-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 12,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-regents-international-school-bangkok",
+      "country": "thailand",
+      "slug": "regents-international-school-bangkok",
+      "previous_last_verified": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "sources_checked": 1,
+      "sources_fetched": 0,
+      "fields_refreshed": 0,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "name",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "location.country",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "location.city",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "location.address",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "age_range.min",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "age_range.max",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "curricula[0]",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "curricula[1]",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "curricula[2]",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "contact.phone",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        },
+        {
+          "field": "contact.email",
+          "source_url": "https://regents.ac.th/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 301"
+        }
+      ]
+    },
+    {
+      "id": "th-nonthaburi-ruamrudee-international-school-ratchapruek",
+      "country": "thailand",
+      "slug": "ruamrudee-international-school-ratchapruek",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-08-05",
+      "sources_checked": 1,
+      "sources_fetched": 0,
+      "fields_refreshed": 0,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "name",
+          "source_url": "https://www.risr.ac.th/contact_us/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 308"
+        },
+        {
+          "field": "location.country",
+          "source_url": "https://www.risr.ac.th/contact_us/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 308"
+        },
+        {
+          "field": "location.city",
+          "source_url": "https://www.risr.ac.th/contact_us/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 308"
+        },
+        {
+          "field": "location.address",
+          "source_url": "https://www.risr.ac.th/contact_us/",
+          "result": "blocked",
+          "http_status": null,
+          "detail": "robots.txt returned HTTP 308"
+        }
+      ]
+    },
+    {
+      "id": "th-bangkok-ruamrudee-international-school",
+      "country": "thailand",
+      "slug": "ruamrudee-international-school",
+      "previous_last_verified": "2026-08-03",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 7,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-shrewsbury-international-school-bangkok",
+      "country": "thailand",
+      "slug": "shrewsbury-international-school-bangkok",
+      "previous_last_verified": "2026-08-03",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-st-andrews-international-school-bangkok",
+      "country": "thailand",
+      "slug": "st-andrews-international-school-bangkok",
+      "previous_last_verified": "2026-08-03",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 11,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-nonthaburi-st-andrews-samakee-international-school",
+      "country": "thailand",
+      "slug": "st-andrews-samakee-international-school",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 3,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "th-bangkok-wellington-college-international-school-bangkok",
+      "country": "thailand",
+      "slug": "wellington-college-international-school-bangkok",
+      "previous_last_verified": "2026-08-03",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 3,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-abc-international-school-ho-chi-minh-city",
+      "country": "vietnam",
+      "slug": "abc-international-school-ho-chi-minh-city",
+      "previous_last_verified": "2026-07-29",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 14,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-da-nang-apu-american-international-school-da-nang",
+      "country": "vietnam",
+      "slug": "apu-american-international-school-da-nang",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 5,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "name",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "location.country",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "location.city",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "founded",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "curricula[0]",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "enrolment.total",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "enrolment.nationalities_count",
+          "source_url": "https://www.apu.edu.vn/about",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-ho-chi-minh-city-apu-american-international-school-ho-chi-minh-city",
+      "country": "vietnam",
+      "slug": "apu-american-international-school-ho-chi-minh-city",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 5,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-australian-international-school-vietnam",
+      "country": "vietnam",
+      "slug": "australian-international-school-vietnam",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 12,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-british-international-school-hanoi",
+      "country": "vietnam",
+      "slug": "british-international-school-hanoi",
+      "previous_last_verified": "2026-08-03",
+      "last_verified": "2026-09-17",
+      "sources_checked": 6,
+      "sources_fetched": 6,
+      "fields_refreshed": 58,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "admissions.open_days[0]",
+          "source_url": "https://www.nordangliaeducation.com/bis-hanoi/open-day",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-ho-chi-minh-city-british-international-school-ho-chi-minh-city",
+      "country": "vietnam",
+      "slug": "british-international-school-ho-chi-minh-city",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 10,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-british-vietnamese-international-school-hanoi",
+      "country": "vietnam",
+      "slug": "british-vietnamese-international-school-hanoi",
+      "previous_last_verified": "2026-07-27",
+      "last_verified": "2026-09-17",
+      "sources_checked": 5,
+      "sources_fetched": 5,
+      "fields_refreshed": 50,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "curricula[0]",
+          "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "curricula[1]",
+          "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "accreditations[1].body",
+          "source_url": "https://www.nordangliaeducation.com/bvis-hanoi",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-ho-chi-minh-city-canadian-international-school-vietnam",
+      "country": "vietnam",
+      "slug": "canadian-international-school-vietnam",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 7,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-concordia-international-school-hanoi",
+      "country": "vietnam",
+      "slug": "concordia-international-school-hanoi",
+      "previous_last_verified": "2026-07-27",
+      "last_verified": "2026-09-17",
+      "sources_checked": 3,
+      "sources_fetched": 3,
+      "fields_refreshed": 30,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-dwight-school-hanoi",
+      "country": "vietnam",
+      "slug": "dwight-school-hanoi",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 7,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-european-international-school-ho-chi-minh-city",
+      "country": "vietnam",
+      "slug": "european-international-school-ho-chi-minh-city",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 13,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-fairmont-international-school-vietnam",
+      "country": "vietnam",
+      "slug": "fairmont-international-school-vietnam",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 7,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "name",
+          "source_url": "https://www.fairmontschools.edu.vn/landing/fisv",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-da-nang-global-e-school-da-nang",
+      "country": "vietnam",
+      "slug": "global-e-school-da-nang",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-hanoi-international-school",
+      "country": "vietnam",
+      "slug": "hanoi-international-school",
+      "previous_last_verified": "2026-07-27",
+      "last_verified": "2026-09-17",
+      "sources_checked": 3,
+      "sources_fetched": 3,
+      "fields_refreshed": 14,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-international-school-ho-chi-minh-city",
+      "country": "vietnam",
+      "slug": "international-school-ho-chi-minh-city",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 8,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-international-school-parkcity-hanoi",
+      "country": "vietnam",
+      "slug": "international-school-parkcity-hanoi",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 16,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-ishcmc-american-academy",
+      "country": "vietnam",
+      "slug": "ishcmc-american-academy",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-lycee-francais-alexandre-yersin-hanoi",
+      "country": "vietnam",
+      "slug": "lycee-francais-alexandre-yersin-hanoi",
+      "previous_last_verified": "2026-07-27",
+      "last_verified": "2026-09-17",
+      "sources_checked": 3,
+      "sources_fetched": 3,
+      "fields_refreshed": 12,
+      "candidates_refreshed": 1,
+      "issues": [
+        {
+          "field": "location.address candidate 2",
+          "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored conflict evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "enrolment.total",
+          "source_url": "https://aefe.gouv.fr/fr/etablissements/lycee-francais-alexandre-yersin",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-ho-chi-minh-city-lycee-francais-international-marguerite-duras",
+      "country": "vietnam",
+      "slug": "lycee-francais-international-marguerite-duras",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 6,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-da-nang-odyssey-international-school",
+      "country": "vietnam",
+      "slug": "odyssey-international-school",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 11,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-reigate-grammar-school-vietnam",
+      "country": "vietnam",
+      "slug": "reigate-grammar-school-vietnam",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-renaissance-international-school-saigon",
+      "country": "vietnam",
+      "slug": "renaissance-international-school-saigon",
+      "previous_last_verified": "2026-07-28",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-saigon-south-international-school",
+      "country": "vietnam",
+      "slug": "saigon-south-international-school",
+      "previous_last_verified": "2026-08-05",
+      "last_verified": "2026-09-17",
+      "sources_checked": 3,
+      "sources_fetched": 3,
+      "fields_refreshed": 22,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "fees.currency",
+          "source_url": "https://www.ssis.edu.vn/admissions/tuition-and-fees",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-da-nang-sakura-olympia-school-system",
+      "country": "vietnam",
+      "slug": "sakura-olympia-school-system",
+      "previous_last_verified": "2026-08-09",
+      "last_verified": "2026-09-17",
+      "sources_checked": 4,
+      "sources_fetched": 4,
+      "fields_refreshed": 13,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-singapore-international-school-ciputra",
+      "country": "vietnam",
+      "slug": "singapore-international-school-ciputra",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 8,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-da-nang-singapore-international-school-da-nang",
+      "country": "vietnam",
+      "slug": "singapore-international-school-da-nang",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 6,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "curricula[0]",
+          "source_url": "https://danang.sis.edu.vn/who-we-are/academic-team/",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-hanoi-singapore-international-school-gamuda-gardens",
+      "country": "vietnam",
+      "slug": "singapore-international-school-gamuda-gardens",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 7,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-singapore-international-school-van-phuc",
+      "country": "vietnam",
+      "slug": "singapore-international-school-van-phuc",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 8,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-da-nang-sky-line-school-da-nang",
+      "country": "vietnam",
+      "slug": "sky-line-school-da-nang",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 10,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-da-nang-st-nicholas-school-da-nang",
+      "country": "vietnam",
+      "slug": "st-nicholas-school-da-nang",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 2,
+      "sources_fetched": 2,
+      "fields_refreshed": 9,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "location.country",
+          "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        },
+        {
+          "field": "location.address",
+          "source_url": "https://sns.edu.vn/en/about-us/sns-philosophy",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-hanoi-st-paul-american-school-hanoi",
+      "country": "vietnam",
+      "slug": "st-paul-american-school-hanoi",
+      "previous_last_verified": "2026-07-27",
+      "last_verified": "2026-09-17",
+      "sources_checked": 4,
+      "sources_fetched": 4,
+      "fields_refreshed": 24,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-ho-chi-minh-city-the-american-school-ho-chi-minh-city",
+      "country": "vietnam",
+      "slug": "the-american-school-ho-chi-minh-city",
+      "previous_last_verified": "2026-07-29",
+      "last_verified": "2026-09-17",
+      "sources_checked": 3,
+      "sources_fetched": 3,
+      "fields_refreshed": 11,
+      "candidates_refreshed": 0,
+      "issues": [
+        {
+          "field": "contact.phone",
+          "source_url": "https://www.tas.edu.vn/",
+          "result": "evidence_changed",
+          "http_status": 200,
+          "detail": "Stored evidence is no longer present verbatim in the fetched page"
+        }
+      ]
+    },
+    {
+      "id": "vn-hanoi-true-north-international-school",
+      "country": "vietnam",
+      "slug": "true-north-international-school",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 11,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-da-nang-uk-academy-da-nang",
+      "country": "vietnam",
+      "slug": "uk-academy-da-nang",
+      "previous_last_verified": "2026-07-31",
+      "last_verified": "2026-09-17",
+      "sources_checked": 4,
+      "sources_fetched": 4,
+      "fields_refreshed": 11,
+      "candidates_refreshed": 0,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-united-nations-international-school-hanoi",
+      "country": "vietnam",
+      "slug": "united-nations-international-school-hanoi",
+      "previous_last_verified": "2026-07-27",
+      "last_verified": "2026-09-17",
+      "sources_checked": 5,
+      "sources_fetched": 5,
+      "fields_refreshed": 31,
+      "candidates_refreshed": 5,
+      "issues": []
+    },
+    {
+      "id": "vn-hanoi-westlink-international-school-hanoi",
+      "country": "vietnam",
+      "slug": "westlink-international-school-hanoi",
+      "previous_last_verified": "2026-08-10",
+      "last_verified": "2026-09-17",
+      "sources_checked": 1,
+      "sources_fetched": 1,
+      "fields_refreshed": 12,
+      "candidates_refreshed": 0,
+      "issues": []
+    }
+  ]
+}
