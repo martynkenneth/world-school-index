@@ -4,6 +4,7 @@ import path from "node:path";
 
 const MINIMUM_DELAY_MS = 3_000;
 const MAX_CONCURRENT_DOMAINS = 3;
+const REQUEST_TIMEOUT_MS = 20_000;
 const DEFAULT_CONTACT_URL = "https://world-school-index-vietnam.martynkenneth.chatgpt.site/about/crawler";
 const BOT_TOKEN = "worldschoolindexbot";
 
@@ -80,6 +81,7 @@ async function rateLimitedFetch(url: URL, userAgent: string, delayMs = MINIMUM_D
     lastRequestStartedAt.set(origin, Date.now());
     responsePromise = fetch(url, {
       redirect: "manual",
+      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
       headers: {
         "user-agent": userAgent,
         accept: "text/html,application/xhtml+xml,text/plain;q=0.8,*/*;q=0.1",

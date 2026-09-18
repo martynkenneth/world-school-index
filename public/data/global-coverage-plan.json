@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedOn": "2026-09-17",
+  "generatedOn": "2026-09-18",
   "countries": [
     {
       "name": "Vietnam",
@@ -27,9 +27,9 @@
       "slug": "singapore",
       "code": "SG",
       "region": "Southeast Asia",
-      "stage": "research",
-      "stageLabel": "Research next",
-      "nextStep": "Reconcile regulator, curriculum and accreditation directories.",
+      "stage": "published",
+      "stageLabel": "Published · initial collection",
+      "nextStep": "Expand the candidate inventory and verify fees, addresses, language and open-day fields.",
       "wave": 1
     },
     {
@@ -114,6 +114,18 @@
     }
   ],
   "sourceRegistry": [
+    {
+      "id": "singapore-pei-listing",
+      "name": "SkillsFuture Singapore registered PEI listing",
+      "url": "https://www.tpgateway.gov.sg/resources/information-for-private-education-institutions-%28peis%29/pei-listing",
+      "authority": "government",
+      "geographicScope": "Singapore",
+      "useFor": [
+        "candidate discovery",
+        "registration screening"
+      ],
+      "reviewCadenceDays": 90
+    },
     {
       "id": "isat-member-schools",
       "name": "International Schools Association of Thailand member directory",

@@ -14,6 +14,7 @@ export function SiteHeader() {
         <nav aria-label="Primary navigation">
           <Link href="/countries/vietnam">Vietnam</Link>
           <Link href="/countries/thailand">Thailand</Link>
+          <Link href="/countries/singapore">Singapore</Link>
           <Link href="/about">Methodology</Link>
         </nav>
       </div>

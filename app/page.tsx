@@ -10,6 +10,8 @@ const featuredSlugs = [
   "nist-international-school-bangkok",
   "bangkok-patana-school",
   "prem-international-school-chiang-mai",
+  "uwc-south-east-asia",
+  "singapore-american-school",
 ];
 const featured = featuredSlugs
   .map((slug) => schools.find((school) => school.slug === slug))
@@ -27,10 +29,11 @@ export default function Home() {
             <h1>Find the right international school, anywhere.</h1>
             <p className="hero-copy">
               A source-led directory of international schools, built carefully country by
-              country. Vietnam and Thailand are now live.
+              country. Vietnam, Thailand, and Singapore are now live.
             </p>
             <div className="hero-actions">
-              <Link className="button primary" href="/countries/thailand">Explore Thailand</Link>
+              <Link className="button primary" href="/countries/singapore">Explore Singapore</Link>
+              <Link className="button ghost" href="/countries/thailand">Explore Thailand</Link>
               <Link className="button ghost" href="/countries/vietnam">Explore Vietnam</Link>
               <Link className="button ghost" href="/about">How we verify</Link>
             </div>
@@ -41,7 +44,7 @@ export default function Home() {
             <strong>{schools.length}</strong>
             <p>official-source-linked profiles across {totalCities} cities in {countries.length} countries</p>
             <div className="coverage-progress"><span /></div>
-            <small>Vietnam + Thailand · Collections expanding</small>
+            <small>Vietnam + Thailand + Singapore · Collections expanding</small>
           </div>
         </div>
       </section>
@@ -50,7 +53,7 @@ export default function Home() {
         <div className="section-heading split-heading">
           <div>
             <span className="eyebrow">Global coverage roadmap</span>
-            <h2>Vietnam and Thailand live. Southeast Asia next.</h2>
+            <h2>Vietnam, Thailand, and Singapore live. Southeast Asia next.</h2>
           </div>
           <p>
             Every country moves through the same research, verification, and publication
@@ -98,7 +101,7 @@ export default function Home() {
               <span className="eyebrow">Featured records</span>
               <h2>A first look across Southeast Asia</h2>
             </div>
-            <Link className="text-link" href="/countries/thailand">See all Thailand schools →</Link>
+            <Link className="text-link" href="/countries/singapore">See all Singapore schools →</Link>
           </div>
           <div className="school-grid">
             {featured.map((school) => <SchoolCard key={school.slug} school={school} />)}

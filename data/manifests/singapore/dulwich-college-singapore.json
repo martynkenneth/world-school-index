@@ -1,0 +1,17 @@
+{
+  "id": "sg-singapore-dulwich-college-singapore",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/dulwich-college-singapore/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/dulwich-college-singapore.json",
+  "claims": [
+    { "path": "name", "value": "Dulwich College (Singapore)", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/ducks", "retrieved_date": "2026-09-18", "evidence": "DUCKS (ages 2 to 7) | Dulwich College (Singapore)" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/ducks", "retrieved_date": "2026-09-18", "evidence": "Dulwich College (Singapore)" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/ducks", "retrieved_date": "2026-09-18", "evidence": "Dulwich College (Singapore)" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://singapore.dulwich.org/learning/core-curriculum/ducks", "retrieved_date": "2026-09-18", "evidence": "DUCKS (ages 2 to 7)" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://singapore.dulwich.org/learning/core-curriculum/senior-school", "retrieved_date": "2026-09-18", "evidence": "Senior School (Secondary School) 11 - 18 years old" },
+    { "path": "curricula[0]", "value": "UK Early Years Foundation Stage (EYFS)", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/ducks", "retrieved_date": "2026-09-18", "evidence": "based on the UK Early Years Foundation Stage (EYFS) curriculum" },
+    { "path": "curricula[1]", "value": "English National Curriculum", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/senior-school", "retrieved_date": "2026-09-18", "evidence": "curriculum inspired by the English National Curriculum" },
+    { "path": "curricula[2]", "value": "IGCSE", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/senior-school", "retrieved_date": "2026-09-18", "evidence": "leading to IGCSE or GCSE qualifications" },
+    { "path": "curricula[3]", "value": "IB Diploma Programme", "source_url": "https://singapore.dulwich.org/learning/core-curriculum/senior-school", "retrieved_date": "2026-09-18", "evidence": "IB Diploma Programme The International Baccalaureate Diploma Programme" }
+  ]
+}

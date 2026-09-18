@@ -1,0 +1,17 @@
+{
+  "id": "sg-singapore-tanglin-trust-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/tanglin-trust-school/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/tanglin-trust-school.json",
+  "claims": [
+    { "path": "name", "value": "Tanglin Trust School", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "British Based Education in Singapore for 3 to 18 Years | Tanglin Trust School" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "British Based Education in Singapore for 3 to 18 Years" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "British Based Education in Singapore for 3 to 18 Years" },
+    { "path": "age_range.min", "value": 3, "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "British Based Education in Singapore for 3 to 18 Years" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "British Based Education in Singapore for 3 to 18 Years" },
+    { "path": "curricula[0]", "value": "English National Curriculum", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "grounded in an enhanced and rigorous English National Curriculum" },
+    { "path": "curricula[1]", "value": "A Levels", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "offering both A Levels and the IB Diploma in the Sixth Form" },
+    { "path": "curricula[2]", "value": "IB Diploma", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "offering both A Levels and the IB Diploma in the Sixth Form" },
+    { "path": "accreditations[0].body", "value": "British Schools Overseas (BSO)", "source_url": "https://www.tts.edu.sg/admissions/admissions-faqs", "retrieved_date": "2026-09-18", "evidence": "How is the school accredited? British Schools Overseas (BSO)" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sg-singapore-australian-international-school-singapore",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/australian-international-school-singapore/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/australian-international-school-singapore.json",
+  "claims": [
+    { "path": "name", "value": "Australian International School", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "Australian International School - Singapore | IB, IGCSE & HSC" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "Australian International School - Singapore" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "Australian International School - Singapore" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "From ages 2 months to 18 years" },
+    { "path": "curricula[0]", "value": "IB Primary Years Programme", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "five global curricula drive this success: IB Primary Years Programme" },
+    { "path": "curricula[1]", "value": "Australian Curriculum", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "IB Primary Years Programme , Australian Curriculum, Cambridge IGCSE" },
+    { "path": "curricula[2]", "value": "Cambridge IGCSE", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "Australian Curriculum, Cambridge IGCSE , IB Diploma Programme" },
+    { "path": "curricula[3]", "value": "IB Diploma Programme", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "Cambridge IGCSE , IB Diploma Programme , and Higher School Certificate" },
+    { "path": "curricula[4]", "value": "Higher School Certificate", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "IB Diploma Programme , and Higher School Certificate (HSC)" },
+    { "path": "accreditations[0].body", "value": "IB World School", "source_url": "https://www.ais.com.sg/", "retrieved_date": "2026-09-18", "evidence": "An Exceptional IB World School from Infant Care to Year 12" }
+  ]
+}

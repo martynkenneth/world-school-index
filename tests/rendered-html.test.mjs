@@ -47,7 +47,7 @@ test("server-renders the global coverage roadmap", async () => {
   assert.match(html, /<title>World School Index/i);
   assert.match(html, /Find the right international school, anywhere\./);
   assert.match(html, /Global coverage roadmap/);
-  assert.match(html, /Vietnam and Thailand live\. Southeast Asia next\./);
+  assert.match(html, /Vietnam, Thailand, and Singapore live\. Southeast Asia next\./);
   assert.match(html, /Thailand/);
   assert.match(html, /Singapore/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);
@@ -207,6 +207,36 @@ test("surfaces the source-backed Ho Chi Minh City fee answer on the existing cit
   assert.match(html, new RegExp(`Checked[\\s\\S]*${checked}`));
   assert.match(html, /href="\/schools\/saigon-south-international-school"/);
   assert.doesNotMatch(html, /Evidence capture pending/i);
+});
+
+test("ships the first source-checked Singapore collection", async () => {
+  const dataExport = await readFile(
+    new URL("../public/data/singapore-schools.json", import.meta.url),
+    "utf8",
+  );
+  const parsed = JSON.parse(dataExport);
+  assert.equal(parsed.schemaVersion, "2.0");
+  assert.equal(parsed.recordCount, 8);
+  assert.equal(parsed.entities.schools.length, 8);
+  assert.equal(parsed.entities.campuses.length, 8);
+  assert.equal(parsed.entities.sources.length, 8);
+  assert.equal(parsed.entities.verifications.length, 8);
+});
+
+test("renders the Singapore country directory and a provisional Singapore record", async () => {
+  const [countryResponse, schoolResponse] = await Promise.all([
+    render("/countries/singapore"),
+    render("/schools/uwc-south-east-asia"),
+  ]);
+  assert.equal(countryResponse.status, 200);
+  assert.equal(schoolResponse.status, 200);
+  const countryHtml = await countryResponse.text();
+  const schoolHtml = await schoolResponse.text();
+  assert.match(countryHtml, /International Schools in Singapore/);
+  assert.match(countryHtml, /8<\/strong><span>school profiles/);
+  assert.match(countryHtml, /href="\/data\/singapore-schools\.json"/);
+  assert.match(schoolHtml, /UWC South East Asia/);
+  assert.match(schoolHtml, /noindex/);
 });
 
 test("surfaces the source-backed Bangkok fee answer on the existing city hub", async () => {

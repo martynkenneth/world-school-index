@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-09-18",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -496,6 +496,58 @@
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
       "next_action": "Begin Samut Prakan, Thailand, using the existing provisional coverage and an official-source candidate inventory; retain the NAC entity and grade-range conflict for human review."
+    },
+    {
+      "country": "Singapore",
+      "city": "Singapore",
+      "city_slug": "singapore",
+      "status": "complete",
+      "schools_discovered": 8,
+      "schools_processed": 8,
+      "school_ids": [
+        "school:sg:uwc-south-east-asia",
+        "school:sg:singapore-american-school",
+        "school:sg:tanglin-trust-school",
+        "school:sg:canadian-international-school-singapore",
+        "school:sg:australian-international-school-singapore",
+        "school:sg:stamford-american-international-school",
+        "school:sg:dulwich-college-singapore",
+        "school:sg:nexus-international-school-singapore"
+      ],
+      "school_results": [
+        { "school_id": "school:sg:uwc-south-east-asia", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:singapore-american-school", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:tanglin-trust-school", "result": "strict_provisional_record_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["location.address", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:canadian-international-school-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:australian-international-school-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:stamford-american-international-school", "result": "strict_provisional_record_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["location.address", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:dulwich-college-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:sg:nexus-international-school-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
+      ],
+      "source_urls": [
+        "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea",
+        "https://www.uwcsea.edu.sg/admissions/eligibility/age-and-grade",
+        "https://www.uwcsea.edu.sg/curriculum-microhome/what-parents-should-know",
+        "https://www.sas.edu.sg/about-us/community-impact-statement",
+        "https://www.sas.edu.sg/admissions/entry-requirements",
+        "https://www.tts.edu.sg/admissions/admissions-faqs",
+        "https://www.cis.edu.sg/handbook/1-about",
+        "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines",
+        "https://www.ais.com.sg/",
+        "https://www.sais.edu.sg/about-us/welcome/",
+        "https://www.sais.edu.sg/admissions/faq/",
+        "https://singapore.dulwich.org/learning/core-curriculum/ducks",
+        "https://singapore.dulwich.org/learning/core-curriculum/senior-school",
+        "https://www.nexus.edu.sg/innovative-learning/"
+      ],
+      "last_run_date": "2026-09-18",
+      "unresolved_conflicts": [],
+      "source_access_blocks": [],
+      "pending_candidates": [],
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "sheet_claims_blocked": 0,
+      "next_action": "Expand the Singapore candidate inventory, then verify addresses, fee schedules, language of instruction, accreditation, and open-day fields."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "generatedOn": "2026-09-17",
-  "recordCount": 74,
+  "generatedOn": "2026-09-18",
+  "recordCount": 82,
   "entities": {
     "schools": [
       {
@@ -701,6 +701,80 @@
         "status": "operating",
         "ownership": "Independent school group",
         "founded": 1996
+      },
+      {
+        "id": "school:sg:uwc-south-east-asia",
+        "canonicalName": "UWC South East Asia",
+        "shortName": "UWCSEA",
+        "slug": "uwc-south-east-asia",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified",
+        "founded": 1971
+      },
+      {
+        "id": "school:sg:singapore-american-school",
+        "canonicalName": "Singapore American School",
+        "shortName": "SAS",
+        "slug": "singapore-american-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not-for-profit",
+        "founded": 1956
+      },
+      {
+        "id": "school:sg:tanglin-trust-school",
+        "canonicalName": "Tanglin Trust School",
+        "shortName": "Tanglin",
+        "slug": "tanglin-trust-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:canadian-international-school-singapore",
+        "canonicalName": "Canadian International School",
+        "shortName": "CIS",
+        "slug": "canadian-international-school-singapore",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:australian-international-school-singapore",
+        "canonicalName": "Australian International School",
+        "shortName": "AIS",
+        "slug": "australian-international-school-singapore",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:stamford-american-international-school",
+        "canonicalName": "Stamford American International School",
+        "shortName": "Stamford American",
+        "slug": "stamford-american-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:dulwich-college-singapore",
+        "canonicalName": "Dulwich College (Singapore)",
+        "shortName": "Dulwich Singapore",
+        "slug": "dulwich-college-singapore",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:nexus-international-school-singapore",
+        "canonicalName": "Nexus International School (Singapore)",
+        "shortName": "Nexus Singapore",
+        "slug": "nexus-international-school-singapore",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
       }
     ],
     "campuses": [
@@ -1443,6 +1517,86 @@
         "citySlug": "rayong",
         "region": "Eastern Thailand",
         "campusType": "day"
+      },
+      {
+        "id": "campus:sg:uwc-south-east-asia:main",
+        "schoolId": "school:sg:uwc-south-east-asia",
+        "name": "UWCSEA main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:singapore-american-school:main",
+        "schoolId": "school:sg:singapore-american-school",
+        "name": "SAS main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "day"
+      },
+      {
+        "id": "campus:sg:tanglin-trust-school:main",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "name": "Tanglin main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:canadian-international-school-singapore:main",
+        "schoolId": "school:sg:canadian-international-school-singapore",
+        "name": "CIS main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:australian-international-school-singapore:main",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "name": "AIS main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:stamford-american-international-school:main",
+        "schoolId": "school:sg:stamford-american-international-school",
+        "name": "Stamford American main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:dulwich-college-singapore:main",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "name": "Dulwich Singapore main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:nexus-international-school-singapore:main",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "name": "Nexus Singapore main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
       }
     ],
     "programmes": [
@@ -2705,6 +2859,181 @@
         "campusId": "campus:th:st-andrews-international-school-green-valley:main",
         "programme": "IB Diploma",
         "sourceId": "source:th:st-andrews-international-school-green-valley:official"
+      },
+      {
+        "id": "programme:sg:uwc-south-east-asia:1",
+        "schoolId": "school:sg:uwc-south-east-asia",
+        "campusId": "campus:sg:uwc-south-east-asia:main",
+        "programme": "(I)GCSE",
+        "sourceId": "source:sg:uwc-south-east-asia:official"
+      },
+      {
+        "id": "programme:sg:uwc-south-east-asia:2",
+        "schoolId": "school:sg:uwc-south-east-asia",
+        "campusId": "campus:sg:uwc-south-east-asia:main",
+        "programme": "IB Diploma Programme",
+        "sourceId": "source:sg:uwc-south-east-asia:official"
+      },
+      {
+        "id": "programme:sg:singapore-american-school:1",
+        "schoolId": "school:sg:singapore-american-school",
+        "campusId": "campus:sg:singapore-american-school:main",
+        "programme": "American-based curriculum",
+        "sourceId": "source:sg:singapore-american-school:official"
+      },
+      {
+        "id": "programme:sg:tanglin-trust-school:1",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "campusId": "campus:sg:tanglin-trust-school:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:sg:tanglin-trust-school:official"
+      },
+      {
+        "id": "programme:sg:tanglin-trust-school:2",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "campusId": "campus:sg:tanglin-trust-school:main",
+        "programme": "A Levels",
+        "sourceId": "source:sg:tanglin-trust-school:official"
+      },
+      {
+        "id": "programme:sg:tanglin-trust-school:3",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "campusId": "campus:sg:tanglin-trust-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:sg:tanglin-trust-school:official"
+      },
+      {
+        "id": "programme:sg:canadian-international-school-singapore:1",
+        "schoolId": "school:sg:canadian-international-school-singapore",
+        "campusId": "campus:sg:canadian-international-school-singapore:main",
+        "programme": "IB PYP",
+        "sourceId": "source:sg:canadian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:canadian-international-school-singapore:2",
+        "schoolId": "school:sg:canadian-international-school-singapore",
+        "campusId": "campus:sg:canadian-international-school-singapore:main",
+        "programme": "IB MYP",
+        "sourceId": "source:sg:canadian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:canadian-international-school-singapore:3",
+        "schoolId": "school:sg:canadian-international-school-singapore",
+        "campusId": "campus:sg:canadian-international-school-singapore:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:sg:canadian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:australian-international-school-singapore:1",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "campusId": "campus:sg:australian-international-school-singapore:main",
+        "programme": "IB PYP",
+        "sourceId": "source:sg:australian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:australian-international-school-singapore:2",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "campusId": "campus:sg:australian-international-school-singapore:main",
+        "programme": "Australian Curriculum",
+        "sourceId": "source:sg:australian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:australian-international-school-singapore:3",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "campusId": "campus:sg:australian-international-school-singapore:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:sg:australian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:australian-international-school-singapore:4",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "campusId": "campus:sg:australian-international-school-singapore:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:sg:australian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:australian-international-school-singapore:5",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "campusId": "campus:sg:australian-international-school-singapore:main",
+        "programme": "HSC",
+        "sourceId": "source:sg:australian-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:stamford-american-international-school:1",
+        "schoolId": "school:sg:stamford-american-international-school",
+        "campusId": "campus:sg:stamford-american-international-school:main",
+        "programme": "AP",
+        "sourceId": "source:sg:stamford-american-international-school:official"
+      },
+      {
+        "id": "programme:sg:stamford-american-international-school:2",
+        "schoolId": "school:sg:stamford-american-international-school",
+        "campusId": "campus:sg:stamford-american-international-school:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:sg:stamford-american-international-school:official"
+      },
+      {
+        "id": "programme:sg:stamford-american-international-school:3",
+        "schoolId": "school:sg:stamford-american-international-school",
+        "campusId": "campus:sg:stamford-american-international-school:main",
+        "programme": "BTEC Diploma",
+        "sourceId": "source:sg:stamford-american-international-school:official"
+      },
+      {
+        "id": "programme:sg:dulwich-college-singapore:1",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "campusId": "campus:sg:dulwich-college-singapore:main",
+        "programme": "EYFS",
+        "sourceId": "source:sg:dulwich-college-singapore:official"
+      },
+      {
+        "id": "programme:sg:dulwich-college-singapore:2",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "campusId": "campus:sg:dulwich-college-singapore:main",
+        "programme": "English National Curriculum",
+        "sourceId": "source:sg:dulwich-college-singapore:official"
+      },
+      {
+        "id": "programme:sg:dulwich-college-singapore:3",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "campusId": "campus:sg:dulwich-college-singapore:main",
+        "programme": "IGCSE",
+        "sourceId": "source:sg:dulwich-college-singapore:official"
+      },
+      {
+        "id": "programme:sg:dulwich-college-singapore:4",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "campusId": "campus:sg:dulwich-college-singapore:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:sg:dulwich-college-singapore:official"
+      },
+      {
+        "id": "programme:sg:nexus-international-school-singapore:1",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "campusId": "campus:sg:nexus-international-school-singapore:main",
+        "programme": "IB PYP",
+        "sourceId": "source:sg:nexus-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:nexus-international-school-singapore:2",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "campusId": "campus:sg:nexus-international-school-singapore:main",
+        "programme": "IB MYP",
+        "sourceId": "source:sg:nexus-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:nexus-international-school-singapore:3",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "campusId": "campus:sg:nexus-international-school-singapore:main",
+        "programme": "IGCSE",
+        "sourceId": "source:sg:nexus-international-school-singapore:official"
+      },
+      {
+        "id": "programme:sg:nexus-international-school-singapore:4",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "campusId": "campus:sg:nexus-international-school-singapore:main",
+        "programme": "IB Diploma",
+        "sourceId": "source:sg:nexus-international-school-singapore:official"
       }
     ],
     "accreditations": [
@@ -3203,6 +3532,27 @@
         "schoolId": "school:th:st-andrews-international-school-green-valley",
         "accreditation": "CIS",
         "sourceId": "source:th:st-andrews-international-school-green-valley:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:sg:singapore-american-school:1",
+        "schoolId": "school:sg:singapore-american-school",
+        "accreditation": "WASC",
+        "sourceId": "source:sg:singapore-american-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:sg:tanglin-trust-school:1",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "accreditation": "British Schools Overseas",
+        "sourceId": "source:sg:tanglin-trust-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:sg:australian-international-school-singapore:1",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "accreditation": "IB World School",
+        "sourceId": "source:sg:australian-international-school-singapore:official",
         "status": "recorded"
       }
     ],
@@ -4316,6 +4666,126 @@
           "age-range",
           "language"
         ]
+      },
+      {
+        "id": "source:sg:uwc-south-east-asia:official",
+        "schoolId": "school:sg:uwc-south-east-asia",
+        "type": "official-school",
+        "publisher": "UWC South East Asia",
+        "url": "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:singapore-american-school:official",
+        "schoolId": "school:sg:singapore-american-school",
+        "type": "official-school",
+        "publisher": "Singapore American School",
+        "url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:tanglin-trust-school:official",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "type": "official-school",
+        "publisher": "Tanglin Trust School",
+        "url": "https://www.tts.edu.sg/admissions/admissions-faqs",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:canadian-international-school-singapore:official",
+        "schoolId": "school:sg:canadian-international-school-singapore",
+        "type": "official-school",
+        "publisher": "Canadian International School",
+        "url": "https://www.cis.edu.sg/handbook/1-about",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:australian-international-school-singapore:official",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "type": "official-school",
+        "publisher": "Australian International School",
+        "url": "https://www.ais.com.sg/",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:stamford-american-international-school:official",
+        "schoolId": "school:sg:stamford-american-international-school",
+        "type": "official-school",
+        "publisher": "Stamford American International School",
+        "url": "https://www.sais.edu.sg/about-us/welcome/",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:dulwich-college-singapore:official",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "type": "official-school",
+        "publisher": "Dulwich College (Singapore)",
+        "url": "https://singapore.dulwich.org/learning/core-curriculum/senior-school",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:nexus-international-school-singapore:official",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "type": "official-school",
+        "publisher": "Nexus International School (Singapore)",
+        "url": "https://www.nexus.edu.sg/innovative-learning/",
+        "observedOn": "2026-09-18",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
       }
     ],
     "verifications": [
@@ -4983,6 +5453,78 @@
         "verifiedOn": "2026-07-23",
         "sourceIds": [
           "source:th:st-andrews-international-school-green-valley:official"
+        ]
+      },
+      {
+        "id": "verification:sg:uwc-south-east-asia:2026-09-18",
+        "schoolId": "school:sg:uwc-south-east-asia",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:uwc-south-east-asia:official"
+        ]
+      },
+      {
+        "id": "verification:sg:singapore-american-school:2026-09-18",
+        "schoolId": "school:sg:singapore-american-school",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:singapore-american-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:tanglin-trust-school:2026-09-18",
+        "schoolId": "school:sg:tanglin-trust-school",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:tanglin-trust-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:canadian-international-school-singapore:2026-09-18",
+        "schoolId": "school:sg:canadian-international-school-singapore",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:canadian-international-school-singapore:official"
+        ]
+      },
+      {
+        "id": "verification:sg:australian-international-school-singapore:2026-09-18",
+        "schoolId": "school:sg:australian-international-school-singapore",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:australian-international-school-singapore:official"
+        ]
+      },
+      {
+        "id": "verification:sg:stamford-american-international-school:2026-09-18",
+        "schoolId": "school:sg:stamford-american-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:stamford-american-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:dulwich-college-singapore:2026-09-18",
+        "schoolId": "school:sg:dulwich-college-singapore",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:dulwich-college-singapore:official"
+        ]
+      },
+      {
+        "id": "verification:sg:nexus-international-school-singapore:2026-09-18",
+        "schoolId": "school:sg:nexus-international-school-singapore",
+        "level": "core",
+        "verifiedOn": "2026-09-18",
+        "sourceIds": [
+          "source:sg:nexus-international-school-singapore:official"
         ]
       }
     ]
@@ -6897,6 +7439,215 @@
       "sourceUrl": "https://www.standrewsgreenvalley.com/",
       "verifiedOn": "2026-07-23",
       "founded": 1996
+    },
+    {
+      "name": "UWC South East Asia",
+      "shortName": "UWCSEA",
+      "slug": "uwc-south-east-asia",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "(I)GCSE",
+        "IB Diploma Programme"
+      ],
+      "ageRange": "4–18",
+      "language": "Not yet verified",
+      "schoolType": "K–12 international school",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.uwcsea.edu.sg/",
+      "sourceUrl": "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea",
+      "verifiedOn": "2026-09-18",
+      "founded": 1971,
+      "indexable": false
+    },
+    {
+      "name": "Singapore American School",
+      "shortName": "SAS",
+      "slug": "singapore-american-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "American-based curriculum"
+      ],
+      "ageRange": "Preschool–Grade 12",
+      "language": "Not yet verified",
+      "schoolType": "Co-educational day school",
+      "ownership": "Not-for-profit",
+      "accreditation": [
+        "WASC"
+      ],
+      "website": "https://www.sas.edu.sg/",
+      "sourceUrl": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "verifiedOn": "2026-09-18",
+      "founded": 1956,
+      "indexable": false
+    },
+    {
+      "name": "Tanglin Trust School",
+      "shortName": "Tanglin",
+      "slug": "tanglin-trust-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "English National Curriculum",
+        "A Levels",
+        "IB Diploma"
+      ],
+      "ageRange": "3–18",
+      "language": "English",
+      "schoolType": "British-based international school",
+      "ownership": "Not yet verified",
+      "accreditation": [
+        "British Schools Overseas"
+      ],
+      "website": "https://www.tts.edu.sg/",
+      "sourceUrl": "https://www.tts.edu.sg/admissions/admissions-faqs",
+      "verifiedOn": "2026-09-18",
+      "indexable": false
+    },
+    {
+      "name": "Canadian International School",
+      "shortName": "CIS",
+      "slug": "canadian-international-school-singapore",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "ageRange": "18 months–Grade 12",
+      "language": "Not yet verified",
+      "schoolType": "IB international school",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.cis.edu.sg/",
+      "sourceUrl": "https://www.cis.edu.sg/handbook/1-about",
+      "verifiedOn": "2026-09-18",
+      "indexable": false
+    },
+    {
+      "name": "Australian International School",
+      "shortName": "AIS",
+      "slug": "australian-international-school-singapore",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "IB PYP",
+        "Australian Curriculum",
+        "Cambridge IGCSE",
+        "IB Diploma",
+        "HSC"
+      ],
+      "ageRange": "2 months–18 years",
+      "language": "Not yet verified",
+      "schoolType": "International school",
+      "ownership": "Not yet verified",
+      "accreditation": [
+        "IB World School"
+      ],
+      "website": "https://www.ais.com.sg/",
+      "sourceUrl": "https://www.ais.com.sg/",
+      "verifiedOn": "2026-09-18",
+      "indexable": false
+    },
+    {
+      "name": "Stamford American International School",
+      "shortName": "Stamford American",
+      "slug": "stamford-american-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "AP",
+        "IB Diploma",
+        "BTEC Diploma"
+      ],
+      "ageRange": "18 months–18 years",
+      "language": "Not yet verified",
+      "schoolType": "International school",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.sais.edu.sg/",
+      "sourceUrl": "https://www.sais.edu.sg/about-us/welcome/",
+      "verifiedOn": "2026-09-18",
+      "indexable": false
+    },
+    {
+      "name": "Dulwich College (Singapore)",
+      "shortName": "Dulwich Singapore",
+      "slug": "dulwich-college-singapore",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "EYFS",
+        "English National Curriculum",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "2–18",
+      "language": "Not yet verified",
+      "schoolType": "International school",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://singapore.dulwich.org/",
+      "sourceUrl": "https://singapore.dulwich.org/learning/core-curriculum/senior-school",
+      "verifiedOn": "2026-09-18",
+      "indexable": false
+    },
+    {
+      "name": "Nexus International School (Singapore)",
+      "shortName": "Nexus Singapore",
+      "slug": "nexus-international-school-singapore",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [
+        "IB PYP",
+        "IB MYP",
+        "IGCSE",
+        "IB Diploma"
+      ],
+      "ageRange": "3–18",
+      "language": "Not yet verified",
+      "schoolType": "International school",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.nexus.edu.sg/",
+      "sourceUrl": "https://www.nexus.edu.sg/innovative-learning/",
+      "verifiedOn": "2026-09-18",
+      "indexable": false
     }
   ]
 }

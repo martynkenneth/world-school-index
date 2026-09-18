@@ -1,0 +1,161 @@
+{
+  "id": "sg-singapore-nexus-international-school-singapore",
+  "name": "Nexus International School (Singapore)",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": "Singapore",
+    "city": "Singapore",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "IB Primary Years Programme",
+    "IB Middle Years Programme",
+    "IGCSE",
+    "IB Diploma Programme"
+  ],
+  "age_range": {
+    "min": 3,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Overview – Innovative Learning - Nexus International School (Singapore)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Nexus International School (Singapore)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Nexus International School (Singapore)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "children aged 3-18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "children aged 3-18 years old",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Programme Early Years (IB Primary Years Programme)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Programme IB Middle Years Programme Age 14 - 15",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Age 14 - 15 year Group Year 10 to Year 11 Programme IGCSE",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[3]": {
+      "source_url": "https://www.nexus.edu.sg/innovative-learning/",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Age 16 - 18 year Group Year 12 to Year 13 Programme IB Diploma Programme",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-09-18"
+}

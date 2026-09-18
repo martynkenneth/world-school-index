@@ -1,0 +1,15 @@
+{
+  "id": "sg-singapore-stamford-american-international-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/stamford-american-international-school/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/stamford-american-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Stamford American International School", "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "About Stamford American International School Singapore" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "About Stamford American International School Singapore" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "About Stamford American International School Singapore" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "children aged 18 months to 18 years" },
+    { "path": "curricula[0]", "value": "Advanced Placement (AP)", "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "offer Advanced Placement (AP), International Baccalaureate Diploma Programme" },
+    { "path": "curricula[1]", "value": "International Baccalaureate Diploma Programme (IBDP)", "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "International Baccalaureate Diploma Programme (IBDP) and Business and Technical Education Council" },
+    { "path": "curricula[2]", "value": "Business and Technical Education Council (BTEC) Diploma", "source_url": "https://www.sais.edu.sg/about-us/welcome/", "retrieved_date": "2026-09-18", "evidence": "Business and Technical Education Council (BTEC) Diploma curricula" }
+  ]
+}

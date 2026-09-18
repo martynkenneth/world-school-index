@@ -10,6 +10,15 @@ export type DiscoverySource = {
 
 export const globalSourceRegistry: DiscoverySource[] = [
   {
+    id: "singapore-pei-listing",
+    name: "SkillsFuture Singapore registered PEI listing",
+    url: "https://www.tpgateway.gov.sg/resources/information-for-private-education-institutions-%28peis%29/pei-listing",
+    authority: "government",
+    geographicScope: "Singapore",
+    useFor: ["candidate discovery", "registration screening"],
+    reviewCadenceDays: 90,
+  },
+  {
     id: "isat-member-schools",
     name: "International Schools Association of Thailand member directory",
     url: "https://www.isat.or.th/search",

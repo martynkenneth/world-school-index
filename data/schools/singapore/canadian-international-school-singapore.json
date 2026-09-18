@@ -1,0 +1,152 @@
+{
+  "id": "sg-singapore-canadian-international-school-singapore",
+  "name": "Canadian International School",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": "Singapore",
+    "city": "Singapore",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Primary Years Programme (PYP)",
+    "Middle Years Programme (MYP)",
+    "Diploma Programme (DP)"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 17
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Age-Grade Placement Guide | Canadian… | Canadian International School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.cis.edu.sg/handbook/1-about",
+      "retrieved_date": "2026-09-18",
+      "evidence": "7 Jurong West Street 41 Singapore 649414",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.cis.edu.sg/handbook/1-about",
+      "retrieved_date": "2026-09-18",
+      "evidence": "7 Jurong West Street 41 Singapore 649414",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines",
+      "retrieved_date": "2026-09-18",
+      "evidence": "18 months / 2 years old Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines",
+      "retrieved_date": "2026-09-18",
+      "evidence": "17 years old Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.cis.edu.sg/handbook/1-about",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Primary Years Programme (PYP) in pre-kindergarten to grade 6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://www.cis.edu.sg/handbook/1-about",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Middle Years Programme (MYP) in grades 7 to 10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://www.cis.edu.sg/handbook/1-about",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Diploma Programme (DP) in grades 11 and 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-09-18"
+}

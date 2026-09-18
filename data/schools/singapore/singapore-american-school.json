@@ -1,0 +1,168 @@
+{
+  "id": "sg-singapore-singapore-american-school",
+  "name": "Singapore American School",
+  "former_names": [],
+  "status": "active",
+  "location": {
+    "country": "Singapore",
+    "city": "Singapore",
+    "district": null,
+    "address": null,
+    "lat": null,
+    "lng": null
+  },
+  "founded": 1956,
+  "school_type": "non-profit",
+  "curricula": [
+    "American-based curriculum"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [
+    "preschool",
+    "grade 12"
+  ],
+  "accreditations": [
+    {
+      "body": "Western Association of Schools and Colleges (WASC)",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Top American School In Singapore | Singapore American School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Top American School In Singapore | Singapore American School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Top American School In Singapore | Singapore American School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Founded in 1956 as one of Singapore’s first foreign-system schools",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "school_type": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "An independent, non-profit, co-educational day school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "SAS offers an American-based curriculum for preschool through grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[0]": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "American-based curriculum for preschool through grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "year_groups[1]": {
+      "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement",
+      "retrieved_date": "2026-09-18",
+      "evidence": "American-based curriculum for preschool through grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.sas.edu.sg/admissions/entry-requirements",
+      "retrieved_date": "2026-09-18",
+      "evidence": "Accredited by the Western Association of Schools and Colleges (WASC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-09-18"
+}

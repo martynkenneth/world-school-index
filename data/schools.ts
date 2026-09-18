@@ -1,4 +1,5 @@
 import { thailandSchools } from "./thailand-schools.ts";
+import { singaporeSchools } from "./singapore-schools.ts";
 
 export type School = {
   name: string;
@@ -828,7 +829,7 @@ const vietnamSchools: School[] = [
   },
 ];
 
-export const schools: School[] = [...vietnamSchools, ...thailandSchools];
+export const schools: School[] = [...vietnamSchools, ...thailandSchools, ...singaporeSchools];
 
 export const countries = Array.from(
   new Map(

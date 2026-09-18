@@ -36,7 +36,7 @@ export default function AboutPage() {
         </ol>
         <h2>Profile visibility</h2>
         <p>
-          Vietnam and Thailand profiles remain visible while evidence capture continues.
+          Vietnam, Thailand, and Singapore profiles remain visible while evidence capture continues.
           School pages below the eight-field threshold are labelled provisional and excluded
           from search indexing. Country and city directories remain discoverable.
         </p>

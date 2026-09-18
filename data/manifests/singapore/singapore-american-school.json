@@ -1,0 +1,17 @@
+{
+  "id": "sg-singapore-singapore-american-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/singapore-american-school/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/singapore-american-school.json",
+  "claims": [
+    { "path": "name", "value": "Singapore American School", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "Top American School In Singapore | Singapore American School" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "Top American School In Singapore | Singapore American School" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "Top American School In Singapore | Singapore American School" },
+    { "path": "founded", "value": 1956, "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "Founded in 1956 as one of Singapore’s first foreign-system schools" },
+    { "path": "school_type", "value": "non-profit", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "An independent, non-profit, co-educational day school" },
+    { "path": "curricula[0]", "value": "American-based curriculum", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "SAS offers an American-based curriculum for preschool through grade 12" },
+    { "path": "year_groups[0]", "value": "preschool", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "American-based curriculum for preschool through grade 12" },
+    { "path": "year_groups[1]", "value": "grade 12", "source_url": "https://www.sas.edu.sg/about-us/community-impact-statement", "retrieved_date": "2026-09-18", "evidence": "American-based curriculum for preschool through grade 12" },
+    { "path": "accreditations[0].body", "value": "Western Association of Schools and Colleges (WASC)", "source_url": "https://www.sas.edu.sg/admissions/entry-requirements", "retrieved_date": "2026-09-18", "evidence": "Accredited by the Western Association of Schools and Colleges (WASC)" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sg-singapore-canadian-international-school-singapore",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/canadian-international-school-singapore/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/canadian-international-school-singapore.json",
+  "claims": [
+    { "path": "name", "value": "Canadian International School", "source_url": "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines", "retrieved_date": "2026-09-18", "evidence": "Age-Grade Placement Guide | Canadian… | Canadian International School" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://www.cis.edu.sg/handbook/1-about", "retrieved_date": "2026-09-18", "evidence": "7 Jurong West Street 41 Singapore 649414" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://www.cis.edu.sg/handbook/1-about", "retrieved_date": "2026-09-18", "evidence": "7 Jurong West Street 41 Singapore 649414" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines", "retrieved_date": "2026-09-18", "evidence": "18 months / 2 years old Nursery" },
+    { "path": "age_range.max", "value": 17, "source_url": "https://www.cis.edu.sg/admissions/age-grade-placement-guidelines", "retrieved_date": "2026-09-18", "evidence": "17 years old Grade 12" },
+    { "path": "curricula[0]", "value": "Primary Years Programme (PYP)", "source_url": "https://www.cis.edu.sg/handbook/1-about", "retrieved_date": "2026-09-18", "evidence": "Primary Years Programme (PYP) in pre-kindergarten to grade 6" },
+    { "path": "curricula[1]", "value": "Middle Years Programme (MYP)", "source_url": "https://www.cis.edu.sg/handbook/1-about", "retrieved_date": "2026-09-18", "evidence": "Middle Years Programme (MYP) in grades 7 to 10" },
+    { "path": "curricula[2]", "value": "Diploma Programme (DP)", "source_url": "https://www.cis.edu.sg/handbook/1-about", "retrieved_date": "2026-09-18", "evidence": "Diploma Programme (DP) in grades 11 and 12" }
+  ]
+}

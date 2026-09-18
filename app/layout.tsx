@@ -22,14 +22,14 @@ export async function generateMetadata(): Promise<Metadata> {
     robots: { index: true, follow: true },
     openGraph: {
       title: "World School Index",
-      description: "International schools, clearly mapped. Vietnam and Thailand collections now live.",
+      description: "International schools, clearly mapped. Vietnam, Thailand, and Singapore collections now live.",
       images: [{ url: socialImage, width: 1792, height: 896, alt: "World School Index — International schools, clearly mapped" }],
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: "World School Index",
-      description: "International schools, clearly mapped. Vietnam and Thailand collections now live.",
+      description: "International schools, clearly mapped. Vietnam, Thailand, and Singapore collections now live.",
       images: [socialImage],
     },
   };

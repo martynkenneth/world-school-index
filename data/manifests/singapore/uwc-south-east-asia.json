@@ -1,0 +1,16 @@
+{
+  "id": "sg-singapore-uwc-south-east-asia",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/uwc-south-east-asia/2026-09-18.fetch.json",
+  "output": "data/schools/singapore/uwc-south-east-asia.json",
+  "claims": [
+    { "path": "name", "value": "UWC South East Asia", "source_url": "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea", "retrieved_date": "2026-09-18", "evidence": "Nick Alchin Head of College UWC South East Asia" },
+    { "path": "location.country", "value": "Singapore", "source_url": "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea", "retrieved_date": "2026-09-18", "evidence": "Welcome to UWCSEA - International school in Singapore" },
+    { "path": "location.city", "value": "Singapore", "source_url": "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea", "retrieved_date": "2026-09-18", "evidence": "Welcome to UWCSEA - International school in Singapore" },
+    { "path": "founded", "value": 1971, "source_url": "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea", "retrieved_date": "2026-09-18", "evidence": "Singapore International School in 1971" },
+    { "path": "age_range.min", "value": 4, "source_url": "https://www.uwcsea.edu.sg/admissions/eligibility/age-and-grade", "retrieved_date": "2026-09-18", "evidence": "Kindergarten 1 4-5" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.uwcsea.edu.sg/admissions/eligibility/age-and-grade", "retrieved_date": "2026-09-18", "evidence": "17–18 Grade 12" },
+    { "path": "curricula[0]", "value": "(I)GCSE programme", "source_url": "https://www.uwcsea.edu.sg/curriculum-microhome/what-parents-should-know", "retrieved_date": "2026-09-18", "evidence": "students engage in the two-year (I)GCSE programme" },
+    { "path": "curricula[1]", "value": "IB Diploma Programme", "source_url": "https://www.uwcsea.edu.sg/curriculum-microhome/what-parents-should-know", "retrieved_date": "2026-09-18", "evidence": "followed by the two-year IB Diploma Programme in Grades 11 and 12" }
+  ]
+}

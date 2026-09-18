@@ -44,6 +44,14 @@ import myisInternationalSchool from "./schools/thailand/myis-international-schoo
 import newAmericanChineseInternationalSchool from "./schools/thailand/new-american-chinese-international-school.json";
 import risRatchapruek from "./schools/thailand/ruamrudee-international-school-ratchapruek.json";
 import stAndrewsSamakee from "./schools/thailand/st-andrews-samakee-international-school.json";
+import aisSingapore from "./schools/singapore/australian-international-school-singapore.json";
+import cisSingapore from "./schools/singapore/canadian-international-school-singapore.json";
+import dulwichSingapore from "./schools/singapore/dulwich-college-singapore.json";
+import nexusSingapore from "./schools/singapore/nexus-international-school-singapore.json";
+import sasSingapore from "./schools/singapore/singapore-american-school.json";
+import stamfordSingapore from "./schools/singapore/stamford-american-international-school.json";
+import tanglinSingapore from "./schools/singapore/tanglin-trust-school.json";
+import uwcsea from "./schools/singapore/uwc-south-east-asia.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -120,6 +128,14 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "new-american-chinese-international-school": newAmericanChineseInternationalSchool as StrictSchoolRecord,
   "ruamrudee-international-school-ratchapruek": risRatchapruek as StrictSchoolRecord,
   "st-andrews-samakee-international-school": stAndrewsSamakee as StrictSchoolRecord,
+  "australian-international-school-singapore": aisSingapore as StrictSchoolRecord,
+  "canadian-international-school-singapore": cisSingapore as StrictSchoolRecord,
+  "dulwich-college-singapore": dulwichSingapore as StrictSchoolRecord,
+  "nexus-international-school-singapore": nexusSingapore as StrictSchoolRecord,
+  "singapore-american-school": sasSingapore as StrictSchoolRecord,
+  "stamford-american-international-school": stamfordSingapore as StrictSchoolRecord,
+  "tanglin-trust-school": tanglinSingapore as StrictSchoolRecord,
+  "uwc-south-east-asia": uwcsea as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {
