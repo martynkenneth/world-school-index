@@ -1,0 +1,17 @@
+{
+  "id": "th-samut-prakan-american-school-bangkok-green-valley",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/american-school-bangkok-green-valley/2026-08-16.fetch.json",
+  "output": "data/schools/thailand/american-school-bangkok-green-valley.json",
+  "claims": [
+    { "path": "name", "value": "The American School of Bangkok Green Valley", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "The American School of Bangkok Green Valley (ASB Green Valley) is a private International school in Thailand" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "The American School of Bangkok Green Valley (ASB Green Valley) is a private International school in Thailand" },
+    { "path": "location.city", "value": "Samut Prakarn", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "Conveniently located in Samut Prakarn, just 30 minutes from Bangkok" },
+    { "path": "location.address", "value": "900 Moo 3 Bangna-Trad Road Km. 15 Bangplee, Samutprakarn 10540 Thailand", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "900 Moo 3 Bangna-Trad Road Km. 15 Bangplee, Samutprakarn 10540 Thailand" },
+    { "path": "school_type", "value": "private", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "ASB Green Valley) is a private International school in Thailand" },
+    { "path": "curricula[0]", "value": "American curriculum", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "Based on an American curriculum with an international perspective" },
+    { "path": "curricula[1]", "value": "Advanced Placement (AP)", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "Advanced Placement (AP) International Baccalaureate (IB)" },
+    { "path": "curricula[2]", "value": "International Baccalaureate (IB)", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "Advanced Placement (AP) International Baccalaureate (IB)" },
+    { "path": "contact.phone", "value": "0633143660", "source_url": "https://asbgv.ac.th/", "retrieved_date": "2026-08-16", "evidence": "Admission Hotline: 0633143660" }
+  ]
+}

@@ -52,6 +52,10 @@ import sasSingapore from "./schools/singapore/singapore-american-school.json";
 import stamfordSingapore from "./schools/singapore/stamford-american-international-school.json";
 import tanglinSingapore from "./schools/singapore/tanglin-trust-school.json";
 import uwcsea from "./schools/singapore/uwc-south-east-asia.json";
+import asbGreenValley from "./schools/thailand/american-school-bangkok-green-valley.json";
+import dPrep from "./schools/thailand/d-prep-international-school.json";
+import thaiChineseInternationalSchool from "./schools/thailand/thai-chinese-international-school.json";
+import tsiBearing from "./schools/thailand/tsi-international-school-bearing.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -136,6 +140,10 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "stamford-american-international-school": stamfordSingapore as StrictSchoolRecord,
   "tanglin-trust-school": tanglinSingapore as StrictSchoolRecord,
   "uwc-south-east-asia": uwcsea as StrictSchoolRecord,
+  "american-school-bangkok-green-valley": asbGreenValley as StrictSchoolRecord,
+  "d-prep-international-school": dPrep as StrictSchoolRecord,
+  "thai-chinese-international-school": thaiChineseInternationalSchool as StrictSchoolRecord,
+  "tsi-international-school-bearing": tsiBearing as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {

@@ -1,0 +1,151 @@
+{
+  "id": "th-samut-prakan-d-prep-international-school",
+  "name": "D-PREP International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Samut Prakan",
+    "district": null,
+    "address": "38, 38/1-3, 39, Moo 6, Bangna Trad Rd., Km. 8, Bang Kaeo, Bang Phli District, Samut Prakan, Thailand 10540",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "American Curriculum",
+    "Advanced Placement (AP)"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": "095-879-4944",
+    "email": "admissions@dprep.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "D-PREP International School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Bang Kaeo, Bang Phli District, Samut Prakan, Thailand 10540",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Bang Kaeo, Bang Phli District, Samut Prakan, Thailand 10540",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "38, 38/1-3, 39, Moo 6, Bangna Trad Rd., Km. 8, Bang Kaeo, Bang Phli District, Samut Prakan, Thailand 10540",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Curriculum American Curriculum Early Years Program Primary School Program Middle School Program High School Program",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Through the Advanced Placement (AP) Program, students engage in rigorous college-level courses",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Admission Hotline 095-879-4944",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://dprep.ac.th/high-school/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Mail admissions@dprep.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-08-16"
+}

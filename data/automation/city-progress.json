@@ -548,6 +548,55 @@
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
       "next_action": "Expand the Singapore candidate inventory, then verify addresses, fee schedules, language of instruction, accreditation, and open-day fields."
+    },
+    {
+      "country": "Thailand",
+      "city": "Samut Prakan",
+      "city_slug": "samut-prakan",
+      "status": "in_progress",
+      "schools_discovered": 7,
+      "schools_processed": 7,
+      "school_ids": [
+        "school:th:concordian-international-school",
+        "school:th:thai-chinese-international-school",
+        "school:th:d-prep-international-school",
+        "school:th:verso-international-school",
+        "school:th:american-school-bangkok-green-valley",
+        "school:th:tsi-international-school-bearing",
+        "school:th:sisb-suvarnabhumi-campus"
+      ],
+      "school_results": [
+        { "school_id": "school:th:concordian-international-school", "result": "existing_provisional_retained_source_challenge", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:thai-chinese-international-school", "result": "strict_provisional_record_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:d-prep-international-school", "result": "provisional_profile_and_strict_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:verso-international-school", "result": "source_challenged_provisional_profile_added", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:american-school-bangkok-green-valley", "result": "provisional_profile_and_strict_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:tsi-international-school-bearing", "result": "provisional_profile_and_strict_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
+        { "school_id": "school:th:sisb-suvarnabhumi-campus", "result": "crawl_blocked_provisional_profile_added", "completeness_score": 0, "indexable": false, "unresolved_fields": ["name", "location.city", "location.address", "curricula", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
+      ],
+      "source_urls": [
+        "https://www.concordian.ac.th/",
+        "https://www.ibo.org/programmes/find-an-ib-school/ibap/c/concordian-international-school/",
+        "https://tcis.ac.th/",
+        "https://dprep.ac.th/high-school/",
+        "https://www.verso.ac.th/get-in-touch/",
+        "https://directory.acswasc.org/new/downloads/WASC_School_Directory.pdf",
+        "https://asbgv.ac.th/",
+        "https://www.tsi.ac.th/",
+        "https://www.tsi.ac.th/contact-us/",
+        "https://www.sisb.co.th/"
+      ],
+      "last_run_date": "2026-08-16",
+      "unresolved_conflicts": [],
+      "source_access_blocks": [
+        { "school_id": "school:th:concordian-international-school", "source_url": "https://www.concordian.ac.th/", "reason": "The official site returned an HTTP 202 anti-bot challenge; the IB directory robots check returned HTTP 403." },
+        { "school_id": "school:th:verso-international-school", "source_url": "https://www.verso.ac.th/get-in-touch/", "reason": "The official site returned an HTTP 202 anti-bot challenge; the WASC directory was authoritative but was not HTML-extractable by the pipeline." },
+        { "school_id": "school:th:sisb-suvarnabhumi-campus", "source_url": "https://www.sisb.co.th/", "reason": "The robots.txt request failed closed, so the crawler did not fetch the official page." }
+      ],
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "sheet_claims_blocked": 36,
+      "next_action": "Validate and commit the seven extracted Samut Prakan records atomically; only then mark the city complete and advance to the next Thailand city."
     }
   ]
 }

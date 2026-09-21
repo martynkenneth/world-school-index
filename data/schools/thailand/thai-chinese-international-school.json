@@ -1,0 +1,162 @@
+{
+  "id": "th-samut-prakan-thai-chinese-international-school",
+  "name": "Thai-Chinese International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Samutprakarn",
+    "district": null,
+    "address": "101/177 Moo 7 Soi Mooban Bangpleenives, Prasertsin Rd. Bangplee Yai, Samutprakarn Thailand 10540",
+    "lat": null,
+    "lng": null
+  },
+  "founded": 1995,
+  "school_type": null,
+  "curricula": [
+    "American curriculum"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "total": null,
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "teacher_student_ratio": null,
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English",
+      "Thai",
+      "Chinese"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "open_days": [],
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": null,
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Welcome to TCIS (Thai-Chinese International School)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Bangplee Yai, Samutprakarn Thailand 10540",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "international school in Samutprakarn located near Bangkok",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "101/177 Moo 7 Soi Mooban Bangpleenives, Prasertsin Rd. Bangplee Yai, Samutprakarn Thailand 10540",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Founded in 1995 TCIS is an American curriculum school",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "TCIS is an American curriculum school with a focus on trilingual education.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "All core subject classes are taught in English by fluent native speakers",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[1]": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Thai and Chinese (Mandarin and both traditional and simplified) language classes are taught by native Thai and Taiwanese teachers.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[2]": {
+      "source_url": "https://tcis.ac.th/",
+      "retrieved_date": "2026-08-16",
+      "evidence": "Thai and Chinese (Mandarin and both traditional and simplified) language classes are taught by native Thai and Taiwanese teachers.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 5,
+  "indexable": false,
+  "last_verified": "2026-08-16"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "th-samut-prakan-tsi-international-school-bearing",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/tsi-international-school-bearing/2026-08-16.fetch.json",
+  "output": "data/schools/thailand/tsi-international-school-bearing.json",
+  "claims": [
+    { "path": "name", "value": "TSI International School", "source_url": "https://www.tsi.ac.th/", "retrieved_date": "2026-08-16", "evidence": "Home | TSI International School" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "British curriculum international school in Bangkok, Thailand." },
+    { "path": "location.city", "value": "Samut Prakan", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "1799 Thang Rotfai Sai Kao Road, Samrong Nua, Samut Prakan 10270" },
+    { "path": "location.address", "value": "1799 Thang Rotfai Sai Kao Road, Samrong Nua, Samut Prakan 10270", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "1799 Thang Rotfai Sai Kao Road, Samrong Nua, Samut Prakan 10270" },
+    { "path": "founded", "value": 1985, "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "British curriculum international school · Ages 2–18 · Established 1985" },
+    { "path": "curricula[0]", "value": "British curriculum", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "British curriculum international school · Ages 2–18 · Established 1985" },
+    { "path": "curricula[1]", "value": "Cambridge IGCSE", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "Key Stage 4 (Cambridge IGCSE)" },
+    { "path": "curricula[2]", "value": "AS and A Levels", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "Key Stage 5 (AS and A Levels)" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "British curriculum international school · Ages 2–18 · Established 1985" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "British curriculum international school · Ages 2–18 · Established 1985" },
+    { "path": "accreditations[0].body", "value": "Council of International Schools", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "TSI is accredited by the Council of International Schools." },
+    { "path": "contact.phone", "value": "02-113-2525", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "1799 Thang Rotfai Sai Kao Road, Samrong Nua, Samut Prakan 10270 02-113-2525" },
+    { "path": "contact.email", "value": "primary.b@tsi.ac.th", "source_url": "https://www.tsi.ac.th/contact-us/", "retrieved_date": "2026-08-16", "evidence": "02-113-2525 primary.b@tsi.ac.th" }
+  ]
+}

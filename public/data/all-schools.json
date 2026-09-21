@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "generatedOn": "2026-09-18",
-  "recordCount": 82,
+  "generatedOn": "2026-09-21",
+  "recordCount": 87,
   "entities": {
     "schools": [
       {
@@ -553,6 +553,52 @@
         "status": "operating",
         "ownership": "Independent",
         "founded": 1995
+      },
+      {
+        "id": "school:th:d-prep-international-school",
+        "canonicalName": "D-PREP International School",
+        "shortName": "D-PREP",
+        "slug": "d-prep-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:verso-international-school",
+        "canonicalName": "VERSO International School",
+        "shortName": "VERSO",
+        "slug": "verso-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:american-school-bangkok-green-valley",
+        "canonicalName": "The American School of Bangkok Green Valley",
+        "shortName": "ASB Green Valley",
+        "slug": "american-school-bangkok-green-valley",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:tsi-international-school-bearing",
+        "canonicalName": "TSI International School",
+        "shortName": "TSI Bearing",
+        "slug": "tsi-international-school-bearing",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 1985
+      },
+      {
+        "id": "school:th:sisb-suvarnabhumi-campus",
+        "canonicalName": "SISB Suvarnabhumi Campus",
+        "shortName": "SISB Suvarnabhumi",
+        "slug": "sisb-suvarnabhumi-campus",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:th:basis-international-school-bangkok",
@@ -1367,6 +1413,56 @@
         "citySlug": "samut-prakan",
         "region": "Bangkok Metropolitan Region",
         "campusType": "day"
+      },
+      {
+        "id": "campus:th:d-prep-international-school:main",
+        "schoolId": "school:th:d-prep-international-school",
+        "name": "D-PREP main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:verso-international-school:main",
+        "schoolId": "school:th:verso-international-school",
+        "name": "VERSO main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:american-school-bangkok-green-valley:main",
+        "schoolId": "school:th:american-school-bangkok-green-valley",
+        "name": "ASB Green Valley main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "day-and-boarding"
+      },
+      {
+        "id": "campus:th:tsi-international-school-bearing:main",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "name": "TSI Bearing main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:sisb-suvarnabhumi-campus:main",
+        "schoolId": "school:th:sisb-suvarnabhumi-campus",
+        "name": "SISB Suvarnabhumi main campus",
+        "countryCode": "TH",
+        "city": "Samut Prakan",
+        "citySlug": "samut-prakan",
+        "region": "Bangkok Metropolitan Region",
+        "campusType": "unknown"
       },
       {
         "id": "campus:th:basis-international-school-bangkok:main",
@@ -2539,6 +2635,69 @@
         "sourceId": "source:th:thai-chinese-international-school:official"
       },
       {
+        "id": "programme:th:d-prep-international-school:1",
+        "schoolId": "school:th:d-prep-international-school",
+        "campusId": "campus:th:d-prep-international-school:main",
+        "programme": "American Curriculum",
+        "sourceId": "source:th:d-prep-international-school:official"
+      },
+      {
+        "id": "programme:th:d-prep-international-school:2",
+        "schoolId": "school:th:d-prep-international-school",
+        "campusId": "campus:th:d-prep-international-school:main",
+        "programme": "Advanced Placement (AP)",
+        "sourceId": "source:th:d-prep-international-school:official"
+      },
+      {
+        "id": "programme:th:verso-international-school:1",
+        "schoolId": "school:th:verso-international-school",
+        "campusId": "campus:th:verso-international-school:main",
+        "programme": "American Curriculum",
+        "sourceId": "source:th:verso-international-school:official"
+      },
+      {
+        "id": "programme:th:american-school-bangkok-green-valley:1",
+        "schoolId": "school:th:american-school-bangkok-green-valley",
+        "campusId": "campus:th:american-school-bangkok-green-valley:main",
+        "programme": "American curriculum",
+        "sourceId": "source:th:american-school-bangkok-green-valley:official"
+      },
+      {
+        "id": "programme:th:american-school-bangkok-green-valley:2",
+        "schoolId": "school:th:american-school-bangkok-green-valley",
+        "campusId": "campus:th:american-school-bangkok-green-valley:main",
+        "programme": "Advanced Placement (AP)",
+        "sourceId": "source:th:american-school-bangkok-green-valley:official"
+      },
+      {
+        "id": "programme:th:american-school-bangkok-green-valley:3",
+        "schoolId": "school:th:american-school-bangkok-green-valley",
+        "campusId": "campus:th:american-school-bangkok-green-valley:main",
+        "programme": "International Baccalaureate (IB)",
+        "sourceId": "source:th:american-school-bangkok-green-valley:official"
+      },
+      {
+        "id": "programme:th:tsi-international-school-bearing:1",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "campusId": "campus:th:tsi-international-school-bearing:main",
+        "programme": "British curriculum",
+        "sourceId": "source:th:tsi-international-school-bearing:official"
+      },
+      {
+        "id": "programme:th:tsi-international-school-bearing:2",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "campusId": "campus:th:tsi-international-school-bearing:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:tsi-international-school-bearing:official"
+      },
+      {
+        "id": "programme:th:tsi-international-school-bearing:3",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "campusId": "campus:th:tsi-international-school-bearing:main",
+        "programme": "AS and A Levels",
+        "sourceId": "source:th:tsi-international-school-bearing:official"
+      },
+      {
         "id": "programme:th:basis-international-school-bangkok:1",
         "schoolId": "school:th:basis-international-school-bangkok",
         "campusId": "campus:th:basis-international-school-bangkok:main",
@@ -3385,6 +3544,13 @@
         "schoolId": "school:th:thai-chinese-international-school",
         "accreditation": "WASC",
         "sourceId": "source:th:thai-chinese-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:tsi-international-school-bearing:1",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "accreditation": "Council of International Schools",
+        "sourceId": "source:th:tsi-international-school-bearing:official",
         "status": "recorded"
       },
       {
@@ -4432,8 +4598,83 @@
         "schoolId": "school:th:thai-chinese-international-school",
         "type": "official-school",
         "publisher": "Thai-Chinese International School",
-        "url": "https://tcis.ac.th/about-tcis",
-        "observedOn": "2026-07-23",
+        "url": "https://tcis.ac.th/",
+        "observedOn": "2026-08-16",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:d-prep-international-school:official",
+        "schoolId": "school:th:d-prep-international-school",
+        "type": "official-school",
+        "publisher": "D-PREP International School",
+        "url": "https://dprep.ac.th/high-school/",
+        "observedOn": "2026-08-16",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:verso-international-school:official",
+        "schoolId": "school:th:verso-international-school",
+        "type": "official-school",
+        "publisher": "VERSO International School",
+        "url": "https://www.verso.ac.th/get-in-touch/",
+        "observedOn": "2026-08-16",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:american-school-bangkok-green-valley:official",
+        "schoolId": "school:th:american-school-bangkok-green-valley",
+        "type": "official-school",
+        "publisher": "The American School of Bangkok Green Valley",
+        "url": "https://asbgv.ac.th/",
+        "observedOn": "2026-08-16",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:tsi-international-school-bearing:official",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "type": "official-school",
+        "publisher": "TSI International School",
+        "url": "https://www.tsi.ac.th/contact-us/",
+        "observedOn": "2026-08-16",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:sisb-suvarnabhumi-campus:official",
+        "schoolId": "school:th:sisb-suvarnabhumi-campus",
+        "type": "official-school",
+        "publisher": "SISB Suvarnabhumi Campus",
+        "url": "https://www.sisb.co.th/",
+        "observedOn": "2026-08-16",
         "supports": [
           "identity",
           "location",
@@ -5312,12 +5553,57 @@
         ]
       },
       {
-        "id": "verification:th:thai-chinese-international-school:2026-07-23",
+        "id": "verification:th:thai-chinese-international-school:2026-08-16",
         "schoolId": "school:th:thai-chinese-international-school",
         "level": "core",
-        "verifiedOn": "2026-07-23",
+        "verifiedOn": "2026-08-16",
         "sourceIds": [
           "source:th:thai-chinese-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:d-prep-international-school:2026-08-16",
+        "schoolId": "school:th:d-prep-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-16",
+        "sourceIds": [
+          "source:th:d-prep-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:verso-international-school:2026-08-16",
+        "schoolId": "school:th:verso-international-school",
+        "level": "core",
+        "verifiedOn": "2026-08-16",
+        "sourceIds": [
+          "source:th:verso-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:american-school-bangkok-green-valley:2026-08-16",
+        "schoolId": "school:th:american-school-bangkok-green-valley",
+        "level": "core",
+        "verifiedOn": "2026-08-16",
+        "sourceIds": [
+          "source:th:american-school-bangkok-green-valley:official"
+        ]
+      },
+      {
+        "id": "verification:th:tsi-international-school-bearing:2026-08-16",
+        "schoolId": "school:th:tsi-international-school-bearing",
+        "level": "core",
+        "verifiedOn": "2026-08-16",
+        "sourceIds": [
+          "source:th:tsi-international-school-bearing:official"
+        ]
+      },
+      {
+        "id": "verification:th:sisb-suvarnabhumi-campus:2026-08-16",
+        "schoolId": "school:th:sisb-suvarnabhumi-campus",
+        "level": "core",
+        "verifiedOn": "2026-08-16",
+        "sourceIds": [
+          "source:th:sisb-suvarnabhumi-campus:official"
         ]
       },
       {
@@ -7026,10 +7312,132 @@
       "accreditation": [
         "WASC"
       ],
-      "website": "https://www.tcis.ac.th/",
-      "sourceUrl": "https://tcis.ac.th/about-tcis",
-      "verifiedOn": "2026-07-23",
-      "founded": 1995
+      "website": "https://tcis.ac.th/",
+      "sourceUrl": "https://tcis.ac.th/",
+      "verifiedOn": "2026-08-16",
+      "founded": 1995,
+      "indexable": false
+    },
+    {
+      "name": "D-PREP International School",
+      "shortName": "D-PREP",
+      "slug": "d-prep-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American Curriculum",
+        "Advanced Placement (AP)"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://dprep.ac.th/",
+      "sourceUrl": "https://dprep.ac.th/high-school/",
+      "verifiedOn": "2026-08-16",
+      "indexable": false
+    },
+    {
+      "name": "VERSO International School",
+      "shortName": "VERSO",
+      "slug": "verso-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American Curriculum"
+      ],
+      "ageRange": "Early Years 2–Grade 12",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.verso.ac.th/",
+      "sourceUrl": "https://www.verso.ac.th/get-in-touch/",
+      "verifiedOn": "2026-08-16",
+      "indexable": false
+    },
+    {
+      "name": "The American School of Bangkok Green Valley",
+      "shortName": "ASB Green Valley",
+      "slug": "american-school-bangkok-green-valley",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "American curriculum",
+        "Advanced Placement (AP)",
+        "International Baccalaureate (IB)"
+      ],
+      "ageRange": "Pre-Kindergarten to Grade 12",
+      "language": "Not published by the school",
+      "schoolType": "Private international day and boarding school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://asbgv.ac.th/",
+      "sourceUrl": "https://asbgv.ac.th/",
+      "verifiedOn": "2026-08-16",
+      "indexable": false
+    },
+    {
+      "name": "TSI International School",
+      "shortName": "TSI Bearing",
+      "slug": "tsi-international-school-bearing",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [
+        "British curriculum",
+        "Cambridge IGCSE",
+        "AS and A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "Not published by the school",
+      "schoolType": "British international school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "Council of International Schools"
+      ],
+      "website": "https://www.tsi.ac.th/",
+      "sourceUrl": "https://www.tsi.ac.th/contact-us/",
+      "verifiedOn": "2026-08-16",
+      "founded": 1985,
+      "indexable": false
+    },
+    {
+      "name": "SISB Suvarnabhumi Campus",
+      "shortName": "SISB Suvarnabhumi",
+      "slug": "sisb-suvarnabhumi-campus",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Samut Prakan",
+      "citySlug": "samut-prakan",
+      "region": "Bangkok Metropolitan Region",
+      "curricula": [],
+      "ageRange": "Nursery–Primary",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.sisb.co.th/",
+      "sourceUrl": "https://www.sisb.co.th/",
+      "verifiedOn": "2026-08-16",
+      "indexable": false
     },
     {
       "name": "BASIS International School Bangkok",
