@@ -80,7 +80,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://www.fairmontschools.edu.vn/landing/fisv",
     "admissions_url": null,
     "phone": null,
     "email": null
@@ -151,7 +151,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 3,
+  "completeness_score": 4,
   "indexable": false,
   "last_verified": "2026-09-17"
 }

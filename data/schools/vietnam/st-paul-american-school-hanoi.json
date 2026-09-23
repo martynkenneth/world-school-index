@@ -90,7 +90,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://stpaulhanoi.com/",
     "admissions_url": null,
     "phone": "+84 24 3399 6464",
     "email": "info@stpaulhanoi.com"
@@ -289,7 +289,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 6,
+  "completeness_score": 7,
   "indexable": false,
   "last_verified": "2026-09-17"
 }

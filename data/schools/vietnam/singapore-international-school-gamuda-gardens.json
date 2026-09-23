@@ -75,7 +75,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://gamudagardens.sis.edu.vn/",
     "admissions_url": null,
     "phone": "+8424 7304 1777",
     "email": "enquiry@gamudagardens.sis.edu.vn"
@@ -138,7 +138,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 5,
   "indexable": false,
   "last_verified": "2026-09-17"
 }

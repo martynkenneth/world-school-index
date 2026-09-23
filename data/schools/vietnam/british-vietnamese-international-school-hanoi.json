@@ -161,7 +161,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://www.nordangliaeducation.com/bvis-hanoi",
     "admissions_url": null,
     "phone": "+(84-24) 6266 8800",
     "email": "enquiry@bvishanoi.com"
@@ -592,7 +592,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 8,
+  "completeness_score": 9,
   "indexable": true,
   "last_verified": "2026-09-17"
 }

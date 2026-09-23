@@ -52,6 +52,8 @@ export default async function SchoolPage({
   if (!school) notFound();
   const verification = getVerificationSummary(slug);
   const strictRecord = getStrictRecord(slug);
+  const officialWebsite = strictRecord?.contact.website ?? school.website;
+  const verifiedProfile = verification.indexable && verification.conflictCount === 0;
   const nearby = getSchoolsByCity(school.citySlug).filter((item) => item.slug !== school.slug).slice(0, 3);
   const ageRange = strictRecord?.age_range.min != null && strictRecord.age_range.max != null
     ? `${strictRecord.age_range.min}-${strictRecord.age_range.max}`
@@ -77,7 +79,7 @@ export default async function SchoolPage({
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     name: school.name,
-    url: school.website,
+    url: officialWebsite,
     address: { "@type": "PostalAddress", addressLocality: school.city, addressCountry: school.countryCode },
   };
 
@@ -253,19 +255,9 @@ export default async function SchoolPage({
           )}
         </div>
         <aside className="source-panel">
-          <span className="eyebrow">Verification status</span>
-          <h2>{verification.hasStrictRecord ? `${verification.completenessScore} of 9 core fields` : "Provisional profile"}</h2>
-          <p>
-            Available facts are shown for discovery, but only facts carrying an evidence-backed
-            label have completed the field-level source check.
-          </p>
-          <dl>
-            <div><dt>Search indexing</dt><dd>{verification.indexable ? "Eligible" : "Held until 8/9"}</dd></div>
-            <div><dt>Source type</dt><dd>Official school website</dd></div>
-            {verification.conflictCount > 0 && <div><dt>Open conflicts</dt><dd>{verification.conflictCount}</dd></div>}
-          </dl>
+          {verifiedProfile && <span className="school-verified-badge" aria-label="Verified school profile">✓ Verified</span>}
           <a className="button primary full" href={school.sourceUrl} target="_blank" rel="noreferrer">Open source ↗</a>
-          <a className="button outline full" href={school.website} target="_blank" rel="noreferrer">Visit school website ↗</a>
+          <a className="button outline full" href={officialWebsite} target="_blank" rel="noreferrer">Visit school website ↗</a>
           <small>Admissions, fees, capacity, and programmes can change. Confirm directly before making decisions.</small>
           <Link className="disclaimer-link" href="/disclaimer">Read the data disclaimer</Link>
         </aside>

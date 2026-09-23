@@ -156,7 +156,7 @@ const vietnamSchools: School[] = [
     schoolType: "Not published by the school",
     ownership: "Not published by the school",
     accreditation: [],
-    website: "https://www.dwight.edu/schools/hanoi",
+    website: "https://dwighthanoi.org/",
     sourceUrl: "https://www.dwight.edu/schools/hanoi",
     verifiedOn: "2026-08-10",
     founded: 2024,

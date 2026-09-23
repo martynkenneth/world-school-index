@@ -169,7 +169,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://www.nordangliaeducation.com/bis-hanoi",
     "admissions_url": null,
     "phone": "+84 24 3946 0435",
     "email": "bishanoi@bishanoi.com"
@@ -648,7 +648,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 8,
+  "completeness_score": 9,
   "indexable": true,
   "last_verified": "2026-09-17"
 }

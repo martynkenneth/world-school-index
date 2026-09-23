@@ -116,7 +116,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://www.concordiahanoi.org/",
     "admissions_url": null,
     "phone": "+84 24 3795 8878",
     "email": "admissions@concordiahanoi.org"
@@ -363,7 +363,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
+  "completeness_score": 8,
+  "indexable": true,
   "last_verified": "2026-09-17"
 }

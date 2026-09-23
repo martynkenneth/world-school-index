@@ -117,7 +117,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://www.westlink.edu.vn/",
     "admissions_url": null,
     "phone": "(+84) 865 777 900",
     "email": "info@westlink.edu.vn"
@@ -436,7 +436,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 6,
+  "completeness_score": 7,
   "indexable": false,
   "last_verified": "2026-09-23"
 }

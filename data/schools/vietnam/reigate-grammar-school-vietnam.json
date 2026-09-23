@@ -98,7 +98,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://reigategrammar.edu.vn/",
     "admissions_url": null,
     "phone": "+84 (0) 2435 409 183",
     "email": "inquiry@reigategrammar.edu.vn"
@@ -297,7 +297,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 6,
+  "completeness_score": 7,
   "indexable": false,
   "last_verified": "2026-09-23"
 }

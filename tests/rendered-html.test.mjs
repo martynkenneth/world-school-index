@@ -188,10 +188,28 @@ test("keeps new Hanoi profiles noindex and out of school schema until the eviden
   assert.match(html, /Dwight School Hanoi/);
   assert.match(html, /Official sources checked/);
   assert.match(html, /name="robots" content="noindex,\s*follow"/);
+  assert.doesNotMatch(html, /Verified school profile|Verification status|Search indexing|core fields/);
+  assert.match(html, /href="https:\/\/dwighthanoi\.org\/"[^>]*>Visit school website/);
   assert.doesNotMatch(html, /application\/ld\+json/);
   assert.doesNotMatch(html, /Evidence review|\b4\/12\b/);
   assert.match(indexedHtml, /application\/ld\+json/);
   assert.match(indexedHtml, /name="robots" content="index,\s*follow"/);
+  assert.match(indexedHtml, /Verified school profile/);
+  assert.doesNotMatch(indexedHtml, /Verification status|Search indexing|core fields/);
+});
+
+test("shows True North's sourced tuition bands without claiming an academic year", async () => {
+  const response = await render("/schools/true-north-international-school");
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.match(html, /Tuition schedule/);
+  assert.match(html, /Foundation Year[\s\S]*300,000,000/);
+  assert.match(html, /International Track[\s\S]*650,000,000/);
+  assert.match(html, /MOET Track[\s\S]*290,000,000/);
+  assert.match(html, /href="https:\/\/truenorth\.edu\.vn\/"[^>]*>Visit school website/);
+  assert.match(html, /name="robots" content="noindex,\s*follow"/);
+  assert.doesNotMatch(html, /Verified school profile|2026-2027 tuition/);
 });
 
 test("surfaces the source-backed Ho Chi Minh City fee answer on the existing city hub", async () => {
@@ -277,7 +295,7 @@ test("shows evidence-backed facts without exposing internal review progress", as
 
   assert.match(html, /Official sources checked/);
   assert.match(html, /Evidence-backed/);
-  assert.match(html, /Open conflicts[\s\S]*2/);
+  assert.doesNotMatch(html, /Open conflicts|Verification status|Verified school profile/);
   assert.match(html, /application\/ld\+json/);
   assert.doesNotMatch(html, /Evidence review|\b7\/12\b/);
   assert.match(html, /name="robots" content="index,\s*follow"/);

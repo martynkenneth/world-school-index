@@ -83,6 +83,7 @@ export type StrictSchoolRecord = {
     fee_basis: "year" | "term" | "month" | null;
     by_year_group: Array<{ programme?: string; label: string; tuition: string | null }>;
   };
+  contact: { website: string | null };
   provenance: Record<string, ProvenanceEntry>;
 };
 

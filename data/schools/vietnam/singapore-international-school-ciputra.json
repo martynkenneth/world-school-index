@@ -76,7 +76,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://ciputra.sis.edu.vn/",
     "admissions_url": null,
     "phone": "+ 84 24 7304 3777",
     "email": "enquiry@ciputra.sis.edu.vn"
@@ -147,7 +147,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 5,
   "indexable": false,
   "last_verified": "2026-09-17"
 }

@@ -110,7 +110,7 @@ test("retains unresolved Hanoi source conflicts after fee evidence raises the sc
     new URL("../data/schools/vietnam/united-nations-international-school-hanoi.json", import.meta.url),
     "utf8",
   ));
-  assert.equal(record.completeness_score, 8);
+  assert.equal(record.completeness_score, 9);
   assert.equal(record.indexable, true);
   assert.equal(record.enrolment.total, null);
   assert.equal(record.provenance["enrolment.total"].method, "conflict");

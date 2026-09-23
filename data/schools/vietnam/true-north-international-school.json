@@ -28,11 +28,62 @@
   ],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
+    "published": true,
+    "currency": "VND",
     "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "programme": "Foundation Year",
+        "label": "Foundation Year",
+        "tuition": "300,000,000"
+      },
+      {
+        "programme": "International Track",
+        "label": "1, 2, 3",
+        "tuition": "500,000,000"
+      },
+      {
+        "programme": "International Track",
+        "label": "4, 5",
+        "tuition": "530,000,000"
+      },
+      {
+        "programme": "International Track",
+        "label": "6, 7",
+        "tuition": "575,000,000"
+      },
+      {
+        "programme": "International Track",
+        "label": "8, 9",
+        "tuition": "605,000,000"
+      },
+      {
+        "programme": "International Track",
+        "label": "10, 11, 12",
+        "tuition": "650,000,000"
+      },
+      {
+        "programme": "MOET Track",
+        "label": "1, 2, 3, 4, 5",
+        "tuition": "200,000,000"
+      },
+      {
+        "programme": "MOET Track",
+        "label": "6, 7",
+        "tuition": "240,000,000"
+      },
+      {
+        "programme": "MOET Track",
+        "label": "8, 9",
+        "tuition": "260,000,000"
+      },
+      {
+        "programme": "MOET Track",
+        "label": "10, 11, 12",
+        "tuition": "290,000,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -78,7 +129,7 @@
   },
   "facilities": [],
   "contact": {
-    "website": null,
+    "website": "https://truenorth.edu.vn/",
     "admissions_url": null,
     "phone": "024 7304 3768",
     "email": "info@truenorth.edu.vn"
@@ -156,6 +207,262 @@
       "conflict": false,
       "candidates": []
     },
+    "fees.currency": {
+      "source_url": "https://truenorth.edu.vn/en/school-life/news-and-events/international-school-in-hanoi-guide-for-indian-parents",
+      "retrieved_date": "2026-09-24",
+      "evidence": "300,000,000 VND",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://truenorth.edu.vn/en/school-life/news-and-events/international-school-in-hanoi-guide-for-indian-parents",
+      "retrieved_date": "2026-09-24",
+      "evidence": "per year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Foundation Year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Foundation Year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "300,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "International Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1, 2, 3 500,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1, 2, 3 500,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "International Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "4, 5 530,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "4, 5 530,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "International Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "6, 7 575,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "6, 7 575,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "International Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "8, 9 605,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "8, 9 605,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "International Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10, 11, 12 650,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10, 11, 12 650,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "MOET Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1, 2, 3, 4, 5 200,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1, 2, 3, 4, 5 200,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "MOET Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "6, 7 240,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "6, 7 240,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "MOET Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "8, 9 260,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "8, 9 260,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].programme": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "MOET Track",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10, 11, 12 290,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://truenorth.edu.vn/en/admissions",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10, 11, 12 290,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
     "contact.phone": {
       "source_url": "https://truenorth.edu.vn/en/our-school",
       "retrieved_date": "2026-09-17",
@@ -173,7 +480,7 @@
       "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-24"
 }
