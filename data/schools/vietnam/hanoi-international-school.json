@@ -32,11 +32,36 @@
     }
   ],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026-2027",
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "label": "PreK/K",
+        "tuition": "440,000,000"
+      },
+      {
+        "label": "1-3",
+        "tuition": "613,000,000"
+      },
+      {
+        "label": "4-5",
+        "tuition": "624,000,000"
+      },
+      {
+        "label": "6-8",
+        "tuition": "675,000,000"
+      },
+      {
+        "label": "9-10",
+        "tuition": "733,000,000"
+      },
+      {
+        "label": "11-12",
+        "tuition": "797,000,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -201,9 +226,129 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "all fees are given in Vietnam Dong (VND).",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "2026-2027 Tuition & Fees",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "academic year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "PreK/K",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "PreK/K 440,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "1-3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "1-3 613,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "4-5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "4-5 624,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "6-8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "6-8 675,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "9-10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "9-10 733,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "11-12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.hisvietnam.com/fs/resource-manager/view/be204035-0992-4b8e-91d4-97bb24452888",
+      "retrieved_date": "2026-09-23",
+      "evidence": "11-12 797,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-09-17"
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-09-23"
 }

@@ -51,7 +51,36 @@
     "currency": "USD",
     "academic_year": "2026-2027",
     "fee_basis": "year",
-    "by_year_group": [],
+    "by_year_group": [
+      {
+        "label": "Early Years 3",
+        "tuition": "17,460"
+      },
+      {
+        "label": "Early Years 4",
+        "tuition": "17,460"
+      },
+      {
+        "label": "Kindergarten",
+        "tuition": "26,900"
+      },
+      {
+        "label": "1 - 5",
+        "tuition": "33,330"
+      },
+      {
+        "label": "6 - 8",
+        "tuition": "35,210"
+      },
+      {
+        "label": "9 - 10",
+        "tuition": "37,530"
+      },
+      {
+        "label": "11 - 12",
+        "tuition": "39,870"
+      }
+    ],
     "additional": {
       "application": "USD 600",
       "enrolment": "USD 1,750",
@@ -234,25 +263,25 @@
       "candidates": []
     },
     "fees.currency": {
-      "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-09-17",
-      "evidence": "Application fee of USD 600 per student",
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Annual tuition option (USD)",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "fees.academic_year": {
-      "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-09-17",
-      "evidence": "in the 2026-2027 academic year",
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Tuition and Fees Information 2026-2027",
       "method": "published",
       "conflict": false,
       "candidates": []
     },
     "fees.fee_basis": {
-      "source_url": "https://www.unishanoi.org/admissions/tuition-fees",
-      "retrieved_date": "2026-09-17",
-      "evidence": "in the 2026-2027 academic year",
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "school year",
       "method": "published",
       "conflict": false,
       "candidates": []
@@ -384,9 +413,121 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Early Years 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Early Years 3 17,460",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Early Years 4",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Early Years 4 17,460",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Kindergarten",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Kindergarten 26,900",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "1 - 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "1 - 5 33,330",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "6 - 8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "6 - 8 35,210",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "9 - 10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "9 - 10 37,530",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "11 - 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://resources.finalsite.net/images/v1770255763/hanoi/n5kg1l9n3iwyum3jwsx8/1TuitionandFees2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "11 - 12 39,870",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-09-17"
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-09-23"
 }

@@ -23,11 +23,36 @@
   "year_groups": [],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026-2027",
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "label": "Reception",
+        "tuition": "401,625,000"
+      },
+      {
+        "label": "Year 1",
+        "tuition": "479,728,000"
+      },
+      {
+        "label": "Year 2 - Year 6",
+        "tuition": "736,313,000"
+      },
+      {
+        "label": "Year 7 - Year 9",
+        "tuition": "814,415,000"
+      },
+      {
+        "label": "Year 10 - Year 11",
+        "tuition": "914,821,000"
+      },
+      {
+        "label": "Year 12 - Year 13",
+        "tuition": "981,759,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -150,9 +175,129 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "all fees are given in Vietnam Dong (VND).",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "School year 2026-2027",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "entire school year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Reception",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Reception 401,625,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 1",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 1 479,728,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 2 - Year 6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 2 - Year 6 736,313,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 7 - Year 9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 7 - Year 9 814,415,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 10 - Year 11",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 10 - Year 11 914,821,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 12 - Year 13",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://reigategrammar.edu.vn/pic/project/files/%5BENG%5D%20Tuition%20fees%202026-2027_docx.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 12 - Year 13 981,759,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-23"
 }

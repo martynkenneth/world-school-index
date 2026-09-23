@@ -75,12 +75,13 @@ export type StrictSchoolRecord = {
   languages: { instruction: string[] };
   school_type: string | null;
   founded: number | null;
-  admissions: { open_days: string[] };
+  admissions: { open_days?: string[] };
   fees: {
     published: boolean;
     currency: string | null;
     academic_year: string | null;
-    by_year_group: Array<{ label: string; tuition: string | null }>;
+    fee_basis: "year" | "term" | "month" | null;
+    by_year_group: Array<{ programme?: string; label: string; tuition: string | null }>;
   };
   provenance: Record<string, ProvenanceEntry>;
 };

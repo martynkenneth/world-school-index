@@ -27,9 +27,9 @@ type FetchLog = { requests: FetchRequest[] };
 type ExtractionClaim = {
   path: string;
   value: unknown;
-  source_url: string;
-  retrieved_date: string;
-  evidence: string;
+  source_url?: string;
+  retrieved_date?: string;
+  evidence?: string;
   method?: "published" | "manual" | "conflict";
   conflict?: boolean;
   candidates?: ProvenanceEntry["candidates"];
@@ -38,7 +38,7 @@ type ExtractionClaim = {
 type ExtractionManifest = {
   id: string;
   status: "active" | "closed" | "unverified";
-  fetch_log: string;
+  fetch_log?: string;
   output: string;
   claims: ExtractionClaim[];
 };
@@ -89,6 +89,9 @@ function hydrateStructuredArrays(record: JsonObject): void {
 }
 
 function findFetchedSource(log: FetchLog, claim: ExtractionClaim): FetchRequest {
+  if (!claim.source_url || !claim.retrieved_date) {
+    throw new Error(`${claim.path}: source URL and retrieval date are required`);
+  }
   const request = log.requests.find((item) =>
     item.retrieved_date === claim.retrieved_date &&
     (item.requested_url === claim.source_url || item.final_url === claim.source_url));
@@ -101,7 +104,9 @@ function findFetchedSource(log: FetchLog, claim: ExtractionClaim): FetchRequest 
 
 export async function extractFromManifest(manifestPath: string): Promise<string> {
   const manifest = JSON.parse(await readFile(path.resolve(manifestPath), "utf8")) as ExtractionManifest;
-  const fetchLog = JSON.parse(await readFile(path.resolve(manifest.fetch_log), "utf8")) as FetchLog;
+  const fetchLog = manifest.fetch_log
+    ? JSON.parse(await readFile(path.resolve(manifest.fetch_log), "utf8")) as FetchLog
+    : { requests: [] };
   const record = createEmptySchoolRecord(manifest.id, manifest.status);
   const seenPaths = new Set<string>();
   const visibleTextCache = new Map<string, string>();
@@ -112,6 +117,23 @@ export async function extractFromManifest(manifestPath: string): Promise<string>
     if (["id", "status", "provenance", "completeness_score", "indexable", "last_verified", "fees.published"]
       .some((pathPrefix) => claim.path === pathPrefix || claim.path.startsWith(`${pathPrefix}.`))) {
       throw new Error(`${claim.path}: field is derived or managed by the pipeline`);
+    }
+    if (claim.path === "contact.website") {
+      if (typeof claim.value !== "string") throw new Error("contact.website: a school homepage URL is required");
+      let homepage: URL;
+      try {
+        homepage = new URL(claim.value);
+      } catch {
+        throw new Error("contact.website: invalid school homepage URL");
+      }
+      if (!["http:", "https:"].includes(homepage.protocol) || homepage.username || homepage.password) {
+        throw new Error("contact.website: a public HTTP(S) school homepage URL is required");
+      }
+      setAtPath(record, claim.path, claim.value);
+      continue;
+    }
+    if (!claim.source_url || !claim.retrieved_date || !claim.evidence) {
+      throw new Error(`${claim.path}: source URL, retrieval date, and evidence are required`);
     }
     if (countWords(claim.evidence) > 25) throw new Error(`${claim.path}: evidence exceeds 25 words`);
     const source = findFetchedSource(fetchLog, claim);

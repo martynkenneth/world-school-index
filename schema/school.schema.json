@@ -131,6 +131,7 @@
             "additionalProperties": false,
             "required": ["label", "tuition"],
             "properties": {
+              "programme": { "$ref": "#/$defs/nonEmptyString" },
               "label": { "$ref": "#/$defs/nonEmptyString" },
               "tuition": { "$ref": "#/$defs/nullablePublishedNumber" }
             }
@@ -156,7 +157,7 @@
     "enrolment": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["total", "nationalities_count", "largest_nationality", "largest_nationality_pct"],
+      "required": ["nationalities_count", "largest_nationality", "largest_nationality_pct"],
       "properties": {
         "total": { "$ref": "#/$defs/nullablePublishedNumber" },
         "nationalities_count": { "$ref": "#/$defs/nullablePublishedNumber" },
@@ -167,7 +168,7 @@
     "staffing": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["teacher_student_ratio", "avg_class_size", "expat_teacher_pct"],
+      "required": ["avg_class_size", "expat_teacher_pct"],
       "properties": {
         "teacher_student_ratio": { "$ref": "#/$defs/nullablePublishedNumber" },
         "avg_class_size": { "$ref": "#/$defs/nullablePublishedNumber" },
@@ -219,7 +220,7 @@
     "admissions": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["open_days", "application_deadline", "assessment_required", "waitlist"],
+      "required": ["application_deadline", "assessment_required", "waitlist"],
       "properties": {
         "open_days": {
           "type": "array",
@@ -241,7 +242,10 @@
       "additionalProperties": false,
       "required": ["website", "admissions_url", "phone", "email"],
       "properties": {
-        "website": { "$ref": "#/$defs/nullableUrl" },
+        "website": {
+          "description": "The school's actual homepage URL. Field-level provenance is not required.",
+          "$ref": "#/$defs/nullableUrl"
+        },
         "admissions_url": { "$ref": "#/$defs/nullableUrl" },
         "phone": { "$ref": "#/$defs/nullableString" },
         "email": {
@@ -257,7 +261,7 @@
       },
       "additionalProperties": { "$ref": "#/$defs/provenanceEntry" }
     },
-    "completeness_score": { "type": "integer", "minimum": 0, "maximum": 12 },
+    "completeness_score": { "type": "integer", "minimum": 0, "maximum": 9 },
     "indexable": { "type": "boolean" },
     "last_verified": { "$ref": "#/$defs/nullableDate" }
   },

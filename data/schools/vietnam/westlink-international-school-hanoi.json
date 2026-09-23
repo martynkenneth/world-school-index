@@ -26,11 +26,52 @@
   "year_groups": [],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026–2027",
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "programme": "IB PROGRAM",
+        "label": "PYP Intro",
+        "tuition": "404,000,000"
+      },
+      {
+        "programme": "IB PROGRAM",
+        "label": "1,2,3",
+        "tuition": "525,000,000"
+      },
+      {
+        "programme": "IB PROGRAM",
+        "label": "4,5",
+        "tuition": "546,000,000"
+      },
+      {
+        "programme": "IB PROGRAM",
+        "label": "6,7",
+        "tuition": "579,000,000"
+      },
+      {
+        "programme": "IB PROGRAM",
+        "label": "8",
+        "tuition": "614,000,000"
+      },
+      {
+        "programme": "IB PROGRAM",
+        "label": "9,10",
+        "tuition": "636,000,000"
+      },
+      {
+        "programme": "BILINGUAL PROGRAM (GRADE 6-9)",
+        "label": "Grade 6,7",
+        "tuition": "274,000,000"
+      },
+      {
+        "programme": "BILINGUAL PROGRAM (GRADE 6-9)",
+        "label": "Grade 8,9",
+        "tuition": "290,000,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -177,9 +218,225 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "All fees are in VND",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "school year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "IB PROGRAM",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "PYP Intro",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "PYP Intro 404,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "IB PROGRAM",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "1,2,3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "1,2,3 525,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "IB PROGRAM",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "4,5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "4,5 546,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "IB PROGRAM",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "6,7",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "6,7 579,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "IB PROGRAM",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "8 614,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "IB PROGRAM",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "9,10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "9,10 636,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "BILINGUAL PROGRAM (GRADE 6-9)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 6,7",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 6,7 274,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].programme": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "BILINGUAL PROGRAM (GRADE 6-9)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 8,9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://www.westlink.edu.vn/VNTH%20-%20Westlink%20International%20School/Download%20%26%20policies/PDF/2.2%20Westlink%20Tuition%20Fees%202026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 8,9 290,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.westlink.edu.vn/vi/tin-tuc-su-kien/tin-tuc/hoc-phi-truong-quoc-te-tai-ha-noi",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Cho năm học 2026–2027",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-23"
 }

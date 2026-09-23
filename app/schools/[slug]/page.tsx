@@ -68,6 +68,9 @@ export default async function SchoolPage({
     ? strictRecord.accreditations.map((item) => item.body)
     : school.accreditation;
   const founded = strictRecord?.founded ?? school.founded;
+  const feeRows = strictRecord?.fees.by_year_group.filter((row) => row.tuition !== null) ?? [];
+  const feeSource = strictRecord?.provenance["fees.by_year_group[0].tuition"]?.source_url;
+  const hasFeeProgrammes = feeRows.some((row) => row.programme);
   const parentPerspectives = await listPublishedParentPerspectives(slug);
   const perspectiveState = typeof query.parent_perspective === "string" ? query.parent_perspective : "";
   const jsonLd = {
@@ -134,6 +137,28 @@ export default async function SchoolPage({
               <p className="muted">No external accreditation is shown in the cited sources for this profile.</p>
             )}
           </div>
+          {feeRows.length > 0 && (
+            <div className="record-section">
+              <span className="eyebrow">Published school fees</span>
+              <h2>{strictRecord?.fees.academic_year ? `${strictRecord.fees.academic_year} tuition` : "Tuition schedule"}</h2>
+              <div className="section-verification"><FieldState state={getFieldVerificationState(slug, ["fees.by_year_group"])} /></div>
+              <p className="muted">{strictRecord?.fees.fee_basis === "year" ? "Annual payment" : strictRecord?.fees.fee_basis === "term" ? "Per term" : strictRecord?.fees.fee_basis === "month" ? "Per month" : "Published tuition"}. Other charges and payment options may apply.</p>
+              <div className="fee-table-scroll">
+                <table className="fee-table">
+                  <thead><tr>{hasFeeProgrammes && <th scope="col">Programme</th>}<th scope="col">Year group</th><th scope="col">Tuition ({strictRecord?.fees.currency ?? "as published"})</th></tr></thead>
+                  <tbody>{feeRows.map((row, index) => (
+                    <tr key={`${row.programme ?? ""}-${row.label}-${index}`}>
+                      {hasFeeProgrammes && <td>{row.programme ?? "—"}</td>}
+                      <th scope="row">{row.label}</th>
+                      <td>{row.tuition}</td>
+                    </tr>
+                  ))}</tbody>
+                </table>
+              </div>
+              {feeSource && <p className="fee-source"><a href={feeSource} target="_blank" rel="noreferrer">View the school’s fee schedule ↗</a></p>}
+              <p className="muted">Fees can change. Confirm the amount and payment terms directly with the school.</p>
+            </div>
+          )}
           <div className="record-section parent-perspectives" id="parent-perspectives">
             <span className="eyebrow">Parent perspectives</span>
             <h2>What have parents shared?</h2>
@@ -229,13 +254,13 @@ export default async function SchoolPage({
         </div>
         <aside className="source-panel">
           <span className="eyebrow">Verification status</span>
-          <h2>{verification.hasStrictRecord ? `${verification.completenessScore} of 12 core fields` : "Provisional profile"}</h2>
+          <h2>{verification.hasStrictRecord ? `${verification.completenessScore} of 9 core fields` : "Provisional profile"}</h2>
           <p>
             Available facts are shown for discovery, but only facts carrying an evidence-backed
             label have completed the field-level source check.
           </p>
           <dl>
-            <div><dt>Search indexing</dt><dd>{verification.indexable ? "Eligible" : "Held until 8/12"}</dd></div>
+            <div><dt>Search indexing</dt><dd>{verification.indexable ? "Eligible" : "Held until 8/9"}</dd></div>
             <div><dt>Source type</dt><dd>Official school website</dd></div>
             {verification.conflictCount > 0 && <div><dt>Open conflicts</dt><dd>{verification.conflictCount}</dd></div>}
           </dl>

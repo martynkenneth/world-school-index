@@ -33,17 +33,15 @@ export const CORE_FIELD_PATHS = [
   "age_range",
   "accreditations",
   "fees.by_year_group",
-  "enrolment.total",
-  "staffing.teacher_student_ratio",
   "languages.instruction",
   "contact.website",
-  "admissions.open_days",
 ] as const;
 
 const PROVENANCE_EXEMPT_PATHS = new Set([
   "id",
   "status",
   "fees.published",
+  "contact.website",
   "completeness_score",
   "indexable",
   "last_verified",
@@ -89,13 +87,11 @@ export function createEmptySchoolRecord(id: string, status: "active" | "closed" 
       early_payment_discount: null,
     },
     enrolment: {
-      total: null,
       nationalities_count: null,
       largest_nationality: null,
       largest_nationality_pct: null,
     },
     staffing: {
-      teacher_student_ratio: null,
       avg_class_size: null,
       expat_teacher_pct: null,
     },
@@ -115,7 +111,6 @@ export function createEmptySchoolRecord(id: string, status: "active" | "closed" 
       university_destinations: [],
     },
     admissions: {
-      open_days: [],
       application_deadline: null,
       assessment_required: null,
       waitlist: null,
@@ -301,9 +296,11 @@ export async function validateSchoolRecord(record: SchoolRecord): Promise<string
   }
 
   for (const path of Object.keys(record.provenance)) {
+    if (path === "contact.website") continue;
     const provenance = record.provenance[path];
     if (provenance.method === "conflict") {
-      if (getAtPath(record, path) !== null) {
+      const conflictedValue = getAtPath(record, path);
+      if (conflictedValue !== null && conflictedValue !== undefined) {
         errors.push(`${path}: conflicting values must leave the field null until human resolution`);
       }
       for (const [index, candidate] of provenance.candidates.entries()) {

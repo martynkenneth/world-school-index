@@ -22,11 +22,12 @@ are always preferred over coverage.
 
 ## HARD RULES (never violate)
 
-1. **A field is populated only if the value appears literally on a fetched source page.**
+1. **A field is populated only if the value appears literally on a fetched source page,**
+   except `contact.website`, which may be supplied as the school's actual homepage URL.
 2. **You have no prior knowledge of any school.** Never fill a field from memory,
    inference, pattern, or "what schools like this usually charge". If it is not on the
-   page, the value is `null`.
-3. **Every non-null value carries provenance**: `source_url`, `retrieved_date` (ISO
+   page, the value is `null`. A supplied school homepage is the sole exception.
+3. **Every non-null value except `contact.website` carries provenance**: `source_url`, `retrieved_date` (ISO
    8601), and `evidence` — a verbatim snippet of up to 25 words from the source page
    containing the value. No evidence, no value.
 4. **Record numbers exactly as printed.** Do not convert currency, do not round, do not
@@ -47,7 +48,7 @@ are always preferred over coverage.
 - Cache raw HTML to `/data/raw/<country>/<slug>/<retrieved_date>.html` so extractions
   are reproducible and auditable without re-crawling.
 - Prioritise these paths on each school domain: `/admissions`, `/fees`, `/tuition`,
-  `/curriculum`, `/about`, `/accreditation`, `/open-day`, `/scholarships`, `/contact`.
+  `/curriculum`, `/about`, `/accreditation`, `/scholarships`, `/contact`.
 
 ## SCHEMA
 
@@ -86,12 +87,11 @@ JSON Schema in `/schema/school.schema.json` — a build fails on any validation 
     "early_payment_discount": null
   },
   "enrolment": {
-    "total": null, "nationalities_count": null,
+    "nationalities_count": null,
     "largest_nationality": null, "largest_nationality_pct": null
   },
   "staffing": {
-    "teacher_student_ratio": null, "avg_class_size": null,
-    "expat_teacher_pct": null
+    "avg_class_size": null, "expat_teacher_pct": null
   },
   "languages": {
     "instruction": [], "offered": [],
@@ -102,7 +102,7 @@ JSON Schema in `/schema/school.schema.json` — a build fails on any validation 
     "igcse_a_star_a_pct": null, "university_destinations": []
   },
   "admissions": {
-    "open_days": [], "application_deadline": null,
+    "application_deadline": null,
     "assessment_required": null, "waitlist": null
   },
   "facilities": [],
@@ -121,7 +121,10 @@ JSON Schema in `/schema/school.schema.json` — a build fails on any validation 
 }
 ```
 
-Provenance is **per field**, keyed by dotted path (e.g. `fees.by_year_group[0].tuition`).
+Provenance is **per field** except for `contact.website`, keyed by dotted path
+(e.g. `fees.by_year_group[0].tuition`). The website field needs only the
+school's actual homepage URL; no source URL, retrieval date, evidence quote,
+method, or conflict status is required for that field.
 This is what lets a page honestly display "Fees verified from the school website on
 12 March 2026" — the strongest differentiator we have against stale competitors.
 
@@ -130,8 +133,11 @@ This is what lets a page honestly display "Fees verified from the school website
 Compute `completeness_score` as the count of populated **core** fields:
 
 `name, location.city, location.address, curricula, age_range, accreditations,
-fees.by_year_group, enrolment.total, staffing.teacher_student_ratio,
-languages.instruction, contact.website, admissions.open_days`
+fees.by_year_group, languages.instruction, contact.website`
+
+The core score has nine possible points. Total enrolment, teacher-student ratio,
+and open days are optional historical fields: retain already sourced values and
+their provenance, but never require them or award a completeness point for them.
 
 - `completeness_score >= 8` → `indexable: true`
 - `completeness_score < 8` → `indexable: false`; the page renders but emits
@@ -165,7 +171,7 @@ overwrite.
 Do not crawl anything yet. Produce, in this order:
 
 1. `/schema/school.schema.json` — the JSON Schema with strict types and required
-   provenance for any non-null field.
+   provenance for any non-null field except the school homepage.
 2. `/scripts/fetch.ts` — the polite crawler with robots.txt checking, rate limiting,
    raw HTML caching, and honest User-Agent.
 3. `/scripts/extract.ts` — extraction returning schema-valid JSON, with the hard rules

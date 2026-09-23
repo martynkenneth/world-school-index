@@ -25,11 +25,72 @@
   "year_groups": [],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026-2027",
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "label": "Nursery*",
+        "tuition": "211,565,750"
+      },
+      {
+        "label": "Reception*",
+        "tuition": "211,565,750"
+      },
+      {
+        "label": "Year 1*",
+        "tuition": "327,987,000"
+      },
+      {
+        "label": "Year 2",
+        "tuition": "580,582,000"
+      },
+      {
+        "label": "Year 3",
+        "tuition": "580,582,000"
+      },
+      {
+        "label": "Year 4",
+        "tuition": "580,582,000"
+      },
+      {
+        "label": "Year 5",
+        "tuition": "589,570,000"
+      },
+      {
+        "label": "Year 6",
+        "tuition": "589,570,000"
+      },
+      {
+        "label": "Year 7",
+        "tuition": "652,379,000"
+      },
+      {
+        "label": "Year 8",
+        "tuition": "652,379,000"
+      },
+      {
+        "label": "Year 9",
+        "tuition": "652,379,000"
+      },
+      {
+        "label": "Year 10",
+        "tuition": "691,541,000"
+      },
+      {
+        "label": "Year 11",
+        "tuition": "691,541,000"
+      },
+      {
+        "label": "Year 12",
+        "tuition": "691,541,000"
+      },
+      {
+        "label": "Year 13",
+        "tuition": "691,541,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -213,9 +274,273 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Fees listed in VND",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "FOR THE 2026-2027 ACADEMIC YEAR",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "academic year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Nursery*",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Nursery* 211,565,750",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Reception*",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Reception* 211,565,750",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 1*",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 1* 327,987,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 2",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 2 580,582,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 3 580,582,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 4",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 4 580,582,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 5 589,570,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 6 589,570,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 7",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 7 652,379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 8 652,379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 9 652,379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 10 691,541,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 11",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 11 691,541,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 12 691,541,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].label": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 13",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].tuition": {
+      "source_url": "https://isph.edu.vn/wp-content/uploads/2026/03/School-Fee-2026-2027.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Year 13 691,541,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
   "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-23"
 }

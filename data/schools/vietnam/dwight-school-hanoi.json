@@ -25,11 +25,72 @@
   ],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
-    "academic_year": null,
-    "fee_basis": null,
-    "by_year_group": [],
+    "published": true,
+    "currency": "VND",
+    "academic_year": "2026-2027",
+    "fee_basis": "year",
+    "by_year_group": [
+      {
+        "label": "Preschool 3s",
+        "tuition": "360,100,000"
+      },
+      {
+        "label": "Preschool 4s",
+        "tuition": "484,200,000"
+      },
+      {
+        "label": "Kindergarten",
+        "tuition": "675,800,000"
+      },
+      {
+        "label": "Grade 1",
+        "tuition": "825,300,000"
+      },
+      {
+        "label": "Grade 2",
+        "tuition": "825,300,000"
+      },
+      {
+        "label": "Grade 3",
+        "tuition": "825,300,000"
+      },
+      {
+        "label": "Grade 4",
+        "tuition": "825,300,000"
+      },
+      {
+        "label": "Grade 5",
+        "tuition": "825,300,000"
+      },
+      {
+        "label": "Grade 6",
+        "tuition": "880,800,000"
+      },
+      {
+        "label": "Grade 7",
+        "tuition": "880,800,000"
+      },
+      {
+        "label": "Grade 8",
+        "tuition": "880,800,000"
+      },
+      {
+        "label": "Grade 9",
+        "tuition": "936,100,000"
+      },
+      {
+        "label": "Grade 10",
+        "tuition": "936,100,000"
+      },
+      {
+        "label": "Grade 11",
+        "tuition": "1,002,600,000"
+      },
+      {
+        "label": "Grade 12",
+        "tuition": "1,002,600,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -136,9 +197,273 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "All Fees are stated in Vietnamese Dong (VND).",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "2026-2027 Academic Year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "academic year",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Preschool 3s",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Preschool 3s 360,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Preschool 4s",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Preschool 4s 484,200,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Kindergarten",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Kindergarten 675,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 1",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 1 825,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 2",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 2 825,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 3 825,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 4",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 4 825,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 5 825,300,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 6 880,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 7",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 7 880,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 8 880,800,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 9 936,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 10 936,100,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 11",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 11 1,002,600,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].label": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].tuition": {
+      "source_url": "https://dwighthanoi.org/wp-content/uploads/2026/03/Tuition-Fees-Schedule-2026-2027-EN.pdf",
+      "retrieved_date": "2026-09-23",
+      "evidence": "Grade 12 1,002,600,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-23"
 }

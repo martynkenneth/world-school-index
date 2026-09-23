@@ -4,6 +4,7 @@ import test from "node:test";
 import { validateCityGuideData, validateCityGuideRecord } from "../scripts/lib/city-guide.ts";
 import {
   assertValidSchoolRecord,
+  computeCompletenessScore,
   createEmptySchoolRecord,
   finalizeDerivedFields,
   validateSchoolRecord,
@@ -104,17 +105,35 @@ test("obeys the longest matching robots.txt rule and crawl delay", () => {
   assert.deepEqual(parseRobots(robots, "/private/public/report"), { permitted: true, crawlDelayMs: 5_000 });
 });
 
-test("keeps the Hanoi worked example below the index gate when official sources conflict", async () => {
+test("retains unresolved Hanoi source conflicts after fee evidence raises the score", async () => {
   const record = JSON.parse(await readFile(
     new URL("../data/schools/vietnam/united-nations-international-school-hanoi.json", import.meta.url),
     "utf8",
   ));
-  assert.equal(record.completeness_score, 7);
-  assert.equal(record.indexable, false);
+  assert.equal(record.completeness_score, 8);
+  assert.equal(record.indexable, true);
   assert.equal(record.enrolment.total, null);
   assert.equal(record.provenance["enrolment.total"].method, "conflict");
   assert.equal(record.provenance["enrolment.total"].candidates.length, 2);
   assert.equal(record.provenance["enrolment.nationalities_count"].candidates.length, 3);
+});
+
+test("accepts a school homepage without field-level provenance", async () => {
+  const record = recordWithName();
+  record.contact.website = "https://example.edu/";
+  finalizeDerivedFields(record);
+  assert.equal(record.completeness_score, 2);
+  assert.equal(record.provenance["contact.website"], undefined);
+  await assert.doesNotReject(assertValidSchoolRecord(record));
+});
+
+test("guarded school figures are optional and do not increase completeness", async () => {
+  const record = recordWithName();
+  record.enrolment.total = "1162";
+  record.staffing.teacher_student_ratio = "1:9";
+  record.admissions.open_days = ["2026-11-01"];
+  assert.equal(computeCompletenessScore(record), 1);
+  assert.equal(record.indexable, false);
 });
 
 test("validates the city-guide ledger, citations, and evidence limits", async () => {

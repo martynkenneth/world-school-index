@@ -278,9 +278,31 @@ test("shows evidence-backed facts without exposing internal review progress", as
   assert.match(html, /Official sources checked/);
   assert.match(html, /Evidence-backed/);
   assert.match(html, /Open conflicts[\s\S]*2/);
-  assert.doesNotMatch(html, /application\/ld\+json/);
+  assert.match(html, /application\/ld\+json/);
   assert.doesNotMatch(html, /Evidence review|\b7\/12\b/);
-  assert.match(html, /name="robots" content="noindex,\s*follow"/);
+  assert.match(html, /name="robots" content="index,\s*follow"/);
+});
+
+test("renders supplied Hanoi tuition schedules with official PDF links", async () => {
+  const cases = [
+    ["dwight-school-hanoi", "360,100,000", "dwighthanoi.org"],
+    ["westlink-international-school-hanoi", "404,000,000", "westlink.edu.vn"],
+    ["reigate-grammar-school-vietnam", "401,625,000", "reigategrammar.edu.vn"],
+    ["international-school-parkcity-hanoi", "211,565,750", "isph.edu.vn"],
+    ["united-nations-international-school-hanoi", "17,460", "resources.finalsite.net"],
+    ["hanoi-international-school", "440,000,000", "hisvietnam.com"],
+  ];
+  for (const [slug, amount, domain] of cases) {
+    const response = await render(`/schools/${slug}`);
+    const html = await response.text();
+    assert.equal(response.status, 200, slug);
+    assert.match(html, /Published school fees/);
+    assert.ok(html.includes(amount), `${slug}: amount is shown`);
+    assert.ok(html.includes(domain), `${slug}: official PDF is linked`);
+  }
+  const westlink = await (await render("/schools/westlink-international-school-hanoi")).text();
+  assert.match(westlink, /IB PROGRAM/);
+  assert.match(westlink, /BILINGUAL PROGRAM/);
 });
 
 test("renders a strict provisional Ho Chi Minh City profile without indexing it", async () => {
