@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-09-23",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -553,7 +553,7 @@
       "country": "Thailand",
       "city": "Samut Prakan",
       "city_slug": "samut-prakan",
-      "status": "in_progress",
+      "status": "complete",
       "schools_discovered": 7,
       "schools_processed": 7,
       "school_ids": [
@@ -586,7 +586,7 @@
         "https://www.tsi.ac.th/contact-us/",
         "https://www.sisb.co.th/"
       ],
-      "last_run_date": "2026-08-16",
+      "last_run_date": "2026-09-23",
       "unresolved_conflicts": [],
       "source_access_blocks": [
         { "school_id": "school:th:concordian-international-school", "source_url": "https://www.concordian.ac.th/", "reason": "The official site returned an HTTP 202 anti-bot challenge; the IB directory robots check returned HTTP 403." },
@@ -596,7 +596,7 @@
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 36,
-      "next_action": "Validate and commit the seven extracted Samut Prakan records atomically; only then mark the city complete and advance to the next Thailand city."
+      "next_action": "Begin Chiang Mai, Thailand, using an official-source candidate inventory; retain the three Samut Prakan source-access blocks in the manual verification queue."
     }
   ]
 }
