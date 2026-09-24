@@ -1,0 +1,13 @@
+{
+  "id": "th-chiang-mai-varee-chiangmai-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/varee-chiangmai-international-school/2026-09-24.fetch.json",
+  "output": "data/schools/thailand/varee-chiangmai-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Varee Chiangmai International School", "source_url": "https://www.varee.ac.th/en/contact.php", "retrieved_date": "2026-09-24", "evidence": "Varee Chiangmai International School - Contact us" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://www.varee.ac.th/en/contact.php", "retrieved_date": "2026-09-24", "evidence": "59 Moo 6 Mahidol Rd.,Nonghoi, Muang, Chiang Mai 50000" },
+    { "path": "location.address", "value": "59 Moo 6 Mahidol Rd.,Nonghoi, Muang, Chiang Mai 50000", "source_url": "https://www.varee.ac.th/en/contact.php", "retrieved_date": "2026-09-24", "evidence": "59 Moo 6 Mahidol Rd.,Nonghoi, Muang, Chiang Mai 50000" },
+    { "path": "contact.website", "value": "https://www.vcis.ac.th/" },
+    { "path": "contact.phone", "value": "0-5314-0233", "source_url": "https://www.varee.ac.th/en/contact.php", "retrieved_date": "2026-09-24", "evidence": "Tel : 0-5314-0233" }
+  ]
+}

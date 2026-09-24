@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-24",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -597,6 +597,75 @@
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 36,
       "next_action": "Begin Chiang Mai, Thailand, using an official-source candidate inventory; retain the three Samut Prakan source-access blocks in the manual verification queue."
+    },
+    {
+      "country": "Thailand",
+      "city": "Chiang Mai",
+      "city_slug": "chiang-mai",
+      "status": "in_progress",
+      "schools_discovered": 14,
+      "schools_processed": 10,
+      "school_ids": [
+        "school:th:prem-international-school-chiang-mai",
+        "school:th:chiang-mai-international-school",
+        "school:th:lanna-international-school-thailand",
+        "school:th:panyaden-international-school",
+        "school:th:nakornpayap-international-school",
+        "school:th:grace-international-school-chiang-mai",
+        "school:th:varee-chiangmai-international-school",
+        "school:th:meritton-british-international-school",
+        "school:th:unity-concord-international-school",
+        "school:th:singapore-international-school-chiangmai"
+      ],
+      "school_results": [
+        { "school_id": "school:th:prem-international-school-chiang-mai", "result": "strict_provisional_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:chiang-mai-international-school", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:lanna-international-school-thailand", "result": "strict_provisional_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:panyaden-international-school", "result": "strict_provisional_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:nakornpayap-international-school", "result": "provisional_profile_and_strict_record_added", "completeness_score": 7, "indexable": false, "unresolved_fields": ["age_range", "languages.instruction"] },
+        { "school_id": "school:th:grace-international-school-chiang-mai", "result": "provisional_profile_and_strict_record_added", "completeness_score": 7, "indexable": false, "unresolved_fields": ["age_range", "languages.instruction"] },
+        { "school_id": "school:th:varee-chiangmai-international-school", "result": "provisional_profile_and_strict_record_added_with_homepage_fetch_failure", "completeness_score": 4, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:meritton-british-international-school", "result": "provisional_profile_and_strict_record_added", "completeness_score": 7, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group"] },
+        { "school_id": "school:th:unity-concord-international-school", "result": "provisional_profile_and_strict_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["age_range", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:singapore-international-school-chiangmai", "result": "provisional_profile_and_strict_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] }
+      ],
+      "source_urls": [
+        "https://ptis.ac.th/",
+        "https://ptis.ac.th/contact/",
+        "https://ptis.ac.th/admissions/",
+        "https://cmis.ac.th/",
+        "https://www.lannaist.ac.th/",
+        "https://www.lannaist.ac.th/admissions/fees/",
+        "https://www.panyaden.ac.th/",
+        "https://www.panyaden.ac.th/school-fees/",
+        "https://www.nis.ac.th/",
+        "https://www.nis.ac.th/admissions/tuition-fees",
+        "https://gisthailand.org/admissions/",
+        "https://gisthailand.org/admissions/tuition-and-fees/",
+        "https://www.varee.ac.th/en/contact.php",
+        "https://www.vcis.ac.th/",
+        "https://merittonbritish.ac.th/home/",
+        "https://merittonbritish.ac.th/about-meritton/",
+        "https://merittonbritish.ac.th/contact-meritton/",
+        "https://www.ucis.ac.th/",
+        "https://www.ucis.ac.th/admissions",
+        "https://sisb.ac.th/singapore-international-school-chiangmai/"
+      ],
+      "last_run_date": "2026-09-24",
+      "unresolved_conflicts": [],
+      "source_access_blocks": [
+        { "school_id": "school:th:varee-chiangmai-international-school", "source_url": "https://www.vcis.ac.th/", "reason": "The official international-school homepage returned HTTP 525; the crawlable official Varee school-group contact page supplied only identity and location evidence." }
+      ],
+      "pending_candidates": [
+        { "name": "American Pacific International School", "homepage": "http://www.apis.ac.th/" },
+        { "name": "Ambassador Bilingual Academy", "homepage": "https://www.abachiangmai.com/" },
+        { "name": "Satit International Bilingual School of Rangsit University Chiangmai", "homepage": "https://sibs.ac.th/" },
+        { "name": "Chiang Mai Montessori International School", "homepage": "https://www.chiangmaimontessori.org/" }
+      ],
+      "sheet_claims_ready": 0,
+      "sheet_claims_imported": 0,
+      "sheet_claims_blocked": 0,
+      "next_action": "Continue Chiang Mai with the four pending candidates, verify the Varee homepage when the SSL endpoint recovers, and keep all 10 current records noindex until they reach 8/9."
     }
   ]
 }

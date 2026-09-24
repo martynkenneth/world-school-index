@@ -1,0 +1,19 @@
+{
+  "id": "th-chiang-mai-prem-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/prem-international-school-chiang-mai/2026-09-24.fetch.json",
+  "output": "data/schools/thailand/prem-international-school-chiang-mai.json",
+  "claims": [
+    { "path": "name", "value": "Prem International School", "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "International School Chiang Mai - Prem International School" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://ptis.ac.th/contact/", "retrieved_date": "2026-09-24", "evidence": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://ptis.ac.th/contact/", "retrieved_date": "2026-09-24", "evidence": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand" },
+    { "path": "location.address", "value": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand", "source_url": "https://ptis.ac.th/contact/", "retrieved_date": "2026-09-24", "evidence": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand" },
+    { "path": "curricula[0]", "value": "Primary Years Programme", "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Primary Years Programme Ages: 6-11 years" },
+    { "path": "curricula[1]", "value": "Middle Years Programme", "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Middle Years Programme Ages: 11-16 years" },
+    { "path": "curricula[2]", "value": "IB Diploma Programme", "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Prem’s Grades 11-12 offer the IB Diploma Programme" },
+    { "path": "curricula[3]", "value": "IB Career-related Programme", "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Prem pioneered Thailand’s IB Career-related Programme" },
+    { "path": "age_range.min", "value": 2.5, "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Ages: 2.5-5 years" },
+    { "path": "age_range.max", "value": 19, "source_url": "https://ptis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Diploma Programme Ages: 16-19 years" },
+    { "path": "contact.website", "value": "https://ptis.ac.th/" }
+  ]
+}

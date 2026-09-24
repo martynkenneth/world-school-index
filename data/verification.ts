@@ -56,6 +56,16 @@ import asbGreenValley from "./schools/thailand/american-school-bangkok-green-val
 import dPrep from "./schools/thailand/d-prep-international-school.json";
 import thaiChineseInternationalSchool from "./schools/thailand/thai-chinese-international-school.json";
 import tsiBearing from "./schools/thailand/tsi-international-school-bearing.json";
+import chiangMaiInternationalSchool from "./schools/thailand/chiang-mai-international-school.json";
+import graceInternationalSchoolChiangMai from "./schools/thailand/grace-international-school-chiang-mai.json";
+import lannaInternationalSchoolThailand from "./schools/thailand/lanna-international-school-thailand.json";
+import merittonBritishInternationalSchool from "./schools/thailand/meritton-british-international-school.json";
+import nakornpayapInternationalSchool from "./schools/thailand/nakornpayap-international-school.json";
+import panyadenInternationalSchool from "./schools/thailand/panyaden-international-school.json";
+import premInternationalSchoolChiangMai from "./schools/thailand/prem-international-school-chiang-mai.json";
+import singaporeInternationalSchoolChiangmai from "./schools/thailand/singapore-international-school-chiangmai.json";
+import unityConcordInternationalSchool from "./schools/thailand/unity-concord-international-school.json";
+import vareeChiangmaiInternationalSchool from "./schools/thailand/varee-chiangmai-international-school.json";
 
 type ProvenanceEntry = {
   conflict: boolean;
@@ -147,6 +157,16 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "d-prep-international-school": dPrep as StrictSchoolRecord,
   "thai-chinese-international-school": thaiChineseInternationalSchool as StrictSchoolRecord,
   "tsi-international-school-bearing": tsiBearing as StrictSchoolRecord,
+  "chiang-mai-international-school": chiangMaiInternationalSchool as StrictSchoolRecord,
+  "grace-international-school-chiang-mai": graceInternationalSchoolChiangMai as StrictSchoolRecord,
+  "lanna-international-school-thailand": lannaInternationalSchoolThailand as StrictSchoolRecord,
+  "meritton-british-international-school": merittonBritishInternationalSchool as StrictSchoolRecord,
+  "nakornpayap-international-school": nakornpayapInternationalSchool as StrictSchoolRecord,
+  "panyaden-international-school": panyadenInternationalSchool as StrictSchoolRecord,
+  "prem-international-school-chiang-mai": premInternationalSchoolChiangMai as StrictSchoolRecord,
+  "singapore-international-school-chiangmai": singaporeInternationalSchoolChiangmai as StrictSchoolRecord,
+  "unity-concord-international-school": unityConcordInternationalSchool as StrictSchoolRecord,
+  "varee-chiangmai-international-school": vareeChiangmaiInternationalSchool as StrictSchoolRecord,
 };
 
 export function getStrictRecord(slug: string) {

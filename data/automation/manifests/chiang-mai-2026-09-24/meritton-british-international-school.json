@@ -1,0 +1,22 @@
+{
+  "id": "th-chiang-mai-meritton-british-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/meritton-british-international-school/2026-09-24.fetch.json",
+  "output": "data/schools/thailand/meritton-british-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Meritton British International School", "source_url": "https://merittonbritish.ac.th/home/", "retrieved_date": "2026-09-24", "evidence": "Meritton British International School in Chiang Mai" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://merittonbritish.ac.th/contact-meritton/", "retrieved_date": "2026-09-24", "evidence": "168 Moo.7, T.Nongkwai, A.Hangdong, Chiang Mai, Thailand 50230" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://merittonbritish.ac.th/contact-meritton/", "retrieved_date": "2026-09-24", "evidence": "168 Moo.7, T.Nongkwai, A.Hangdong, Chiang Mai, Thailand 50230" },
+    { "path": "location.address", "value": "168 Moo.7, T.Nongkwai, A.Hangdong, Chiang Mai, Thailand 50230", "source_url": "https://merittonbritish.ac.th/contact-meritton/", "retrieved_date": "2026-09-24", "evidence": "168 Moo.7, T.Nongkwai, A.Hangdong, Chiang Mai, Thailand 50230" },
+    { "path": "founded", "value": 2018, "source_url": "https://merittonbritish.ac.th/about-meritton/", "retrieved_date": "2026-09-24", "evidence": "Founded in 2018" },
+    { "path": "curricula[0]", "value": "English National", "source_url": "https://merittonbritish.ac.th/about-meritton/", "retrieved_date": "2026-09-24", "evidence": "English National and Cambridge International programmes" },
+    { "path": "curricula[1]", "value": "Cambridge International", "source_url": "https://merittonbritish.ac.th/about-meritton/", "retrieved_date": "2026-09-24", "evidence": "English National and Cambridge International programmes" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://merittonbritish.ac.th/home/", "retrieved_date": "2026-09-24", "evidence": "Ages 2-5 years" },
+    { "path": "age_range.max", "value": 16, "source_url": "https://merittonbritish.ac.th/home/", "retrieved_date": "2026-09-24", "evidence": "Ages 11-16 years" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://merittonbritish.ac.th/about-meritton/", "retrieved_date": "2026-09-24", "evidence": "English is the main language of instruction" },
+    { "path": "languages.offered[0]", "value": "Thai", "source_url": "https://merittonbritish.ac.th/about-meritton/", "retrieved_date": "2026-09-24", "evidence": "while Thai and, for older children, Mandarin, are also taught" },
+    { "path": "languages.offered[1]", "value": "Mandarin", "source_url": "https://merittonbritish.ac.th/about-meritton/", "retrieved_date": "2026-09-24", "evidence": "while Thai and, for older children, Mandarin, are also taught" },
+    { "path": "contact.website", "value": "https://merittonbritish.ac.th/" },
+    { "path": "contact.phone", "value": "091 440 8880", "source_url": "https://merittonbritish.ac.th/contact-meritton/", "retrieved_date": "2026-09-24", "evidence": "Tel: 091 440 8880" }
+  ]
+}

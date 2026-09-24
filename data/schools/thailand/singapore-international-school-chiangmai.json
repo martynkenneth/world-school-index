@@ -1,0 +1,210 @@
+{
+  "id": "th-chiang-mai-singapore-international-school-chiangmai",
+  "name": "Singapore International School Chiangmai",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "district": null,
+    "address": "10 Hussadhisawee Road, Tambon Sripoom, Amphoe Muang, Chiangmai 50200 Thailand",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Singapore curriculum",
+    "Early Years Foundation Stage framework",
+    "Cambridge IGCSE",
+    "Cambridge International AS and A Levels"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [
+      "English",
+      "Chinese",
+      "Thai"
+    ],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+    "admissions_url": null,
+    "phone": "+66 5321 7087",
+    "email": "enrol.cm@sisb.ac.th"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Welcome to Singapore International School Chiangmai",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10 Hussadhisawee Road, Tambon Sripoom, Amphoe Muang, Chiangmai 50200 Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Singapore International School Chiang Mai, Thailand | SISB",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10 Hussadhisawee Road, Tambon Sripoom, Amphoe Muang, Chiangmai 50200 Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "a strong Singapore curriculum foundation",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "combines the Early Years Foundation Stage framework",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "prepare students for the Cambridge IGCSE exams",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[3]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "curriculum of Cambridge International AS and A Levels",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Nursery to Sixth Form (2-18 years old)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Nursery to Sixth Form (2-18 years old)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.offered[0]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "foundation in English, Chinese, and Thai languages",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.offered[1]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "foundation in English, Chinese, and Thai languages",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.offered[2]": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "foundation in English, Chinese, and Thai languages",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "+66 5321 7087",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "enrol.cm@sisb.ac.th",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-09-24"
+}

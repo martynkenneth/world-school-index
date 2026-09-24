@@ -83,11 +83,11 @@ test("ships the first source-checked Thailand collection", async () => {
   );
   const parsed = JSON.parse(dataExport);
   assert.equal(parsed.schemaVersion, "2.0");
-  assert.equal(parsed.recordCount, 43);
-  assert.equal(parsed.entities.schools.length, 43);
-  assert.equal(parsed.entities.campuses.length, 43);
-  assert.equal(parsed.entities.sources.length, 43);
-  assert.equal(parsed.entities.verifications.length, 43);
+  assert.equal(parsed.recordCount, 49);
+  assert.equal(parsed.entities.schools.length, 49);
+  assert.equal(parsed.entities.campuses.length, 49);
+  assert.equal(parsed.entities.sources.length, 49);
+  assert.equal(parsed.entities.verifications.length, 49);
 });
 
 test("keeps the Vietnam country directory available", async () => {

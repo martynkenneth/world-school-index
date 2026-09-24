@@ -1,0 +1,22 @@
+{
+  "id": "th-chiang-mai-lanna-international-school-thailand",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/lanna-international-school-thailand/2026-09-24.fetch.json",
+  "output": "data/schools/thailand/lanna-international-school-thailand.json",
+  "claims": [
+    { "path": "name", "value": "Lanna International School Thailand", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Lanna International School Thailand | Chiang Mai" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "166 Moo 10 Baan Waen Hang Dong Chiang Mai 50230 Thailand" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "166 Moo 10 Baan Waen Hang Dong Chiang Mai 50230 Thailand" },
+    { "path": "location.address", "value": "166 Moo 10 Baan Waen Hang Dong Chiang Mai 50230 Thailand", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "166 Moo 10 Baan Waen Hang Dong Chiang Mai 50230 Thailand" },
+    { "path": "founded", "value": 1993, "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Established in 1993" },
+    { "path": "curricula[0]", "value": "National Curriculum of England", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Rooted in the National Curriculum of England" },
+    { "path": "curricula[1]", "value": "Cambridge pathway", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "globally recognised Cambridge pathway" },
+    { "path": "curricula[2]", "value": "International Early Years Curriculum (IEYC)", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "International Early Years Curriculum (IEYC)" },
+    { "path": "curricula[3]", "value": "International Primary Curriculum (IPC)", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "International Primary Curriculum (IPC)" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "ages 2 - 18" },
+    { "path": "age_range.max", "value": 18, "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "ages 2 - 18" },
+    { "path": "contact.website", "value": "https://www.lannaist.ac.th/" },
+    { "path": "contact.phone", "value": "+66 (0) 52 000 838", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Phone +66 (0) 52 000 838" },
+    { "path": "contact.email", "value": "info@lannaist.ac.th", "source_url": "https://www.lannaist.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Email info@lannaist.ac.th" }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "th-chiang-mai-grace-international-school",
+  "name": "Grace International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "district": null,
+    "address": "88 Muu 3 T.Harn Kaew A. Hang Dong Chiang Mai 50230 Thailand",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "American curriculum"
+  ],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "ACSI",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "WASC",
+      "status": null,
+      "granted": null,
+      "expires": null
+    },
+    {
+      "body": "ONESQA",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": true,
+    "currency": null,
+    "academic_year": "2026-2027",
+    "fee_basis": null,
+    "by_year_group": [
+      {
+        "label": "GRADES K-5",
+        "tuition": "309,000"
+      },
+      {
+        "label": "GRADES 6-8",
+        "tuition": "338,000"
+      },
+      {
+        "label": "GRADES 9-11",
+        "tuition": "365,000"
+      },
+      {
+        "label": "GRADE 12",
+        "tuition": "379,000"
+      }
+    ],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": "1,000 baht discount per family"
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://gisthailand.org/",
+    "admissions_url": null,
+    "phone": "052-088-777",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Admissions | Grace International School | Chiang Mai, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "88 Muu 3 T.Harn Kaew A. Hang Dong Chiang Mai 50230 Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "88 Muu 3 T.Harn Kaew A. Hang Dong Chiang Mai 50230 Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "88 Muu 3 T.Harn Kaew A. Hang Dong Chiang Mai 50230 Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "K–12 education through an American curriculum",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "We are accredited by ACSI",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[1].body": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "WASC (Western Association of Schools and Colleges)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[2].body": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "ONESQA ( Office for National Education Standards and Quality Assessment)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Annual Tuition Rates (Baht) 2026-2027",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "GRADES K-5 GRADES 6-8 GRADES 9-11 GRADE 12 STANDARD RATE 309,000 338,000 365,000 379,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.early_payment_discount": {
+      "source_url": "https://gisthailand.org/admissions/tuition-and-fees/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Payment of annual tuition in full by the due date will net a 1,000 baht discount per family.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://gisthailand.org/admissions/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Phone – 052-088-777",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 7,
+  "indexable": false,
+  "last_verified": "2026-09-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "th-chiang-mai-unity-concord-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/unity-concord-international-school/2026-09-24.fetch.json",
+  "output": "data/schools/thailand/unity-concord-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Unity Concord International School", "source_url": "https://www.ucis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Unity Concord International School | Chiang Mai" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.ucis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "272 Moo 2 Chiang Mai-Lampang Super Highway, Tambol Nong-Pheung, Amphur Sarapee, Chiang Mai, Thailand 50140" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://www.ucis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "272 Moo 2 Chiang Mai-Lampang Super Highway, Tambol Nong-Pheung, Amphur Sarapee, Chiang Mai, Thailand 50140" },
+    { "path": "location.address", "value": "272 Moo 2 Chiang Mai-Lampang Super Highway, Tambol Nong-Pheung, Amphur Sarapee, Chiang Mai, Thailand 50140", "source_url": "https://www.ucis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "272 Moo 2 Chiang Mai-Lampang Super Highway, Tambol Nong-Pheung, Amphur Sarapee, Chiang Mai, Thailand 50140" },
+    { "path": "curricula[0]", "value": "California State Standards", "source_url": "https://www.ucis.ac.th/admissions", "retrieved_date": "2026-09-24", "evidence": "curriculum foundation stands on the pillars of California State Standards" },
+    { "path": "curricula[1]", "value": "Common Core", "source_url": "https://www.ucis.ac.th/admissions", "retrieved_date": "2026-09-24", "evidence": "We integrate Common Core, Next Generation Science Standards (NGSS), and AERO frameworks" },
+    { "path": "curricula[2]", "value": "Next Generation Science Standards (NGSS)", "source_url": "https://www.ucis.ac.th/admissions", "retrieved_date": "2026-09-24", "evidence": "We integrate Common Core, Next Generation Science Standards (NGSS), and AERO frameworks" },
+    { "path": "curricula[3]", "value": "AERO", "source_url": "https://www.ucis.ac.th/admissions", "retrieved_date": "2026-09-24", "evidence": "We integrate Common Core, Next Generation Science Standards (NGSS), and AERO frameworks" },
+    { "path": "accreditations[0].body", "value": "WASC", "source_url": "https://www.ucis.ac.th/admissions", "retrieved_date": "2026-09-24", "evidence": "As a WASC-accredited institution" },
+    { "path": "contact.website", "value": "https://www.ucis.ac.th/" },
+    { "path": "contact.phone", "value": "+66 52-135061", "source_url": "https://www.ucis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Tel: +66 52-135061" },
+    { "path": "contact.email", "value": "info@ucis.ac.th", "source_url": "https://www.ucis.ac.th/", "retrieved_date": "2026-09-24", "evidence": "info@ucis.ac.th" }
+  ]
+}

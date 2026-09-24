@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "generatedOn": "2026-09-24",
-  "recordCount": 87,
+  "recordCount": 93,
   "entities": {
     "schools": [
       {
@@ -688,6 +688,62 @@
         "status": "operating",
         "ownership": "Independent",
         "founded": 2011
+      },
+      {
+        "id": "school:th:nakornpayap-international-school",
+        "canonicalName": "Nakornpayap International School",
+        "shortName": "NIS",
+        "slug": "nakornpayap-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 1993
+      },
+      {
+        "id": "school:th:grace-international-school-chiang-mai",
+        "canonicalName": "Grace International School",
+        "shortName": "GIS",
+        "slug": "grace-international-school-chiang-mai",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:varee-chiangmai-international-school",
+        "canonicalName": "Varee Chiangmai International School",
+        "shortName": "VCIS",
+        "slug": "varee-chiangmai-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:meritton-british-international-school",
+        "canonicalName": "Meritton British International School",
+        "shortName": "Meritton",
+        "slug": "meritton-british-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 2018
+      },
+      {
+        "id": "school:th:unity-concord-international-school",
+        "canonicalName": "Unity Concord International School",
+        "shortName": "UCIS",
+        "slug": "unity-concord-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:singapore-international-school-chiangmai",
+        "canonicalName": "Singapore International School Chiangmai",
+        "shortName": "SISB Chiangmai",
+        "slug": "singapore-international-school-chiangmai",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
       },
       {
         "id": "school:th:british-international-school-phuket",
@@ -1553,6 +1609,66 @@
         "citySlug": "chiang-mai",
         "region": "Northern Thailand",
         "campusType": "day"
+      },
+      {
+        "id": "campus:th:nakornpayap-international-school:main",
+        "schoolId": "school:th:nakornpayap-international-school",
+        "name": "NIS main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:grace-international-school-chiang-mai:main",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "name": "GIS main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:varee-chiangmai-international-school:main",
+        "schoolId": "school:th:varee-chiangmai-international-school",
+        "name": "VCIS main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:meritton-british-international-school:main",
+        "schoolId": "school:th:meritton-british-international-school",
+        "name": "Meritton main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:unity-concord-international-school:main",
+        "schoolId": "school:th:unity-concord-international-school",
+        "name": "UCIS main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:singapore-international-school-chiangmai:main",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "name": "SISB Chiangmai main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
       },
       {
         "id": "campus:th:british-international-school-phuket:main",
@@ -2887,6 +3003,97 @@
         "sourceId": "source:th:panyaden-international-school:official"
       },
       {
+        "id": "programme:th:nakornpayap-international-school:1",
+        "schoolId": "school:th:nakornpayap-international-school",
+        "campusId": "campus:th:nakornpayap-international-school:main",
+        "programme": "American Common Core–based curriculum",
+        "sourceId": "source:th:nakornpayap-international-school:official"
+      },
+      {
+        "id": "programme:th:nakornpayap-international-school:2",
+        "schoolId": "school:th:nakornpayap-international-school",
+        "campusId": "campus:th:nakornpayap-international-school:main",
+        "programme": "Advanced Placement (AP)",
+        "sourceId": "source:th:nakornpayap-international-school:official"
+      },
+      {
+        "id": "programme:th:grace-international-school-chiang-mai:1",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "campusId": "campus:th:grace-international-school-chiang-mai:main",
+        "programme": "American curriculum",
+        "sourceId": "source:th:grace-international-school-chiang-mai:official"
+      },
+      {
+        "id": "programme:th:meritton-british-international-school:1",
+        "schoolId": "school:th:meritton-british-international-school",
+        "campusId": "campus:th:meritton-british-international-school:main",
+        "programme": "English National",
+        "sourceId": "source:th:meritton-british-international-school:official"
+      },
+      {
+        "id": "programme:th:meritton-british-international-school:2",
+        "schoolId": "school:th:meritton-british-international-school",
+        "campusId": "campus:th:meritton-british-international-school:main",
+        "programme": "Cambridge International",
+        "sourceId": "source:th:meritton-british-international-school:official"
+      },
+      {
+        "id": "programme:th:unity-concord-international-school:1",
+        "schoolId": "school:th:unity-concord-international-school",
+        "campusId": "campus:th:unity-concord-international-school:main",
+        "programme": "California State Standards",
+        "sourceId": "source:th:unity-concord-international-school:official"
+      },
+      {
+        "id": "programme:th:unity-concord-international-school:2",
+        "schoolId": "school:th:unity-concord-international-school",
+        "campusId": "campus:th:unity-concord-international-school:main",
+        "programme": "Common Core",
+        "sourceId": "source:th:unity-concord-international-school:official"
+      },
+      {
+        "id": "programme:th:unity-concord-international-school:3",
+        "schoolId": "school:th:unity-concord-international-school",
+        "campusId": "campus:th:unity-concord-international-school:main",
+        "programme": "Next Generation Science Standards (NGSS)",
+        "sourceId": "source:th:unity-concord-international-school:official"
+      },
+      {
+        "id": "programme:th:unity-concord-international-school:4",
+        "schoolId": "school:th:unity-concord-international-school",
+        "campusId": "campus:th:unity-concord-international-school:main",
+        "programme": "AERO",
+        "sourceId": "source:th:unity-concord-international-school:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-chiangmai:1",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "campusId": "campus:th:singapore-international-school-chiangmai:main",
+        "programme": "Singapore curriculum",
+        "sourceId": "source:th:singapore-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-chiangmai:2",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "campusId": "campus:th:singapore-international-school-chiangmai:main",
+        "programme": "Early Years Foundation Stage framework",
+        "sourceId": "source:th:singapore-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-chiangmai:3",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "campusId": "campus:th:singapore-international-school-chiangmai:main",
+        "programme": "Cambridge IGCSE",
+        "sourceId": "source:th:singapore-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:singapore-international-school-chiangmai:4",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "campusId": "campus:th:singapore-international-school-chiangmai:main",
+        "programme": "Cambridge International AS and A Levels",
+        "sourceId": "source:th:singapore-international-school-chiangmai:official"
+      },
+      {
         "id": "programme:th:british-international-school-phuket:1",
         "schoolId": "school:th:british-international-school-phuket",
         "campusId": "campus:th:british-international-school-phuket:main",
@@ -3628,6 +3835,41 @@
         "schoolId": "school:th:panyaden-international-school",
         "accreditation": "Cambridge International",
         "sourceId": "source:th:panyaden-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:nakornpayap-international-school:1",
+        "schoolId": "school:th:nakornpayap-international-school",
+        "accreditation": "Western Association of Schools and Colleges (WASC)",
+        "sourceId": "source:th:nakornpayap-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:grace-international-school-chiang-mai:1",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "accreditation": "ACSI",
+        "sourceId": "source:th:grace-international-school-chiang-mai:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:grace-international-school-chiang-mai:2",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "accreditation": "WASC",
+        "sourceId": "source:th:grace-international-school-chiang-mai:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:grace-international-school-chiang-mai:3",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "accreditation": "ONESQA",
+        "sourceId": "source:th:grace-international-school-chiang-mai:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:unity-concord-international-school:1",
+        "schoolId": "school:th:unity-concord-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:th:unity-concord-international-school:official",
         "status": "recorded"
       },
       {
@@ -4819,6 +5061,96 @@
         ]
       },
       {
+        "id": "source:th:nakornpayap-international-school:official",
+        "schoolId": "school:th:nakornpayap-international-school",
+        "type": "official-school",
+        "publisher": "Nakornpayap International School",
+        "url": "https://www.nis.ac.th/",
+        "observedOn": "2026-09-24",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:grace-international-school-chiang-mai:official",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "type": "official-school",
+        "publisher": "Grace International School",
+        "url": "https://gisthailand.org/admissions/",
+        "observedOn": "2026-09-24",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:varee-chiangmai-international-school:official",
+        "schoolId": "school:th:varee-chiangmai-international-school",
+        "type": "official-school",
+        "publisher": "Varee Chiangmai International School",
+        "url": "https://www.varee.ac.th/en/contact.php",
+        "observedOn": "2026-09-24",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:meritton-british-international-school:official",
+        "schoolId": "school:th:meritton-british-international-school",
+        "type": "official-school",
+        "publisher": "Meritton British International School",
+        "url": "https://merittonbritish.ac.th/about-meritton/",
+        "observedOn": "2026-09-24",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:unity-concord-international-school:official",
+        "schoolId": "school:th:unity-concord-international-school",
+        "type": "official-school",
+        "publisher": "Unity Concord International School",
+        "url": "https://www.ucis.ac.th/admissions",
+        "observedOn": "2026-09-24",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:singapore-international-school-chiangmai:official",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "type": "official-school",
+        "publisher": "Singapore International School Chiangmai",
+        "url": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+        "observedOn": "2026-09-24",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
         "id": "source:th:british-international-school-phuket:official",
         "schoolId": "school:th:british-international-school-phuket",
         "type": "official-school",
@@ -5685,6 +6017,60 @@
         "verifiedOn": "2026-07-23",
         "sourceIds": [
           "source:th:panyaden-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:nakornpayap-international-school:2026-09-24",
+        "schoolId": "school:th:nakornpayap-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-24",
+        "sourceIds": [
+          "source:th:nakornpayap-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:grace-international-school-chiang-mai:2026-09-24",
+        "schoolId": "school:th:grace-international-school-chiang-mai",
+        "level": "core",
+        "verifiedOn": "2026-09-24",
+        "sourceIds": [
+          "source:th:grace-international-school-chiang-mai:official"
+        ]
+      },
+      {
+        "id": "verification:th:varee-chiangmai-international-school:2026-09-24",
+        "schoolId": "school:th:varee-chiangmai-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-24",
+        "sourceIds": [
+          "source:th:varee-chiangmai-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:meritton-british-international-school:2026-09-24",
+        "schoolId": "school:th:meritton-british-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-24",
+        "sourceIds": [
+          "source:th:meritton-british-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:unity-concord-international-school:2026-09-24",
+        "schoolId": "school:th:unity-concord-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-24",
+        "sourceIds": [
+          "source:th:unity-concord-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:singapore-international-school-chiangmai:2026-09-24",
+        "schoolId": "school:th:singapore-international-school-chiangmai",
+        "level": "core",
+        "verifiedOn": "2026-09-24",
+        "sourceIds": [
+          "source:th:singapore-international-school-chiangmai:official"
         ]
       },
       {
@@ -7681,6 +8067,160 @@
       "sourceUrl": "https://www.panyaden.ac.th/",
       "verifiedOn": "2026-07-23",
       "founded": 2011
+    },
+    {
+      "name": "Nakornpayap International School",
+      "shortName": "NIS",
+      "slug": "nakornpayap-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "American Common Core–based curriculum",
+        "Advanced Placement (AP)"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "Western Association of Schools and Colleges (WASC)"
+      ],
+      "website": "https://www.nis.ac.th/",
+      "sourceUrl": "https://www.nis.ac.th/",
+      "verifiedOn": "2026-09-24",
+      "founded": 1993,
+      "indexable": false
+    },
+    {
+      "name": "Grace International School",
+      "shortName": "GIS",
+      "slug": "grace-international-school-chiang-mai",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "American curriculum"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "ACSI",
+        "WASC",
+        "ONESQA"
+      ],
+      "website": "https://gisthailand.org/",
+      "sourceUrl": "https://gisthailand.org/admissions/",
+      "verifiedOn": "2026-09-24",
+      "indexable": false
+    },
+    {
+      "name": "Varee Chiangmai International School",
+      "shortName": "VCIS",
+      "slug": "varee-chiangmai-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.vcis.ac.th/",
+      "sourceUrl": "https://www.varee.ac.th/en/contact.php",
+      "verifiedOn": "2026-09-24",
+      "indexable": false
+    },
+    {
+      "name": "Meritton British International School",
+      "shortName": "Meritton",
+      "slug": "meritton-british-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "English National",
+        "Cambridge International"
+      ],
+      "ageRange": "2–16",
+      "language": "English",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://merittonbritish.ac.th/",
+      "sourceUrl": "https://merittonbritish.ac.th/about-meritton/",
+      "verifiedOn": "2026-09-24",
+      "founded": 2018,
+      "indexable": false
+    },
+    {
+      "name": "Unity Concord International School",
+      "shortName": "UCIS",
+      "slug": "unity-concord-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "California State Standards",
+        "Common Core",
+        "Next Generation Science Standards (NGSS)",
+        "AERO"
+      ],
+      "ageRange": "Not published by the school",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "WASC"
+      ],
+      "website": "https://www.ucis.ac.th/",
+      "sourceUrl": "https://www.ucis.ac.th/admissions",
+      "verifiedOn": "2026-09-24",
+      "indexable": false
+    },
+    {
+      "name": "Singapore International School Chiangmai",
+      "shortName": "SISB Chiangmai",
+      "slug": "singapore-international-school-chiangmai",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "Singapore curriculum",
+        "Early Years Foundation Stage framework",
+        "Cambridge IGCSE",
+        "Cambridge International AS and A Levels"
+      ],
+      "ageRange": "2–18",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "sourceUrl": "https://sisb.ac.th/singapore-international-school-chiangmai/",
+      "verifiedOn": "2026-09-24",
+      "indexable": false
     },
     {
       "name": "British International School, Phuket",

@@ -1,0 +1,166 @@
+{
+  "id": "th-chiang-mai-prem-international-school",
+  "name": "Prem International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "district": null,
+    "address": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [
+    "Primary Years Programme",
+    "Middle Years Programme",
+    "IB Diploma Programme",
+    "IB Career-related Programme"
+  ],
+  "age_range": {
+    "min": 2.5,
+    "max": 19
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://ptis.ac.th/",
+    "admissions_url": null,
+    "phone": null,
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "International School Chiang Mai - Prem International School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://ptis.ac.th/contact/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://ptis.ac.th/contact/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://ptis.ac.th/contact/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "234 Moo 3 Huay Sai, Mae Rim, Chiang Mai 50180, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Primary Years Programme Ages: 6-11 years",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Middle Years Programme Ages: 11-16 years",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Prem’s Grades 11-12 offer the IB Diploma Programme",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[3]": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Prem pioneered Thailand’s IB Career-related Programme",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Ages: 2.5-5 years",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://ptis.ac.th/",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Diploma Programme Ages: 16-19 years",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 6,
+  "indexable": false,
+  "last_verified": "2026-09-24"
+}

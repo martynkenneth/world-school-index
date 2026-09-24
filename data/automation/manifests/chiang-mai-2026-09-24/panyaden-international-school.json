@@ -1,0 +1,20 @@
+{
+  "id": "th-chiang-mai-panyaden-international-school",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/panyaden-international-school/2026-09-24.fetch.json",
+  "output": "data/schools/thailand/panyaden-international-school.json",
+  "claims": [
+    { "path": "name", "value": "Panyaden International School", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Panyaden International School | Chiang Mai, Thailand" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "218, 218/1 Moo 2, T. Namprae, A. Hang Dong, Chiang Mai 50230, Thailand." },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "218, 218/1 Moo 2, T. Namprae, A. Hang Dong, Chiang Mai 50230, Thailand." },
+    { "path": "location.address", "value": "218, 218/1 Moo 2, T. Namprae, A. Hang Dong, Chiang Mai 50230, Thailand.", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "218, 218/1 Moo 2, T. Namprae, A. Hang Dong, Chiang Mai 50230, Thailand." },
+    { "path": "curricula[0]", "value": "British Curriculum", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "blends the British Curriculum, International Baccalaureate (IB) Diploma Programme and the Thai National Curriculum" },
+    { "path": "curricula[1]", "value": "International Baccalaureate (IB) Diploma Programme", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "blends the British Curriculum, International Baccalaureate (IB) Diploma Programme and the Thai National Curriculum" },
+    { "path": "curricula[2]", "value": "Thai National Curriculum", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "blends the British Curriculum, International Baccalaureate (IB) Diploma Programme and the Thai National Curriculum" },
+    { "path": "age_range.min", "value": 2, "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "students aged 2 to 19" },
+    { "path": "age_range.max", "value": 19, "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "students aged 2 to 19" },
+    { "path": "contact.website", "value": "https://www.panyaden.ac.th/" },
+    { "path": "contact.phone", "value": "+66 53 441 460", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Telephone : +66 53 441 460" },
+    { "path": "contact.email", "value": "info@panyaden.ac.th", "source_url": "https://www.panyaden.ac.th/", "retrieved_date": "2026-09-24", "evidence": "Email : info@panyaden.ac.th" }
+  ]
+}

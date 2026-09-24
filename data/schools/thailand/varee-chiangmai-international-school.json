@@ -1,0 +1,113 @@
+{
+  "id": "th-chiang-mai-varee-chiangmai-international-school",
+  "name": "Varee Chiangmai International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": null,
+    "city": "Chiang Mai",
+    "district": null,
+    "address": "59 Moo 6 Mahidol Rd.,Nonghoi, Muang, Chiang Mai 50000",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://www.vcis.ac.th/",
+    "admissions_url": null,
+    "phone": "0-5314-0233",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.varee.ac.th/en/contact.php",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Varee Chiangmai International School - Contact us",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.varee.ac.th/en/contact.php",
+      "retrieved_date": "2026-09-24",
+      "evidence": "59 Moo 6 Mahidol Rd.,Nonghoi, Muang, Chiang Mai 50000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.varee.ac.th/en/contact.php",
+      "retrieved_date": "2026-09-24",
+      "evidence": "59 Moo 6 Mahidol Rd.,Nonghoi, Muang, Chiang Mai 50000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.varee.ac.th/en/contact.php",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Tel : 0-5314-0233",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-09-24"
+}
