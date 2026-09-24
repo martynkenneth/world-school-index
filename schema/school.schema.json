@@ -124,6 +124,7 @@
           "type": ["string", "null"],
           "enum": ["year", "term", "month", null]
         },
+        "payment_plan": { "$ref": "#/$defs/nullableString" },
         "by_year_group": {
           "type": "array",
           "items": {
@@ -132,6 +133,7 @@
             "required": ["label", "tuition"],
             "properties": {
               "programme": { "$ref": "#/$defs/nonEmptyString" },
+              "attendance": { "$ref": "#/$defs/nonEmptyString" },
               "label": { "$ref": "#/$defs/nonEmptyString" },
               "tuition": { "$ref": "#/$defs/nullablePublishedNumber" }
             }

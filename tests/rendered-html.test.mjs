@@ -212,6 +212,39 @@ test("shows True North's sourced tuition bands without claiming an academic year
   assert.doesNotMatch(html, /Verified school profile|2026-2027 tuition/);
 });
 
+test("renders the supplied SIS and Fairmont fee schedules with each official source", async () => {
+  const [ciputra, gamuda, fairmont] = await Promise.all([
+    render("/schools/singapore-international-school-ciputra"),
+    render("/schools/singapore-international-school-gamuda-gardens"),
+    render("/schools/fairmont-international-school-vietnam"),
+  ]);
+  const [ciputraHtml, gamudaHtml, fairmontHtml] = await Promise.all([
+    ciputra.text(), gamuda.text(), fairmont.text(),
+  ]);
+
+  assert.match(ciputraHtml, /498,380,000/);
+  assert.match(ciputraHtml, /338,488,000/);
+  assert.match(ciputraHtml, /208,593,000/);
+  assert.match(ciputraHtml, /International-Programme-Feb-2026-EN\.pdf/);
+  assert.match(ciputraHtml, /Integrated-Kindergarten-Programme\.pdf/);
+  assert.match(ciputraHtml, /Attendance/);
+  assert.match(ciputraHtml, /Yearly Payment Plan/);
+  assert.match(gamudaHtml, /267,999,000/);
+  assert.match(gamudaHtml, /Half Day with Lunch/);
+  assert.match(gamudaHtml, /663,575,000/);
+  assert.match(gamudaHtml, /International-Kindergarten-Programme_-10-Feb-2026-EN\.pdf/);
+  assert.match(gamudaHtml, /Integrated-Programme_-10-Feb-2026-EN\.pdf/);
+  assert.match(fairmontHtml, /2026 - 2027 tuition/);
+  assert.match(fairmontHtml, /Yearly Plan/);
+  assert.match(fairmontHtml, /225,060,000/);
+  assert.match(fairmontHtml, /655,987,500/);
+  assert.match(fairmontHtml, /379,933,500/);
+  assert.match(fairmontHtml, /fairmontschools\.edu\.vn\/admissions\/tuition-fees/);
+  for (const html of [ciputraHtml, gamudaHtml, fairmontHtml]) {
+    assert.match(html, /name="robots" content="noindex,\s*follow"/);
+  }
+});
+
 test("surfaces the source-backed Ho Chi Minh City fee answer on the existing city hub", async () => {
   const response = await render("/cities/ho-chi-minh-city");
   const html = await response.text();

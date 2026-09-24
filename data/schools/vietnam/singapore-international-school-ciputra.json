@@ -26,11 +26,50 @@
   ],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
+    "published": true,
+    "currency": "VND",
     "academic_year": null,
     "fee_basis": null,
-    "by_year_group": [],
+    "payment_plan": "Yearly Payment Plan",
+    "by_year_group": [
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 1 to 3",
+        "tuition": "498,380,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 4 to 5",
+        "tuition": "500,688,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 6",
+        "tuition": "502,384,000"
+      },
+      {
+        "programme": "INTEGRATED PROGRAMME",
+        "label": "Year 1 to 3",
+        "tuition": "255,237,000"
+      },
+      {
+        "programme": "INTEGRATED PROGRAMME",
+        "label": "Year 4 to 5",
+        "tuition": "256,432,000"
+      },
+      {
+        "programme": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+        "label": "Preparatory",
+        "attendance": "Full Day",
+        "tuition": "338,488,000"
+      },
+      {
+        "programme": "INTEGRATED KINDERGARTEN PROGRAMME",
+        "label": "Preparatory",
+        "attendance": "Full Day",
+        "tuition": "208,593,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -145,9 +184,209 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.payment_plan": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Yearly Payment Plan",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "VND",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 1 to 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "498,380,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 4 to 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "500,688,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_International-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "502,384,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_Integrated-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_Integrated-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 1 to 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_Integrated-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "255,237,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_Integrated-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_Integrated-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 4 to 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/SIS-Ciputra_Annex-1_Integrated-Programme-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "256,432,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_International-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_International-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Preparatory",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].attendance": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_International-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_International-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "338,488,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].programme": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_Integrated-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_Integrated-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Preparatory",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].attendance": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_Integrated-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://ciputra.sis.edu.vn/wp-content/uploads/2026/08/EN_SIS-Ciputra_Annex-1_Integrated-Kindergarten-Programme.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "208,593,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-24"
 }

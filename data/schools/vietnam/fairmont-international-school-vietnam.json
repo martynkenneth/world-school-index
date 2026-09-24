@@ -27,11 +27,138 @@
   ],
   "accreditations": [],
   "fees": {
-    "published": false,
+    "published": true,
     "currency": null,
-    "academic_year": null,
+    "academic_year": "2026 - 2027",
     "fee_basis": null,
-    "by_year_group": [],
+    "payment_plan": "Yearly Plan",
+    "by_year_group": [
+      {
+        "programme": "Early Years & Kindergarten Program",
+        "label": "Intro",
+        "tuition": "225,060,000"
+      },
+      {
+        "programme": "FISV International Primary School",
+        "label": "1",
+        "tuition": "434,010,000"
+      },
+      {
+        "programme": "FISV International Primary School",
+        "label": "2",
+        "tuition": "436,885,000"
+      },
+      {
+        "programme": "FISV International Primary School",
+        "label": "3",
+        "tuition": "437,805,000"
+      },
+      {
+        "programme": "FISV International Primary School",
+        "label": "4",
+        "tuition": "454,825,000"
+      },
+      {
+        "programme": "FISV International Primary School",
+        "label": "5",
+        "tuition": "455,055,000"
+      },
+      {
+        "programme": "FISV International Middle School",
+        "label": "6",
+        "tuition": "498,840,000"
+      },
+      {
+        "programme": "FISV International Middle School",
+        "label": "7",
+        "tuition": "499,560,000"
+      },
+      {
+        "programme": "FISV International Middle School",
+        "label": "8",
+        "tuition": "519,000,000"
+      },
+      {
+        "programme": "FISV International Middle School",
+        "label": "9",
+        "tuition": "543,960,000"
+      },
+      {
+        "programme": "FISV International High School Diploma",
+        "label": "10",
+        "tuition": "595,000,000"
+      },
+      {
+        "programme": "FISV International High School Diploma",
+        "label": "11",
+        "tuition": "624,750,000"
+      },
+      {
+        "programme": "FISV International High School Diploma",
+        "label": "12",
+        "tuition": "655,987,500"
+      },
+      {
+        "programme": "Bilingual Primary School",
+        "label": "1",
+        "tuition": "260,610,000"
+      },
+      {
+        "programme": "Bilingual Primary School",
+        "label": "2",
+        "tuition": "263,130,000"
+      },
+      {
+        "programme": "Bilingual Primary School",
+        "label": "3",
+        "tuition": "263,445,000"
+      },
+      {
+        "programme": "Bilingual Primary School",
+        "label": "4",
+        "tuition": "278,775,000"
+      },
+      {
+        "programme": "Bilingual Primary School",
+        "label": "5",
+        "tuition": "278,775,000"
+      },
+      {
+        "programme": "Bilingual Middle School",
+        "label": "6",
+        "tuition": "288,725,000"
+      },
+      {
+        "programme": "Bilingual Middle School",
+        "label": "7",
+        "tuition": "299,460,000"
+      },
+      {
+        "programme": "Bilingual Middle School",
+        "label": "8",
+        "tuition": "316,890,000"
+      },
+      {
+        "programme": "Bilingual Middle School",
+        "label": "9",
+        "tuition": "320,040,000"
+      },
+      {
+        "programme": "Vietnam High School Diploma",
+        "label": "10",
+        "tuition": "344,610,000"
+      },
+      {
+        "programme": "Vietnam High School Diploma",
+        "label": "11",
+        "tuition": "361,841,000"
+      },
+      {
+        "programme": "Vietnam High School Diploma",
+        "label": "12",
+        "tuition": "379,933,500"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -149,9 +276,625 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.payment_plan": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Yearly Plan",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "2026 - 2027",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Early Years & Kindergarten Program",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Intro",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "225,060,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "434,010,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "2",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "436,885,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "437,805,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "4",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "454,825,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "455,055,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "498,840,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "7",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "499,560,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "519,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "543,960,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International High School Diploma",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "595,000,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International High School Diploma",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "11",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "624,750,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "FISV International High School Diploma",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "655,987,500",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "260,610,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "2",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "263,130,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "263,445,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "4",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "278,775,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Primary School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "278,775,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "288,725,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "7",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "299,460,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "316,890,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[21].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Bilingual Middle School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[21].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[21].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "320,040,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[22].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Vietnam High School Diploma",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[22].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "10",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[22].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "344,610,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[23].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Vietnam High School Diploma",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[23].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "11",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[23].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "361,841,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[24].programme": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Vietnam High School Diploma",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[24].label": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[24].tuition": {
+      "source_url": "https://www.fairmontschools.edu.vn/admissions/tuition-fees",
+      "retrieved_date": "2026-09-24",
+      "evidence": "379,933,500",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 4,
+  "completeness_score": 5,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-24"
 }

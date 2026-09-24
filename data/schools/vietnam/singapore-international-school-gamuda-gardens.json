@@ -25,11 +25,128 @@
   ],
   "accreditations": [],
   "fees": {
-    "published": false,
-    "currency": null,
+    "published": true,
+    "currency": "VND",
     "academic_year": null,
     "fee_basis": null,
-    "by_year_group": [],
+    "payment_plan": "Yearly Payment Plan",
+    "by_year_group": [
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 1 to 3",
+        "tuition": "528,283,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 4 to 5",
+        "tuition": "530,729,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 6",
+        "tuition": "532,425,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 7 to 8",
+        "tuition": "559,264,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "Year 9 to 10 IGCSE",
+        "tuition": "622,728,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "1st Year - A/AS Level",
+        "tuition": "634,426,000"
+      },
+      {
+        "programme": "INTERNATIONAL PROGRAMME",
+        "label": "2nd Year - A/AS Level",
+        "tuition": "663,575,000"
+      },
+      {
+        "programme": "INTEGRATED PROGRAMME",
+        "label": "Year 1 to 3",
+        "tuition": "267,999,000"
+      },
+      {
+        "programme": "INTEGRATED PROGRAMME",
+        "label": "Year 4 to 5",
+        "tuition": "269,254,000"
+      },
+      {
+        "programme": "INTEGRATED PROGRAMME",
+        "label": "Year 6 to 9",
+        "tuition": "306,697,000"
+      },
+      {
+        "programme": "INTEGRATED PROGRAMME",
+        "label": "Year 10 to 12",
+        "tuition": "318,207,000"
+      },
+      {
+        "programme": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+        "label": "Pre-Nursery to Nursery",
+        "attendance": "Full Day",
+        "tuition": "280,615,000"
+      },
+      {
+        "programme": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+        "label": "Pre-Nursery to Nursery",
+        "attendance": "Half Day with Lunch",
+        "tuition": "218,444,000"
+      },
+      {
+        "programme": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+        "label": "Pre-Nursery to Nursery",
+        "attendance": "Half Day without Lunch",
+        "tuition": "206,791,000"
+      },
+      {
+        "programme": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+        "label": "Kindergarten 1 to Kindergarten 2",
+        "attendance": "Full Day",
+        "tuition": "280,615,000"
+      },
+      {
+        "programme": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+        "label": "Preparatory",
+        "attendance": "Full Day",
+        "tuition": "358,797,000"
+      },
+      {
+        "programme": "INTEGRATED KINDERGARTEN PROGRAMME",
+        "label": "Pre-Nursery to Nursery",
+        "attendance": "Full Day",
+        "tuition": "151,625,000"
+      },
+      {
+        "programme": "INTEGRATED KINDERGARTEN PROGRAMME",
+        "label": "Pre-Nursery to Nursery",
+        "attendance": "Half Day with Lunch",
+        "tuition": "121,473,000"
+      },
+      {
+        "programme": "INTEGRATED KINDERGARTEN PROGRAMME",
+        "label": "Pre-Nursery to Nursery",
+        "attendance": "Half Day without Lunch",
+        "tuition": "110,165,000"
+      },
+      {
+        "programme": "INTEGRATED KINDERGARTEN PROGRAMME",
+        "label": "Kindergarten 1 to Kindergarten 2",
+        "attendance": "Full Day",
+        "tuition": "151,625,000"
+      },
+      {
+        "programme": "INTEGRATED KINDERGARTEN PROGRAMME",
+        "label": "Preparatory",
+        "attendance": "Full Day",
+        "tuition": "219,023,000"
+      }
+    ],
     "additional": {
       "application": null,
       "enrolment": null,
@@ -136,9 +253,609 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "fees.payment_plan": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Yearly Payment Plan",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.currency": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "VND",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 1 to 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "528,283,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 4 to 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "530,729,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 6",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "532,425,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 7 to 8",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "559,264,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 9 to 10 IGCSE",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "622,728,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "1st Year - A/AS Level",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[5].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "634,426,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "2nd Year - A/AS Level",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[6].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_International-Programme_-10-Feb-2026_EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "663,575,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 1 to 3",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[7].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "267,999,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 4 to 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[8].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "269,254,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 6 to 9",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[9].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "306,697,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Year 10 to 12",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[10].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/SIS-Gamuda-Gardens_Annex-1_Integrated-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "318,207,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Pre-Nursery to Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[11].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "280,615,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Pre-Nursery to Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Half Day with Lunch",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[12].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "218,444,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Pre-Nursery to Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Half Day without Lunch",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[13].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "206,791,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Kindergarten 1 to Kindergarten 2",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[14].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "280,615,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTERNATIONAL KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Preparatory",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[15].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_International-Kindergarten-Programme_-10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "358,797,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Pre-Nursery to Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[16].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "151,625,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Pre-Nursery to Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Half Day with Lunch",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[17].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "121,473,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Pre-Nursery to Nursery",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Half Day without Lunch",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[18].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "110,165,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Kindergarten 1 to Kindergarten 2",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[19].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "151,625,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].programme": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "INTEGRATED KINDERGARTEN PROGRAMME",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].label": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Preparatory",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].attendance": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "Full Day",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[20].tuition": {
+      "source_url": "https://gamudagardens.sis.edu.vn/wp-content/uploads/2026/08/KIK-Gamuda_Annex-1_Integrated-Kindergarten-Programme_10-Feb-2026-EN.pdf",
+      "retrieved_date": "2026-09-24",
+      "evidence": "219,023,000",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 6,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-24"
 }

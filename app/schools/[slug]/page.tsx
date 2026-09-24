@@ -71,8 +71,19 @@ export default async function SchoolPage({
     : school.accreditation;
   const founded = strictRecord?.founded ?? school.founded;
   const feeRows = strictRecord?.fees.by_year_group.filter((row) => row.tuition !== null) ?? [];
-  const feeSource = strictRecord?.provenance["fees.by_year_group[0].tuition"]?.source_url;
   const hasFeeProgrammes = feeRows.some((row) => row.programme);
+  const hasFeeAttendance = feeRows.some((row) => row.attendance);
+  const feeSources = strictRecord?.fees.by_year_group.reduce<Array<{ url: string; label: string }>>(
+    (sources, row, index) => {
+      if (row.tuition === null) return sources;
+      const url = strictRecord.provenance[`fees.by_year_group[${index}].tuition`]?.source_url;
+      if (url && !sources.some((item) => item.url === url)) {
+        sources.push({ url, label: row.programme ?? "Tuition" });
+      }
+      return sources;
+    },
+    [],
+  ) ?? [];
   const parentPerspectives = await listPublishedParentPerspectives(slug);
   const perspectiveState = typeof query.parent_perspective === "string" ? query.parent_perspective : "";
   const jsonLd = {
@@ -144,20 +155,27 @@ export default async function SchoolPage({
               <span className="eyebrow">Published school fees</span>
               <h2>{strictRecord?.fees.academic_year ? `${strictRecord.fees.academic_year} tuition` : "Tuition schedule"}</h2>
               <div className="section-verification"><FieldState state={getFieldVerificationState(slug, ["fees.by_year_group"])} /></div>
-              <p className="muted">{strictRecord?.fees.fee_basis === "year" ? "Annual payment" : strictRecord?.fees.fee_basis === "term" ? "Per term" : strictRecord?.fees.fee_basis === "month" ? "Per month" : "Published tuition"}. Other charges and payment options may apply.</p>
+              <p className="muted">{strictRecord?.fees.payment_plan ?? (strictRecord?.fees.fee_basis === "year" ? "Annual payment" : strictRecord?.fees.fee_basis === "term" ? "Per term" : strictRecord?.fees.fee_basis === "month" ? "Per month" : "Published tuition")}. Other charges and payment options may apply.</p>
               <div className="fee-table-scroll">
                 <table className="fee-table">
-                  <thead><tr>{hasFeeProgrammes && <th scope="col">Programme</th>}<th scope="col">Year group</th><th scope="col">Tuition ({strictRecord?.fees.currency ?? "as published"})</th></tr></thead>
+                  <thead><tr>{hasFeeProgrammes && <th scope="col">Programme</th>}<th scope="col">Year group</th>{hasFeeAttendance && <th scope="col">Attendance</th>}<th scope="col">Tuition ({strictRecord?.fees.currency ?? "as published"})</th></tr></thead>
                   <tbody>{feeRows.map((row, index) => (
                     <tr key={`${row.programme ?? ""}-${row.label}-${index}`}>
                       {hasFeeProgrammes && <td>{row.programme ?? "—"}</td>}
                       <th scope="row">{row.label}</th>
+                      {hasFeeAttendance && <td>{row.attendance ?? "—"}</td>}
                       <td>{row.tuition}</td>
                     </tr>
                   ))}</tbody>
                 </table>
               </div>
-              {feeSource && <p className="fee-source"><a href={feeSource} target="_blank" rel="noreferrer">View the school’s fee schedule ↗</a></p>}
+              {feeSources.map((source) => (
+                <p className="fee-source" key={source.url}>
+                  <a href={source.url} target="_blank" rel="noreferrer">
+                    {feeSources.length === 1 ? "View the school’s fee schedule" : `View ${source.label.toLowerCase()} fee schedule`} ↗
+                  </a>
+                </p>
+              ))}
               <p className="muted">Fees can change. Confirm the amount and payment terms directly with the school.</p>
             </div>
           )}
