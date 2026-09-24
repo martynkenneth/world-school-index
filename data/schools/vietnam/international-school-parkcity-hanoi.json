@@ -114,7 +114,9 @@
     "expat_teacher_pct": null
   },
   "languages": {
-    "instruction": [],
+    "instruction": [
+      "English"
+    ],
     "offered": [
       "English",
       "Vietnamese",
@@ -538,9 +540,17 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://isph.edu.vn/admissions/faqs/",
+      "retrieved_date": "2026-09-25",
+      "evidence": "All lessons are conducted in English",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-09-23"
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-09-25"
 }

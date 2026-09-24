@@ -24,7 +24,14 @@
   "year_groups": [
     "kindergarten to high school"
   ],
-  "accreditations": [],
+  "accreditations": [
+    {
+      "body": "Western Association of Schools and Colleges",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
   "fees": {
     "published": false,
     "currency": null,
@@ -54,7 +61,9 @@
     "expat_teacher_pct": null
   },
   "languages": {
-    "instruction": [],
+    "instruction": [
+      "English"
+    ],
     "offered": [],
     "eal_provision": {
       "offered": null,
@@ -145,9 +154,25 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://vanphuc.sis.edu.vn/academic/study-pathway/",
+      "retrieved_date": "2026-09-25",
+      "evidence": "The International Programme is conducted in English and led by qualified local teachers.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://vanphuc.sis.edu.vn/academic/integrated-programme/",
+      "retrieved_date": "2026-09-25",
+      "evidence": "By the Western Association of Schools and Colleges (WASC).",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 7,
   "indexable": false,
-  "last_verified": "2026-09-17"
+  "last_verified": "2026-09-25"
 }

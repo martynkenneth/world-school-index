@@ -21,7 +21,14 @@
     "max": 18
   },
   "year_groups": [],
-  "accreditations": [],
+  "accreditations": [
+    {
+      "body": "Council of British International Schools",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
   "fees": {
     "published": true,
     "currency": "VND",
@@ -76,7 +83,9 @@
     "expat_teacher_pct": null
   },
   "languages": {
-    "instruction": [],
+    "instruction": [
+      "English"
+    ],
     "offered": [],
     "eal_provision": {
       "offered": null,
@@ -295,9 +304,25 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://reigategrammar.edu.vn/english-as-an-additional-language-e-a-l.htm",
+      "retrieved_date": "2026-09-25",
+      "evidence": "The language of instruction at RGSV is English.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://reigategrammar.edu.vn/reigate-grammar-school-vietnam-achieves-cobis-accreditation-8439.htm",
+      "retrieved_date": "2026-09-25",
+      "evidence": "accreditation by the Council of British International Schools (COBIS)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-09-23"
+  "completeness_score": 9,
+  "indexable": true,
+  "last_verified": "2026-09-25"
 }

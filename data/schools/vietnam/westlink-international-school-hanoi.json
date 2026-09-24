@@ -24,7 +24,14 @@
     "max": 17
   },
   "year_groups": [],
-  "accreditations": [],
+  "accreditations": [
+    {
+      "body": "IB World School for the Primary Years Program (PYP)",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
   "fees": {
     "published": true,
     "currency": "VND",
@@ -95,7 +102,9 @@
     "expat_teacher_pct": null
   },
   "languages": {
-    "instruction": [],
+    "instruction": [
+      "English"
+    ],
     "offered": [],
     "eal_provision": {
       "offered": null,
@@ -434,9 +443,25 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.westlink.edu.vn/faq",
+      "retrieved_date": "2026-09-25",
+      "evidence": "English is the primary language of instruction.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://www.westlink.edu.vn/faq",
+      "retrieved_date": "2026-09-25",
+      "evidence": "Westlink International School is an authorised IB World School for the Primary Years Program (PYP).",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-09-23"
+  "completeness_score": 9,
+  "indexable": true,
+  "last_verified": "2026-09-25"
 }

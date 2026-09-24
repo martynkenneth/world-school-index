@@ -102,5 +102,6 @@ test("includes the guide in the sitemap without exposing below-gate schools", as
   assert.match(xml, /https:\/\/worldschoolindex\.com\/guides\/vietnam\/ho-chi-minh-city\/living-in-the-city-orientation\//);
   assert.match(xml, /https:\/\/worldschoolindex\.com\/guides\/vietnam\/da-nang\/living-in-the-city-orientation\//);
   assert.match(xml, /schools\/united-nations-international-school-hanoi/);
-  assert.doesNotMatch(xml, /schools\/dwight-school-hanoi/);
+  assert.match(xml, /schools\/dwight-school-hanoi/);
+  assert.doesNotMatch(xml, /schools\/fairmont-international-school-vietnam/);
 });

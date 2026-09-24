@@ -24,7 +24,14 @@
   "year_groups": [
     "kindergarten to high school"
   ],
-  "accreditations": [],
+  "accreditations": [
+    {
+      "body": "Western Association of Schools and Colleges",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
   "fees": {
     "published": true,
     "currency": "VND",
@@ -93,7 +100,9 @@
     "expat_teacher_pct": null
   },
   "languages": {
-    "instruction": [],
+    "instruction": [
+      "English"
+    ],
     "offered": [],
     "eal_provision": {
       "offered": null,
@@ -384,9 +393,25 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://ciputra.sis.edu.vn/academic/study-pathway/",
+      "retrieved_date": "2026-09-25",
+      "evidence": "The International Programme is conducted in English and led by qualified local teachers.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://ciputra.sis.edu.vn/who-we-are/accreditations-and-partnerships/",
+      "retrieved_date": "2026-09-25",
+      "evidence": "Western Association of Schools and Colleges (WASC)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 6,
-  "indexable": false,
-  "last_verified": "2026-09-24"
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-09-25"
 }

@@ -2,3 +2,6 @@
 {"date":"2026-07-27","field":"languages.instruction","old_value":[],"new_value":["English"]}
 {"date":"2026-07-27","field":"enrolment.nationalities_count","old_value":null,"new_value":"20"}
 {"date":"2026-07-27","field":"completeness_score","old_value":4,"new_value":6}
+{"date":"2026-09-25","field":"accreditations[0].body","old_value":null,"new_value":"Cognia"}
+{"date":"2026-09-25","field":"completeness_score","old_value":7,"new_value":8}
+{"date":"2026-09-25","field":"indexable","old_value":false,"new_value":true}

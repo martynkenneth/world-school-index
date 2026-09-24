@@ -9,7 +9,7 @@
     "country": "Vietnam",
     "city": "Hanoi",
     "district": null,
-    "address": null,
+    "address": "O TH3, khu Do thi Dong Nam, D. Tran Duy Hung D. Hoang Minh Giam, Cau Giay",
     "lat": null,
     "lng": null
   },
@@ -182,7 +182,9 @@
     "expat_teacher_pct": null
   },
   "languages": {
-    "instruction": [],
+    "instruction": [
+      "English"
+    ],
     "offered": [
       "English",
       "Vietnamese"
@@ -892,9 +894,25 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.fairmontschools.edu.vn/learning-journey/international-program",
+      "retrieved_date": "2026-09-25",
+      "evidence": "O TH3, khu Do thi Dong Nam, D. Tran Duy Hung D. Hoang Minh Giam, Cau Giay",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://www.fairmontschools.edu.vn/learning-journey/international-program",
+      "retrieved_date": "2026-09-25",
+      "evidence": "U.S. Common Core-aligned curriculum delivered in English",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 5,
+  "completeness_score": 7,
   "indexable": false,
-  "last_verified": "2026-09-24"
+  "last_verified": "2026-09-25"
 }

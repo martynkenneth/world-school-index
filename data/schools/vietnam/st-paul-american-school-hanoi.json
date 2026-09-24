@@ -23,7 +23,14 @@
     "max": null
   },
   "year_groups": [],
-  "accreditations": [],
+  "accreditations": [
+    {
+      "body": "Cognia",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
   "fees": {
     "published": true,
     "currency": "VND",
@@ -287,9 +294,17 @@
       "method": "published",
       "conflict": false,
       "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://stpaulhanoi.com/about-us/",
+      "retrieved_date": "2026-09-25",
+      "evidence": "Cognia accreditation is granted based on rigorous standards for the whole institution",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
     }
   },
-  "completeness_score": 7,
-  "indexable": false,
-  "last_verified": "2026-09-17"
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-09-25"
 }

@@ -177,7 +177,7 @@ test("surfaces the source-backed Hanoi open-day answer on the existing city hub"
   assert.doesNotMatch(html, /Evidence capture pending/i);
 });
 
-test("keeps new Hanoi profiles noindex and out of school schema until the evidence gate is met", async () => {
+test("indexes Hanoi profiles only after their evidence gate is met", async () => {
   const [response, indexedResponse] = await Promise.all([
     render("/schools/dwight-school-hanoi"),
     render("/schools/british-international-school-hanoi"),
@@ -187,10 +187,11 @@ test("keeps new Hanoi profiles noindex and out of school schema until the eviden
   assert.equal(response.status, 200);
   assert.match(html, /Dwight School Hanoi/);
   assert.match(html, /Official sources checked/);
-  assert.match(html, /name="robots" content="noindex,\s*follow"/);
-  assert.doesNotMatch(html, /Verified school profile|Verification status|Search indexing|core fields/);
+  assert.match(html, /name="robots" content="index,\s*follow"/);
+  assert.match(html, /Verified school profile/);
+  assert.doesNotMatch(html, /Verification status|Search indexing|core fields/);
   assert.match(html, /href="https:\/\/dwighthanoi\.org\/"[^>]*>Visit school website/);
-  assert.doesNotMatch(html, /application\/ld\+json/);
+  assert.match(html, /application\/ld\+json/);
   assert.doesNotMatch(html, /Evidence review|\b4\/12\b/);
   assert.match(indexedHtml, /application\/ld\+json/);
   assert.match(indexedHtml, /name="robots" content="index,\s*follow"/);
@@ -208,8 +209,9 @@ test("shows True North's sourced tuition bands without claiming an academic year
   assert.match(html, /International Track[\s\S]*650,000,000/);
   assert.match(html, /MOET Track[\s\S]*290,000,000/);
   assert.match(html, /href="https:\/\/truenorth\.edu\.vn\/"[^>]*>Visit school website/);
-  assert.match(html, /name="robots" content="noindex,\s*follow"/);
-  assert.doesNotMatch(html, /Verified school profile|2026-2027 tuition/);
+  assert.match(html, /name="robots" content="index,\s*follow"/);
+  assert.match(html, /Verified school profile/);
+  assert.doesNotMatch(html, /2026-2027 tuition/);
 });
 
 test("renders the supplied SIS and Fairmont fee schedules with each official source", async () => {
@@ -240,9 +242,10 @@ test("renders the supplied SIS and Fairmont fee schedules with each official sou
   assert.match(fairmontHtml, /655,987,500/);
   assert.match(fairmontHtml, /379,933,500/);
   assert.match(fairmontHtml, /fairmontschools\.edu\.vn\/admissions\/tuition-fees/);
-  for (const html of [ciputraHtml, gamudaHtml, fairmontHtml]) {
-    assert.match(html, /name="robots" content="noindex,\s*follow"/);
+  for (const html of [ciputraHtml, gamudaHtml]) {
+    assert.match(html, /name="robots" content="index,\s*follow"/);
   }
+  assert.match(fairmontHtml, /name="robots" content="noindex,\s*follow"/);
 });
 
 test("surfaces the source-backed Ho Chi Minh City fee answer on the existing city hub", async () => {
