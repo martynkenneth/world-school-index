@@ -1,0 +1,313 @@
+{
+  "id": "th-chiang-mai-chiang-mai-montessori-international-school",
+  "name": "Chiang Mai Montessori International School",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "district": "Hang Dong",
+    "address": "229/1 Moo.6, Ban Roychan. T. Nong Kwai, A. Hang Dong, Chiang Mai. 50230, Thailand.",
+    "lat": null,
+    "lng": null
+  },
+  "founded": 2010,
+  "school_type": null,
+  "curricula": [
+    "AMI Montessori framework"
+  ],
+  "age_range": {
+    "min": 0,
+    "max": 16
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "WASC",
+      "status": "Accredited",
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": true,
+    "currency": null,
+    "academic_year": "2025-2026",
+    "fee_basis": "term",
+    "by_year_group": [
+      {
+        "label": "Toddler Community",
+        "tuition": "150,184"
+      },
+      {
+        "label": "Children’s House",
+        "tuition": "163,903"
+      },
+      {
+        "label": "Lower Elementary",
+        "tuition": "195,183"
+      },
+      {
+        "label": "Upper Elementary",
+        "tuition": "203,706"
+      },
+      {
+        "label": "Middle School",
+        "tuition": "194,000"
+      }
+    ],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://chiangmaimontessori.org/",
+    "admissions_url": null,
+    "phone": "084 616 6988",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "About Chiang Mai Montessori International School",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Hang Dong, Chiang Mai. 50230, Thailand.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Hang Dong, Chiang Mai. 50230, Thailand.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.district": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Hang Dong, Chiang Mai. 50230, Thailand.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "229/1 Moo.6, Ban Roychan. T. Nong Kwai, A. Hang Dong, Chiang Mai. 50230, Thailand.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Founded in 2010",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "AMI Montessori framework",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Toddler Community (0 to 3 years)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Middle School (12 to 16 years)",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "WASC Accredited",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].status": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "WASC Accredited",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.academic_year": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Fee Structure, 2025-2026",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.fee_basis": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "฿150,184 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].label": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Toddler Community (0 to 3 years) ฿150,184 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[0].tuition": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Toddler Community (0 to 3 years) ฿150,184 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].label": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Children’s House (3 to 6 years) ฿163,903 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[1].tuition": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Children’s House (3 to 6 years) ฿163,903 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].label": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Lower Elementary (6 to 9 years) ฿195,183 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[2].tuition": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Lower Elementary (6 to 9 years) ฿195,183 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].label": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Upper Elementary (9 to 12 years) ฿203,706 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[3].tuition": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Upper Elementary (9 to 12 years) ฿203,706 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].label": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Middle School (12 to 16 years) ฿194,000 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "fees.by_year_group[4].tuition": {
+      "source_url": "https://chiangmaimontessori.org/school-fee/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Middle School (12 to 16 years) ฿194,000 per term",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "taught in English",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://chiangmaimontessori.org/about/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "084 616 6988",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 9,
+  "indexable": true,
+  "last_verified": "2026-09-26"
+}

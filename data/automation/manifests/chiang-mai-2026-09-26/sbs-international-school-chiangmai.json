@@ -1,0 +1,24 @@
+{
+  "id": "th-chiang-mai-sbs-international-school-chiangmai",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/sbs-international-school-chiangmai/2026-09-26.fetch.json",
+  "output": "data/schools/thailand/sbs-international-school-chiangmai.json",
+  "claims": [
+    { "path": "name", "value": "SBS International School Chiangmai", "source_url": "https://sbscm.ac.th/", "retrieved_date": "2026-09-26", "evidence": "SBS International School Chiangmai" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Located in Hang Dong, Chiang Mai, Thailand" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Located in Hang Dong, Chiang Mai, Thailand" },
+    { "path": "location.district", "value": "Hang Dong", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Located in Hang Dong, Chiang Mai, Thailand" },
+    { "path": "location.address", "value": "225/900 Moo 11, Tambol Banwaen Amphur Hangdong, Chiang Mai 50230", "source_url": "https://sbscm.ac.th/", "retrieved_date": "2026-09-26", "evidence": "225/900 Moo 11, Tambol Banwaen Amphur Hangdong, Chiang Mai 50230" },
+    { "path": "founded", "value": 2014, "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Established in 2014." },
+    { "path": "curricula[0]", "value": "Early Years Foundation Stage (EYFS)", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Early Years Foundation Stage (EYFS) for children aged 2 to 5" },
+    { "path": "curricula[1]", "value": "Cambridge International Curriculum", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Cambridge International Curriculum for Primary, Secondary, and IGCSE programs." },
+    { "path": "curricula[2]", "value": "IGCSE", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Cambridge International Curriculum for Primary, Secondary, and IGCSE programs." },
+    { "path": "curricula[3]", "value": "As and A Levels (Cambridge)", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "As and A Levels (Cambridge) for Years 12 and 13." },
+    { "path": "age_range.min", "value": 2, "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Over 485 students aged from 2 to 18 years old." },
+    { "path": "age_range.max", "value": 18, "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "Over 485 students aged from 2 to 18 years old." },
+    { "path": "accreditations[0].body", "value": "WASC", "source_url": "https://sbscm.ac.th/", "retrieved_date": "2026-09-26", "evidence": "FULL WASC ACCREDITATION" },
+    { "path": "languages.instruction[0]", "value": "English", "source_url": "https://sbscm.ac.th/school-profile/", "retrieved_date": "2026-09-26", "evidence": "English-medium , co-educational school." },
+    { "path": "contact.website", "value": "https://sbscm.ac.th/" },
+    { "path": "contact.phone", "value": "+66 87 661 5151", "source_url": "https://sbscm.ac.th/contact/", "retrieved_date": "2026-09-26", "evidence": "Tel: +66 87 661 5151" }
+  ]
+}

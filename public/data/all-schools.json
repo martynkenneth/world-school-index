@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "generatedOn": "2026-09-24",
-  "recordCount": 93,
+  "generatedOn": "2026-09-26",
+  "recordCount": 97,
   "entities": {
     "schools": [
       {
@@ -744,6 +744,45 @@
         "countryCode": "TH",
         "status": "operating",
         "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:american-pacific-international-school",
+        "canonicalName": "American Pacific International School",
+        "shortName": "APIS",
+        "slug": "american-pacific-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 1997
+      },
+      {
+        "id": "school:th:ambassador-bilingual-academy",
+        "canonicalName": "Ambassador Bilingual Academy",
+        "shortName": "ABA",
+        "slug": "ambassador-bilingual-academy",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school"
+      },
+      {
+        "id": "school:th:sbs-international-school-chiangmai",
+        "canonicalName": "SBS International School Chiangmai",
+        "shortName": "SBS Chiangmai",
+        "slug": "sbs-international-school-chiangmai",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 2014
+      },
+      {
+        "id": "school:th:chiang-mai-montessori-international-school",
+        "canonicalName": "Chiang Mai Montessori International School",
+        "shortName": "CMMIS",
+        "slug": "chiang-mai-montessori-international-school",
+        "countryCode": "TH",
+        "status": "operating",
+        "ownership": "Not published by the school",
+        "founded": 2010
       },
       {
         "id": "school:th:british-international-school-phuket",
@@ -1664,6 +1703,46 @@
         "id": "campus:th:singapore-international-school-chiangmai:main",
         "schoolId": "school:th:singapore-international-school-chiangmai",
         "name": "SISB Chiangmai main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:american-pacific-international-school:main",
+        "schoolId": "school:th:american-pacific-international-school",
+        "name": "APIS main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:ambassador-bilingual-academy:main",
+        "schoolId": "school:th:ambassador-bilingual-academy",
+        "name": "ABA main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:sbs-international-school-chiangmai:main",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "name": "SBS Chiangmai main campus",
+        "countryCode": "TH",
+        "city": "Chiang Mai",
+        "citySlug": "chiang-mai",
+        "region": "Northern Thailand",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:th:chiang-mai-montessori-international-school:main",
+        "schoolId": "school:th:chiang-mai-montessori-international-school",
+        "name": "CMMIS main campus",
         "countryCode": "TH",
         "city": "Chiang Mai",
         "citySlug": "chiang-mai",
@@ -3094,6 +3173,62 @@
         "sourceId": "source:th:singapore-international-school-chiangmai:official"
       },
       {
+        "id": "programme:th:american-pacific-international-school:1",
+        "schoolId": "school:th:american-pacific-international-school",
+        "campusId": "campus:th:american-pacific-international-school:main",
+        "programme": "Primary Years Programme",
+        "sourceId": "source:th:american-pacific-international-school:official"
+      },
+      {
+        "id": "programme:th:american-pacific-international-school:2",
+        "schoolId": "school:th:american-pacific-international-school",
+        "campusId": "campus:th:american-pacific-international-school:main",
+        "programme": "Middle Years Programme",
+        "sourceId": "source:th:american-pacific-international-school:official"
+      },
+      {
+        "id": "programme:th:american-pacific-international-school:3",
+        "schoolId": "school:th:american-pacific-international-school",
+        "campusId": "campus:th:american-pacific-international-school:main",
+        "programme": "Diploma Programme",
+        "sourceId": "source:th:american-pacific-international-school:official"
+      },
+      {
+        "id": "programme:th:sbs-international-school-chiangmai:1",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "campusId": "campus:th:sbs-international-school-chiangmai:main",
+        "programme": "Early Years Foundation Stage (EYFS)",
+        "sourceId": "source:th:sbs-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:sbs-international-school-chiangmai:2",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "campusId": "campus:th:sbs-international-school-chiangmai:main",
+        "programme": "Cambridge International Curriculum",
+        "sourceId": "source:th:sbs-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:sbs-international-school-chiangmai:3",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "campusId": "campus:th:sbs-international-school-chiangmai:main",
+        "programme": "IGCSE",
+        "sourceId": "source:th:sbs-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:sbs-international-school-chiangmai:4",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "campusId": "campus:th:sbs-international-school-chiangmai:main",
+        "programme": "As and A Levels (Cambridge)",
+        "sourceId": "source:th:sbs-international-school-chiangmai:official"
+      },
+      {
+        "id": "programme:th:chiang-mai-montessori-international-school:1",
+        "schoolId": "school:th:chiang-mai-montessori-international-school",
+        "campusId": "campus:th:chiang-mai-montessori-international-school:main",
+        "programme": "AMI Montessori framework",
+        "sourceId": "source:th:chiang-mai-montessori-international-school:official"
+      },
+      {
         "id": "programme:th:british-international-school-phuket:1",
         "schoolId": "school:th:british-international-school-phuket",
         "campusId": "campus:th:british-international-school-phuket:main",
@@ -3870,6 +4005,27 @@
         "schoolId": "school:th:unity-concord-international-school",
         "accreditation": "WASC",
         "sourceId": "source:th:unity-concord-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:american-pacific-international-school:1",
+        "schoolId": "school:th:american-pacific-international-school",
+        "accreditation": "IB Continuum School",
+        "sourceId": "source:th:american-pacific-international-school:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:sbs-international-school-chiangmai:1",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "accreditation": "WASC",
+        "sourceId": "source:th:sbs-international-school-chiangmai:official",
+        "status": "recorded"
+      },
+      {
+        "id": "accreditation:th:chiang-mai-montessori-international-school:1",
+        "schoolId": "school:th:chiang-mai-montessori-international-school",
+        "accreditation": "WASC",
+        "sourceId": "source:th:chiang-mai-montessori-international-school:official",
         "status": "recorded"
       },
       {
@@ -5151,6 +5307,66 @@
         ]
       },
       {
+        "id": "source:th:american-pacific-international-school:official",
+        "schoolId": "school:th:american-pacific-international-school",
+        "type": "official-school",
+        "publisher": "American Pacific International School",
+        "url": "https://www.apis.ac.th/",
+        "observedOn": "2026-09-26",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:ambassador-bilingual-academy:official",
+        "schoolId": "school:th:ambassador-bilingual-academy",
+        "type": "official-school",
+        "publisher": "Ambassador Bilingual Academy",
+        "url": "https://www.abachiangmai.com/",
+        "observedOn": "2026-09-26",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:sbs-international-school-chiangmai:official",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "type": "official-school",
+        "publisher": "SBS International School Chiangmai",
+        "url": "https://sbscm.ac.th/school-profile/",
+        "observedOn": "2026-09-26",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:th:chiang-mai-montessori-international-school:official",
+        "schoolId": "school:th:chiang-mai-montessori-international-school",
+        "type": "official-school",
+        "publisher": "Chiang Mai Montessori International School",
+        "url": "https://chiangmaimontessori.org/about/",
+        "observedOn": "2026-09-26",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
         "id": "source:th:british-international-school-phuket:official",
         "schoolId": "school:th:british-international-school-phuket",
         "type": "official-school",
@@ -6071,6 +6287,42 @@
         "verifiedOn": "2026-09-24",
         "sourceIds": [
           "source:th:singapore-international-school-chiangmai:official"
+        ]
+      },
+      {
+        "id": "verification:th:american-pacific-international-school:2026-09-26",
+        "schoolId": "school:th:american-pacific-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-26",
+        "sourceIds": [
+          "source:th:american-pacific-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:th:ambassador-bilingual-academy:2026-09-26",
+        "schoolId": "school:th:ambassador-bilingual-academy",
+        "level": "core",
+        "verifiedOn": "2026-09-26",
+        "sourceIds": [
+          "source:th:ambassador-bilingual-academy:official"
+        ]
+      },
+      {
+        "id": "verification:th:sbs-international-school-chiangmai:2026-09-26",
+        "schoolId": "school:th:sbs-international-school-chiangmai",
+        "level": "core",
+        "verifiedOn": "2026-09-26",
+        "sourceIds": [
+          "source:th:sbs-international-school-chiangmai:official"
+        ]
+      },
+      {
+        "id": "verification:th:chiang-mai-montessori-international-school:2026-09-26",
+        "schoolId": "school:th:chiang-mai-montessori-international-school",
+        "level": "core",
+        "verifiedOn": "2026-09-26",
+        "sourceIds": [
+          "source:th:chiang-mai-montessori-international-school:official"
         ]
       },
       {
@@ -8221,6 +8473,108 @@
       "sourceUrl": "https://sisb.ac.th/singapore-international-school-chiangmai/",
       "verifiedOn": "2026-09-24",
       "indexable": false
+    },
+    {
+      "name": "American Pacific International School",
+      "shortName": "APIS",
+      "slug": "american-pacific-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "Primary Years Programme",
+        "Middle Years Programme",
+        "Diploma Programme"
+      ],
+      "ageRange": "Pre-nursery–Grade 12",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "IB Continuum School"
+      ],
+      "website": "https://www.apis.ac.th/",
+      "sourceUrl": "https://www.apis.ac.th/",
+      "verifiedOn": "2026-09-26",
+      "founded": 1997,
+      "indexable": false
+    },
+    {
+      "name": "Ambassador Bilingual Academy",
+      "shortName": "ABA",
+      "slug": "ambassador-bilingual-academy",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [],
+      "ageRange": "Pre-K–Grade 12",
+      "language": "Not published by the school",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [],
+      "website": "https://www.abachiangmai.com/",
+      "sourceUrl": "https://www.abachiangmai.com/",
+      "verifiedOn": "2026-09-26",
+      "indexable": false
+    },
+    {
+      "name": "SBS International School Chiangmai",
+      "shortName": "SBS Chiangmai",
+      "slug": "sbs-international-school-chiangmai",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "Early Years Foundation Stage (EYFS)",
+        "Cambridge International Curriculum",
+        "IGCSE",
+        "As and A Levels (Cambridge)"
+      ],
+      "ageRange": "2–18",
+      "language": "English",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "WASC"
+      ],
+      "website": "https://sbscm.ac.th/",
+      "sourceUrl": "https://sbscm.ac.th/school-profile/",
+      "verifiedOn": "2026-09-26",
+      "founded": 2014
+    },
+    {
+      "name": "Chiang Mai Montessori International School",
+      "shortName": "CMMIS",
+      "slug": "chiang-mai-montessori-international-school",
+      "country": "Thailand",
+      "countrySlug": "thailand",
+      "countryCode": "TH",
+      "city": "Chiang Mai",
+      "citySlug": "chiang-mai",
+      "region": "Northern Thailand",
+      "curricula": [
+        "AMI Montessori framework"
+      ],
+      "ageRange": "0–16",
+      "language": "English",
+      "schoolType": "Not published by the school",
+      "ownership": "Not published by the school",
+      "accreditation": [
+        "WASC"
+      ],
+      "website": "https://chiangmaimontessori.org/",
+      "sourceUrl": "https://chiangmaimontessori.org/about/",
+      "verifiedOn": "2026-09-26",
+      "founded": 2010
     },
     {
       "name": "British International School, Phuket",

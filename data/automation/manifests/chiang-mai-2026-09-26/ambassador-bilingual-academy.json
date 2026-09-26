@@ -1,0 +1,16 @@
+{
+  "id": "th-chiang-mai-ambassador-bilingual-academy",
+  "status": "unverified",
+  "fetch_log": "data/raw/thailand/ambassador-bilingual-academy/2026-09-26.fetch.json",
+  "output": "data/schools/thailand/ambassador-bilingual-academy.json",
+  "claims": [
+    { "path": "name", "value": "Ambassador Bilingual Academy", "source_url": "https://www.abachiangmai.com/", "retrieved_date": "2026-09-26", "evidence": "Ambassador Bilingual Academy" },
+    { "path": "former_names[0]", "value": "Little Stars Bilingual School", "source_url": "https://www.abachiangmai.com/admissions", "retrieved_date": "2026-09-26", "evidence": "We were formerly Little Stars Bilingual School and have moved to a brand new campus" },
+    { "path": "location.country", "value": "Thailand", "source_url": "https://www.abachiangmai.com/admissions", "retrieved_date": "2026-09-26", "evidence": "as a transfer from another school within Thailand" },
+    { "path": "location.city", "value": "Chiang Mai", "source_url": "https://www.abachiangmai.com/contact", "retrieved_date": "2026-09-26", "evidence": "133 Moo 2, Mae Hia, Muang, Chiang Mai 50100" },
+    { "path": "location.address", "value": "133 Moo 2, Mae Hia, Muang, Chiang Mai 50100", "source_url": "https://www.abachiangmai.com/contact", "retrieved_date": "2026-09-26", "evidence": "133 Moo 2, Mae Hia, Muang, Chiang Mai 50100" },
+    { "path": "contact.website", "value": "https://www.abachiangmai.com/" },
+    { "path": "contact.phone", "value": "081-9506659", "source_url": "https://www.abachiangmai.com/contact", "retrieved_date": "2026-09-26", "evidence": "Tel: 081-9506659" },
+    { "path": "contact.email", "value": "info@abachiangmai.com", "source_url": "https://www.abachiangmai.com/contact", "retrieved_date": "2026-09-26", "evidence": "info@abachiangmai.com" }
+  ]
+}

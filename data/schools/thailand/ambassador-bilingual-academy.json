@@ -1,0 +1,139 @@
+{
+  "id": "th-chiang-mai-ambassador-bilingual-academy",
+  "name": "Ambassador Bilingual Academy",
+  "former_names": [
+    "Little Stars Bilingual School"
+  ],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "district": null,
+    "address": "133 Moo 2, Mae Hia, Muang, Chiang Mai 50100",
+    "lat": null,
+    "lng": null
+  },
+  "founded": null,
+  "school_type": null,
+  "curricula": [],
+  "age_range": {
+    "min": null,
+    "max": null
+  },
+  "year_groups": [],
+  "accreditations": [],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://www.abachiangmai.com/",
+    "admissions_url": null,
+    "phone": "081-9506659",
+    "email": "info@abachiangmai.com"
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://www.abachiangmai.com/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Ambassador Bilingual Academy",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "former_names[0]": {
+      "source_url": "https://www.abachiangmai.com/admissions",
+      "retrieved_date": "2026-09-26",
+      "evidence": "We were formerly Little Stars Bilingual School and have moved to a brand new campus",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://www.abachiangmai.com/admissions",
+      "retrieved_date": "2026-09-26",
+      "evidence": "as a transfer from another school within Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://www.abachiangmai.com/contact",
+      "retrieved_date": "2026-09-26",
+      "evidence": "133 Moo 2, Mae Hia, Muang, Chiang Mai 50100",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://www.abachiangmai.com/contact",
+      "retrieved_date": "2026-09-26",
+      "evidence": "133 Moo 2, Mae Hia, Muang, Chiang Mai 50100",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://www.abachiangmai.com/contact",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Tel: 081-9506659",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.email": {
+      "source_url": "https://www.abachiangmai.com/contact",
+      "retrieved_date": "2026-09-26",
+      "evidence": "info@abachiangmai.com",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 4,
+  "indexable": false,
+  "last_verified": "2026-09-26"
+}

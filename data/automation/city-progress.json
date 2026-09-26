@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24",
+  "updated_at": "2026-09-26",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -602,9 +602,9 @@
       "country": "Thailand",
       "city": "Chiang Mai",
       "city_slug": "chiang-mai",
-      "status": "in_progress",
+      "status": "complete",
       "schools_discovered": 14,
-      "schools_processed": 10,
+      "schools_processed": 14,
       "school_ids": [
         "school:th:prem-international-school-chiang-mai",
         "school:th:chiang-mai-international-school",
@@ -615,7 +615,11 @@
         "school:th:varee-chiangmai-international-school",
         "school:th:meritton-british-international-school",
         "school:th:unity-concord-international-school",
-        "school:th:singapore-international-school-chiangmai"
+        "school:th:singapore-international-school-chiangmai",
+        "school:th:american-pacific-international-school",
+        "school:th:ambassador-bilingual-academy",
+        "school:th:sbs-international-school-chiangmai",
+        "school:th:chiang-mai-montessori-international-school"
       ],
       "school_results": [
         { "school_id": "school:th:prem-international-school-chiang-mai", "result": "strict_provisional_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] },
@@ -627,7 +631,11 @@
         { "school_id": "school:th:varee-chiangmai-international-school", "result": "provisional_profile_and_strict_record_added_with_homepage_fetch_failure", "completeness_score": 4, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "languages.instruction"] },
         { "school_id": "school:th:meritton-british-international-school", "result": "provisional_profile_and_strict_record_added", "completeness_score": 7, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group"] },
         { "school_id": "school:th:unity-concord-international-school", "result": "provisional_profile_and_strict_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["age_range", "fees.by_year_group", "languages.instruction"] },
-        { "school_id": "school:th:singapore-international-school-chiangmai", "result": "provisional_profile_and_strict_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] }
+        { "school_id": "school:th:singapore-international-school-chiangmai", "result": "provisional_profile_and_strict_record_added", "completeness_score": 6, "indexable": false, "unresolved_fields": ["accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:american-pacific-international-school", "result": "provisional_profile_and_strict_record_added_multi_campus_address_unresolved", "completeness_score": 5, "indexable": false, "unresolved_fields": ["location.address", "age_range", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:ambassador-bilingual-academy", "result": "provisional_profile_and_strict_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["curricula", "age_range", "accreditations", "fees.by_year_group", "languages.instruction"] },
+        { "school_id": "school:th:sbs-international-school-chiangmai", "result": "profile_and_indexable_strict_record_added", "completeness_score": 8, "indexable": true, "unresolved_fields": ["fees.by_year_group"] },
+        { "school_id": "school:th:chiang-mai-montessori-international-school", "result": "profile_and_indexable_strict_record_added_with_term_fees", "completeness_score": 9, "indexable": true, "unresolved_fields": [] }
       ],
       "source_urls": [
         "https://ptis.ac.th/",
@@ -649,23 +657,35 @@
         "https://merittonbritish.ac.th/contact-meritton/",
         "https://www.ucis.ac.th/",
         "https://www.ucis.ac.th/admissions",
-        "https://sisb.ac.th/singapore-international-school-chiangmai/"
+        "https://sisb.ac.th/singapore-international-school-chiangmai/",
+        "https://www.apis.ac.th/",
+        "https://www.apis.ac.th/our-story/",
+        "https://www.apis.ac.th/admissions-process/",
+        "https://www.apis.ac.th/main-campus-contact/",
+        "https://www.apis.ac.th/primary-campus-contact/",
+        "https://www.abachiangmai.com/",
+        "https://www.abachiangmai.com/aboutus",
+        "https://www.abachiangmai.com/admissions",
+        "https://www.abachiangmai.com/contact",
+        "https://sbscm.ac.th/",
+        "https://sbscm.ac.th/our-school/",
+        "https://sbscm.ac.th/school-profile/",
+        "https://sbscm.ac.th/contact/",
+        "https://chiangmaimontessori.org/about/",
+        "https://chiangmaimontessori.org/programs/",
+        "https://chiangmaimontessori.org/school-fee/",
+        "https://chiangmaimontessori.org/admissions/"
       ],
-      "last_run_date": "2026-09-24",
+      "last_run_date": "2026-09-26",
       "unresolved_conflicts": [],
       "source_access_blocks": [
         { "school_id": "school:th:varee-chiangmai-international-school", "source_url": "https://www.vcis.ac.th/", "reason": "The official international-school homepage returned HTTP 525; the crawlable official Varee school-group contact page supplied only identity and location evidence." }
       ],
-      "pending_candidates": [
-        { "name": "American Pacific International School", "homepage": "http://www.apis.ac.th/" },
-        { "name": "Ambassador Bilingual Academy", "homepage": "https://www.abachiangmai.com/" },
-        { "name": "Satit International Bilingual School of Rangsit University Chiangmai", "homepage": "https://sibs.ac.th/" },
-        { "name": "Chiang Mai Montessori International School", "homepage": "https://www.chiangmaimontessori.org/" }
-      ],
+      "pending_candidates": [],
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
-      "next_action": "Continue Chiang Mai with the four pending candidates, verify the Varee homepage when the SSL endpoint recovers, and keep all 10 current records noindex until they reach 8/9."
+      "next_action": "Begin Phuket, Thailand, using an official-source candidate inventory; keep the Varee homepage retry and APIS multi-campus address modeling in the verification backlog."
     }
   ]
 }

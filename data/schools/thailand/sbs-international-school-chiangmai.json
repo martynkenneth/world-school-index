@@ -1,0 +1,215 @@
+{
+  "id": "th-chiang-mai-sbs-international-school-chiangmai",
+  "name": "SBS International School Chiangmai",
+  "former_names": [],
+  "status": "unverified",
+  "location": {
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "district": "Hang Dong",
+    "address": "225/900 Moo 11, Tambol Banwaen Amphur Hangdong, Chiang Mai 50230",
+    "lat": null,
+    "lng": null
+  },
+  "founded": 2014,
+  "school_type": null,
+  "curricula": [
+    "Early Years Foundation Stage (EYFS)",
+    "Cambridge International Curriculum",
+    "IGCSE",
+    "As and A Levels (Cambridge)"
+  ],
+  "age_range": {
+    "min": 2,
+    "max": 18
+  },
+  "year_groups": [],
+  "accreditations": [
+    {
+      "body": "WASC",
+      "status": null,
+      "granted": null,
+      "expires": null
+    }
+  ],
+  "fees": {
+    "published": false,
+    "currency": null,
+    "academic_year": null,
+    "fee_basis": null,
+    "by_year_group": [],
+    "additional": {
+      "application": null,
+      "enrolment": null,
+      "capital_levy": null,
+      "bus": null,
+      "lunch": null,
+      "uniform": null
+    },
+    "sibling_discount": null,
+    "early_payment_discount": null
+  },
+  "enrolment": {
+    "nationalities_count": null,
+    "largest_nationality": null,
+    "largest_nationality_pct": null
+  },
+  "staffing": {
+    "avg_class_size": null,
+    "expat_teacher_pct": null
+  },
+  "languages": {
+    "instruction": [
+      "English"
+    ],
+    "offered": [],
+    "eal_provision": {
+      "offered": null,
+      "model": null,
+      "additional_cost": null
+    }
+  },
+  "outcomes": {
+    "ib_average": null,
+    "ib_year": null,
+    "igcse_a_star_a_pct": null,
+    "university_destinations": []
+  },
+  "admissions": {
+    "application_deadline": null,
+    "assessment_required": null,
+    "waitlist": null
+  },
+  "facilities": [],
+  "contact": {
+    "website": "https://sbscm.ac.th/",
+    "admissions_url": null,
+    "phone": "+66 87 661 5151",
+    "email": null
+  },
+  "provenance": {
+    "name": {
+      "source_url": "https://sbscm.ac.th/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "SBS International School Chiangmai",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.country": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Located in Hang Dong, Chiang Mai, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.city": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Located in Hang Dong, Chiang Mai, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.district": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Located in Hang Dong, Chiang Mai, Thailand",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "location.address": {
+      "source_url": "https://sbscm.ac.th/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "225/900 Moo 11, Tambol Banwaen Amphur Hangdong, Chiang Mai 50230",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "founded": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Established in 2014.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[0]": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Early Years Foundation Stage (EYFS) for children aged 2 to 5",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[1]": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Cambridge International Curriculum for Primary, Secondary, and IGCSE programs.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[2]": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Cambridge International Curriculum for Primary, Secondary, and IGCSE programs.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "curricula[3]": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "As and A Levels (Cambridge) for Years 12 and 13.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.min": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Over 485 students aged from 2 to 18 years old.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "age_range.max": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Over 485 students aged from 2 to 18 years old.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "accreditations[0].body": {
+      "source_url": "https://sbscm.ac.th/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "FULL WASC ACCREDITATION",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "languages.instruction[0]": {
+      "source_url": "https://sbscm.ac.th/school-profile/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "English-medium , co-educational school.",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    },
+    "contact.phone": {
+      "source_url": "https://sbscm.ac.th/contact/",
+      "retrieved_date": "2026-09-26",
+      "evidence": "Tel: +66 87 661 5151",
+      "method": "published",
+      "conflict": false,
+      "candidates": []
+    }
+  },
+  "completeness_score": 8,
+  "indexable": true,
+  "last_verified": "2026-09-26"
+}
