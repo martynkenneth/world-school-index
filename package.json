@@ -13,10 +13,12 @@
     "data:fetch": "node --experimental-strip-types scripts/fetch.ts",
     "data:extract": "node --experimental-strip-types scripts/extract.ts",
     "data:reverify-all": "node --experimental-strip-types scripts/reverify-all.ts",
+    "data:gap-report": "node --experimental-strip-types scripts/gap-report.ts",
     "data:validate": "node --experimental-strip-types scripts/validate.ts --run",
     "data:export": "node --experimental-strip-types scripts/export-data.mjs",
     "test": "npm run build && npm run test:unit",
     "test:unit": "node --experimental-strip-types --test tests/data-pipeline.test.mjs tests/rendered-html.test.mjs tests/city-guide-rendered.test.mjs tests/parent-perspectives.test.mjs",
+    "test:gap-report": "node --experimental-strip-types --test tests/gap-report.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .netlify",
     "db:generate": "drizzle-kit generate"
   },
