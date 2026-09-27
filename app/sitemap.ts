@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { articles } from "@/data/articles";
 import { cityGuides, guideUrl, SITE_URL } from "@/data/guides";
 import { countries, schools } from "@/data/schools";
 import { getVerificationSummary } from "@/data/verification";
@@ -39,6 +40,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
+    { url: `${SITE_URL}/articles`, changeFrequency: "monthly", priority: 0.7 },
+    ...articles.map((article) => ({ url: `${SITE_URL}/articles/${article.slug}`, changeFrequency: "monthly" as const, priority: 0.7 })),
     ...countryEntries,
     ...cityEntries,
     ...schoolEntries,

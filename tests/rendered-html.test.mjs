@@ -4,6 +4,40 @@ import test from "node:test";
 
 const templateRoot = new URL("../", import.meta.url);
 
+test("articles are discoverable and both supplied texts render", async () => {
+  const listing = await render("/articles");
+  assert.equal(listing.status, 200);
+  const listHtml = await listing.text();
+  for (const slug of ["how-to-choose-an-international-school", "what-to-really-look-for-on-an-international-school-tour"]) {
+    assert.ok(listHtml.includes(`/articles/${slug}`));
+    const response = await render(`/articles/${slug}`);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /In this article/);
+    assert.match(html, /rel="canonical"/);
+    assert.match(html, /<h2 id=/);
+    assert.doesNotMatch(html, /## |\*\*A useful question/);
+    if (slug.startsWith("how-to")) {
+      assert.match(html, /getparentbridge.com/);
+      assert.match(html, /<table>/);
+      assert.match(html, /feel that they belong/);
+    } else {
+      assert.match(html, /ordinary Tuesday morning/);
+      assert.match(html, /everyday life really be like here/);
+    }
+  }
+  assert.equal((await render("/articles/not-a-real-article")).status, 404);
+});
+
+test("article URLs are included in the sitemap", async () => {
+  const response = await render("/sitemap.xml");
+  assert.equal(response.status, 200);
+  const xml = await response.text();
+  assert.match(xml, /worldschoolindex.com\/articles<\/loc>/);
+  assert.match(xml, /articles\/how-to-choose-an-international-school/);
+  assert.match(xml, /articles\/what-to-really-look-for-on-an-international-school-tour/);
+});
+
 async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-${pathname}`);
@@ -83,11 +117,11 @@ test("ships the first source-checked Thailand collection", async () => {
   );
   const parsed = JSON.parse(dataExport);
   assert.equal(parsed.schemaVersion, "2.0");
-  assert.equal(parsed.recordCount, 49);
-  assert.equal(parsed.entities.schools.length, 49);
-  assert.equal(parsed.entities.campuses.length, 49);
-  assert.equal(parsed.entities.sources.length, 49);
-  assert.equal(parsed.entities.verifications.length, 49);
+  assert.equal(parsed.recordCount, 53);
+  assert.equal(parsed.entities.schools.length, 53);
+  assert.equal(parsed.entities.campuses.length, 53);
+  assert.equal(parsed.entities.sources.length, 53);
+  assert.equal(parsed.entities.verifications.length, 53);
 });
 
 test("keeps the Vietnam country directory available", async () => {
