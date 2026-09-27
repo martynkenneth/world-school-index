@@ -4,6 +4,32 @@ import test from "node:test";
 
 const templateRoot = new URL("../", import.meta.url);
 
+test("publishes the report, fees and short IB articles", async () => {
+  const slugs = ["how-to-read-your-childs-school-report", "understanding-international-school-fees", "what-is-the-ib-curriculum"];
+  const listing = await (await render("/articles")).text();
+  const sitemap = await (await render("/sitemap.xml")).text();
+  for (const slug of slugs) {
+    assert.ok(listing.includes(`/articles/${slug}`));
+    assert.ok(sitemap.includes(`/articles/${slug}`));
+    const response = await render(`/articles/${slug}`);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /rel="canonical"/);
+    assert.doesNotMatch(html, /## |### |\*\*/);
+    if (slug.startsWith("how-to-read")) {
+      assert.match(html, /getparentbridge.com/);
+      assert.match(html, /start of a conversation, not the end/);
+    } else if (slug.startsWith("understanding")) {
+      assert.match(html, /refund policy carefully/);
+      assert.match(html, /What am I actually getting for that cost/);
+    } else {
+      assert.match(html, /Primary Years Programme, Middle Years Programme and Diploma Programme/);
+      assert.match(html, /quality of the teaching still matters enormously/);
+      assert.doesNotMatch(html, /<nav aria-label="In this article"/);
+    }
+  }
+});
+
 test("articles are discoverable and both supplied texts render", async () => {
   const listing = await render("/articles");
   assert.equal(listing.status, 200);

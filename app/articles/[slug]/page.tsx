@@ -33,13 +33,13 @@ export default async function ArticlePage({ params }: Props) {
       <span className="eyebrow">A guide for parents</span>
       <h1>{article.title}</h1>
     </header>
-    <div className="shell article-layout">
-      <aside className="article-contents">
+    <div className={`shell article-layout${headings.length ? "" : " article-short"}`}>
+      {headings.length > 0 ? <aside className="article-contents">
         <nav aria-label="In this article">
           <span className="eyebrow">In this article</span>
           <ol>{headings.map((heading) => <li key={heading}><a href={`#${sectionId(heading)}`}>{heading}</a></li>)}</ol>
         </nav>
-      </aside>
+      </aside> : null}
       <article aria-label={article.title}>
         <ArticleBody content={article.content} />
         <div className="article-end"><span className="eyebrow">Keep exploring</span>
@@ -50,4 +50,3 @@ export default async function ArticlePage({ params }: Props) {
     </div>
   </main>;
 }
-

@@ -396,6 +396,7 @@ nav a:hover { color: var(--forest-2); }
 .article-hero h1 { max-width: 1000px; font-size: clamp(36px, 5vw, 64px); line-height: 1.12; margin: 20px 0 0; }
 .article-layout { display: grid; grid-template-columns: 250px minmax(0, 760px); gap: 64px; padding-top: 48px; padding-bottom: 88px; }
 .article-contents nav { position: sticky; top: 110px; }
+.article-layout.article-short { display: block; max-width: 760px; }
 .article-contents ol { list-style: none; padding: 0; margin-top: 20px; }
 .article-contents li { margin: 0 0 16px; font-size: 14px; line-height: 1.5; }
 .article-contents a { color: var(--muted); text-decoration: none; }
