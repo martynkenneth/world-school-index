@@ -4,6 +4,27 @@ import test from "node:test";
 
 const templateRoot = new URL("../", import.meta.url);
 
+test("publishes only the four new articles from the supplied collection", async () => {
+  const slugs = [
+    "ib-vs-british-vs-american-curriculum",
+    "how-to-tell-if-an-international-school-is-good",
+    "is-my-child-falling-behind-at-school",
+    "eal-explained-for-parents-of-multilingual-children",
+  ];
+  const listing = await (await render("/articles")).text();
+  const sitemap = await (await render("/sitemap.xml")).text();
+  for (const slug of slugs) {
+    assert.ok(listing.includes(`/articles/${slug}`));
+    assert.ok(sitemap.includes(`/articles/${slug}`));
+    const response = await render(`/articles/${slug}`);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /rel="canonical"/);
+    assert.match(html, /<h2 id=/);
+    assert.doesNotMatch(html, /Suggested Website Use|WordPress-ready versions/);
+  }
+});
+
 test("publishes the report, fees and short IB articles", async () => {
   const slugs = ["how-to-read-your-childs-school-report", "understanding-international-school-fees", "what-is-the-ib-curriculum"];
   const listing = await (await render("/articles")).text();
