@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-hwa-chong-international-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/hwa-chong-international-school/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/hwa-chong-international-school.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "Hwa Chong International School",
+      "source_url": "https://www.hcis.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Hwa Chong International School"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://www.hcis.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://www.hcis.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://www.hcis.edu.sg/"
+    }
+  ]
+}

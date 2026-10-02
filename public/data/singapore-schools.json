@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.0",
-  "generatedOn": "2026-09-30",
+  "generatedOn": "2026-10-02",
   "country": "Singapore",
-  "recordCount": 8,
+  "recordCount": 17,
   "coverage": {
     "name": "Singapore",
     "slug": "singapore",
@@ -88,6 +88,87 @@
         "countryCode": "SG",
         "status": "operating",
         "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:iss-international-school",
+        "canonicalName": "ISS International School",
+        "shortName": "ISS International School",
+        "slug": "iss-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:integrated-international-school",
+        "canonicalName": "Integrated International School",
+        "shortName": "Integrated International School",
+        "slug": "integrated-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:international-community-school-singapore",
+        "canonicalName": "International Community School (Singapore)",
+        "shortName": "International Community School (Singapore)",
+        "slug": "international-community-school-singapore",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:perse-school-singapore",
+        "canonicalName": "The Perse School (Singapore)",
+        "shortName": "The Perse School (Singapore)",
+        "slug": "perse-school-singapore",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:hwa-chong-international-school",
+        "canonicalName": "Hwa Chong International School",
+        "shortName": "Hwa Chong International School",
+        "slug": "hwa-chong-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:astor-international-school",
+        "canonicalName": "Astor International School",
+        "shortName": "Astor International School",
+        "slug": "astor-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:xcl-world-academy",
+        "canonicalName": "XCL World Academy",
+        "shortName": "XCL World Academy",
+        "slug": "xcl-world-academy",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:gess-international-school",
+        "canonicalName": "GESS",
+        "shortName": "GESS",
+        "slug": "gess-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
+      },
+      {
+        "id": "school:sg:chatsworth-international-school",
+        "canonicalName": "Chatsworth International School",
+        "shortName": "Chatsworth International School",
+        "slug": "chatsworth-international-school",
+        "countryCode": "SG",
+        "status": "operating",
+        "ownership": "Not yet verified"
       }
     ],
     "campuses": [
@@ -165,6 +246,96 @@
         "id": "campus:sg:nexus-international-school-singapore:main",
         "schoolId": "school:sg:nexus-international-school-singapore",
         "name": "Nexus Singapore main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:iss-international-school:main",
+        "schoolId": "school:sg:iss-international-school",
+        "name": "ISS International School main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:integrated-international-school:main",
+        "schoolId": "school:sg:integrated-international-school",
+        "name": "Integrated International School main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:international-community-school-singapore:main",
+        "schoolId": "school:sg:international-community-school-singapore",
+        "name": "International Community School (Singapore) main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:perse-school-singapore:main",
+        "schoolId": "school:sg:perse-school-singapore",
+        "name": "The Perse School (Singapore) main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:hwa-chong-international-school:main",
+        "schoolId": "school:sg:hwa-chong-international-school",
+        "name": "Hwa Chong International School main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:astor-international-school:main",
+        "schoolId": "school:sg:astor-international-school",
+        "name": "Astor International School main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:xcl-world-academy:main",
+        "schoolId": "school:sg:xcl-world-academy",
+        "name": "XCL World Academy main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:gess-international-school:main",
+        "schoolId": "school:sg:gess-international-school",
+        "name": "GESS main campus",
+        "countryCode": "SG",
+        "city": "Singapore",
+        "citySlug": "singapore",
+        "region": "Singapore",
+        "campusType": "unknown"
+      },
+      {
+        "id": "campus:sg:chatsworth-international-school:main",
+        "schoolId": "school:sg:chatsworth-international-school",
+        "name": "Chatsworth International School main campus",
         "countryCode": "SG",
         "city": "Singapore",
         "citySlug": "singapore",
@@ -492,6 +663,141 @@
           "age-range",
           "language"
         ]
+      },
+      {
+        "id": "source:sg:iss-international-school:official",
+        "schoolId": "school:sg:iss-international-school",
+        "type": "official-school",
+        "publisher": "ISS International School",
+        "url": "https://www.iss.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:integrated-international-school:official",
+        "schoolId": "school:sg:integrated-international-school",
+        "type": "official-school",
+        "publisher": "Integrated International School",
+        "url": "https://iis.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:international-community-school-singapore:official",
+        "schoolId": "school:sg:international-community-school-singapore",
+        "type": "official-school",
+        "publisher": "International Community School (Singapore)",
+        "url": "https://www.ics.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:perse-school-singapore:official",
+        "schoolId": "school:sg:perse-school-singapore",
+        "type": "official-school",
+        "publisher": "The Perse School (Singapore)",
+        "url": "https://www.perse.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:hwa-chong-international-school:official",
+        "schoolId": "school:sg:hwa-chong-international-school",
+        "type": "official-school",
+        "publisher": "Hwa Chong International School",
+        "url": "https://www.hcis.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:astor-international-school:official",
+        "schoolId": "school:sg:astor-international-school",
+        "type": "official-school",
+        "publisher": "Astor International School",
+        "url": "https://www.astor.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:xcl-world-academy:official",
+        "schoolId": "school:sg:xcl-world-academy",
+        "type": "official-school",
+        "publisher": "XCL World Academy",
+        "url": "https://www.xwa.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:gess-international-school:official",
+        "schoolId": "school:sg:gess-international-school",
+        "type": "official-school",
+        "publisher": "GESS",
+        "url": "https://www.gess.edu.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
+      },
+      {
+        "id": "source:sg:chatsworth-international-school:official",
+        "schoolId": "school:sg:chatsworth-international-school",
+        "type": "official-school",
+        "publisher": "Chatsworth International School",
+        "url": "https://www.chatsworth.com.sg/",
+        "observedOn": "2026-10-02",
+        "supports": [
+          "identity",
+          "location",
+          "curriculum",
+          "age-range",
+          "language"
+        ]
       }
     ],
     "verifications": [
@@ -565,6 +871,87 @@
         "verifiedOn": "2026-09-18",
         "sourceIds": [
           "source:sg:nexus-international-school-singapore:official"
+        ]
+      },
+      {
+        "id": "verification:sg:iss-international-school:2026-10-02",
+        "schoolId": "school:sg:iss-international-school",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:iss-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:integrated-international-school:2026-10-02",
+        "schoolId": "school:sg:integrated-international-school",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:integrated-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:international-community-school-singapore:2026-10-02",
+        "schoolId": "school:sg:international-community-school-singapore",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:international-community-school-singapore:official"
+        ]
+      },
+      {
+        "id": "verification:sg:perse-school-singapore:2026-10-02",
+        "schoolId": "school:sg:perse-school-singapore",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:perse-school-singapore:official"
+        ]
+      },
+      {
+        "id": "verification:sg:hwa-chong-international-school:2026-10-02",
+        "schoolId": "school:sg:hwa-chong-international-school",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:hwa-chong-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:astor-international-school:2026-10-02",
+        "schoolId": "school:sg:astor-international-school",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:astor-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:xcl-world-academy:2026-10-02",
+        "schoolId": "school:sg:xcl-world-academy",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:xcl-world-academy:official"
+        ]
+      },
+      {
+        "id": "verification:sg:gess-international-school:2026-10-02",
+        "schoolId": "school:sg:gess-international-school",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:gess-international-school:official"
+        ]
+      },
+      {
+        "id": "verification:sg:chatsworth-international-school:2026-10-02",
+        "schoolId": "school:sg:chatsworth-international-school",
+        "level": "core",
+        "verifiedOn": "2026-10-02",
+        "sourceIds": [
+          "source:sg:chatsworth-international-school:official"
         ]
       }
     ]
@@ -777,6 +1164,195 @@
       "website": "https://www.nexus.edu.sg/",
       "sourceUrl": "https://www.nexus.edu.sg/innovative-learning/",
       "verifiedOn": "2026-09-18",
+      "indexable": false
+    },
+    {
+      "name": "ISS International School",
+      "shortName": "ISS International School",
+      "slug": "iss-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.iss.edu.sg/",
+      "sourceUrl": "https://www.iss.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "Integrated International School",
+      "shortName": "Integrated International School",
+      "slug": "integrated-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://iis.edu.sg/",
+      "sourceUrl": "https://iis.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "International Community School (Singapore)",
+      "shortName": "International Community School (Singapore)",
+      "slug": "international-community-school-singapore",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.ics.edu.sg/",
+      "sourceUrl": "https://www.ics.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "The Perse School (Singapore)",
+      "shortName": "The Perse School (Singapore)",
+      "slug": "perse-school-singapore",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.perse.edu.sg/",
+      "sourceUrl": "https://www.perse.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "Hwa Chong International School",
+      "shortName": "Hwa Chong International School",
+      "slug": "hwa-chong-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.hcis.edu.sg/",
+      "sourceUrl": "https://www.hcis.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "Astor International School",
+      "shortName": "Astor International School",
+      "slug": "astor-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.astor.edu.sg/",
+      "sourceUrl": "https://www.astor.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "XCL World Academy",
+      "shortName": "XCL World Academy",
+      "slug": "xcl-world-academy",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.xwa.edu.sg/",
+      "sourceUrl": "https://www.xwa.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "GESS",
+      "shortName": "GESS",
+      "slug": "gess-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.gess.edu.sg/",
+      "sourceUrl": "https://www.gess.edu.sg/",
+      "verifiedOn": "2026-10-02",
+      "indexable": false
+    },
+    {
+      "name": "Chatsworth International School",
+      "shortName": "Chatsworth International School",
+      "slug": "chatsworth-international-school",
+      "country": "Singapore",
+      "countrySlug": "singapore",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "citySlug": "singapore",
+      "region": "Singapore",
+      "curricula": [],
+      "ageRange": "Not yet verified",
+      "language": "Not yet verified",
+      "schoolType": "Not yet verified",
+      "ownership": "Not yet verified",
+      "accreditation": [],
+      "website": "https://www.chatsworth.com.sg/",
+      "sourceUrl": "https://www.chatsworth.com.sg/",
+      "verifiedOn": "2026-10-02",
       "indexable": false
     }
   ]

@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-gess-international-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/gess-international-school/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/gess-international-school.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "GESS",
+      "source_url": "https://www.gess.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "GESS"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://www.gess.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://www.gess.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://www.gess.edu.sg/"
+    }
+  ]
+}

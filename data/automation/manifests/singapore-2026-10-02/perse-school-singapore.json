@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-perse-school-singapore",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/perse-school-singapore/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/perse-school-singapore.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "The Perse School (Singapore)",
+      "source_url": "https://www.perse.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "The Perse School (Singapore)"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://www.perse.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://www.perse.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://www.perse.edu.sg/"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-10-03",
   "selection_order": [
     "Vietnam",
     "Thailand",
@@ -501,9 +501,9 @@
       "country": "Singapore",
       "city": "Singapore",
       "city_slug": "singapore",
-      "status": "complete",
-      "schools_discovered": 8,
-      "schools_processed": 8,
+      "status": "in_progress",
+      "schools_discovered": 19,
+      "schools_processed": 17,
       "school_ids": [
         "school:sg:uwc-south-east-asia",
         "school:sg:singapore-american-school",
@@ -512,17 +512,272 @@
         "school:sg:australian-international-school-singapore",
         "school:sg:stamford-american-international-school",
         "school:sg:dulwich-college-singapore",
-        "school:sg:nexus-international-school-singapore"
+        "school:sg:nexus-international-school-singapore",
+        "school:sg:iss-international-school",
+        "school:sg:integrated-international-school",
+        "school:sg:international-community-school-singapore",
+        "school:sg:perse-school-singapore",
+        "school:sg:hwa-chong-international-school",
+        "school:sg:astor-international-school",
+        "school:sg:xcl-world-academy",
+        "school:sg:gess-international-school",
+        "school:sg:chatsworth-international-school"
       ],
       "school_results": [
-        { "school_id": "school:sg:uwc-south-east-asia", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:singapore-american-school", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:tanglin-trust-school", "result": "strict_provisional_record_added", "completeness_score": 5, "indexable": false, "unresolved_fields": ["location.address", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:canadian-international-school-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:australian-international-school-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "age_range", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:stamford-american-international-school", "result": "strict_provisional_record_added", "completeness_score": 3, "indexable": false, "unresolved_fields": ["location.address", "age_range", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:dulwich-college-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] },
-        { "school_id": "school:sg:nexus-international-school-singapore", "result": "strict_provisional_record_added", "completeness_score": 4, "indexable": false, "unresolved_fields": ["location.address", "accreditations", "fees.by_year_group", "enrolment.total", "staffing.teacher_student_ratio", "languages.instruction", "contact.website", "admissions.open_days"] }
+        {
+          "school_id": "school:sg:uwc-south-east-asia",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "accreditations",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:singapore-american-school",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "age_range",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:tanglin-trust-school",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 5,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:canadian-international-school-singapore",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "accreditations",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:australian-international-school-singapore",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "age_range",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:stamford-american-international-school",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:dulwich-college-singapore",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "accreditations",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:nexus-international-school-singapore",
+          "result": "strict_provisional_record_added",
+          "completeness_score": 4,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "accreditations",
+            "fees.by_year_group",
+            "enrolment.total",
+            "staffing.teacher_student_ratio",
+            "languages.instruction",
+            "contact.website",
+            "admissions.open_days"
+          ]
+        },
+        {
+          "school_id": "school:sg:iss-international-school",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:integrated-international-school",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:international-community-school-singapore",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:perse-school-singapore",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:hwa-chong-international-school",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:astor-international-school",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:xcl-world-academy",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:gess-international-school",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        },
+        {
+          "school_id": "school:sg:chatsworth-international-school",
+          "result": "provisional_profile_and_strict_record_added",
+          "completeness_score": 3,
+          "indexable": false,
+          "unresolved_fields": [
+            "location.address",
+            "curricula",
+            "age_range",
+            "accreditations",
+            "fees.by_year_group",
+            "languages.instruction"
+          ]
+        }
       ],
       "source_urls": [
         "https://www.uwcsea.edu.sg/about/welcome-to-uwcsea",
@@ -538,16 +793,45 @@
         "https://www.sais.edu.sg/admissions/faq/",
         "https://singapore.dulwich.org/learning/core-curriculum/ducks",
         "https://singapore.dulwich.org/learning/core-curriculum/senior-school",
-        "https://www.nexus.edu.sg/innovative-learning/"
+        "https://www.nexus.edu.sg/innovative-learning/",
+        "https://www.iss.edu.sg/",
+        "https://iis.edu.sg/",
+        "https://www.ics.edu.sg/",
+        "https://www.perse.edu.sg/",
+        "https://www.hcis.edu.sg/",
+        "https://www.astor.edu.sg/",
+        "https://www.xwa.edu.sg/",
+        "https://www.gess.edu.sg/",
+        "https://www.chatsworth.com.sg/"
       ],
-      "last_run_date": "2026-09-18",
+      "last_run_date": "2026-10-03",
       "unresolved_conflicts": [],
-      "source_access_blocks": [],
-      "pending_candidates": [],
+      "source_access_blocks": [
+        {
+          "school_id": "school:sg:nps-international-school",
+          "source_url": "https://www.npsinternational.edu.sg/",
+          "reason": "robots.txt fetch failed; crawler failed closed and no record was added."
+        },
+        {
+          "school_id": "school:sg:dover-court-international-school",
+          "source_url": "https://www.dovercourt.edu.sg/",
+          "reason": "robots.txt returned HTTP 308; crawler failed closed and no record was added."
+        }
+      ],
+      "pending_candidates": [
+        {
+          "name": "NPS International School",
+          "source_url": "https://www.npsinternational.edu.sg/"
+        },
+        {
+          "name": "Dover Court International School",
+          "source_url": "https://www.dovercourt.edu.sg/"
+        }
+      ],
       "sheet_claims_ready": 0,
       "sheet_claims_imported": 0,
       "sheet_claims_blocked": 0,
-      "next_action": "Expand the Singapore candidate inventory, then verify addresses, fee schedules, language of instruction, accreditation, and open-day fields."
+      "next_action": "Continue Singapore: verify addresses, curricula, age ranges, accreditation, fees, and language of instruction for the nine new provisional profiles; retry the two blocked candidate homepages only if their robots access can be resolved."
     },
     {
       "country": "Thailand",

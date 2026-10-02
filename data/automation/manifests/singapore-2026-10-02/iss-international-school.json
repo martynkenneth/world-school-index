@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-iss-international-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/iss-international-school/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/iss-international-school.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "ISS International School",
+      "source_url": "https://www.iss.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "ISS International School"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://www.iss.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://www.iss.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://www.iss.edu.sg/"
+    }
+  ]
+}

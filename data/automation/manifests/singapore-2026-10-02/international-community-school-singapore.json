@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-international-community-school-singapore",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/international-community-school-singapore/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/international-community-school-singapore.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "International Community School (Singapore)",
+      "source_url": "https://www.ics.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "International Community School (Singapore)"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://www.ics.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://www.ics.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://www.ics.edu.sg/"
+    }
+  ]
+}

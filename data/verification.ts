@@ -52,6 +52,15 @@ import sasSingapore from "./schools/singapore/singapore-american-school.json";
 import stamfordSingapore from "./schools/singapore/stamford-american-international-school.json";
 import tanglinSingapore from "./schools/singapore/tanglin-trust-school.json";
 import uwcsea from "./schools/singapore/uwc-south-east-asia.json";
+import issInternationalSchool from "./schools/singapore/iss-international-school.json";
+import integratedInternationalSchool from "./schools/singapore/integrated-international-school.json";
+import internationalCommunitySchoolSingapore from "./schools/singapore/international-community-school-singapore.json";
+import perseSchoolSingapore from "./schools/singapore/perse-school-singapore.json";
+import hwaChongInternationalSchool from "./schools/singapore/hwa-chong-international-school.json";
+import astorInternationalSchool from "./schools/singapore/astor-international-school.json";
+import xclWorldAcademy from "./schools/singapore/xcl-world-academy.json";
+import gessInternationalSchool from "./schools/singapore/gess-international-school.json";
+import chatsworthInternationalSchool from "./schools/singapore/chatsworth-international-school.json";
 import asbGreenValley from "./schools/thailand/american-school-bangkok-green-valley.json";
 import dPrep from "./schools/thailand/d-prep-international-school.json";
 import thaiChineseInternationalSchool from "./schools/thailand/thai-chinese-international-school.json";
@@ -153,6 +162,15 @@ const strictRecords: Record<string, StrictSchoolRecord> = {
   "stamford-american-international-school": stamfordSingapore as StrictSchoolRecord,
   "tanglin-trust-school": tanglinSingapore as StrictSchoolRecord,
   "uwc-south-east-asia": uwcsea as StrictSchoolRecord,
+  "iss-international-school": issInternationalSchool as StrictSchoolRecord,
+  "integrated-international-school": integratedInternationalSchool as StrictSchoolRecord,
+  "international-community-school-singapore": internationalCommunitySchoolSingapore as StrictSchoolRecord,
+  "perse-school-singapore": perseSchoolSingapore as StrictSchoolRecord,
+  "hwa-chong-international-school": hwaChongInternationalSchool as StrictSchoolRecord,
+  "astor-international-school": astorInternationalSchool as StrictSchoolRecord,
+  "xcl-world-academy": xclWorldAcademy as StrictSchoolRecord,
+  "gess-international-school": gessInternationalSchool as StrictSchoolRecord,
+  "chatsworth-international-school": chatsworthInternationalSchool as StrictSchoolRecord,
   "american-school-bangkok-green-valley": asbGreenValley as StrictSchoolRecord,
   "d-prep-international-school": dPrep as StrictSchoolRecord,
   "thai-chinese-international-school": thaiChineseInternationalSchool as StrictSchoolRecord,

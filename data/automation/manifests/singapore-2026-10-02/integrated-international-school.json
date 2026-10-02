@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-integrated-international-school",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/integrated-international-school/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/integrated-international-school.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "Integrated International School",
+      "source_url": "https://iis.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Integrated International School"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://iis.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://iis.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://iis.edu.sg/"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "sg-singapore-xcl-world-academy",
+  "status": "active",
+  "fetch_log": "data/raw/singapore/xcl-world-academy/2026-10-02.fetch.json",
+  "output": "data/schools/singapore/xcl-world-academy.json",
+  "claims": [
+    {
+      "path": "name",
+      "value": "XCL World Academy",
+      "source_url": "https://www.xwa.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "XCL World Academy"
+    },
+    {
+      "path": "location.country",
+      "value": "Singapore",
+      "source_url": "https://www.xwa.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "location.city",
+      "value": "Singapore",
+      "source_url": "https://www.xwa.edu.sg/",
+      "retrieved_date": "2026-10-02",
+      "evidence": "Singapore"
+    },
+    {
+      "path": "contact.website",
+      "value": "https://www.xwa.edu.sg/"
+    }
+  ]
+}

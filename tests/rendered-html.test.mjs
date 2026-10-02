@@ -351,11 +351,11 @@ test("ships the first source-checked Singapore collection", async () => {
   );
   const parsed = JSON.parse(dataExport);
   assert.equal(parsed.schemaVersion, "2.0");
-  assert.equal(parsed.recordCount, 8);
-  assert.equal(parsed.entities.schools.length, 8);
-  assert.equal(parsed.entities.campuses.length, 8);
-  assert.equal(parsed.entities.sources.length, 8);
-  assert.equal(parsed.entities.verifications.length, 8);
+  assert.equal(parsed.recordCount, 17);
+  assert.equal(parsed.entities.schools.length, 17);
+  assert.equal(parsed.entities.campuses.length, 17);
+  assert.equal(parsed.entities.sources.length, 17);
+  assert.equal(parsed.entities.verifications.length, 17);
 });
 
 test("renders the Singapore country directory and a provisional Singapore record", async () => {
@@ -368,10 +368,27 @@ test("renders the Singapore country directory and a provisional Singapore record
   const countryHtml = await countryResponse.text();
   const schoolHtml = await schoolResponse.text();
   assert.match(countryHtml, /International Schools in Singapore/);
-  assert.match(countryHtml, /8<\/strong><span>school profiles/);
+  assert.match(countryHtml, /17<\/strong><span>school profiles/);
   assert.match(countryHtml, /href="\/data\/singapore-schools\.json"/);
   assert.match(schoolHtml, /UWC South East Asia/);
   assert.match(schoolHtml, /noindex/);
+});
+
+test("renders the nine new Singapore provisional profiles without indexing them", async () => {
+  const slugs = [
+    "iss-international-school", "integrated-international-school",
+    "international-community-school-singapore", "perse-school-singapore",
+    "hwa-chong-international-school", "astor-international-school",
+    "xcl-world-academy", "gess-international-school",
+    "chatsworth-international-school",
+  ];
+  for (const slug of slugs) {
+    const response = await render(`/schools/${slug}`);
+    assert.equal(response.status, 200, slug);
+    const html = await response.text();
+    assert.match(html, /name="robots" content="noindex,\s*follow"/);
+    assert.match(html, /Official sources checked/);
+  }
 });
 
 test("surfaces the source-backed Bangkok fee answer on the existing city hub", async () => {
